@@ -2,6 +2,61 @@
 
 Short records of non-trivial choices. Newest first.
 
+## ADR-0020 — Lexicon v1.1: interlocutor layer, *amor fati* fixed, edge-level verification, typed graph
+First post-launch feature pass, prompted by an external Claude-chatbot review of the Lexicon hero
+(`raw/lexicon-improvement-prompt.md`). The review's diagnosis was accurate and was confirmed against the
+files before any edit; the work shipped as a five-part release. **(1) An `interlocutor` node class.**
+Spengler's source-thinkers were named only in prose, so the `coined-from` relation was *stranded* (used
+once, and **mis-fired** on `morphology→contemporaneity`, which is application, not coinage). Added a
+`kind: "concept" | "interlocutor"` schema discriminator (conditional-`domain` via `if/then/else`, since
+interlocutors sit outside the domain taxonomy) and seeded **six** thinkers, each with an explicit,
+anchored passage: **Goethe** and **Nietzsche** (masters — `coined-from`/`borrows-from`), and **Rousseau,
+Darwin, Schopenhauer, Joachim of Floris** (`breaks-with`). The stranded `coined-from` was retyped to
+`derives-from`; the genuine coinages (`Faustian→Goethe`, `Will-to-Power→Nietzsche`) are now drawn — plus
+`Apollinian→Nietzsche` ("the name *familiarized by Nietzsche*"), which the grounding pass found has
+**stronger** explicit textual support than `Faustian→Goethe` (the latter is implicit — etymology +
+*Faust* imagery — and its gloss says so: "evidently derived"). **(2) *amor fati* promoted to its own node
+and the apparatus's self-inconsistency fixed.** It had appeared three ways (a Will-to-Power gloss, a
+search `variant`, and an edge gloss that stated the *deflated* Stoic sense, contradicting the careful node
+text). It is now a node carrying Nietzsche's *active* affirmation (GS §276/§341), with self-overcoming /
+value-creation flagged as **separate** Nietzschean doctrines a scholar (Farrenkopf) connects — *not* voiced
+as Nietzsche's own gloss (amor fati appears only at GS §276 in the named works; *Selbstüberwindung* is a
+*Zarathustra* theme). The keystone `destiny-causality --narrows--> amor-fati` makes the Spengler-narrows-
+Nietzsche reading legible, attributed throughout. (`narrows` is deliberately **not** interlocutor-
+restricted — it marks the narrowing of a borrowed *concept*; the proposal was internally inconsistent on
+this and concept→concept is the coherent reading.) **(3) The generic web retyped.** `related-to` fell from
+**56/82 (68%)** to **29/97 (30%)** using a documented vocabulary (`instance-of`, `prime-symbol-of`,
+`phase-of`, `derives-from`, `presupposes`, `symptom-of`, and the signature **`analogous-to`** /
+contemporaneity). Honest result, not the ">80% retyped" the plan hoped: the adversarial pass **reverted 8
+of 10** `analogous-to` edges back to `related-to` because they were within-system mappings, not cross-
+Culture morphological analogies — a wrong type is worse than an honest generic. **(4) Verification extended
+to edges.** Edge schema gained `citations`/`secondary`; the gate now fails loud on: unresolved
+endpoints/citation-ids; `coined-from`/`borrows-from`/`breaks-with` not pointing at an interlocutor;
+interpretive edges lacking a citation; and *evaluative* edges (`contrasts-with`, `narrows`, `breaks-with`,
+`analogous-to`, `symptom-of`) lacking a named scholarly-secondary. Deliberately **type-driven, not prose-
+scanning** — a regex over definitions would have **mis-fired on `beast-of-prey`**, whose contestable
+"anti-egalitarian politics" clause is **Spengler's own stated thesis** (M&T ch-04: "the talk of the
+'natural equality of all' … something to be explained away"), not the portal editorialising. So
+`beast-of-prey` was fixed by widening its target to ch-04 and letting Spengler's own words carry the step,
+with Farrenkopf a *hedged* corroborator ("scholars of Spengler's politics read…", no bare name in prose) —
+reversing the review's prescribed "just attach Farrenkopf," which the refute pass refuted as an overclaim
+against an unread source, and honouring the ADR-0015 restraint about not putting words in a scholar's
+mouth. The gate's honest limit is stated in-code: it verifies a claim is attributed to the *right kind* of
+source, not that the source *supports* it — that gap is the adversarial pass. (Also fixed a stale
+`SPENGLER_TEXT` set that omitted the fresh M&T German source.) **(5) The typed structure made visible in
+the island.** Edges are now styled by relation **family** (opposition = mexican dashed; analogy = magian
+dotted; the Goethe/Nietzsche **lineage** = gold; structure = subtle; `related-to` faded to the
+background); interlocutors render as neutral **meta-diamonds** outside the Culture palette; a legend
+doubles as a **filter** (isolate oppositions, or the lineage); selecting a node lists its **sourced
+relations** with citation labels — for an interlocutor that *is* the "what Spengler took / broke with"
+lineage view; each edge carries a `<title>` (gloss + citation) for hover + a11y. **Method:** the content
+was authored and **adversarially refuted** by background Workflow runs over the Nietzsche/Spengler
+primaries — the refute stage caught two real wording slips (the `narrows` gloss over-asserting; 8 over-
+eager `analogous-to`), both corrected before commit. `prepare:data` + `build` green (**38 pages, 47
+lexicon terms, 97 edges, 25 sources**); planted-violation negative tests confirm the four new gate rules
+fail loud; browser-verified the island (filters, lineage view, edge tooltips, interlocutor diamonds) in
+light + night, zero console errors. `raw/`/`derived/` untouched.
+
 ## ADR-0019 — Public launch: squash to a clean public history, GitHub Pages live
 With the copyright blocker resolved (ADR-0018), the portal went public: **live at
 https://jd-jones-ases.github.io/spengler-portal/**. **Decision: publish a squashed, single-commit clean

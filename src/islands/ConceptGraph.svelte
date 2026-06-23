@@ -2,10 +2,36 @@
   // Hero 2 — Spengler's vocabulary as a force-directed graph synced with a readable lexicon.
   // The layout is computed deterministically (same on server and client → no hydration mismatch,
   // no animation loop draining battery). The list is the graph's accessible equivalent.
-  let { data, base = "/" } = $props();
+  // v1.1: edges are typed (relation families styled distinctly); interlocutors (the source-thinkers
+  // Spengler builds on / breaks with) render as neutral "meta" diamonds outside the Culture palette;
+  // selecting a node lists its sourced relations — for an interlocutor that is its borrow/break lineage.
+  let { data, base = "/", cites = {} } = $props();
   const W = 640, H = 500;
 
-  const cultureHue = { indian: "indian", apollinian: "apollinian", magian: "magian", faustian: "faustian", egyptian: "egyptian", chinese: "chinese", mexican: "mexican" };
+  // ---- edge relation → visual family (kept in step with the schema $comment legend) ----
+  const EDGE_FAMILY = {
+    "contrasts-with": "opposition",
+    "coined-from": "lineage", "borrows-from": "lineage", "breaks-with": "lineage", "narrows": "lineage",
+    "analogous-to": "analogy",
+    "symptom-of": "structure", "instance-of": "structure", "prime-symbol-of": "structure",
+    "phase-of": "structure", "presupposes": "structure", "derives-from": "structure", "exemplified-by": "structure",
+    "related-to": "generic",
+  };
+  const FAMILIES = [
+    { key: "structure", label: "Structure" },
+    { key: "opposition", label: "Opposition" },
+    { key: "analogy", label: "Analogy" },
+    { key: "lineage", label: "Lineage" },
+    { key: "generic", label: "Related" },
+  ];
+  const famOf = (type) => EDGE_FAMILY[type] || "generic";
+  let activeFam = $state(new Set(FAMILIES.map((f) => f.key)));
+  function toggleFam(k) { const s = new Set(activeFam); s.has(k) ? s.delete(k) : s.add(k); activeFam = s; }
+  const citeLabel = (id) => cites[id] || id;
+  function edgeTitle(e) {
+    const src = cites && (e.citations || []).concat(e.secondary || []).map(citeLabel);
+    return `${e.type.replace(/-/g, " ")}${e.gloss ? " — " + e.gloss : ""}${src && src.length ? "  [" + src.join(", ") + "]" : ""}`;
+  }
 
   // deterministic frozen force layout
   function computeLayout(nodes, edges) {
@@ -96,6 +122,23 @@
   function pick(id) { selected = selected === id ? null : id; }
   const selNode = $derived(selected ? nodeById.get(selected) : null);
 
+  // ---- relations of the selected node (verification visible at the edge; lineage for interlocutors) ----
+  const selEdges = $derived.by(() => {
+    if (!selected) return [];
+    return data.edges
+      .filter((e) => e.source === selected || e.target === selected)
+      .map((e) => {
+        const out = e.source === selected;
+        const other = out ? e.target : e.source;
+        return {
+          out, type: e.type, family: famOf(e.type),
+          other, otherTerm: nodeById.get(other)?.term || other,
+          gloss: e.gloss || "", cites: (e.citations || []).concat(e.secondary || []),
+        };
+      })
+      .sort((a, b) => (a.family === "generic" ? 1 : 0) - (b.family === "generic" ? 1 : 0));
+  });
+
   // ---- filter + collapsible clustered list (scales as the lexicon grows) ----
   let query = $state("");
   const CULTURE_IDS = new Set(["indian", "apollinian", "magian", "faustian", "egyptian", "chinese", "mexican"]);
@@ -104,7 +147,7 @@
     egyptian: "The Egyptian", chinese: "The Chinese", mexican: "The Mexican",
     "prime-concept": "Core oppositions", method: "Method", culture: "The Cultures",
     politics: "Politics & the end-time", religion: "Religion", economics: "Economics", science: "Science",
-    art: "Art", mathematics: "Mathematics", phase: "Phases",
+    art: "Art", mathematics: "Mathematics", phase: "Phases", interlocutor: "Interlocutors (his sources)",
   };
   function clusterLabel(k) { return CLUSTER_LABEL[k] || (k.charAt(0).toUpperCase() + k.slice(1)); }
   const matchSet = $derived.by(() => {
@@ -118,7 +161,7 @@
     for (const n of nodes) (groups.get(n.cluster) || groups.set(n.cluster, []).get(n.cluster)).push(n);
     return [...groups.entries()]
       .map(([k, ns]) => ({ key: k, label: clusterLabel(k), cult: CULTURE_IDS.has(k) ? k : null, nodes: ns }))
-      .sort((a, b) => b.nodes.length - a.nodes.length);
+      .sort((a, b) => (a.key === "interlocutor" ? 1 : 0) - (b.key === "interlocutor" ? 1 : 0) || b.nodes.length - a.nodes.length);
   });
 </script>
 
@@ -134,6 +177,7 @@
         {#each group.nodes as n (n.id)}
           <div
             class="lex-card"
+            class:interlocutor={n.kind === "interlocutor"}
             id={`term-${n.id}`}
             data-cult={n.culture || ""}
             class:active={selected === n.id}
@@ -142,7 +186,7 @@
             onclick={() => pick(n.id)}
             onkeydown={(e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); pick(n.id); } }}
           >
-            <span class="lex-term">{n.term}{#if n.german}<span class="muted" style="font-weight:400;font-size:0.8em"> · {n.german}</span>{/if}</span>
+            <span class="lex-term">{n.term}{#if n.german}<span class="muted" style="font-weight:400;font-size:0.8em"> · {n.german}</span>{/if}{#if n.kind === "interlocutor"}<span class="lex-ila-pill">interlocutor</span>{/if}</span>
             <p class="lex-def">{n.definition}</p>
             {#if n.targets?.length}
               <p class="lex-cite"><a href={`${base}read/${n.targets[0].split("#")[0]}/`}>Read it in the text →</a></p>
@@ -154,46 +198,75 @@
   </div>
 
   <div class="lex-graph-wrap">
-    <button class="lex-reset" type="button" onclick={resetLayout} title="Restore the original graph layout">Reset layout</button>
+    <div class="lex-legend" role="group" aria-label="Filter edges by relation type">
+      {#each FAMILIES as f}
+        <button
+          type="button" class={`lex-fam fam-${f.key}`} class:off={!activeFam.has(f.key)}
+          aria-pressed={activeFam.has(f.key)} onclick={() => toggleFam(f.key)}
+          title={`Toggle ${f.label.toLowerCase()} edges`}
+        ><span class="lex-fam-swatch"></span>{f.label}</button>
+      {/each}
+      <button class="lex-reset" type="button" onclick={resetLayout} title="Restore the original graph layout">Reset</button>
+    </div>
     <svg
       class="lex-graph" class:dragging={drag != null}
       viewBox={`0 0 ${W} ${H}`} role="group"
-      aria-label="Concept graph of Spengler's vocabulary. Drag a node to rearrange; tap to trace its links. Use the list at left for an accessible view."
+      aria-label="Concept graph of Spengler's vocabulary. Drag a node to rearrange; tap to trace its links and read its sourced relations. Use the list at left for an accessible view."
       bind:this={svgEl}
       onpointermove={onSvgMove} onpointerup={endDrag} onpointerleave={endDrag} onpointercancel={endDrag}
     >
       {#each data.edges as e}
         <line
-          class={`edge ${e.type} ${isEdgeActive(e) ? "" : "dim"}`}
+          class={`edge ${e.type}`}
+          class:dim={!isEdgeActive(e)}
+          class:off={!activeFam.has(famOf(e.type))}
           x1={positions[e.source].x} y1={positions[e.source].y}
           x2={positions[e.target].x} y2={positions[e.target].y}
-        />
+        ><title>{edgeTitle(e)}</title></line>
       {/each}
       {#each data.nodes as n}
         <g
           class="node"
           class:selected={selected === n.id}
+          class:interlocutor={n.kind === "interlocutor"}
           class:dim={(neighbors && !neighbors.has(n.id)) || (matchSet && !matchSet.has(n.id))}
           data-cult={n.culture || ""}
           transform={`translate(${positions[n.id].x},${positions[n.id].y})`}
           role="button"
           tabindex="0"
-          aria-label={`${n.term}. ${n.definition.slice(0, 80)}`}
+          aria-label={`${n.kind === "interlocutor" ? "Interlocutor: " : ""}${n.term}. ${n.definition.slice(0, 80)}`}
           onpointerdown={(e) => onNodeDown(n, e)}
           onkeydown={(e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); pick(n.id); } }}
         >
-          <circle r={nodeR(n)} style={`fill:${n.culture ? `var(--cult-${n.culture})` : "var(--ink-faint)"}`}></circle>
+          {#if n.kind === "interlocutor"}
+            {@const s = nodeR(n) * 0.92}
+            <rect class="ila-mark" x={-s} y={-s} width={2 * s} height={2 * s} transform="rotate(45)" rx="1.5"></rect>
+          {:else}
+            <circle r={nodeR(n)} style={`fill:${n.culture ? `var(--cult-${n.culture})` : "var(--ink-faint)"}`}></circle>
+          {/if}
           <text text-anchor="middle" dy={nodeR(n) + 12}>{n.term}</text>
         </g>
       {/each}
     </svg>
     {#if selNode}
-      <div style="padding:0.8rem 1rem;border-top:1px solid var(--line);" data-cult={selNode.culture || ""}>
-        <strong style="font-family:var(--font-display)">{selNode.term}</strong>
-        <p style="margin:0.3rem 0 0;font-size:0.9rem;color:var(--ink-soft);line-height:1.5">{selNode.definition}</p>
+      <div class="lex-sel" data-cult={selNode.culture || ""}>
+        <strong class="lex-sel-term">{selNode.term}{#if selNode.kind === "interlocutor"}<span class="lex-ila-pill">interlocutor</span>{/if}</strong>
+        <p class="lex-sel-def">{selNode.definition}</p>
+        {#if selEdges.length}
+          <p class="lex-rel-head">{selNode.kind === "interlocutor" ? "What Spengler takes & breaks with" : "Relations"} <span class="lex-group-n">{selEdges.length}</span></p>
+          <ul class="lex-rel">
+            {#each selEdges as r}
+              <li class="lex-rel-item">
+                <span class={`lex-rel-type fam-${r.family}`}>{r.type.replace(/-/g, " ")}</span>
+                {r.out ? "→" : "←"} <strong>{r.otherTerm}</strong>{#if r.gloss}: {r.gloss}{/if}
+                {#if r.cites.length}<span class="lex-rel-cite"> [{r.cites.map(citeLabel).join(", ")}]</span>{/if}
+              </li>
+            {/each}
+          </ul>
+        {/if}
       </div>
     {:else}
-      <p class="lex-hint" style="padding:0.6rem 1rem 0.9rem;">Tap a node — or a card — to trace how a term connects; drag a node to rearrange. Nodes are coloured by Culture; dashed lines mark oppositions.</p>
+      <p class="lex-hint" style="padding:0.6rem 1rem 0.9rem;">Tap a node — or a card — to trace how a term connects and read its sourced relations; drag to rearrange. Concept nodes carry their Culture's colour; <strong>interlocutors</strong> (Goethe, Nietzsche…) are neutral diamonds. Use the legend above to isolate a relation type.</p>
     {/if}
   </div>
 </div>

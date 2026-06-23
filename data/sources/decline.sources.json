@@ -235,6 +235,62 @@
       "accessed": "2026-06-22",
       "source_note": "Tertiary reference, coverage verified 2026-06-22: documents the motif of the Roman sentry who 'remains stoically at his post' during 'the eruption of Vesuvius in 79 AD', and that Edward Poynter's 1865 painting was 'inspired by … the 1834 novel The Last Days of Pompeii by Edward Bulwer-Lytton, in which features a sentry who remains on duty'. Used to show that Spengler's closing image in Man and Technics is a nineteenth-century literary legend, not an established archaeological fact (the structure at the Herculaneum Gate was a tomb).",
       "citation_status": "verified"
+    },
+    {
+      "id": "iep-goethe",
+      "kind": "reference",
+      "title": "Goethe, Johann Wolfgang von",
+      "author": "Anthony K. Jensen",
+      "publisher": "Internet Encyclopedia of Philosophy",
+      "url": "https://iep.utm.edu/goethe/",
+      "accessed": "2026-06-23",
+      "source_note": "Internet Encyclopedia of Philosophy entry 'Goethe, Johann Wolfgang von' by Anthony K. Jensen (Lehman College, CUNY), verified 2026-06-23: documents Goethe's morphology as the study of organic transformation, the internal 'drive to formation' (Bildungstrieb), the originary phenomenon (Urphänomen) that 'reveals itself in a constant succession of manifestations', and the rejection of static classification in favour of living, developing form. Used to ground Spengler's debt to Goethean morphology and becoming (Werden); paired with scholarly-secondary works for interpretation.",
+      "citation_status": "verified"
+    },
+    {
+      "id": "britannica-goethe",
+      "kind": "encyclopedia",
+      "title": "Johann Wolfgang von Goethe",
+      "author": "Encyclopædia Britannica editors",
+      "publisher": "Encyclopædia Britannica",
+      "url": "https://www.britannica.com/biography/Johann-Wolfgang-von-Goethe",
+      "accessed": "2026-06-23",
+      "source_note": "Britannica biography of Goethe verified 2026-06-23 (via Britannica article listing; the page is live but returns HTTP 403 to automated fetch, like the other Britannica records in this roster): German poet, playwright, novelist and scientist (born 28 Aug 1749, Frankfurt am Main; died 22 Mar 1832, Weimar), author of Faust (Part I, 1808; Part II, 1832), 'sometimes considered Germany's greatest contribution to world literature'. Used to identify Goethe as the author of Faust, the source Spengler treats as the Faustian prime-symbol's namesake.",
+      "citation_status": "verified"
+    },
+    {
+      "id": "sep-schopenhauer",
+      "kind": "reference",
+      "title": "Arthur Schopenhauer",
+      "author": "Robert Wicks",
+      "publisher": "Stanford Encyclopedia of Philosophy",
+      "year": 2021,
+      "url": "https://plato.stanford.edu/entries/schopenhauer/",
+      "accessed": "2026-06-23",
+      "source_note": "Stanford Encyclopedia of Philosophy entry 'Arthur Schopenhauer' by Robert Wicks, verified 2026-06-23 (first published 12 May 2003, substantive revision 9 Sep 2021): covers the world as Will — 'an endless striving and blind impulse with no end in view, devoid of knowledge' — Schopenhauer's pessimism (existence as suffering and endless frustration), and resignation/asceticism as the denial of the will-to-live ('renunciation, resignation, and will-lessness'). Used to ground Spengler's engagement with Schopenhauerian Will and pessimism; paired with scholarly-secondary works for interpretation.",
+      "citation_status": "verified"
+    },
+    {
+      "id": "wikipedia-charles-darwin",
+      "kind": "reference",
+      "title": "Charles Darwin",
+      "author": "Wikipedia contributors",
+      "publisher": "Wikipedia, The Free Encyclopedia",
+      "url": "https://en.wikipedia.org/wiki/Charles_Darwin",
+      "accessed": "2026-06-23",
+      "source_note": "Tertiary reference, coverage verified 2026-06-23: documents Darwin's theory that evolution 'resulted from a process he called natural selection, in which the struggle for existence has a similar effect to the artificial selection involved in selective breeding', his reading of Malthus ('favourable variations would tend to be preserved, and unfavourable ones to be destroyed'), and the 'struggle for existence' among wildlife. Used to ground Spengler's polemic against Darwinian natural selection / the 'struggle for existence' as an English merchant's projection onto nature; paired with scholarly-secondary works for interpretation.",
+      "citation_status": "verified"
+    },
+    {
+      "id": "britannica-joachim-of-fiore",
+      "kind": "encyclopedia",
+      "title": "Joachim of Fiore",
+      "author": "Encyclopædia Britannica editors",
+      "publisher": "Encyclopædia Britannica",
+      "url": "https://www.britannica.com/biography/Joachim-of-Fiore",
+      "accessed": "2026-06-23",
+      "source_note": "Britannica biography of Joachim of Fiore (12th-century Italian theologian and mystic) verified 2026-06-23 (via Britannica article listing; the page is live but returns HTTP 403 to automated fetch, like the other Britannica records in this roster): documents the trinitarian philosophy of history in which the three divine Persons structure time into three status — the age of the Father (Old Testament, fear and obedience), the age of the Son (New Testament, faith), and the coming age of the Holy Spirit (love and liberty), reasoning that 'history forms an image of its creator'. Used to ground Spengler's treatment of the Joachimite three-age scheme as a Magian/Western figure of world-history; paired with scholarly-secondary works for interpretation.",
+      "citation_status": "verified"
     }
   ]
 }

@@ -22,7 +22,11 @@ const vLex = schema("lexicon");
 const vTable = schema("comparative-table");
 const vTimeline = schema("timeline");
 
-const SPENGLER_TEXT = new Set(["gutenberg-decline-i", "internet-archive-decline-ii", "internet-archive-man-and-technics"]);
+const SPENGLER_TEXT = new Set(["gutenberg-decline-i", "internet-archive-decline-ii", "internet-archive-man-and-technics", "spengler-mensch-technik-de-1931"]);
+// Lexicon edge-type families (kept in sync with the schema's $comment legend).
+const INTERLOCUTOR_REL = new Set(["coined-from", "borrows-from", "breaks-with"]);
+const INTERPRETIVE_EDGE = new Set(["contrasts-with", "coined-from", "borrows-from", "breaks-with", "narrows", "analogous-to", "symptom-of"]);
+const EVALUATIVE_EDGE = new Set(["contrasts-with", "narrows", "breaks-with", "analogous-to", "symptom-of"]);
 const FACTUAL = new Set(["lexical-definition", "historical-context", "cross-cultural-context", "translation-philology", "publication-context"]);
 const BANNED_ASSERTION = /\bSpengler\s+(is|was)\s+(wrong|right|mistaken|refuted|vindicated|correct|proven)\b/i;
 
@@ -89,6 +93,7 @@ if (existsSync(resolve(ROOT, "data/indexes/annotations-by-unit.json"))) {
 const lex = read("data/lexicon/spengler.lexicon.json");
 if (!vLex(lex)) for (const e of vLex.errors) fail(`lexicon${e.instancePath} ${e.message}`);
 const termIds = new Set(lex.terms.map((t) => t.id));
+const termKind = new Map(lex.terms.map((t) => [t.id, t.kind || "concept"]));
 for (const t of lex.terms) {
   for (const c of t.citations || []) if (!sourceById.has(c)) fail(`lexicon/${t.id}: unknown citation '${c}'`);
   for (const s of t.secondary || []) if (!sourceById.has(s)) fail(`lexicon/${t.id}: unknown secondary '${s}'`);
@@ -98,9 +103,26 @@ for (const t of lex.terms) {
     if (ext.length === 0) fail(`lexicon/${t.id}: public term must cite a non-Spengler source`);
   }
 }
+// Edge-level verification (the v1.1 dual gate at the edge). NB: this confirms a claim is
+// attributed to the RIGHT KIND of source, not that the source actually supports it — closing
+// that residual gap is the adversarial-review pass, not the gate.
 for (const e of lex.edges) {
-  if (!termIds.has(e.source)) fail(`lexicon edge: unknown source term '${e.source}'`);
-  if (!termIds.has(e.target)) fail(`lexicon edge: unknown target term '${e.target}'`);
+  const where = `lexicon edge ${e.source}--${e.type}-->${e.target}`;
+  if (!termIds.has(e.source)) fail(`${where}: unknown source term '${e.source}'`);
+  if (!termIds.has(e.target)) fail(`${where}: unknown target term '${e.target}'`);
+  for (const c of e.citations || []) if (!sourceById.has(c)) fail(`${where}: unknown citation '${c}'`);
+  for (const s of e.secondary || []) if (!sourceById.has(s)) fail(`${where}: unknown secondary '${s}'`);
+  // (c) a borrowing / break relation must point at an interlocutor (source-thinker) node.
+  if (INTERLOCUTOR_REL.has(e.type) && termKind.get(e.target) !== "interlocutor")
+    fail(`${where}: '${e.type}' must point at an interlocutor node (target '${e.target}' is ${termKind.get(e.target) || "missing"})`);
+  // (d) interpretive edges must carry >=1 citation; the evaluative subset must also name a scholar.
+  if (INTERPRETIVE_EDGE.has(e.type)) {
+    if (!(e.citations || []).length) fail(`${where}: interpretive '${e.type}' edge needs >=1 citation`);
+    if (EVALUATIVE_EDGE.has(e.type)) {
+      const named = (e.secondary || []).filter((s) => sourceById.get(s)?.kind === "scholarly-secondary");
+      if (!named.length) fail(`${where}: evaluative '${e.type}' edge must name a scholarly-secondary source`);
+    }
+  }
 }
 
 // ---- comparative tables ----

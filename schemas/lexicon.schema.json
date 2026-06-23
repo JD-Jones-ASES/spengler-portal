@@ -11,8 +11,17 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["id", "term", "definition", "domain", "status"],
+        "required": ["id", "term", "definition", "status"],
+        "allOf": [
+          {
+            "$comment": "interlocutor nodes (source-thinkers) sit outside the domain taxonomy; concept nodes still require a domain.",
+            "if": { "properties": { "kind": { "const": "interlocutor" } }, "required": ["kind"] },
+            "then": { "required": ["id", "term", "definition", "status"] },
+            "else": { "required": ["id", "term", "definition", "domain", "status"] }
+          }
+        ],
         "properties": {
+          "kind": { "enum": ["concept", "interlocutor"], "description": "node class; treated as concept when omitted. interlocutors are the thinkers Spengler builds on or breaks with." },
           "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
           "term": { "type": "string" },
           "german": { "type": "string" },
@@ -42,11 +51,14 @@
         "type": "object",
         "additionalProperties": false,
         "required": ["source", "target", "type"],
+        "$comment": "Edge-type semantics. STRUCTURAL (no scholarly judgment): instance-of=concrete species of a kind; prime-symbol-of=the Ursymbol of a Culture/soul; phase-of=a stage in the target's life-cycle; derives-from=generated out of a prior ground in Spengler's own system; presupposes=cannot be constituted without the target; exemplified-by=the target is a worked example. INTERPRETIVE (need >=1 citation): contrasts-with=a deliberate Spenglerian opposition; symptom-of=a diagnostic sign the target condition is read off; analogous-to=the signature morphological analogy/contemporaneity (Caesar~Napoleon); narrows=Spengler keeps a borrowed concept's form but deflates its content (e.g. amor fati). INTERLOCUTOR-ONLY (target must be kind:interlocutor): coined-from=term named after/drawn from the thinker; borrows-from=concept taken over; breaks-with=position Spengler rejects/transvalues. related-to=generic, retained only where a sharper type would over-claim. contested-by=reserved.",
         "properties": {
           "source": { "type": "string" },
           "target": { "type": "string" },
-          "type": { "enum": ["contrasts-with", "prime-symbol-of", "instance-of", "exemplified-by", "phase-of", "coined-from", "contested-by", "related-to"] },
-          "gloss": { "type": "string" }
+          "type": { "enum": ["contrasts-with", "prime-symbol-of", "instance-of", "exemplified-by", "phase-of", "coined-from", "contested-by", "related-to", "derives-from", "presupposes", "symptom-of", "analogous-to", "borrows-from", "breaks-with", "narrows"] },
+          "gloss": { "type": "string" },
+          "citations": { "type": "array", "items": { "type": "string" } },
+          "secondary": { "type": "array", "items": { "type": "string" }, "description": "scholarly-secondary ids; required on evaluative edges (contrasts-with, symptom-of, analogous-to, narrows, breaks-with)." }
         }
       }
     }

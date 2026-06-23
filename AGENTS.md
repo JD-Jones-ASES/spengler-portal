@@ -56,7 +56,8 @@ raw text  →  cleaned spine (derived/)  →  JSON apparatus (data/)  →  valid
   - `data/annotations/` — margin notes (dual-gated, see Principles)
   - `data/chapters/summary-seeds.json` — per-chapter one-line summaries + culture/domain tags
   - concordance — Spengler's own marginal topic-index → anchored paragraphs (reader spine + search)
-  - `data/lexicon/` — his coined vocabulary as a typed concept graph (the lexicon hero)
+  - `data/lexicon/` — his coined vocabulary as a typed, source-cited concept graph with an
+    interlocutor layer (the thinkers he builds on / breaks with) and edge-level verification (the lexicon hero)
   - `data/comparative/` — his foldout Culture tables, cells deep-linking to passages (the tables hero)
   - `data/timeline/` — the Cultures in morphological time (the phase-clock hero)
   - `data/sources/` — every cited source, hand-verified with the date it was checked
@@ -133,6 +134,8 @@ human-in-the-loop OCR correction) — relevant if your raw text isn't already cl
 
 ## Ideas for extension
 
-More works (e.g. *Prussianism and Socialism*); deepen the lexicon; widen table→passage deep-link coverage;
-add more Cultures to the timeline; rasterize `public/og.svg` → `og.png` for social platforms that ignore SVG;
-persist dragged lexicon-node positions. See `DECISIONS.md` for the full decision log and history.
+More works (e.g. *Prussianism and Socialism*); more lexicon interlocutors and `analogous-to` cross-links into
+the Tables/Timeline (v1.1 added the interlocutor layer + edge-level verification, see ADR-0020); widen
+table→passage deep-link coverage; add more Cultures to the timeline; rasterize `public/og.svg` → `og.png` for
+social platforms that ignore SVG; persist dragged lexicon-node positions. See `DECISIONS.md` for the full
+decision log and history.

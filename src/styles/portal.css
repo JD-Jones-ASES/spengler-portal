@@ -630,24 +630,63 @@ html[data-focus="on"] .reader-page .site-header { background: transparent; backd
 .lex-see { margin-top: 0.5rem; display: flex; flex-wrap: wrap; gap: 0.3rem; }
 .lex-cite { font-family: var(--font-data); font-size: 0.7rem; color: var(--ink-faint); margin-top: 0.4rem; }
 .lex-graph-wrap { position: sticky; top: 76px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--paper-raised); overflow: hidden; }
+/* legend = filter: each chip toggles an edge family on/off (and shows its stroke key) */
+.lex-legend { display: flex; flex-wrap: wrap; align-items: center; gap: 0.3rem; padding: 0.45rem 0.55rem; border-bottom: 1px solid var(--line); }
+.lex-fam {
+  display: inline-flex; align-items: center; gap: 0.32rem; cursor: pointer;
+  font-family: var(--font-data); font-size: 0.64rem; text-transform: uppercase; letter-spacing: 0.04em;
+  padding: 0.2rem 0.5rem; border-radius: 999px; border: 1px solid var(--line-strong);
+  background: var(--paper); color: var(--ink-soft); transition: opacity var(--motion);
+}
+.lex-fam.off { opacity: 0.38; }
+.lex-fam:focus-visible { outline: 2px solid var(--cult); outline-offset: 1px; }
+.lex-fam-swatch { width: 16px; border-top: 2px solid var(--line-strong); display: inline-block; }
+.lex-fam.fam-opposition .lex-fam-swatch { border-top: 2px dashed var(--cult-mexican); }
+.lex-fam.fam-analogy .lex-fam-swatch { border-top: 2px dotted var(--cult-magian); }
+.lex-fam.fam-lineage .lex-fam-swatch { border-top: 2px solid var(--gold); }
+.lex-fam.fam-generic .lex-fam-swatch { border-top: 2px solid var(--line-strong); opacity: 0.5; }
 .lex-reset {
-  position: absolute; top: 0.5rem; right: 0.5rem; z-index: 2;
-  font-family: var(--font-data); font-size: 0.7rem; padding: 0.25rem 0.6rem; border-radius: 999px;
+  margin-left: auto; font-family: var(--font-data); font-size: 0.66rem; padding: 0.2rem 0.6rem; border-radius: 999px;
   border: 1px solid var(--line-strong); background: var(--paper); color: var(--ink-soft); cursor: pointer;
 }
 .lex-reset:hover { border-color: var(--cult-faustian); color: var(--ink); }
 .lex-graph { display: block; width: 100%; height: auto; touch-action: pan-y; }
 .lex-graph.dragging { cursor: grabbing; }
-.lex-graph .edge { stroke: var(--line-strong); stroke-width: 1; opacity: 0.55; }
-.lex-graph .edge.contrasts-with { stroke: var(--cult-mexican); stroke-dasharray: 4 3; }
-.lex-graph .edge.dim { opacity: 0.12; }
+/* edge families — keyed to EDGE_FAMILY in ConceptGraph.svelte and the schema $comment legend */
+.lex-graph .edge { stroke: var(--line-strong); stroke-width: 1; opacity: 0.5; fill: none; }
+.lex-graph .edge.related-to { opacity: 0.2; }
+.lex-graph .edge.contrasts-with { stroke: var(--cult-mexican); stroke-dasharray: 4 3; opacity: 0.72; }
+.lex-graph .edge.analogous-to { stroke: var(--cult-magian); stroke-dasharray: 1 4; stroke-width: 1.5; opacity: 0.72; }
+.lex-graph .edge.symptom-of { stroke: var(--cult-indian); stroke-dasharray: 5 2 1 2; opacity: 0.58; }
+.lex-graph .edge.coined-from, .lex-graph .edge.borrows-from { stroke: var(--gold); stroke-width: 1.7; opacity: 0.85; }
+.lex-graph .edge.narrows { stroke: var(--gold); stroke-width: 1.7; stroke-dasharray: 2 2; opacity: 0.88; }
+.lex-graph .edge.breaks-with { stroke: var(--gold); stroke-width: 1.5; stroke-dasharray: 6 4; opacity: 0.8; }
+.lex-graph .edge.dim { opacity: 0.07; }
+.lex-graph .edge.off { display: none; }
 .lex-graph .node { cursor: grab; touch-action: none; }
 .lex-graph .node circle { stroke: var(--paper-raised); stroke-width: 1.5; cursor: inherit; }
+.lex-graph .node .ila-mark { fill: var(--paper-sunk); stroke: var(--ink-faint); stroke-width: 1.6; cursor: inherit; }
+.lex-graph .node.interlocutor text { font-style: italic; fill: var(--ink-soft); }
 .lex-graph .node text { font-family: var(--font-display); font-size: 11px; fill: var(--ink); pointer-events: none; }
 .lex-graph .node.dim { opacity: 0.3; }
-.lex-graph .node:focus-visible circle { outline: 2px solid var(--cult); }
+.lex-graph .node:focus-visible circle, .lex-graph .node:focus-visible .ila-mark { outline: 2px solid var(--cult); }
 .lex-graph .node.selected circle { stroke: var(--ink); stroke-width: 2.5; }
+.lex-graph .node.selected .ila-mark { stroke: var(--ink); stroke-width: 2.5; }
 .lex-hint { font-size: 0.82rem; color: var(--ink-faint); margin: 0.5rem 0 0; }
+/* selected-node readout + its sourced relations (verification at the edge; lineage for interlocutors) */
+.lex-sel { padding: 0.8rem 1rem; border-top: 1px solid var(--line); }
+.lex-sel-term { font-family: var(--font-display); display: inline-flex; align-items: center; gap: 0.4rem; }
+.lex-sel-def { margin: 0.3rem 0 0; font-size: 0.9rem; color: var(--ink-soft); line-height: 1.5; }
+.lex-rel-head { display: flex; align-items: center; gap: 0.5rem; margin: 0.75rem 0 0.3rem; font-family: var(--font-display); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-faint); }
+.lex-rel { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0.3rem; max-height: 188px; overflow-y: auto; }
+.lex-rel-item { font-size: 0.78rem; color: var(--ink-soft); line-height: 1.4; }
+.lex-rel-type { font-family: var(--font-data); font-size: 0.6rem; text-transform: uppercase; letter-spacing: 0.03em; color: var(--ink-faint); border-bottom: 2px solid var(--line-strong); padding-bottom: 1px; margin-right: 0.15rem; }
+.lex-rel-type.fam-opposition { border-color: var(--cult-mexican); }
+.lex-rel-type.fam-analogy { border-color: var(--cult-magian); }
+.lex-rel-type.fam-lineage { border-color: var(--gold); }
+.lex-rel-cite { font-family: var(--font-data); font-size: 0.62rem; color: var(--ink-faint); }
+.lex-ila-pill { display: inline-block; font-family: var(--font-data); font-size: 0.58rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--ink-faint); border: 1px solid var(--line-strong); border-radius: 999px; padding: 0 0.4rem; margin-left: 0.4rem; vertical-align: middle; }
+.lex-card.interlocutor { border-left-color: var(--ink-faint); border-left-style: dashed; }
 
 /* =====================================================================
    Concordance chips (topic index)

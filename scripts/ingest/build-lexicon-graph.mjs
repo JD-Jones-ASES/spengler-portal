@@ -22,7 +22,8 @@ for (const e of lex.edges) {
   degree.set(e.target, degree.get(e.target) + 1);
 }
 
-// cluster: a term sits with its Culture if it has one, else with its domain.
+// cluster: interlocutors (source-thinkers) form their own meta-group; otherwise a term sits
+// with its Culture if it has one, else with its domain.
 const nodes = publicTerms.map((t) => ({
   id: t.id,
   term: t.term,
@@ -30,8 +31,9 @@ const nodes = publicTerms.map((t) => ({
   definition: t.definition,
   culture: t.culture || null,
   prime_symbol: t.prime_symbol || null,
-  domain: t.domain,
-  cluster: t.culture || t.domain,
+  domain: t.domain || null,
+  kind: t.kind || "concept",
+  cluster: t.kind === "interlocutor" ? "interlocutor" : (t.culture || t.domain),
   degree: degree.get(t.id),
   variants: t.variants || [],
   targets: t.targets || [],

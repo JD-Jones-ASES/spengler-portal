@@ -8,6 +8,7 @@
       "culture": null,
       "prime_symbol": null,
       "domain": "prime-concept",
+      "kind": "concept",
       "cluster": "prime-concept",
       "degree": 15,
       "variants": [
@@ -33,8 +34,9 @@
       "culture": null,
       "prime_symbol": null,
       "domain": "method",
+      "kind": "concept",
       "cluster": "method",
-      "degree": 4,
+      "degree": 7,
       "variants": [
         "morphology",
         "comparative morphology"
@@ -57,6 +59,7 @@
       "culture": null,
       "prime_symbol": null,
       "domain": "prime-concept",
+      "kind": "concept",
       "cluster": "prime-concept",
       "degree": 8,
       "variants": [
@@ -81,8 +84,9 @@
       "culture": "faustian",
       "prime_symbol": "pure infinite space",
       "domain": "culture",
+      "kind": "concept",
       "cluster": "faustian",
-      "degree": 11,
+      "degree": 12,
       "variants": [
         "Faustian soul",
         "Faustian Culture"
@@ -105,8 +109,9 @@
       "culture": "apollinian",
       "prime_symbol": "the bounded material body",
       "domain": "culture",
+      "kind": "concept",
       "cluster": "apollinian",
-      "degree": 7,
+      "degree": 8,
       "variants": [
         "Apollonian",
         "Classical soul"
@@ -129,6 +134,7 @@
       "culture": "magian",
       "prime_symbol": "the world-cavern",
       "domain": "culture",
+      "kind": "concept",
       "cluster": "magian",
       "degree": 5,
       "variants": [
@@ -154,6 +160,7 @@
       "culture": null,
       "prime_symbol": null,
       "domain": "method",
+      "kind": "concept",
       "cluster": "method",
       "degree": 2,
       "variants": [
@@ -178,8 +185,9 @@
       "culture": null,
       "prime_symbol": null,
       "domain": "prime-concept",
+      "kind": "concept",
       "cluster": "prime-concept",
-      "degree": 6,
+      "degree": 7,
       "variants": [
         "Destiny",
         "the destiny-idea"
@@ -202,8 +210,9 @@
       "culture": null,
       "prime_symbol": null,
       "domain": "prime-concept",
+      "kind": "concept",
       "cluster": "prime-concept",
-      "degree": 4,
+      "degree": 5,
       "variants": [
         "becoming",
         "the become"
@@ -226,6 +235,7 @@
       "culture": null,
       "prime_symbol": null,
       "domain": "politics",
+      "kind": "concept",
       "cluster": "politics",
       "degree": 4,
       "variants": [
@@ -250,6 +260,7 @@
       "culture": null,
       "prime_symbol": null,
       "domain": "politics",
+      "kind": "concept",
       "cluster": "politics",
       "degree": 7,
       "variants": [
@@ -273,6 +284,7 @@
       "culture": null,
       "prime_symbol": null,
       "domain": "politics",
+      "kind": "concept",
       "cluster": "politics",
       "degree": 4,
       "variants": [
@@ -297,6 +309,7 @@
       "culture": "magian",
       "prime_symbol": null,
       "domain": "method",
+      "kind": "concept",
       "cluster": "magian",
       "degree": 2,
       "variants": [
@@ -320,6 +333,7 @@
       "culture": null,
       "prime_symbol": null,
       "domain": "prime-concept",
+      "kind": "concept",
       "cluster": "prime-concept",
       "degree": 4,
       "variants": [
@@ -345,6 +359,7 @@
       "culture": null,
       "prime_symbol": null,
       "domain": "method",
+      "kind": "concept",
       "cluster": "method",
       "degree": 4,
       "variants": [
@@ -370,6 +385,7 @@
       "culture": null,
       "prime_symbol": null,
       "domain": "method",
+      "kind": "concept",
       "cluster": "method",
       "degree": 2,
       "variants": [
@@ -392,6 +408,7 @@
       "culture": null,
       "prime_symbol": null,
       "domain": "religion",
+      "kind": "concept",
       "cluster": "religion",
       "degree": 2,
       "variants": [
@@ -415,6 +432,7 @@
       "culture": null,
       "prime_symbol": null,
       "domain": "economics",
+      "kind": "concept",
       "cluster": "economics",
       "degree": 5,
       "variants": [
@@ -439,6 +457,7 @@
       "culture": null,
       "prime_symbol": null,
       "domain": "politics",
+      "kind": "concept",
       "cluster": "politics",
       "degree": 4,
       "variants": [
@@ -463,6 +482,7 @@
       "culture": "indian",
       "prime_symbol": null,
       "domain": "culture",
+      "kind": "concept",
       "cluster": "indian",
       "degree": 2,
       "variants": [
@@ -487,6 +507,7 @@
       "culture": "egyptian",
       "prime_symbol": "the path / direction",
       "domain": "culture",
+      "kind": "concept",
       "cluster": "egyptian",
       "degree": 2,
       "variants": [
@@ -511,6 +532,7 @@
       "culture": "chinese",
       "prime_symbol": "the Tao / the wandering way",
       "domain": "culture",
+      "kind": "concept",
       "cluster": "chinese",
       "degree": 1,
       "variants": [
@@ -535,6 +557,7 @@
       "culture": null,
       "prime_symbol": null,
       "domain": "mathematics",
+      "kind": "concept",
       "cluster": "mathematics",
       "degree": 5,
       "variants": [
@@ -560,6 +583,7 @@
       "culture": null,
       "prime_symbol": null,
       "domain": "prime-concept",
+      "kind": "concept",
       "cluster": "prime-concept",
       "degree": 2,
       "variants": [
@@ -585,6 +609,7 @@
       "culture": null,
       "prime_symbol": null,
       "domain": "prime-concept",
+      "kind": "concept",
       "cluster": "prime-concept",
       "degree": 4,
       "variants": [
@@ -611,6 +636,7 @@
       "culture": null,
       "prime_symbol": null,
       "domain": "economics",
+      "kind": "concept",
       "cluster": "economics",
       "degree": 5,
       "variants": [
@@ -636,6 +662,7 @@
       "culture": null,
       "prime_symbol": null,
       "domain": "science",
+      "kind": "concept",
       "cluster": "science",
       "degree": 4,
       "variants": [
@@ -656,24 +683,29 @@
       "id": "beast-of-prey",
       "term": "Man the Beast of Prey",
       "german": "das Raubtier",
-      "definition": "The central anthropology of Man and Technics, set against Rousseau's gentle natural man and the Darwinian 'semi-ape.' Spengler ranks life — plant below herbivore below carnivore — and places man among the predators: the beast of prey is 'the highest form of the freely-moving life,' marked by freedom, solitude and command, from which the human eye, hand, idea of property and the State are all derived. He means the predatory verdict as praise, which is exactly why a reader should decide early how much of the premise to grant — the dignity he assigns to cruelty and command is the seed of his anti-egalitarian politics.",
+      "definition": "The central anthropology of Man and Technics, set against Rousseau's gentle natural man and the Darwinian 'semi-ape.' Spengler ranks life - plant below herbivore below carnivore - and places man among the predators: the beast of prey is 'the highest form of the freely-moving life,' marked by freedom, solitude and command, from which the human eye, hand, idea of property and the State are all derived. He means the predatory verdict as praise. He then takes a frankly evaluative anti-egalitarian step in his own words: 'the talk of the \"natural equality of all\" proves that there is here something to be explained away,' and the predatory character, he holds, has 'passed over ... to the organized people' in the form of war, mastery and the State. Read it with open eyes - scholars of Spengler's politics read this dignifying of cruelty and command as the seed of his anti-egalitarian doctrine, and a reader should decide early how much of the premise to grant.",
       "culture": null,
       "prime_symbol": null,
       "domain": "method",
+      "kind": "concept",
       "cluster": "method",
-      "degree": 3,
+      "degree": 7,
       "variants": [
         "beast of prey",
         "predator",
         "Raubtier"
       ],
       "targets": [
-        "man-technics-ch-02-herbivores-and-beasts-of-prey#p0"
+        "man-technics-ch-02-herbivores-and-beasts-of-prey#p0",
+        "man-technics-ch-04-the-second-stage-speech-and-enterprise#p0"
       ],
       "citations": [
-        "wikipedia-man-and-technics"
+        "wikipedia-man-and-technics",
+        "spengler-mensch-technik-de-1931"
       ],
-      "secondary": []
+      "secondary": [
+        "farrenkopf-prophet-2001"
+      ]
     },
     {
       "id": "hand-and-tool",
@@ -683,6 +715,7 @@
       "culture": null,
       "prime_symbol": null,
       "domain": "method",
+      "kind": "concept",
       "cluster": "method",
       "degree": 3,
       "variants": [
@@ -705,6 +738,7 @@
       "culture": null,
       "prime_symbol": null,
       "domain": "economics",
+      "kind": "concept",
       "cluster": "economics",
       "degree": 3,
       "variants": [
@@ -728,6 +762,7 @@
       "culture": null,
       "prime_symbol": null,
       "domain": "art",
+      "kind": "concept",
       "cluster": "art",
       "degree": 3,
       "variants": [
@@ -754,6 +789,7 @@
       "culture": "magian",
       "prime_symbol": "the world-cavern",
       "domain": "prime-concept",
+      "kind": "concept",
       "cluster": "magian",
       "degree": 3,
       "variants": [
@@ -780,6 +816,7 @@
       "culture": "mexican",
       "prime_symbol": null,
       "domain": "culture",
+      "kind": "concept",
       "cluster": "mexican",
       "degree": 2,
       "variants": [
@@ -805,6 +842,7 @@
       "culture": "faustian",
       "prime_symbol": null,
       "domain": "science",
+      "kind": "concept",
       "cluster": "faustian",
       "degree": 3,
       "variants": [
@@ -830,6 +868,7 @@
       "culture": null,
       "prime_symbol": null,
       "domain": "politics",
+      "kind": "concept",
       "cluster": "politics",
       "degree": 4,
       "variants": [
@@ -855,8 +894,9 @@
       "culture": null,
       "prime_symbol": null,
       "domain": "phase",
+      "kind": "concept",
       "cluster": "phase",
-      "degree": 3,
+      "degree": 4,
       "variants": [
         "culture-seasons",
         "spring summer autumn winter",
@@ -880,11 +920,11 @@
       "culture": null,
       "prime_symbol": null,
       "domain": "method",
+      "kind": "concept",
       "cluster": "method",
-      "degree": 3,
+      "degree": 4,
       "variants": [
-        "will to power",
-        "amor fati"
+        "will to power"
       ],
       "targets": [
         "man-technics-ch-01-technics-as-the-tactics-of-living#p0",
@@ -905,6 +945,7 @@
       "culture": "faustian",
       "prime_symbol": null,
       "domain": "science",
+      "kind": "concept",
       "cluster": "faustian",
       "degree": 3,
       "variants": [
@@ -930,6 +971,7 @@
       "culture": null,
       "prime_symbol": null,
       "domain": "politics",
+      "kind": "concept",
       "cluster": "politics",
       "degree": 3,
       "variants": [
@@ -955,6 +997,7 @@
       "culture": null,
       "prime_symbol": null,
       "domain": "politics",
+      "kind": "concept",
       "cluster": "politics",
       "degree": 3,
       "variants": [
@@ -971,6 +1014,170 @@
       "secondary": [
         "hughes-spengler-1952"
       ]
+    },
+    {
+      "id": "goethe",
+      "term": "Goethe",
+      "german": "Johann Wolfgang von Goethe",
+      "definition": "German poet, dramatist and natural philosopher (1749-1832), author of Faust and of morphological studies of living form. Spengler names him, with Nietzsche, as one of his two masters and borrows from him the method of the whole work: history is to be read morphologically, by the look and growth of living shapes rather than by cause and effect. In the Introduction he opposes 'the living Nature of Goethe' to 'the dead Nature of Newton' and takes over Goethe's pair becoming / the become, and in Chapter III he adopts Goethe's biological notion of homology (the discovery of the os intermaxillare) as the model for comparing Cultures. Commentators such as Hughes treat this Goethean descent as the genuine root of Spengler's 'morphology of world-history.'",
+      "culture": null,
+      "prime_symbol": null,
+      "domain": null,
+      "kind": "interlocutor",
+      "cluster": "interlocutor",
+      "degree": 3,
+      "variants": [],
+      "targets": [
+        "decline-vol-i-ch-01-introduction#p0",
+        "decline-vol-i-ch-03-the-problem-of-world-history-physiognomic-and-systematic#p0"
+      ],
+      "citations": [
+        "iep-goethe",
+        "britannica-goethe"
+      ],
+      "secondary": [
+        "hughes-spengler-1952"
+      ]
+    },
+    {
+      "id": "nietzsche",
+      "term": "Nietzsche",
+      "german": "Friedrich Nietzsche",
+      "definition": "German philosopher (1844-1900) of the will-to-power, amor fati and the critique of decadence. Spengler names him, with Goethe, as his second master and frames Man and Technics around 'life in Nietzsche's sense, as a struggle out of the will-to-power, cruel, inexorable, a struggle without mercy'; against Schopenhauer's and Darwin's reading of the struggle for life as misery he sets the Nietzschean amor fati, the affirmation of one's fate. The borrowing is selective: on the reading of scholars such as Farrenkopf, Spengler keeps Nietzsche's combative vitalism while dropping the hope of an 'overcoming,' leaving a tragic, no-exit struggle.",
+      "culture": null,
+      "prime_symbol": null,
+      "domain": null,
+      "kind": "interlocutor",
+      "cluster": "interlocutor",
+      "degree": 4,
+      "variants": [],
+      "targets": [
+        "man-technics-ch-01-technics-as-the-tactics-of-living#p0",
+        "man-technics-ch-02-herbivores-and-beasts-of-prey#p0"
+      ],
+      "citations": [
+        "sep-nietzsche"
+      ],
+      "secondary": [
+        "farrenkopf-prophet-2001"
+      ]
+    },
+    {
+      "id": "schopenhauer",
+      "term": "Schopenhauer",
+      "german": "Arthur Schopenhauer",
+      "definition": "German philosopher (1788-1860) of the blind, striving Will, whose metaphysics is pessimistic and whose ethic counsels resignation and the denial of the will-to-live. In Man and Technics Spengler breaks with him explicitly: the struggle of life, he writes, 'is no longer felt as misery — so Schopenhauer and Darwin thought of the struggle for life — but as the great meaning of life, which ennobles it: so thought Nietzsche, amor fati.' Schopenhauer thus stands as the foil whose verdict of suffering Spengler replaces with a heroic, affirmative pessimism; critics such as Hughes read this reversal as Spengler converting Schopenhauer's resignation into a doctrine of strength.",
+      "culture": null,
+      "prime_symbol": null,
+      "domain": null,
+      "kind": "interlocutor",
+      "cluster": "interlocutor",
+      "degree": 2,
+      "variants": [],
+      "targets": [
+        "man-technics-ch-02-herbivores-and-beasts-of-prey#p0"
+      ],
+      "citations": [
+        "sep-schopenhauer"
+      ],
+      "secondary": [
+        "hughes-spengler-1952"
+      ]
+    },
+    {
+      "id": "darwin",
+      "term": "Darwin",
+      "german": "Charles Darwin",
+      "definition": "English naturalist (1809-1882), author of the theory of natural selection and the 'struggle for existence.' Spengler breaks with the Darwinian picture on two fronts in Man and Technics: he rejects 'the system, founded by Linnaeus and deepened palaeontologically by the school of Darwin,' a 'materialistic,' anatomical ordering of life, in favour of a 'physiognomic' rank-order of animal souls; and he refuses to feel the struggle for life as the misery 'Schopenhauer and Darwin thought' it, recasting it instead as the ennobling meaning of life. He likewise dismisses the Darwinian–Haeckelian image of man as a 'half-ape with technical tendencies.' Scholars such as Hughes note that Spengler's anti-Darwinism is itself a vitalist, anti-mechanist polemic rather than a scientific correction.",
+      "culture": null,
+      "prime_symbol": null,
+      "domain": null,
+      "kind": "interlocutor",
+      "cluster": "interlocutor",
+      "degree": 2,
+      "variants": [],
+      "targets": [
+        "man-technics-ch-02-herbivores-and-beasts-of-prey#p0"
+      ],
+      "citations": [
+        "wikipedia-charles-darwin",
+        "spengler-mensch-technik-de-1931"
+      ],
+      "secondary": [
+        "hughes-spengler-1952"
+      ]
+    },
+    {
+      "id": "rousseau",
+      "term": "Rousseau",
+      "german": "Jean-Jacques Rousseau",
+      "definition": "Genevan philosopher (1712-1778) whose account of a naturally good man corrupted by civilization shaped the Enlightenment picture of 'natural man.' Spengler breaks with him sharply in Man and Technics, opening the book in 'the age of Robinson Crusoe and of Rousseau' when men 'had seen in natural man himself a kind of little lamb: peaceable and virtuous, and corrupted only afterward, by Culture,' and answering that man is on the contrary 'a beast of prey' upon whose caricature as a gentle half-ape 'there still falls the plebeian shadow of Rousseau.' Rousseau thus serves as the chief target of Spengler's predatory anthropology; commentators such as Farrenkopf read this anti-Rousseauism as the seed of Spengler's anti-egalitarian politics.",
+      "culture": null,
+      "prime_symbol": null,
+      "domain": null,
+      "kind": "interlocutor",
+      "cluster": "interlocutor",
+      "degree": 1,
+      "variants": [],
+      "targets": [
+        "man-technics-ch-02-herbivores-and-beasts-of-prey#p0"
+      ],
+      "citations": [
+        "wikipedia-rousseau"
+      ],
+      "secondary": [
+        "farrenkopf-prophet-2001"
+      ]
+    },
+    {
+      "id": "joachim-of-floris",
+      "term": "Joachim of Floris",
+      "german": "Joachim von Fiore",
+      "definition": "Calabrian abbot and mystical theologian (c. 1145-1202) who divided sacred history into three ages — of the Father, the Son and the Holy Ghost. In the Introduction to the Decline Spengler salutes him as 'the great Joachim of Floris … the first thinker of the Hegelian stamp,' whose 'essentially Gothic intellect' shattered Augustine's dualistic world-form and 'awakened a world-outlook which slowly but surely took entire possession of the historical sense of our Culture.' Spengler treats Joachim's three-age scheme as the Faustian origin of the later 'ancient–medieval–modern' division of history that he sets out to overturn — borrowing the genealogy while rejecting the linear progress it became. Hughes notes Spengler's habit of tracing such modern schemes back to their religious roots.",
+      "culture": null,
+      "prime_symbol": null,
+      "domain": null,
+      "kind": "interlocutor",
+      "cluster": "interlocutor",
+      "degree": 2,
+      "variants": [],
+      "targets": [
+        "decline-vol-i-ch-01-introduction#p0"
+      ],
+      "citations": [
+        "britannica-joachim-of-fiore"
+      ],
+      "secondary": [
+        "hughes-spengler-1952"
+      ]
+    },
+    {
+      "id": "amor-fati",
+      "term": "Amor fati",
+      "german": "amor fati / Liebe zum Schicksal",
+      "definition": "Nietzsche's formula for an active, affirming love of one's fate. In The Gay Science he writes 'Amor fati: let that henceforth be my love!' and resolves 'to be ... only a yea-sayer' (GS 276); the recurrence-test of the 'heaviest weight' (GS 341) asks whether you could will your whole life to return eternally, unaltered. It is love and affirmation of what is and what recurs, NOT Stoic resignation. Note that the related Nietzschean ideas of self-overcoming and value-creation (Selbstuberwindung) are SEPARATE doctrines, centrally developed in Thus Spoke Zarathustra rather than under the phrase 'amor fati' (which in the named works appears only at GS 276); it is a reader such as Farrenkopf who ties them together. Farrenkopf, with Hughes, reads Spengler as NARROWING the idea: he keeps the love-of-fate posture but drops the creative self-overcoming, leaving a dignified, no-exit submission - the soldier who is told to 'hold the lost post, without hope.'",
+      "culture": null,
+      "prime_symbol": null,
+      "domain": "method",
+      "kind": "concept",
+      "cluster": "method",
+      "degree": 3,
+      "variants": [
+        "amor fati",
+        "love of fate",
+        "love of one's fate"
+      ],
+      "targets": [
+        "man-technics-ch-02-herbivores-and-beasts-of-prey#p0",
+        "decline-vol-ii-ch-01-origin-and-landscape-the-cosmic-and-the-microcosm#p0"
+      ],
+      "citations": [
+        "sep-nietzsche"
+      ],
+      "secondary": [
+        "farrenkopf-prophet-2001",
+        "hughes-spengler-1952"
+      ]
     }
   ],
   "edges": [
@@ -978,19 +1185,40 @@
       "source": "faustian",
       "target": "apollinian",
       "type": "contrasts-with",
-      "gloss": "infinite space against the bounded body"
+      "gloss": "infinite space against the bounded body",
+      "citations": [
+        "gutenberg-decline-i",
+        "britannica-spengler"
+      ],
+      "secondary": [
+        "hughes-spengler-1952"
+      ]
     },
     {
       "source": "apollinian",
       "target": "magian",
       "type": "contrasts-with",
-      "gloss": "the body against the cavern"
+      "gloss": "the body against the cavern",
+      "citations": [
+        "gutenberg-decline-i",
+        "britannica-spengler"
+      ],
+      "secondary": [
+        "hughes-spengler-1952"
+      ]
     },
     {
       "source": "magian",
       "target": "faustian",
       "type": "contrasts-with",
-      "gloss": "the cavern against infinite space"
+      "gloss": "the cavern against infinite space",
+      "citations": [
+        "gutenberg-decline-i",
+        "britannica-spengler"
+      ],
+      "secondary": [
+        "hughes-spengler-1952"
+      ]
     },
     {
       "source": "faustian",
@@ -1013,14 +1241,21 @@
     {
       "source": "morphology",
       "target": "contemporaneity",
-      "type": "coined-from",
-      "gloss": "contemporaneity is morphology applied to time"
+      "type": "derives-from",
+      "gloss": "contemporaneity is the morphological method applied to time, not a coinage",
+      "citations": [
+        "gutenberg-decline-i",
+        "britannica-spengler"
+      ],
+      "secondary": [
+        "hughes-spengler-1952"
+      ]
     },
     {
       "source": "destiny-causality",
       "target": "becoming-become",
       "type": "related-to",
-      "gloss": "Destiny is to becoming as Causality is to the become"
+      "gloss": "Destiny is to becoming as Causality is to the become — the two logics run parallel"
     },
     {
       "source": "world-city",
@@ -1067,8 +1302,15 @@
     {
       "source": "morphology",
       "target": "destiny-causality",
-      "type": "related-to",
-      "gloss": "morphology reads history as Destiny, not Cause"
+      "type": "presupposes",
+      "gloss": "morphology reads history as Destiny rather than Cause, so it rests on the destiny/causality split",
+      "citations": [
+        "gutenberg-decline-i",
+        "britannica-spengler"
+      ],
+      "secondary": [
+        "hughes-spengler-1952"
+      ]
     },
     {
       "source": "prime-symbol",
@@ -1085,32 +1327,60 @@
     {
       "source": "world-as-history",
       "target": "destiny-causality",
-      "type": "related-to",
-      "gloss": "history is the realm of Destiny, nature of Causality"
+      "type": "presupposes",
+      "gloss": "the world-as-history is the realm of Destiny; world-as-nature the realm of Causality",
+      "citations": [
+        "gutenberg-decline-i",
+        "wikipedia-decline"
+      ],
+      "secondary": [
+        "hughes-spengler-1952"
+      ]
     },
     {
       "source": "world-as-history",
       "target": "becoming-become",
-      "type": "related-to",
-      "gloss": "history is becoming; nature is the become"
+      "type": "presupposes",
+      "gloss": "history is becoming, nature the become — the pair this opposition rests on",
+      "citations": [
+        "gutenberg-decline-i",
+        "wikipedia-decline"
+      ],
+      "secondary": [
+        "hughes-spengler-1952"
+      ]
     },
     {
       "source": "physiognomic-systematic",
       "target": "morphology",
       "type": "related-to",
-      "gloss": "physiognomic tact is the morphological method"
+      "gloss": "physiognomic tact made rigorous is the morphological method"
     },
     {
       "source": "physiognomic-systematic",
       "target": "world-as-history",
-      "type": "related-to",
-      "gloss": "the physiognomic alone opens the world-as-history"
+      "type": "presupposes",
+      "gloss": "only the physiognomic method opens the world-as-history",
+      "citations": [
+        "gutenberg-decline-i",
+        "wikipedia-decline"
+      ],
+      "secondary": [
+        "hughes-spengler-1952"
+      ]
     },
     {
       "source": "money",
       "target": "race-blood",
       "type": "contrasts-with",
-      "gloss": "money against blood — the last opposition"
+      "gloss": "money against blood — the last opposition",
+      "citations": [
+        "wikipedia-decline",
+        "gutenberg-decline-i"
+      ],
+      "secondary": [
+        "farrenkopf-prophet-2001"
+      ]
     },
     {
       "source": "money",
@@ -1121,8 +1391,14 @@
     {
       "source": "money",
       "target": "world-city",
-      "type": "related-to",
-      "gloss": "money is at home in the world-city"
+      "type": "symptom-of",
+      "gloss": "money's rule is at home in, and a sign of, the world-city",
+      "citations": [
+        "wikipedia-decline"
+      ],
+      "secondary": [
+        "adorno-prisms-spengler"
+      ]
     },
     {
       "source": "race-blood",
@@ -1133,14 +1409,20 @@
     {
       "source": "second-religiousness",
       "target": "culture-civilization",
-      "type": "instance-of",
-      "gloss": "the Second Religiousness belongs to the Civilization-winter"
+      "type": "symptom-of",
+      "gloss": "the Second Religiousness is a sign of the Civilization-winter",
+      "citations": [
+        "wikipedia-decline"
+      ],
+      "secondary": [
+        "farrenkopf-prophet-2001"
+      ]
     },
     {
       "source": "second-religiousness",
       "target": "caesarism",
       "type": "related-to",
-      "gloss": "the twin signs of the end: force and credulity"
+      "gloss": "the twin signs of the end: force in politics, credulity in the soul"
     },
     {
       "source": "egyptian",
@@ -1158,13 +1440,27 @@
       "source": "egyptian",
       "target": "faustian",
       "type": "contrasts-with",
-      "gloss": "the bounded Way against unbounded space"
+      "gloss": "the bounded Way against unbounded space",
+      "citations": [
+        "gutenberg-decline-i",
+        "wikipedia-decline"
+      ],
+      "secondary": [
+        "hughes-spengler-1952"
+      ]
     },
     {
       "source": "indian",
       "target": "apollinian",
-      "type": "related-to",
-      "gloss": "both are 'ahistoric' souls for Spengler"
+      "type": "analogous-to",
+      "gloss": "both are 'ahistoric' souls for Spengler — contemporary in their feeling for time",
+      "citations": [
+        "wikipedia-decline",
+        "gutenberg-decline-i"
+      ],
+      "secondary": [
+        "hughes-spengler-1952"
+      ]
     },
     {
       "source": "indian",
@@ -1175,32 +1471,46 @@
     {
       "source": "apollinian",
       "target": "number-magnitude-function",
-      "type": "related-to",
-      "gloss": "the Classical number is magnitude"
+      "type": "instance-of",
+      "gloss": "the Classical number is magnitude — a Culture's own number-world"
     },
     {
       "source": "faustian",
       "target": "number-magnitude-function",
-      "type": "related-to",
-      "gloss": "the Western number is function and the infinite"
+      "type": "instance-of",
+      "gloss": "the Western number is function and the infinite — a Culture's own number-world"
     },
     {
       "source": "number-magnitude-function",
       "target": "prime-symbol",
-      "type": "related-to",
-      "gloss": "each number-world expresses a Culture's prime-symbol"
+      "type": "symptom-of",
+      "gloss": "each number-world expresses, and so betrays, a Culture's prime-symbol",
+      "citations": [
+        "gutenberg-decline-i",
+        "sep-pythagoras"
+      ],
+      "secondary": [
+        "hughes-spengler-1952"
+      ]
     },
     {
       "source": "number-magnitude-function",
       "target": "becoming-become",
-      "type": "related-to",
-      "gloss": "number orders the become, not the becoming"
+      "type": "presupposes",
+      "gloss": "number orders the become, not the becoming",
+      "citations": [
+        "gutenberg-decline-i",
+        "sep-continuity-infinitesimals"
+      ],
+      "secondary": [
+        "hughes-spengler-1952"
+      ]
     },
     {
       "source": "cosmic-microcosm",
       "target": "being-waking-being",
       "type": "related-to",
-      "gloss": "the cosmic is Being; the microcosmic is waking-being"
+      "gloss": "the cosmic answers to Being, the microcosmic to waking-being"
     },
     {
       "source": "cosmic-microcosm",
@@ -1218,7 +1528,7 @@
       "source": "being-waking-being",
       "target": "blood-and-money",
       "type": "related-to",
-      "gloss": "blood is Being; money is waking-being"
+      "gloss": "blood is Being made power; money is waking-being made power"
     },
     {
       "source": "being-waking-being",
@@ -1253,19 +1563,26 @@
     {
       "source": "technics",
       "target": "beast-of-prey",
-      "type": "related-to",
-      "gloss": "technics is the tactics of the beast of prey"
+      "type": "presupposes",
+      "gloss": "technics is the tactic of the beast of prey, so it rests on that anthropology",
+      "citations": [
+        "spengler-mensch-technik-de-1931",
+        "wikipedia-man-and-technics"
+      ],
+      "secondary": [
+        "farrenkopf-prophet-2001"
+      ]
     },
     {
       "source": "technics",
       "target": "hand-and-tool",
-      "type": "related-to",
-      "gloss": "the hand-and-tool is technics at its origin"
+      "type": "instance-of",
+      "gloss": "the hand-and-tool is technics at its human origin"
     },
     {
       "source": "technics",
       "target": "the-machine",
-      "type": "related-to",
+      "type": "instance-of",
       "gloss": "the machine is Faustian technics at its limit"
     },
     {
@@ -1277,8 +1594,15 @@
     {
       "source": "beast-of-prey",
       "target": "will-to-power",
-      "type": "related-to",
-      "gloss": "the predatory will is the will-to-power embodied"
+      "type": "instance-of",
+      "gloss": "the predatory will is the will-to-power embodied in life",
+      "citations": [
+        "spengler-mensch-technik-de-1931",
+        "sep-nietzsche"
+      ],
+      "secondary": [
+        "farrenkopf-prophet-2001"
+      ]
     },
     {
       "source": "beast-of-prey",
@@ -1289,14 +1613,21 @@
     {
       "source": "hand-and-tool",
       "target": "enterprise",
-      "type": "related-to",
-      "gloss": "speech and enterprise repeat the hand-and-tool pair"
+      "type": "analogous-to",
+      "gloss": "speech and enterprise repeat, at the second stage, the hand-and-tool pair",
+      "citations": [
+        "spengler-mensch-technik-de-1931",
+        "wikipedia-man-and-technics"
+      ],
+      "secondary": [
+        "farrenkopf-prophet-2001"
+      ]
     },
     {
       "source": "enterprise",
       "target": "caesarism",
       "type": "related-to",
-      "gloss": "the split into leaders and led runs into Caesarism"
+      "gloss": "the split into leaders and led runs forward into Caesarism"
     },
     {
       "source": "enterprise",
@@ -1307,20 +1638,33 @@
     {
       "source": "tragedy",
       "target": "faustian",
-      "type": "related-to",
-      "gloss": "Faustian tragedy is the inner biography"
+      "type": "instance-of",
+      "gloss": "Faustian tragedy is the inner biography driven from within"
     },
     {
       "source": "tragedy",
       "target": "apollinian",
       "type": "contrasts-with",
-      "gloss": "Apollinian tragedy is the momentary situation"
+      "gloss": "Apollinian tragedy is the momentary situation, not the inner biography",
+      "citations": [
+        "gutenberg-decline-i",
+        "wikipedia-decline"
+      ],
+      "secondary": [
+        "frye-decline-1974"
+      ]
     },
     {
       "source": "tragedy",
       "target": "culture-civilization",
-      "type": "related-to",
-      "gloss": "every Culture's life-cycle ends in tragedy"
+      "type": "symptom-of",
+      "gloss": "every Culture is a living thing that must die — 'all the great Cultures are defeats'",
+      "citations": [
+        "wikipedia-decline"
+      ],
+      "secondary": [
+        "frye-decline-1974"
+      ]
     },
     {
       "source": "world-cavern",
@@ -1350,7 +1694,14 @@
       "source": "mexican",
       "target": "fellaheen",
       "type": "contrasts-with",
-      "gloss": "no fellah-aftermath: the Culture was annihilated whole"
+      "gloss": "no fellah-aftermath: the Culture was annihilated whole",
+      "citations": [
+        "wikipedia-decline",
+        "gutenberg-decline-i"
+      ],
+      "secondary": [
+        "hughes-spengler-1952"
+      ]
     },
     {
       "source": "the-machine",
@@ -1361,56 +1712,90 @@
     {
       "source": "the-machine",
       "target": "culture-civilization",
-      "type": "related-to",
-      "gloss": "the machine-age is the Civilization-winter"
+      "type": "symptom-of",
+      "gloss": "the machine-age is a sign of the Civilization-winter",
+      "citations": [
+        "wikipedia-man-and-technics"
+      ],
+      "secondary": [
+        "adorno-prisms-spengler"
+      ]
     },
     {
       "source": "nation",
       "target": "the-soul",
-      "type": "related-to",
-      "gloss": "a nation is a 'mass-soul'"
+      "type": "instance-of",
+      "gloss": "a nation is a 'mass-soul' — a soul-unity of Being"
     },
     {
       "source": "nation",
       "target": "race-blood",
-      "type": "related-to",
-      "gloss": "a nation lives from the blood, not biological race"
+      "type": "presupposes",
+      "gloss": "a nation lives from the blood (felt, not biological race)",
+      "citations": [
+        "gutenberg-decline-i",
+        "wikipedia-decline"
+      ],
+      "secondary": [
+        "hughes-spengler-1952"
+      ]
     },
     {
       "source": "nation",
       "target": "fellaheen",
       "type": "contrasts-with",
-      "gloss": "the culture-people against the post-historical Fellaheen"
+      "gloss": "the culture-people against the post-historical Fellaheen",
+      "citations": [
+        "gutenberg-decline-i",
+        "wikipedia-decline"
+      ],
+      "secondary": [
+        "hughes-spengler-1952"
+      ]
     },
     {
       "source": "culture-seasons",
       "target": "culture-civilization",
-      "type": "related-to",
-      "gloss": "Culture is spring–summer; Civilization is winter"
+      "type": "phase-of",
+      "gloss": "Culture is the spring–summer; Civilization the winter of the same year",
+      "citations": [
+        "britannica-spengler",
+        "gutenberg-decline-i"
+      ],
+      "secondary": [
+        "hughes-spengler-1952"
+      ]
     },
     {
       "source": "culture-seasons",
       "target": "contemporaneity",
-      "type": "related-to",
-      "gloss": "events are 'contemporary' when they fall in the same season"
+      "type": "presupposes",
+      "gloss": "events are 'contemporary' when they fall in the same season",
+      "citations": [
+        "britannica-spengler",
+        "gutenberg-decline-i"
+      ],
+      "secondary": [
+        "hughes-spengler-1952"
+      ]
     },
     {
       "source": "culture-seasons",
       "target": "morphology",
-      "type": "related-to",
-      "gloss": "the seasons are morphology applied to a Culture's life"
+      "type": "instance-of",
+      "gloss": "the seasons are the morphological method applied to a Culture's life"
     },
     {
       "source": "will-to-power",
       "target": "faustian",
-      "type": "related-to",
+      "type": "instance-of",
       "gloss": "the Faustian soul is will-to-power over infinite space"
     },
     {
       "source": "will-to-power",
       "target": "destiny-causality",
       "type": "related-to",
-      "gloss": "amor fati: the willing of one's destiny"
+      "gloss": "the will-to-power frames history as destiny, not cause"
     },
     {
       "source": "nature-knowledge",
@@ -1421,26 +1806,53 @@
     {
       "source": "nature-knowledge",
       "target": "number-magnitude-function",
-      "type": "related-to",
-      "gloss": "the Western number-world is its instrument"
+      "type": "presupposes",
+      "gloss": "the Western number-world is the instrument of Faustian science",
+      "citations": [
+        "gutenberg-decline-i",
+        "sep-continuity-infinitesimals"
+      ],
+      "secondary": [
+        "hughes-spengler-1952"
+      ]
     },
     {
       "source": "nature-knowledge",
       "target": "world-as-history",
       "type": "contrasts-with",
-      "gloss": "knowledge of world-as-nature against world-as-history"
+      "gloss": "knowledge of world-as-nature against the grasp of world-as-history",
+      "citations": [
+        "gutenberg-decline-i",
+        "wikipedia-decline"
+      ],
+      "secondary": [
+        "hughes-spengler-1952"
+      ]
     },
     {
       "source": "the-city",
       "target": "world-city",
-      "type": "related-to",
-      "gloss": "the world-city is the city's final form"
+      "type": "phase-of",
+      "gloss": "the world-city is the city's final, late form",
+      "citations": [
+        "wikipedia-decline",
+        "gutenberg-decline-i"
+      ],
+      "secondary": [
+        "hughes-spengler-1952"
+      ]
     },
     {
       "source": "the-city",
       "target": "culture-civilization",
-      "type": "related-to",
-      "gloss": "the city carries a Culture into Civilization"
+      "type": "symptom-of",
+      "gloss": "the city is the engine that carries a Culture into Civilization",
+      "citations": [
+        "wikipedia-decline"
+      ],
+      "secondary": [
+        "hughes-spengler-1952"
+      ]
     },
     {
       "source": "the-city",
@@ -1458,13 +1870,206 @@
       "source": "the-estates",
       "target": "destiny-causality",
       "type": "related-to",
-      "gloss": "nobility lives destiny; priesthood lives causal truth"
+      "gloss": "nobility lives destiny; priesthood lives causal truth — the social face of the opposition"
     },
     {
       "source": "the-estates",
       "target": "caesarism",
       "type": "related-to",
       "gloss": "the decay of the estates clears the way for Caesarism"
+    },
+    {
+      "source": "faustian",
+      "target": "goethe",
+      "type": "coined-from",
+      "gloss": "evidently derived: etymology (the name 'Faustian') plus the pervasive Faust imagery of the Western soul",
+      "citations": [
+        "britannica-goethe",
+        "gutenberg-decline-i"
+      ],
+      "secondary": [
+        "hughes-spengler-1952"
+      ]
+    },
+    {
+      "source": "will-to-power",
+      "target": "nietzsche",
+      "type": "coined-from",
+      "gloss": "explicitly taken over from Nietzsche, who named the will-to-power",
+      "citations": [
+        "spengler-mensch-technik-de-1931",
+        "sep-nietzsche"
+      ],
+      "secondary": [
+        "farrenkopf-prophet-2001"
+      ]
+    },
+    {
+      "source": "apollinian",
+      "target": "nietzsche",
+      "type": "borrows-from",
+      "gloss": "the name 'Apollinian' familiarized by Nietzsche's Birth of Tragedy",
+      "citations": [
+        "gutenberg-decline-i",
+        "sep-nietzsche"
+      ],
+      "secondary": [
+        "hughes-spengler-1952"
+      ]
+    },
+    {
+      "source": "morphology",
+      "target": "goethe",
+      "type": "borrows-from",
+      "gloss": "the morphological method is taken from Goethe's study of living forms",
+      "citations": [
+        "gutenberg-decline-i",
+        "iep-goethe"
+      ],
+      "secondary": [
+        "hughes-spengler-1952"
+      ]
+    },
+    {
+      "source": "becoming-become",
+      "target": "goethe",
+      "type": "borrows-from",
+      "gloss": "the becoming/become distinction is taken from Goethe",
+      "citations": [
+        "gutenberg-decline-i",
+        "iep-goethe"
+      ],
+      "secondary": [
+        "hughes-spengler-1952"
+      ]
+    },
+    {
+      "source": "beast-of-prey",
+      "target": "nietzsche",
+      "type": "borrows-from",
+      "gloss": "the predatory image of man drawn from Nietzsche's vitalism",
+      "citations": [
+        "spengler-mensch-technik-de-1931",
+        "sep-nietzsche"
+      ],
+      "secondary": [
+        "farrenkopf-prophet-2001"
+      ]
+    },
+    {
+      "source": "beast-of-prey",
+      "target": "rousseau",
+      "type": "breaks-with",
+      "gloss": "set against Rousseau's gentle natural man: Spengler's man is a predator, not a lamb",
+      "citations": [
+        "spengler-mensch-technik-de-1931",
+        "wikipedia-rousseau"
+      ],
+      "secondary": [
+        "hughes-spengler-1952"
+      ]
+    },
+    {
+      "source": "beast-of-prey",
+      "target": "darwin",
+      "type": "breaks-with",
+      "gloss": "against the Darwinian 'semi-ape': man is the highest beast of prey, not a gradual evolutionary product",
+      "citations": [
+        "spengler-mensch-technik-de-1931",
+        "wikipedia-charles-darwin"
+      ],
+      "secondary": [
+        "farrenkopf-prophet-2001"
+      ]
+    },
+    {
+      "source": "beast-of-prey",
+      "target": "schopenhauer",
+      "type": "breaks-with",
+      "gloss": "against Schopenhauer's will-to-live and its resignation: Spengler affirms the predatory will rather than seeking release from it",
+      "citations": [
+        "spengler-mensch-technik-de-1931",
+        "sep-schopenhauer"
+      ],
+      "secondary": [
+        "hughes-spengler-1952"
+      ]
+    },
+    {
+      "source": "morphology",
+      "target": "darwin",
+      "type": "breaks-with",
+      "gloss": "against Darwinian causal explanation: Cultures are read by shape and stage, not by cause-and-effect descent",
+      "citations": [
+        "gutenberg-decline-i",
+        "wikipedia-charles-darwin"
+      ],
+      "secondary": [
+        "hughes-spengler-1952"
+      ]
+    },
+    {
+      "source": "morphology",
+      "target": "joachim-of-floris",
+      "type": "breaks-with",
+      "gloss": "against Joachim's single linear march of ages: morphology sets many parallel Culture-cycles in place of one progress",
+      "citations": [
+        "gutenberg-decline-i",
+        "britannica-joachim-of-fiore"
+      ],
+      "secondary": [
+        "hughes-spengler-1952"
+      ]
+    },
+    {
+      "source": "culture-seasons",
+      "target": "joachim-of-floris",
+      "type": "breaks-with",
+      "gloss": "against Joachim's three-status (Father/Son/Spirit) scheme of one world-history: the seasons recur in every Culture, not once for mankind",
+      "citations": [
+        "gutenberg-decline-i",
+        "britannica-joachim-of-fiore"
+      ],
+      "secondary": [
+        "hughes-spengler-1952"
+      ]
+    },
+    {
+      "source": "amor-fati",
+      "target": "nietzsche",
+      "type": "borrows-from",
+      "gloss": "the love-of-fate posture is taken over from Nietzsche",
+      "citations": [
+        "sep-nietzsche"
+      ],
+      "secondary": [
+        "farrenkopf-prophet-2001"
+      ]
+    },
+    {
+      "source": "amor-fati",
+      "target": "schopenhauer",
+      "type": "breaks-with",
+      "gloss": "set against Schopenhauer's resignation and denial of the will: amor fati affirms fate rather than renouncing it",
+      "citations": [
+        "sep-schopenhauer"
+      ],
+      "secondary": [
+        "hughes-spengler-1952"
+      ]
+    },
+    {
+      "source": "destiny-causality",
+      "target": "amor-fati",
+      "type": "narrows",
+      "gloss": "On Farrenkopf's reading, Spengler keeps Nietzsche's love of fate but narrows it: he drops the creative self-overcoming (Selbstüberwindung) that, for Nietzsche, separated amor fati from mere Stoic resignation, leaving — in Farrenkopf's judgment — a more fatalistic affirmation. (In Man and Technics Spengler himself frames amor fati not as resignation but as embracing struggle as \"the great meaning of life, which ennobles it,\" against Schopenhauer's and Darwin's reading of it as misery.)",
+      "citations": [
+        "spengler-mensch-technik-de-1931",
+        "sep-nietzsche"
+      ],
+      "secondary": [
+        "farrenkopf-prophet-2001"
+      ]
     }
   ]
 }

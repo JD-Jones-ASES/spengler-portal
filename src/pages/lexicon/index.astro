@@ -3,9 +3,30 @@ import Layout from "../../components/Layout.astro";
 import ConceptGraph from "../../islands/ConceptGraph.svelte";
 import { cultures } from "../../lib/site.js";
 import graph from "../../../data/indexes/lexicon-graph.json";
+import sources from "../../../data/sources/decline.sources.json";
 
 const base = import.meta.env.BASE_URL.endsWith("/") ? import.meta.env.BASE_URL : import.meta.env.BASE_URL + "/";
 const usedCultures = cultures.filter((c) => graph.nodes.some((n) => n.culture === c.id));
+
+// Compact citation labels so a node's relations show their provenance (verification at the edge).
+const SPENGLER_LABEL = {
+  "gutenberg-decline-i": "Decline I",
+  "internet-archive-decline-ii": "Decline II",
+  "spengler-mensch-technik-de-1931": "Man & Technics",
+  "internet-archive-man-and-technics": "Man & Technics",
+};
+const citeLabel = (r) => {
+  if (SPENGLER_LABEL[r.id]) return SPENGLER_LABEL[r.id];
+  const surname = (r.author || "").split(",")[0].trim().split(/\s+/).pop();
+  if (r.kind === "scholarly-secondary") return surname + (r.year ? " " + r.year : "");
+  const pub = r.publisher || "";
+  const abbr = /Stanford/.test(pub) ? "SEP" : /Internet Encyclopedia/.test(pub) ? "IEP"
+    : /Britannica/.test(pub) ? "Britannica" : /Wikipedia/.test(pub) ? "Wikipedia" : (surname || "ref");
+  const topic = (r.title || "").split(/[:(]/)[0].trim();
+  const short = topic.length <= 22 ? topic : topic.split(/\s+/).slice(-1)[0];
+  return short ? `${abbr}: ${short}` : abbr;
+};
+const cites = Object.fromEntries(sources.records.map((r) => [r.id, citeLabel(r)]));
 ---
 
 <Layout title="The Concept Lexicon" current="lexicon">
@@ -14,16 +35,19 @@ const usedCultures = cultures.filter((c) => graph.nodes.some((n) => n.culture ==
     <h1>The Concept Lexicon</h1>
     <p class="lede">
       Spengler writes in a private vocabulary — Faustian, Magian, pseudomorphosis, the prime-symbol,
-      Caesarism. Here each coinage is defined and wired to the others: tap a term to see what it
-      opposes, what it is an instance of, and where it lives in the text. Nodes carry their Culture's
-      colour; dashed lines are oppositions.
+      Caesarism — much of it borrowed from, or broken with, his masters Goethe and Nietzsche. Here each
+      coinage is defined and wired to the others by typed, source-cited relations: tap a term to see what
+      it opposes, instantiates, presupposes, or borrows — and where it lives in the text. Concept nodes
+      carry their Culture's colour; the source-thinkers Spengler builds on are neutral diamonds. Use the
+      legend to isolate a relation type.
     </p>
     <div class="cult-legend">
       {usedCultures.map((c) => <span class="cult-tag" data-cult={c.id}><span class="dot"></span>{c.soul}</span>)}
+      <span class="cult-tag"><span class="dot" style="background:var(--paper-sunk);border:1px solid var(--ink-faint);border-radius:1px;transform:rotate(45deg)"></span>Interlocutors</span>
     </div>
   </section>
 
   <section class="wrap" style="padding-bottom:3rem;">
-    <ConceptGraph data={graph} base={base} client:visible />
+    <ConceptGraph data={graph} base={base} cites={cites} client:visible />
   </section>
 </Layout>
