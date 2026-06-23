@@ -1,0 +1,13 @@
+{
+  "source_file": "raw/Man_and_Technics.en.txt",
+  "source_sha256": "30bb6bb54f1f7eb11f5ec3f39e0da6a7152f32699869863f31120047cd99073d",
+  "layout": "line-paragraphs",
+  "rules_applied": {
+    "depaginate": 0,
+    "footnoteRef": 16,
+    "headingsDropped": 0,
+    "footnotesExtracted": 0
+  },
+  "ocr_corrections_applied": 0,
+  "flagged": []
+}

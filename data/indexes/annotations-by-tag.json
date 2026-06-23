@@ -1,0 +1,3360 @@
+{
+  "view:interpretation": [
+    {
+      "unit_id": "decline-vol-i-ch-01-introduction",
+      "id": "dvi1-reception-predetermining",
+      "anchor": "predetermining history"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-01-introduction",
+      "id": "dvi1-teacher-logic-of-history",
+      "anchor": "Is there a logic of history?"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-01-introduction",
+      "id": "dvi1-difficult-ahistoric",
+      "anchor": "the perfectly ahistoric soul"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-01-introduction",
+      "id": "dvi1-form-copernican",
+      "anchor": "the Copernican discovery in the historical sphere"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-01-introduction",
+      "id": "dvi1-parallel-hellenism",
+      "anchor": "“contemporary” … with the phase of Hellenism"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-02-the-meaning-of-numbers",
+      "id": "dvi2-reception-frye-nature-history",
+      "anchor": "Nature is the numerable, while History … has no relation to mathematics"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-02-the-meaning-of-numbers",
+      "id": "dvi2-form-mathematics-in-stone",
+      "anchor": "Gothic cathedrals and Doric temples are mathematics in stone."
+    },
+    {
+      "unit_id": "decline-vol-i-ch-02-the-meaning-of-numbers",
+      "id": "dvi2-teacher-number-thesis",
+      "anchor": "There is not, and cannot be, number as such."
+    },
+    {
+      "unit_id": "decline-vol-i-ch-02-the-meaning-of-numbers",
+      "id": "dvi2-difficult-kant-apriori",
+      "anchor": "the supposed constant structure of the intellect is an illusion"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-02-the-meaning-of-numbers",
+      "id": "dvi2-form-no-mathematic",
+      "anchor": "There is no mathematic but only mathematics."
+    },
+    {
+      "unit_id": "decline-vol-i-ch-03-the-problem-of-world-history-physiognomic-and-systematic",
+      "id": "dvi3-form-moon-jupiter",
+      "anchor": "the moon, too, seems to us bigger than Jupiter or Saturn"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-03-the-problem-of-world-history-physiognomic-and-systematic",
+      "id": "dvi3-difficult-history-as-art",
+      "anchor": "an experience which can only be rendered in forms of art"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-03-the-problem-of-world-history-physiognomic-and-systematic",
+      "id": "dvi3-form-faust-portrait",
+      "anchor": "Faust the portrait of a whole Culture."
+    },
+    {
+      "unit_id": "decline-vol-i-ch-03-the-problem-of-world-history-physiognomic-and-systematic",
+      "id": "dvi3-teacher-cultures-organisms",
+      "anchor": "Cultures are organisms, and world-history is their collective biography."
+    },
+    {
+      "unit_id": "decline-vol-i-ch-03-the-problem-of-world-history-physiognomic-and-systematic",
+      "id": "dvi3-reception-frye-organism",
+      "anchor": "the comparative morphology of plants and animals has long ago given us the methods"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-03-the-problem-of-world-history-physiognomic-and-systematic",
+      "id": "dvi3-form-anti-progress",
+      "anchor": "hidden all too deep under the surface of a trite “history of human progress”"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-04-the-problem-of-world-history-the-destiny-idea-and-the-causality-principle",
+      "id": "dvi4-reception-adorno-fatalism",
+      "anchor": "directed, irrevocable in every line, fate-laden"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-04-the-problem-of-world-history-the-destiny-idea-and-the-causality-principle",
+      "id": "dvi4-difficult-organic-logic",
+      "anchor": "an organic logic, an instinctive, dream-sure logic of all existence"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-04-the-problem-of-world-history-the-destiny-idea-and-the-causality-principle",
+      "id": "dvi4-teacher-destiny-causality-time-space",
+      "anchor": "Destiny and Causality are related as Time and Space."
+    },
+    {
+      "unit_id": "decline-vol-i-ch-04-the-problem-of-world-history-the-destiny-idea-and-the-causality-principle",
+      "id": "dvi4-parallel-great-men",
+      "anchor": "No one foreknew … Mohammed … nor foresaw Napoleon in the fall of Robespierre"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-04-the-problem-of-world-history-the-destiny-idea-and-the-causality-principle",
+      "id": "dvi4-form-predestination",
+      "anchor": "The Predestination doctrine of Calvin and Pascal"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-04-the-problem-of-world-history-the-destiny-idea-and-the-causality-principle",
+      "id": "dvi4-form-napoleon-destiny",
+      "anchor": "he who is to himself a Destiny (like Napoleon)"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-05-makrokosmos-the-symbolism-of-the-world-picture-and-the-problem-of-space",
+      "id": "dvi5-form-anamnesis",
+      "anchor": "Plato … called anamnesis"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-05-makrokosmos-the-symbolism-of-the-world-picture-and-the-problem-of-space",
+      "id": "dvi5-teacher-prime-symbol",
+      "anchor": "the kind of extension as the prime symbol of a Culture"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-05-makrokosmos-the-symbolism-of-the-world-picture-and-the-problem-of-space",
+      "id": "dvi5-reception-frye-prime-symbols",
+      "anchor": "the prime-symbol of the Classical soul is the … body, that of the Western … infinite space"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-05-makrokosmos-the-symbolism-of-the-world-picture-and-the-problem-of-space",
+      "id": "dvi5-parallel-classical-silence",
+      "anchor": "the whole Classical world never expended one word on it"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-05-makrokosmos-the-symbolism-of-the-world-picture-and-the-problem-of-space",
+      "id": "dvi5-form-kant-parochial",
+      "anchor": "the “eternal problem” that Kant … tackled with a passion that itself is symbolic"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-05-makrokosmos-the-symbolism-of-the-world-picture-and-the-problem-of-space",
+      "id": "dvi5-difficult-incommensurable",
+      "anchor": "a purely Western problem that … does not arise in the intellects of other Cultures"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-06-makrokosmos-apollinian-faustian-and-magian-soul",
+      "id": "dvi6-reception-frye-statue-fugue",
+      "anchor": "The nude statue is Apollinian, the art of the fugue Faustian."
+    },
+    {
+      "unit_id": "decline-vol-i-ch-06-makrokosmos-apollinian-faustian-and-magian-soul",
+      "id": "dvi6-teacher-the-two-lists",
+      "anchor": "Apollinian are: mechanical statics, the sensuous cult of the Olympian gods …"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-06-makrokosmos-apollinian-faustian-and-magian-soul",
+      "id": "dvi6-difficult-untranslatable",
+      "anchor": "could not be represented in an Apollinian language, whether Greek or Latin"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-06-makrokosmos-apollinian-faustian-and-magian-soul",
+      "id": "dvi6-form-faustian-solitude",
+      "anchor": "Siegfried, Parzeval, Tristan, Hamlet, Faust are the loneliest heroes in all the Cultures."
+    },
+    {
+      "unit_id": "decline-vol-i-ch-07-music-and-plastic-the-arts-of-form",
+      "id": "dvi7-teacher-music-is-form-art",
+      "anchor": "with these arts we count music in its many and very dissimilar kinds"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-07-music-and-plastic-the-arts-of-form",
+      "id": "dvi7-reception-frye-music",
+      "anchor": "the space-straining music since Bach"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-07-music-and-plastic-the-arts-of-form",
+      "id": "dvi7-form-beethoven-deaf",
+      "anchor": "It is not an incident that Beethoven wrote his last works when he was deaf"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-07-music-and-plastic-the-arts-of-form",
+      "id": "dvi7-difficult-optical-acoustic",
+      "anchor": "the difference between optical and acoustic means is negligible"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-08-music-and-plastic-act-and-portrait",
+      "id": "dvi8-difficult-renaissance",
+      "anchor": "long after the plastic art itself had become entirely alien to our inner soul"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-08-music-and-plastic-act-and-portrait",
+      "id": "dvi8-teacher-act-vs-portrait",
+      "anchor": "the conflict of these two form-ideals … the contrast of two worlds"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-08-music-and-plastic-act-and-portrait",
+      "id": "dvi8-form-portrait-musical",
+      "anchor": "But, for us, the portrait is musical."
+    },
+    {
+      "unit_id": "decline-vol-i-ch-08-music-and-plastic-act-and-portrait",
+      "id": "dvi8-form-confession",
+      "anchor": "a self-portrait is a historical confession"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-08-music-and-plastic-act-and-portrait",
+      "id": "dvi8-reception-hughes-style",
+      "anchor": "the portraits of Rembrandt and the music of Beethoven"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-09-soul-image-and-life-feeling-on-the-form-of-the-soul",
+      "id": "dvi9-teacher-psychology-fails",
+      "anchor": "the shallowest and most worthless of the disciplines of philosophy"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-09-soul-image-and-life-feeling-on-the-form-of-the-soul",
+      "id": "dvi9-difficult-fights-shadows",
+      "anchor": "Its searches and solutions are fights with shadows and ghosts"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-09-soul-image-and-life-feeling-on-the-form-of-the-soul",
+      "id": "dvi9-form-will-prime-word",
+      "anchor": "Will … a prime-word like God"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-09-soul-image-and-life-feeling-on-the-form-of-the-soul",
+      "id": "dvi9-reception-hughes-soul-image",
+      "anchor": "the soul-image underlying the knowledge is really one’s own soul-image"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-10-soul-image-and-life-feeling-buddhism-stoicism-and-socialism",
+      "id": "dvi10-form-nietzsche-socialist",
+      "anchor": "Even Nietzsche, that most passionate opponent of “herd morale” …"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-10-soul-image-and-life-feeling-buddhism-stoicism-and-socialism",
+      "id": "dvi10-teacher-all-socialists",
+      "anchor": "All world-improvers are Socialists … no Classical world-improvers."
+    },
+    {
+      "unit_id": "decline-vol-i-ch-10-soul-image-and-life-feeling-buddhism-stoicism-and-socialism",
+      "id": "dvi10-reception-frye-morphological",
+      "anchor": "Buddhism, Stoicism and Socialism are morphologically equivalent as end-phenomena"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-10-soul-image-and-life-feeling-buddhism-stoicism-and-socialism",
+      "id": "dvi10-difficult-something-ended",
+      "anchor": "Faustian man has nothing more to hope for in anything pertaining to the grand style of Life"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-11-faustian-and-apollinian-nature-knowledge",
+      "id": "dvi11-reception-farrenkopf-end-of-science",
+      "anchor": "as a science … it may have an exactly-definable end"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-11-faustian-and-apollinian-nature-knowledge",
+      "id": "dvi11-teacher-physics-is-symbol",
+      "anchor": "every one of its results is a symbol"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-11-faustian-and-apollinian-nature-knowledge",
+      "id": "dvi11-difficult-faith-and-knowledge",
+      "anchor": "faith is the older and it dominates all the conditions of knowing"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-11-faustian-and-apollinian-nature-knowledge",
+      "id": "dvi11-form-theory-not-number",
+      "anchor": "it is theories and not pure numbers that are the support of all natural science"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-01-origin-and-landscape-the-cosmic-and-the-microcosm",
+      "id": "dv2-1-reception-frye-romantic-poem",
+      "anchor": "Regard the flowers at eventide …"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-01-origin-and-landscape-the-cosmic-and-the-microcosm",
+      "id": "dv2-1-teacher-orientation",
+      "anchor": "Servitude and freedom … the differentia by which we distinguish vegetable and animal existence"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-01-origin-and-landscape-the-cosmic-and-the-microcosm",
+      "id": "dv2-1-form-blood-symbol",
+      "anchor": "The blood is for us the symbol of the living."
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-01-origin-and-landscape-the-cosmic-and-the-microcosm",
+      "id": "dv2-1-form-destiny-causality-men",
+      "anchor": "There are born destiny-men and causality-men."
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-02-origin-and-landscape-the-group-of-the-higher-cultures",
+      "id": "dv2-2-form-no-history-in-itself",
+      "anchor": "There is no history-in-itself."
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-02-origin-and-landscape-the-group-of-the-higher-cultures",
+      "id": "dv2-2-form-mexico-murdered",
+      "anchor": "the one example of a Culture ended by violent death"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-02-origin-and-landscape-the-group-of-the-higher-cultures",
+      "id": "dv2-2-reception-adorno-fatalism",
+      "anchor": "the history of humanity has no meaning whatever"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-03-origin-and-landscape-the-relations-between-the-cultures",
+      "id": "dv2-3-form-influence-critique",
+      "anchor": "It is not products that 'influence,' but creators that absorb."
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-03-origin-and-landscape-the-relations-between-the-cultures",
+      "id": "dv2-3-form-connotations-not-transferable",
+      "anchor": "Connotations are not transferable."
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-03-origin-and-landscape-the-relations-between-the-cultures",
+      "id": "dv2-3-form-deliberate-misunderstanding",
+      "anchor": "Every relation that was accepted was … a misunderstanding"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-03-origin-and-landscape-the-relations-between-the-cultures",
+      "id": "dv2-3-reception-hughes-morphology",
+      "anchor": "The Romans created a juristic statics; our task is juristic dynamics."
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-04-cities-and-peoples-the-soul-of-the-city",
+      "id": "dv2-4-form-world-history-is-civic",
+      "anchor": "world-history is the history of civic man"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-04-cities-and-peoples-the-soul-of-the-city",
+      "id": "dv2-4-form-town-soul",
+      "anchor": "what distinguishes a town from a village is not size, but the presence of a soul"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-04-cities-and-peoples-the-soul-of-the-city",
+      "id": "dv2-4-reception-adorno-megacity",
+      "anchor": "long after A.D. 2000, cities laid out for ten to twenty million inhabitants"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-04-cities-and-peoples-the-soul-of-the-city",
+      "id": "dv2-4-form-intellectual-nomad",
+      "anchor": "the intellectual nomad"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-04-cities-and-peoples-the-soul-of-the-city",
+      "id": "dv2-4-form-fellah-type",
+      "anchor": "At the last, only the primitive blood remains … This residue is the Fellah type."
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-05-cities-and-peoples-peoples-races-tongues",
+      "id": "dv2-5-form-demolish-the-people",
+      "anchor": "What has inhabited the earth since the Ice Age is man, not 'peoples.'"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-05-cities-and-peoples-peoples-races-tongues",
+      "id": "dv2-5-form-expression-communication-language",
+      "anchor": "expression-languages and communication-languages"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-05-cities-and-peoples-peoples-races-tongues",
+      "id": "dv2-5-form-race-science-mocked",
+      "anchor": "Blumenbach … skull-forms; Müller … hair; Topinard … skin-colour; Huxley …"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-05-cities-and-peoples-peoples-races-tongues",
+      "id": "dv2-5-form-comradeship-breeds-races",
+      "anchor": "Comradeship breeds races."
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-06-cities-and-peoples-primitives-culture-peoples-fellaheen",
+      "id": "dv2-6-form-people-unit-of-soul",
+      "anchor": "the 'people' is a unit of the soul … the great events … created the peoples"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-06-cities-and-peoples-primitives-culture-peoples-fellaheen",
+      "id": "dv2-6-form-persian-convert",
+      "anchor": "A Jew who went over to the Mazda faith became thereby a Persian"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-06-cities-and-peoples-primitives-culture-peoples-fellaheen",
+      "id": "dv2-6-form-fellaheen",
+      "anchor": "the fellah-instincts of Hellenism"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-07-problems-of-the-arabian-culture-historic-pseudomorphoses",
+      "id": "dv2-7-form-russia-pseudomorphosis",
+      "anchor": "A second pseudomorphosis is presented to our eyes to-day in Russia."
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-10-the-state-the-problem-of-the-estates-nobility-and-priesthood",
+      "id": "dv2-10-form-estates-symbolic-dignity",
+      "anchor": "the prime Estates … sustained … by a symbolic dignity … lives that exist to have meaning"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-11-the-state-state-and-history",
+      "id": "dv2-11-form-in-form-anti-constitution",
+      "anchor": "a people 'in form' … is spoilt when … subjected to … a written constitution"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-11-the-state-state-and-history",
+      "id": "dv2-11-form-estate-vs-state",
+      "anchor": "Estate and State contend for supremacy — the social against the political"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-12-the-state-philosophy-of-politics",
+      "id": "dv2-12-form-war-primary-politics",
+      "anchor": "War is the primary politics of everything that lives"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-12-the-state-philosophy-of-politics",
+      "id": "dv2-12-reception-farrenkopf-politics",
+      "anchor": "an irresistible tendency driving every democracy … on the road to suicide"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-12-the-state-philosophy-of-politics",
+      "id": "dv2-12-form-democracy-and-money",
+      "anchor": "on the soil of a democracy constitutional rights signify nothing without money and everything with it"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-12-the-state-philosophy-of-politics",
+      "id": "dv2-12-form-press-as-army",
+      "anchor": "The Press … an army … journalists as officers, and readers as soldiers"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-12-the-state-philosophy-of-politics",
+      "id": "dv2-12-form-censorship-of-silence",
+      "anchor": "the Press can condemn any 'truth' to death by not communicating it — a censorship of silence"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-13-the-form-world-of-economic-life-money",
+      "id": "dv2-13-form-democracy-equals-money",
+      "anchor": "Democracy is the completed equating of money with political power."
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-14-the-form-world-of-economic-life-the-machine",
+      "id": "dv2-14-form-ducunt-fata",
+      "anchor": "Ducunt Fata volentem, nolentem trahunt."
+    },
+    {
+      "unit_id": "man-technics-ch-01-technics-as-the-tactics-of-living",
+      "id": "mt1-teacher-decline-in-miniature",
+      "anchor": "The problem of technics … first emerges only in the nineteenth century"
+    },
+    {
+      "unit_id": "man-technics-ch-01-technics-as-the-tactics-of-living",
+      "id": "mt1-hist-utilitarians",
+      "anchor": "the doctrine of Bentham, Mill and Spencer"
+    },
+    {
+      "unit_id": "man-technics-ch-01-technics-as-the-tactics-of-living",
+      "id": "mt1-form-panem-circenses",
+      "anchor": "the panem et circenses of the late world-cities"
+    },
+    {
+      "unit_id": "man-technics-ch-01-technics-as-the-tactics-of-living",
+      "id": "mt1-parallel-achilles-choice",
+      "anchor": "the choice of whether he would wish a long life or a short one full of deeds and fame"
+    },
+    {
+      "unit_id": "man-technics-ch-01-technics-as-the-tactics-of-living",
+      "id": "mt1-form-prometheus",
+      "anchor": "the hubris of Prometheus, who reaches into the heavens to subject the divine powers to man"
+    },
+    {
+      "unit_id": "man-technics-ch-01-technics-as-the-tactics-of-living",
+      "id": "mt1-teacher-downhill-seeing",
+      "anchor": "we men of the twentieth century are going down with our eyes open"
+    },
+    {
+      "unit_id": "man-technics-ch-02-herbivores-and-beasts-of-prey",
+      "id": "mt2-form-ideals-are-cowardice",
+      "anchor": "Ideals are cowardices."
+    },
+    {
+      "unit_id": "man-technics-ch-02-herbivores-and-beasts-of-prey",
+      "id": "mt2-form-beast-of-prey-dignity",
+      "anchor": "It gives the type man a high rank, that he is a beast of prey."
+    },
+    {
+      "unit_id": "man-technics-ch-02-herbivores-and-beasts-of-prey",
+      "id": "mt2-hist-amor-fati",
+      "anchor": "so thought Nietzsche, amor fati"
+    },
+    {
+      "unit_id": "man-technics-ch-02-herbivores-and-beasts-of-prey",
+      "id": "mt2-form-anti-rousseau-haeckel",
+      "anchor": "the tactic of his life is that of a splendid, brave, cunning, cruel beast of prey"
+    },
+    {
+      "unit_id": "man-technics-ch-02-herbivores-and-beasts-of-prey",
+      "id": "mt2-teacher-creator-grandeur-doom",
+      "anchor": "Man has become the creator of his tactic of living. That is his greatness and his doom."
+    },
+    {
+      "unit_id": "man-technics-ch-03-the-origin-of-man-hand-and-tool",
+      "id": "mt3-form-catastrophe-not-gradual",
+      "anchor": "World-history strides forward from catastrophe to catastrophe"
+    },
+    {
+      "unit_id": "man-technics-ch-03-the-origin-of-man-hand-and-tool",
+      "id": "mt3-form-thought-of-eye-and-hand",
+      "anchor": "the truth-men — the priest, the scholar, the philosopher — and of the fact-men — the politician, the general, the merchant"
+    },
+    {
+      "unit_id": "man-technics-ch-03-the-origin-of-man-hand-and-tool",
+      "id": "mt3-form-fire-first-deed",
+      "anchor": "Nothing is so telling for the difference as the kindling of fire."
+    },
+    {
+      "unit_id": "man-technics-ch-03-the-origin-of-man-hand-and-tool",
+      "id": "mt3-form-art-counter-to-nature",
+      "anchor": "Every technical procedure of man is an art and has always been so called"
+    },
+    {
+      "unit_id": "man-technics-ch-03-the-origin-of-man-hand-and-tool",
+      "id": "mt3-teacher-mans-tragedy",
+      "anchor": "The tragedy of man begins, for Nature is the stronger"
+    },
+    {
+      "unit_id": "man-technics-ch-03-the-origin-of-man-hand-and-tool",
+      "id": "mt3-form-cultures-are-defeats",
+      "anchor": "All the great Cultures are so many defeats."
+    },
+    {
+      "unit_id": "man-technics-ch-03-the-origin-of-man-hand-and-tool",
+      "id": "mt3-teacher-fight-hopeless",
+      "anchor": "The struggle against Nature is hopeless, and nevertheless it will be fought out to the end."
+    },
+    {
+      "unit_id": "man-technics-ch-04-the-second-stage-speech-and-enterprise",
+      "id": "mt4-form-fifth-millennium",
+      "anchor": "This mutation can be fixed fairly exactly, at about the fifth millennium B.C."
+    },
+    {
+      "unit_id": "man-technics-ch-04-the-second-stage-speech-and-enterprise",
+      "id": "mt4-teacher-collective-doing",
+      "anchor": "planful doing in numbers. Until then each man lives his own life"
+    },
+    {
+      "unit_id": "man-technics-ch-04-the-second-stage-speech-and-enterprise",
+      "id": "mt4-form-hamann-herder-language",
+      "anchor": "Ever since Hamann and Herder, men have again and again set themselves the question of its origin."
+    },
+    {
+      "unit_id": "man-technics-ch-04-the-second-stage-speech-and-enterprise",
+      "id": "mt4-form-mephistopheles-faust",
+      "anchor": "as Mephistopheles ironically expresses it in Faust"
+    },
+    {
+      "unit_id": "man-technics-ch-04-the-second-stage-speech-and-enterprise",
+      "id": "mt4-teacher-command-and-obey",
+      "anchor": "there are by nature commanders and obeyers, subjects and objects of the political or economic procedures"
+    },
+    {
+      "unit_id": "man-technics-ch-04-the-second-stage-speech-and-enterprise",
+      "id": "mt4-form-politics-substitute-for-war",
+      "anchor": "Politics is only the temporary substitute of war by the struggle with more spiritual weapons."
+    },
+    {
+      "unit_id": "man-technics-ch-04-the-second-stage-speech-and-enterprise",
+      "id": "mt4-form-self-made-cage",
+      "anchor": "The beast of prey … has captured himself"
+    },
+    {
+      "unit_id": "man-technics-ch-04-the-second-stage-speech-and-enterprise",
+      "id": "mt4-form-frederick-first-servant",
+      "anchor": "Frederick the Great's saying: 'I am the first servant of my State'"
+    },
+    {
+      "unit_id": "man-technics-ch-05-the-last-act-rise-and-end-of-the-machine-culture",
+      "id": "mt5-teacher-every-culture-tragedy",
+      "anchor": "Every high Culture is a tragedy"
+    },
+    {
+      "unit_id": "man-technics-ch-05-the-last-act-rise-and-end-of-the-machine-culture",
+      "id": "mt5-teacher-machine-revolts",
+      "anchor": "the microcosm machine rebels against the northern man"
+    },
+    {
+      "unit_id": "man-technics-ch-05-the-last-act-rise-and-end-of-the-machine-culture",
+      "id": "mt5-reception-farrenkopf-apocalyptic",
+      "anchor": "most of the great forests have vanished … wholly or almost wholly exterminated"
+    },
+    {
+      "unit_id": "man-technics-ch-05-the-last-act-rise-and-end-of-the-machine-culture",
+      "id": "mt5-form-navigare",
+      "anchor": "navigare necesse est, vivere non est necesse"
+    },
+    {
+      "unit_id": "man-technics-ch-05-the-last-act-rise-and-end-of-the-machine-culture",
+      "id": "mt5-reception-hughes-prediction",
+      "anchor": "The history of this technics nears swiftly its inescapable end."
+    },
+    {
+      "unit_id": "man-technics-ch-05-the-last-act-rise-and-end-of-the-machine-culture",
+      "id": "mt5-teacher-optimism-cowardice",
+      "anchor": "Optimism is cowardice."
+    },
+    {
+      "unit_id": "man-technics-ch-05-the-last-act-rise-and-end-of-the-machine-culture",
+      "id": "mt5-hist-pompeii-sentry",
+      "anchor": "that Roman soldier whose bones were found before a gate of Pompeii"
+    }
+  ],
+  "concept:morphology": [
+    {
+      "unit_id": "decline-vol-i-ch-01-introduction",
+      "id": "dvi1-reception-predetermining",
+      "anchor": "predetermining history"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-01-introduction",
+      "id": "dvi1-lex-morphology",
+      "anchor": "a morphology of world-history"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-02-the-meaning-of-numbers",
+      "id": "dvi2-teacher-number-thesis",
+      "anchor": "There is not, and cannot be, number as such."
+    },
+    {
+      "unit_id": "decline-vol-i-ch-02-the-meaning-of-numbers",
+      "id": "dvi2-lex-comparative-morphology",
+      "anchor": "The comparative morphology of knowledge forms"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-03-the-problem-of-world-history-physiognomic-and-systematic",
+      "id": "dvi3-hist-nietzsche-distance",
+      "anchor": "to view the whole fact of Man from an immense distance"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-03-the-problem-of-world-history-physiognomic-and-systematic",
+      "id": "dvi3-lex-physiognomic-systematic",
+      "anchor": "The Morphology of the organic … is called Physiognomic"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-03-the-problem-of-world-history-physiognomic-and-systematic",
+      "id": "dvi3-teacher-cultures-organisms",
+      "anchor": "Cultures are organisms, and world-history is their collective biography."
+    },
+    {
+      "unit_id": "decline-vol-i-ch-03-the-problem-of-world-history-physiognomic-and-systematic",
+      "id": "dvi3-reception-frye-organism",
+      "anchor": "the comparative morphology of plants and animals has long ago given us the methods"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-03-origin-and-landscape-the-relations-between-the-cultures",
+      "id": "dv2-3-reception-hughes-morphology",
+      "anchor": "The Romans created a juristic statics; our task is juristic dynamics."
+    },
+    {
+      "unit_id": "man-technics-ch-05-the-last-act-rise-and-end-of-the-machine-culture",
+      "id": "mt5-reception-hughes-prediction",
+      "anchor": "The history of this technics nears swiftly its inescapable end."
+    }
+  ],
+  "culture:faustian": [
+    {
+      "unit_id": "decline-vol-i-ch-01-introduction",
+      "id": "dvi1-reception-predetermining",
+      "anchor": "predetermining history"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-01-introduction",
+      "id": "dvi1-form-copernican",
+      "anchor": "the Copernican discovery in the historical sphere"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-01-introduction",
+      "id": "dvi1-parallel-hellenism",
+      "anchor": "“contemporary” … with the phase of Hellenism"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-01-introduction",
+      "id": "dvi1-lex-culture-civilization",
+      "anchor": "Civilization is the inevitable destiny of the Culture"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-01-introduction",
+      "id": "dvi1-lex-morphology",
+      "anchor": "a morphology of world-history"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-01-introduction",
+      "id": "dvi1-translation-untergang",
+      "anchor": "Decline of that West-European Culture"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-02-the-meaning-of-numbers",
+      "id": "dvi2-reception-frye-nature-history",
+      "anchor": "Nature is the numerable, while History … has no relation to mathematics"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-02-the-meaning-of-numbers",
+      "id": "dvi2-form-mathematics-in-stone",
+      "anchor": "Gothic cathedrals and Doric temples are mathematics in stone."
+    },
+    {
+      "unit_id": "decline-vol-i-ch-02-the-meaning-of-numbers",
+      "id": "dvi2-lex-number-magnitude-function",
+      "anchor": "the inner structure of the Euclidean geometry … quite different from … the Cartesian"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-02-the-meaning-of-numbers",
+      "id": "dvi2-hist-calculus",
+      "anchor": "the Infinitesimal Calculus"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-02-the-meaning-of-numbers",
+      "id": "dvi2-parallel-pythagoras-descartes",
+      "anchor": "the agent was Pythagoras … the second Descartes"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-03-the-problem-of-world-history-physiognomic-and-systematic",
+      "id": "dvi3-parallel-chinese-historian",
+      "anchor": "for the Chinese historian … 4000 years of Chinese history"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-03-the-problem-of-world-history-physiognomic-and-systematic",
+      "id": "dvi3-lex-world-as-history",
+      "anchor": "Plato, Rembrandt, Goethe and Beethoven … Parmenides, Descartes, Kant and Newton"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-03-the-problem-of-world-history-physiognomic-and-systematic",
+      "id": "dvi3-form-faust-portrait",
+      "anchor": "Faust the portrait of a whole Culture."
+    },
+    {
+      "unit_id": "decline-vol-i-ch-03-the-problem-of-world-history-physiognomic-and-systematic",
+      "id": "dvi3-reception-frye-organism",
+      "anchor": "the comparative morphology of plants and animals has long ago given us the methods"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-04-the-problem-of-world-history-the-destiny-idea-and-the-causality-principle",
+      "id": "dvi4-reception-adorno-fatalism",
+      "anchor": "directed, irrevocable in every line, fate-laden"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-04-the-problem-of-world-history-the-destiny-idea-and-the-causality-principle",
+      "id": "dvi4-parallel-great-men",
+      "anchor": "No one foreknew … Mohammed … nor foresaw Napoleon in the fall of Robespierre"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-04-the-problem-of-world-history-the-destiny-idea-and-the-causality-principle",
+      "id": "dvi4-form-predestination",
+      "anchor": "The Predestination doctrine of Calvin and Pascal"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-04-the-problem-of-world-history-the-destiny-idea-and-the-causality-principle",
+      "id": "dvi4-form-napoleon-destiny",
+      "anchor": "he who is to himself a Destiny (like Napoleon)"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-05-makrokosmos-the-symbolism-of-the-world-picture-and-the-problem-of-space",
+      "id": "dvi5-parallel-directions",
+      "anchor": "Chinese … free … wandering … to the goal; Egyptian … resolute march down the path"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-05-makrokosmos-the-symbolism-of-the-world-picture-and-the-problem-of-space",
+      "id": "dvi5-lex-prime-symbol",
+      "anchor": "the … Body … the Western … Space … the Arabian the world as a Cavern"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-05-makrokosmos-the-symbolism-of-the-world-picture-and-the-problem-of-space",
+      "id": "dvi5-reception-frye-prime-symbols",
+      "anchor": "the prime-symbol of the Classical soul is the … body, that of the Western … infinite space"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-05-makrokosmos-the-symbolism-of-the-world-picture-and-the-problem-of-space",
+      "id": "dvi5-lex-faustian-space",
+      "anchor": "Infinite space is the ideal that the Western soul has always striven to find"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-05-makrokosmos-the-symbolism-of-the-world-picture-and-the-problem-of-space",
+      "id": "dvi5-lex-faustian-space",
+      "anchor": "Infinite space is the ideal that the Western soul has always striven to find"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-05-makrokosmos-the-symbolism-of-the-world-picture-and-the-problem-of-space",
+      "id": "dvi5-parallel-classical-silence",
+      "anchor": "the whole Classical world never expended one word on it"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-06-makrokosmos-apollinian-faustian-and-magian-soul",
+      "id": "dvi6-lex-faustian",
+      "anchor": "the Faustian soul, whose prime-symbol is pure and limitless space"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-06-makrokosmos-apollinian-faustian-and-magian-soul",
+      "id": "dvi6-lex-faustian",
+      "anchor": "the Faustian soul, whose prime-symbol is pure and limitless space"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-06-makrokosmos-apollinian-faustian-and-magian-soul",
+      "id": "dvi6-reception-frye-statue-fugue",
+      "anchor": "The nude statue is Apollinian, the art of the fugue Faustian."
+    },
+    {
+      "unit_id": "decline-vol-i-ch-06-makrokosmos-apollinian-faustian-and-magian-soul",
+      "id": "dvi6-parallel-doric-gothic",
+      "anchor": "The Doric column bores into the ground"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-06-makrokosmos-apollinian-faustian-and-magian-soul",
+      "id": "dvi6-form-faustian-solitude",
+      "anchor": "Siegfried, Parzeval, Tristan, Hamlet, Faust are the loneliest heroes in all the Cultures."
+    },
+    {
+      "unit_id": "decline-vol-i-ch-06-makrokosmos-apollinian-faustian-and-magian-soul",
+      "id": "dvi6-form-faustian-solitude",
+      "anchor": "Siegfried, Parzeval, Tristan, Hamlet, Faust are the loneliest heroes in all the Cultures."
+    },
+    {
+      "unit_id": "decline-vol-i-ch-07-music-and-plastic-the-arts-of-form",
+      "id": "dvi7-reception-frye-music",
+      "anchor": "the space-straining music since Bach"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-07-music-and-plastic-the-arts-of-form",
+      "id": "dvi7-lex-faustian-imagination",
+      "anchor": "the truly Faustian and wholly un-Classical power of imagination"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-07-music-and-plastic-the-arts-of-form",
+      "id": "dvi7-lex-faustian-imagination",
+      "anchor": "the truly Faustian and wholly un-Classical power of imagination"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-07-music-and-plastic-the-arts-of-form",
+      "id": "dvi7-parallel-shakespeare-unity",
+      "anchor": "Shakespeare’s ceaseless change of scene as against the Classical unity of place"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-07-music-and-plastic-the-arts-of-form",
+      "id": "dvi7-form-beethoven-deaf",
+      "anchor": "It is not an incident that Beethoven wrote his last works when he was deaf"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-07-music-and-plastic-the-arts-of-form",
+      "id": "dvi7-parallel-marble-eye",
+      "anchor": "He felt the marble with his eye"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-07-music-and-plastic-the-arts-of-form",
+      "id": "dvi7-parallel-rembrandt-bach",
+      "anchor": "Rembrandt … the organ works of Buxtehude, Pachelbel and Bach"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-08-music-and-plastic-act-and-portrait",
+      "id": "dvi8-parallel-nude-portrait",
+      "anchor": "Faustian man … found … expression of his life-feeling in the Portrait"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-08-music-and-plastic-act-and-portrait",
+      "id": "dvi8-parallel-faces",
+      "anchor": "In China the face is like a landscape"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-08-music-and-plastic-act-and-portrait",
+      "id": "dvi8-form-portrait-musical",
+      "anchor": "But, for us, the portrait is musical."
+    },
+    {
+      "unit_id": "decline-vol-i-ch-08-music-and-plastic-act-and-portrait",
+      "id": "dvi8-lex-world-as-history-portrait",
+      "anchor": "the portrait … takes its man … as a centre of the World-as-History"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-08-music-and-plastic-act-and-portrait",
+      "id": "dvi8-form-confession",
+      "anchor": "a self-portrait is a historical confession"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-08-music-and-plastic-act-and-portrait",
+      "id": "dvi8-reception-hughes-style",
+      "anchor": "the portraits of Rembrandt and the music of Beethoven"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-09-soul-image-and-life-feeling-on-the-form-of-the-soul",
+      "id": "dvi9-form-will-prime-word",
+      "anchor": "Will … a prime-word like God"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-09-soul-image-and-life-feeling-on-the-form-of-the-soul",
+      "id": "dvi9-parallel-apollinian-soul-image",
+      "anchor": "the Apollinian soul-image — Plato’s biga-team with νοῦς as charioteer"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-10-soul-image-and-life-feeling-buddhism-stoicism-and-socialism",
+      "id": "dvi10-parallel-buddha-epicurus",
+      "anchor": "Buddha … gives a pattern to take or to leave, and Epicurus offers counsel."
+    },
+    {
+      "unit_id": "decline-vol-i-ch-10-soul-image-and-life-feeling-buddhism-stoicism-and-socialism",
+      "id": "dvi10-form-nietzsche-socialist",
+      "anchor": "Even Nietzsche, that most passionate opponent of “herd morale” …"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-10-soul-image-and-life-feeling-buddhism-stoicism-and-socialism",
+      "id": "dvi10-parallel-stoicism-socialism",
+      "anchor": "Socialism is the dynamic treatment of the same theme"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-11-faustian-and-apollinian-nature-knowledge",
+      "id": "dvi11-reception-farrenkopf-end-of-science",
+      "anchor": "as a science … it may have an exactly-definable end"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-11-faustian-and-apollinian-nature-knowledge",
+      "id": "dvi11-parallel-three-physics",
+      "anchor": "a dynamic of unlimited span, a physics of the distant"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-11-faustian-and-apollinian-nature-knowledge",
+      "id": "dvi11-lex-faustian-force",
+      "anchor": "to the Faustian the idea of force and mass"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-11-faustian-and-apollinian-nature-knowledge",
+      "id": "dvi11-lex-faustian-force",
+      "anchor": "to the Faustian the idea of force and mass"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-11-faustian-and-apollinian-nature-knowledge",
+      "id": "dvi11-parallel-two-questions",
+      "anchor": "The Greek asked, what is the essence of visible being? We ask … mastering the invisible motive-forces"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-01-origin-and-landscape-the-cosmic-and-the-microcosm",
+      "id": "dv2-1-form-visual-thought",
+      "anchor": "our concepts are derived from vision … our logic is a light-world in the imagination"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-02-origin-and-landscape-the-group-of-the-higher-cultures",
+      "id": "dv2-2-form-copernican-demotion",
+      "anchor": "human history … a mere episode in world-history"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-02-origin-and-landscape-the-group-of-the-higher-cultures",
+      "id": "dv2-2-parallel-contemporaneity",
+      "anchor": "the Chinese imperialism of Shi-hwang-ti and the Roman of Augustus, as Hellenism and Buddhism and Islam"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-03-origin-and-landscape-the-relations-between-the-cultures",
+      "id": "dv2-3-parallel-three-aristotles",
+      "anchor": "the 'three Aristotles' — Greek, Arabian, and Gothic — who had not one concept or thought in common"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-03-origin-and-landscape-the-relations-between-the-cultures",
+      "id": "dv2-3-form-roman-law-three-cultures",
+      "anchor": "Roman law … passed through three whole courses of evolution in three Cultures"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-03-origin-and-landscape-the-relations-between-the-cultures",
+      "id": "dv2-3-form-electric-power-strain",
+      "anchor": "the theft of electric power … had to be dealt with under an ad hoc statute"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-03-origin-and-landscape-the-relations-between-the-cultures",
+      "id": "dv2-3-parallel-law-bodies-functions",
+      "anchor": "Classical law was a law of bodies, while ours is a law of functions."
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-03-origin-and-landscape-the-relations-between-the-cultures",
+      "id": "dv2-3-reception-hughes-morphology",
+      "anchor": "The Romans created a juristic statics; our task is juristic dynamics."
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-06-cities-and-peoples-primitives-culture-peoples-fellaheen",
+      "id": "dv2-6-form-culture-makes-people",
+      "anchor": "Out of the people-shapes of the Carolingian Empire … arise suddenly the German, the French, the Spaniards, the Italians"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-06-cities-and-peoples-primitives-culture-peoples-fellaheen",
+      "id": "dv2-6-parallel-three-nation-types",
+      "anchor": "nations of Faustian style emerge … from the time of Otto the Great"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-08-problems-of-the-arabian-culture-the-magian-soul",
+      "id": "dv2-8-parallel-three-space-symbols",
+      "anchor": "The world-as-cavern is just as different from the world-as-extent of the … Faustian"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-09-problems-of-the-arabian-culture-pythagoras-mohammed-cromwell",
+      "id": "dv2-9-parallel-pythagoras-mohammed-cromwell",
+      "anchor": "Pythagoras, Mohammed, and Cromwell embody one and the same movement in three Cultures."
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-09-problems-of-the-arabian-culture-pythagoras-mohammed-cromwell",
+      "id": "dv2-9-lex-second-religiousness",
+      "anchor": "This next phase I call the Second Religiousness."
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-09-problems-of-the-arabian-culture-pythagoras-mohammed-cromwell",
+      "id": "dv2-9-form-enlightenment-scepticism",
+      "anchor": "every 'Age of Enlightenment' proceeds from an unlimited optimism of the reason … to … scepticism"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-10-the-state-the-problem-of-the-estates-nobility-and-priesthood",
+      "id": "dv2-10-form-universal-estates",
+      "anchor": "Every new Culture has potentially its nobility and its priesthood."
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-11-the-state-state-and-history",
+      "id": "dv2-11-lex-caesarism",
+      "anchor": "Cæsarism: government which … is in its inward self a return to thorough formlessness"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-13-the-form-world-of-economic-life-money",
+      "id": "dv2-13-parallel-faustian-book-value",
+      "anchor": "Faustian money is a function — double-entry book-keeping, the book-value; Pythagoras vs Descartes"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-14-the-form-world-of-economic-life-the-machine",
+      "id": "dv2-14-form-faustian-technics-mastery",
+      "anchor": "Faustian technics … thrusts itself upon Nature, with the firm resolve to be its master"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-14-the-form-world-of-economic-life-the-machine",
+      "id": "dv2-14-form-faustian-technics-mastery",
+      "anchor": "Faustian technics … thrusts itself upon Nature, with the firm resolve to be its master"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-14-the-form-world-of-economic-life-the-machine",
+      "id": "dv2-14-form-faust-figure-to-be-god",
+      "anchor": "the Gothic discoverers … forced this secret out of God in order themselves to be God"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-14-the-form-world-of-economic-life-the-machine",
+      "id": "dv2-14-form-faust-figure-to-be-god",
+      "anchor": "the Gothic discoverers … forced this secret out of God in order themselves to be God"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-14-the-form-world-of-economic-life-the-machine",
+      "id": "dv2-14-form-slave-of-the-machine",
+      "anchor": "Faustian man has become the slave of his creation."
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-14-the-form-world-of-economic-life-the-machine",
+      "id": "dv2-14-form-slave-of-the-machine",
+      "anchor": "Faustian man has become the slave of his creation."
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-14-the-form-world-of-economic-life-the-machine",
+      "id": "dv2-14-form-money-is-thought",
+      "anchor": "money … is a form of thought; it fades out as soon as it has thought its economic world to finality"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-14-the-form-world-of-economic-life-the-machine",
+      "id": "dv2-14-form-money-vs-blood",
+      "anchor": "the last conflict … the conflict between money and blood"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-14-the-form-world-of-economic-life-the-machine",
+      "id": "dv2-14-difficult-spengler-socialism",
+      "anchor": "Spengler's 'Socialism' — an order that transcends all class interests, not Marxism"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-14-the-form-world-of-economic-life-the-machine",
+      "id": "dv2-14-difficult-money-overthrown-by-blood",
+      "anchor": "Money is overthrown and abolished only by blood … World-history is the world court"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-14-the-form-world-of-economic-life-the-machine",
+      "id": "dv2-14-form-ducunt-fata",
+      "anchor": "Ducunt Fata volentem, nolentem trahunt."
+    },
+    {
+      "unit_id": "man-technics-ch-01-technics-as-the-tactics-of-living",
+      "id": "mt1-form-panem-circenses",
+      "anchor": "the panem et circenses of the late world-cities"
+    },
+    {
+      "unit_id": "man-technics-ch-02-herbivores-and-beasts-of-prey",
+      "id": "mt2-form-world-picture-eye",
+      "anchor": "The world-picture is the world-around mastered by the eye."
+    },
+    {
+      "unit_id": "man-technics-ch-04-the-second-stage-speech-and-enterprise",
+      "id": "mt4-form-mephistopheles-faust",
+      "anchor": "as Mephistopheles ironically expresses it in Faust"
+    },
+    {
+      "unit_id": "man-technics-ch-05-the-last-act-rise-and-end-of-the-machine-culture",
+      "id": "mt5-lex-faustian",
+      "anchor": "The Faustian, West-European Culture … the mightiest, the most passionate … the most tragic of all"
+    },
+    {
+      "unit_id": "man-technics-ch-05-the-last-act-rise-and-end-of-the-machine-culture",
+      "id": "mt5-lex-faustian",
+      "anchor": "The Faustian, West-European Culture … the mightiest, the most passionate … the most tragic of all"
+    },
+    {
+      "unit_id": "man-technics-ch-05-the-last-act-rise-and-end-of-the-machine-culture",
+      "id": "mt5-form-gothic-back-dating",
+      "anchor": "northern monks of the thirteenth and fourteenth centuries press into the world of technical-physical problems"
+    },
+    {
+      "unit_id": "man-technics-ch-05-the-last-act-rise-and-end-of-the-machine-culture",
+      "id": "mt5-form-gothic-back-dating",
+      "anchor": "northern monks of the thirteenth and fourteenth centuries press into the world of technical-physical problems"
+    },
+    {
+      "unit_id": "man-technics-ch-05-the-last-act-rise-and-end-of-the-machine-culture",
+      "id": "mt5-form-working-hypothesis",
+      "anchor": "here, and here alone, theory is from the outset a working hypothesis"
+    },
+    {
+      "unit_id": "man-technics-ch-05-the-last-act-rise-and-end-of-the-machine-culture",
+      "id": "mt5-form-working-hypothesis",
+      "anchor": "here, and here alone, theory is from the outset a working hypothesis"
+    },
+    {
+      "unit_id": "man-technics-ch-05-the-last-act-rise-and-end-of-the-machine-culture",
+      "id": "mt5-form-booty-to-be-god",
+      "anchor": "The concept of the prey of the beast of prey is thought to its end."
+    },
+    {
+      "unit_id": "man-technics-ch-05-the-last-act-rise-and-end-of-the-machine-culture",
+      "id": "mt5-form-booty-to-be-god",
+      "anchor": "The concept of the prey of the beast of prey is thought to its end."
+    },
+    {
+      "unit_id": "man-technics-ch-05-the-last-act-rise-and-end-of-the-machine-culture",
+      "id": "mt5-teacher-every-culture-tragedy",
+      "anchor": "Every high Culture is a tragedy"
+    },
+    {
+      "unit_id": "man-technics-ch-05-the-last-act-rise-and-end-of-the-machine-culture",
+      "id": "mt5-reception-farrenkopf-apocalyptic",
+      "anchor": "most of the great forests have vanished … wholly or almost wholly exterminated"
+    },
+    {
+      "unit_id": "man-technics-ch-05-the-last-act-rise-and-end-of-the-machine-culture",
+      "id": "mt5-difficult-race-prophecy",
+      "anchor": "The irreplaceable prerogatives of the white peoples … betrayed"
+    },
+    {
+      "unit_id": "man-technics-ch-05-the-last-act-rise-and-end-of-the-machine-culture",
+      "id": "mt5-form-navigare",
+      "anchor": "navigare necesse est, vivere non est necesse"
+    },
+    {
+      "unit_id": "man-technics-ch-05-the-last-act-rise-and-end-of-the-machine-culture",
+      "id": "mt5-form-navigare",
+      "anchor": "navigare necesse est, vivere non est necesse"
+    },
+    {
+      "unit_id": "man-technics-ch-05-the-last-act-rise-and-end-of-the-machine-culture",
+      "id": "mt5-reception-hughes-prediction",
+      "anchor": "The history of this technics nears swiftly its inescapable end."
+    }
+  ],
+  "difficult-material": [
+    {
+      "unit_id": "decline-vol-i-ch-01-introduction",
+      "id": "dvi1-difficult-ahistoric",
+      "anchor": "the perfectly ahistoric soul"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-02-the-meaning-of-numbers",
+      "id": "dvi2-difficult-kant-apriori",
+      "anchor": "the supposed constant structure of the intellect is an illusion"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-03-the-problem-of-world-history-physiognomic-and-systematic",
+      "id": "dvi3-difficult-history-as-art",
+      "anchor": "an experience which can only be rendered in forms of art"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-04-the-problem-of-world-history-the-destiny-idea-and-the-causality-principle",
+      "id": "dvi4-difficult-organic-logic",
+      "anchor": "an organic logic, an instinctive, dream-sure logic of all existence"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-05-makrokosmos-the-symbolism-of-the-world-picture-and-the-problem-of-space",
+      "id": "dvi5-difficult-incommensurable",
+      "anchor": "a purely Western problem that … does not arise in the intellects of other Cultures"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-06-makrokosmos-apollinian-faustian-and-magian-soul",
+      "id": "dvi6-difficult-untranslatable",
+      "anchor": "could not be represented in an Apollinian language, whether Greek or Latin"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-07-music-and-plastic-the-arts-of-form",
+      "id": "dvi7-difficult-optical-acoustic",
+      "anchor": "the difference between optical and acoustic means is negligible"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-08-music-and-plastic-act-and-portrait",
+      "id": "dvi8-difficult-renaissance",
+      "anchor": "long after the plastic art itself had become entirely alien to our inner soul"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-09-soul-image-and-life-feeling-on-the-form-of-the-soul",
+      "id": "dvi9-difficult-fights-shadows",
+      "anchor": "Its searches and solutions are fights with shadows and ghosts"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-10-soul-image-and-life-feeling-buddhism-stoicism-and-socialism",
+      "id": "dvi10-difficult-something-ended",
+      "anchor": "Faustian man has nothing more to hope for in anything pertaining to the grand style of Life"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-11-faustian-and-apollinian-nature-knowledge",
+      "id": "dvi11-difficult-faith-and-knowledge",
+      "anchor": "faith is the older and it dominates all the conditions of knowing"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-02-origin-and-landscape-the-group-of-the-higher-cultures",
+      "id": "dv2-2-difficult-anti-darwinism",
+      "anchor": "There is no more conclusive refutation of Darwinism … than that furnished by palæontology"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-02-origin-and-landscape-the-group-of-the-higher-cultures",
+      "id": "dv2-2-difficult-historyless-mankind",
+      "anchor": "man is … historyless before the birth of the Culture, but again becomes so …"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-04-cities-and-peoples-the-soul-of-the-city",
+      "id": "dv2-4-difficult-sterility",
+      "anchor": "the sterility of civilized man"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-05-cities-and-peoples-peoples-races-tongues",
+      "id": "dv2-5-difficult-race-not-biological",
+      "anchor": "'race' has travelled as flesh over the fixed skeleton-form of the land"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-13-the-form-world-of-economic-life-money",
+      "id": "dv2-13-difficult-slave-as-money",
+      "anchor": "the slave — a body, 'a thing and not a person' — thought of as money"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-14-the-form-world-of-economic-life-the-machine",
+      "id": "dv2-14-difficult-spengler-socialism",
+      "anchor": "Spengler's 'Socialism' — an order that transcends all class interests, not Marxism"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-14-the-form-world-of-economic-life-the-machine",
+      "id": "dv2-14-difficult-money-overthrown-by-blood",
+      "anchor": "Money is overthrown and abolished only by blood … World-history is the world court"
+    },
+    {
+      "unit_id": "man-technics-ch-04-the-second-stage-speech-and-enterprise",
+      "id": "mt4-difficult-all-men-equal",
+      "anchor": "the talk of the 'natural equality of all' proves that there is here something to be explained away"
+    },
+    {
+      "unit_id": "man-technics-ch-05-the-last-act-rise-and-end-of-the-machine-culture",
+      "id": "mt5-difficult-race-prophecy",
+      "anchor": "The irreplaceable prerogatives of the white peoples … betrayed"
+    }
+  ],
+  "culture:indian": [
+    {
+      "unit_id": "decline-vol-i-ch-01-introduction",
+      "id": "dvi1-difficult-ahistoric",
+      "anchor": "the perfectly ahistoric soul"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-10-soul-image-and-life-feeling-buddhism-stoicism-and-socialism",
+      "id": "dvi10-parallel-buddha-epicurus",
+      "anchor": "Buddha … gives a pattern to take or to leave, and Epicurus offers counsel."
+    },
+    {
+      "unit_id": "decline-vol-i-ch-10-soul-image-and-life-feeling-buddhism-stoicism-and-socialism",
+      "id": "dvi10-parallel-nirvana-ataraxia",
+      "anchor": "the Buddhist ideal of Nirvana … the Katharsis … Ataraxia"
+    }
+  ],
+  "culture:apollinian": [
+    {
+      "unit_id": "decline-vol-i-ch-01-introduction",
+      "id": "dvi1-difficult-ahistoric",
+      "anchor": "the perfectly ahistoric soul"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-01-introduction",
+      "id": "dvi1-parallel-hellenism",
+      "anchor": "“contemporary” … with the phase of Hellenism"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-02-the-meaning-of-numbers",
+      "id": "dvi2-form-mathematics-in-stone",
+      "anchor": "Gothic cathedrals and Doric temples are mathematics in stone."
+    },
+    {
+      "unit_id": "decline-vol-i-ch-02-the-meaning-of-numbers",
+      "id": "dvi2-hist-pythagoras",
+      "anchor": "Pythagoras … to conceive number scientifically … as standard and as magnitude"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-02-the-meaning-of-numbers",
+      "id": "dvi2-lex-number-magnitude-function",
+      "anchor": "the inner structure of the Euclidean geometry … quite different from … the Cartesian"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-02-the-meaning-of-numbers",
+      "id": "dvi2-parallel-pythagoras-descartes",
+      "anchor": "the agent was Pythagoras … the second Descartes"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-05-makrokosmos-the-symbolism-of-the-world-picture-and-the-problem-of-space",
+      "id": "dvi5-parallel-directions",
+      "anchor": "Chinese … free … wandering … to the goal; Egyptian … resolute march down the path"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-05-makrokosmos-the-symbolism-of-the-world-picture-and-the-problem-of-space",
+      "id": "dvi5-lex-prime-symbol",
+      "anchor": "the … Body … the Western … Space … the Arabian the world as a Cavern"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-05-makrokosmos-the-symbolism-of-the-world-picture-and-the-problem-of-space",
+      "id": "dvi5-reception-frye-prime-symbols",
+      "anchor": "the prime-symbol of the Classical soul is the … body, that of the Western … infinite space"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-05-makrokosmos-the-symbolism-of-the-world-picture-and-the-problem-of-space",
+      "id": "dvi5-parallel-classical-silence",
+      "anchor": "the whole Classical world never expended one word on it"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-06-makrokosmos-apollinian-faustian-and-magian-soul",
+      "id": "dvi6-lex-apollinian",
+      "anchor": "the sensuously-present individual body as the ideal type of the extended"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-06-makrokosmos-apollinian-faustian-and-magian-soul",
+      "id": "dvi6-lex-apollinian",
+      "anchor": "the sensuously-present individual body as the ideal type of the extended"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-06-makrokosmos-apollinian-faustian-and-magian-soul",
+      "id": "dvi6-reception-frye-statue-fugue",
+      "anchor": "The nude statue is Apollinian, the art of the fugue Faustian."
+    },
+    {
+      "unit_id": "decline-vol-i-ch-06-makrokosmos-apollinian-faustian-and-magian-soul",
+      "id": "dvi6-parallel-doric-gothic",
+      "anchor": "The Doric column bores into the ground"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-07-music-and-plastic-the-arts-of-form",
+      "id": "dvi7-parallel-shakespeare-unity",
+      "anchor": "Shakespeare’s ceaseless change of scene as against the Classical unity of place"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-07-music-and-plastic-the-arts-of-form",
+      "id": "dvi7-parallel-marble-eye",
+      "anchor": "He felt the marble with his eye"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-08-music-and-plastic-act-and-portrait",
+      "id": "dvi8-parallel-nude-portrait",
+      "anchor": "Faustian man … found … expression of his life-feeling in the Portrait"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-08-music-and-plastic-act-and-portrait",
+      "id": "dvi8-lex-apollinian-statue",
+      "anchor": "The Classical statue is a piece of present “Nature” and nothing besides"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-08-music-and-plastic-act-and-portrait",
+      "id": "dvi8-lex-apollinian-statue",
+      "anchor": "The Classical statue is a piece of present “Nature” and nothing besides"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-09-soul-image-and-life-feeling-on-the-form-of-the-soul",
+      "id": "dvi9-parallel-apollinian-soul-image",
+      "anchor": "the Apollinian soul-image — Plato’s biga-team with νοῦς as charioteer"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-10-soul-image-and-life-feeling-buddhism-stoicism-and-socialism",
+      "id": "dvi10-parallel-buddha-epicurus",
+      "anchor": "Buddha … gives a pattern to take or to leave, and Epicurus offers counsel."
+    },
+    {
+      "unit_id": "decline-vol-i-ch-10-soul-image-and-life-feeling-buddhism-stoicism-and-socialism",
+      "id": "dvi10-parallel-nirvana-ataraxia",
+      "anchor": "the Buddhist ideal of Nirvana … the Katharsis … Ataraxia"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-10-soul-image-and-life-feeling-buddhism-stoicism-and-socialism",
+      "id": "dvi10-parallel-stoicism-socialism",
+      "anchor": "Socialism is the dynamic treatment of the same theme"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-11-faustian-and-apollinian-nature-knowledge",
+      "id": "dvi11-parallel-three-physics",
+      "anchor": "a dynamic of unlimited span, a physics of the distant"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-11-faustian-and-apollinian-nature-knowledge",
+      "id": "dvi11-parallel-two-questions",
+      "anchor": "The Greek asked, what is the essence of visible being? We ask … mastering the invisible motive-forces"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-02-origin-and-landscape-the-group-of-the-higher-cultures",
+      "id": "dv2-2-parallel-contemporaneity",
+      "anchor": "the Chinese imperialism of Shi-hwang-ti and the Roman of Augustus, as Hellenism and Buddhism and Islam"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-03-origin-and-landscape-the-relations-between-the-cultures",
+      "id": "dv2-3-parallel-three-aristotles",
+      "anchor": "the 'three Aristotles' — Greek, Arabian, and Gothic — who had not one concept or thought in common"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-03-origin-and-landscape-the-relations-between-the-cultures",
+      "id": "dv2-3-form-roman-law-three-cultures",
+      "anchor": "Roman law … passed through three whole courses of evolution in three Cultures"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-03-origin-and-landscape-the-relations-between-the-cultures",
+      "id": "dv2-3-parallel-law-bodies-functions",
+      "anchor": "Classical law was a law of bodies, while ours is a law of functions."
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-06-cities-and-peoples-primitives-culture-peoples-fellaheen",
+      "id": "dv2-6-parallel-three-nation-types",
+      "anchor": "nations of Faustian style emerge … from the time of Otto the Great"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-06-cities-and-peoples-primitives-culture-peoples-fellaheen",
+      "id": "dv2-6-form-fellaheen",
+      "anchor": "the fellah-instincts of Hellenism"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-07-problems-of-the-arabian-culture-historic-pseudomorphoses",
+      "id": "dv2-7-form-arabian-pseudomorphosis",
+      "anchor": "This is the case of the Arabian Culture."
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-07-problems-of-the-arabian-culture-historic-pseudomorphoses",
+      "id": "dv2-7-form-actium",
+      "anchor": "The Pseudomorphosis began with Actium; there it should have been Antony who won."
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-08-problems-of-the-arabian-culture-the-magian-soul",
+      "id": "dv2-8-parallel-three-space-symbols",
+      "anchor": "The world-as-cavern is just as different from the world-as-extent of the … Faustian"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-09-problems-of-the-arabian-culture-pythagoras-mohammed-cromwell",
+      "id": "dv2-9-parallel-pythagoras-mohammed-cromwell",
+      "anchor": "Pythagoras, Mohammed, and Cromwell embody one and the same movement in three Cultures."
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-09-problems-of-the-arabian-culture-pythagoras-mohammed-cromwell",
+      "id": "dv2-9-form-enlightenment-scepticism",
+      "anchor": "every 'Age of Enlightenment' proceeds from an unlimited optimism of the reason … to … scepticism"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-10-the-state-the-problem-of-the-estates-nobility-and-priesthood",
+      "id": "dv2-10-form-universal-estates",
+      "anchor": "Every new Culture has potentially its nobility and its priesthood."
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-11-the-state-state-and-history",
+      "id": "dv2-11-lex-caesarism",
+      "anchor": "Cæsarism: government which … is in its inward self a return to thorough formlessness"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-13-the-form-world-of-economic-life-money",
+      "id": "dv2-13-parallel-classical-coin",
+      "anchor": "Classical money is a body — the coin, born ~650 B.C. beside the Doric temple and the statue"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-13-the-form-world-of-economic-life-money",
+      "id": "dv2-13-difficult-slave-as-money",
+      "anchor": "the slave — a body, 'a thing and not a person' — thought of as money"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-13-the-form-world-of-economic-life-money",
+      "id": "dv2-13-parallel-faustian-book-value",
+      "anchor": "Faustian money is a function — double-entry book-keeping, the book-value; Pythagoras vs Descartes"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-14-the-form-world-of-economic-life-the-machine",
+      "id": "dv2-14-form-faustian-technics-mastery",
+      "anchor": "Faustian technics … thrusts itself upon Nature, with the firm resolve to be its master"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-14-the-form-world-of-economic-life-the-machine",
+      "id": "dv2-14-form-ducunt-fata",
+      "anchor": "Ducunt Fata volentem, nolentem trahunt."
+    },
+    {
+      "unit_id": "man-technics-ch-01-technics-as-the-tactics-of-living",
+      "id": "mt1-form-panem-circenses",
+      "anchor": "the panem et circenses of the late world-cities"
+    },
+    {
+      "unit_id": "man-technics-ch-01-technics-as-the-tactics-of-living",
+      "id": "mt1-parallel-achilles-choice",
+      "anchor": "the choice of whether he would wish a long life or a short one full of deeds and fame"
+    },
+    {
+      "unit_id": "man-technics-ch-05-the-last-act-rise-and-end-of-the-machine-culture",
+      "id": "mt5-form-working-hypothesis",
+      "anchor": "here, and here alone, theory is from the outset a working hypothesis"
+    },
+    {
+      "unit_id": "man-technics-ch-05-the-last-act-rise-and-end-of-the-machine-culture",
+      "id": "mt5-hist-pompeii-sentry",
+      "anchor": "that Roman soldier whose bones were found before a gate of Pompeii"
+    }
+  ],
+  "domain:method": [
+    {
+      "unit_id": "decline-vol-i-ch-01-introduction",
+      "id": "dvi1-form-copernican",
+      "anchor": "the Copernican discovery in the historical sphere"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-01-introduction",
+      "id": "dvi1-hist-nietzsche",
+      "anchor": "decadence … the transvaluation of all values"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-01-introduction",
+      "id": "dvi1-lex-culture-civilization",
+      "anchor": "Civilization is the inevitable destiny of the Culture"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-01-introduction",
+      "id": "dvi1-lex-morphology",
+      "anchor": "a morphology of world-history"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-01-introduction",
+      "id": "dvi1-translation-untergang",
+      "anchor": "Decline of that West-European Culture"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-02-the-meaning-of-numbers",
+      "id": "dvi2-translation-becoming",
+      "anchor": "Das Werden, das Gewordne"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-02-the-meaning-of-numbers",
+      "id": "dvi2-lex-comparative-morphology",
+      "anchor": "The comparative morphology of knowledge forms"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-02-the-meaning-of-numbers",
+      "id": "dvi2-form-no-mathematic",
+      "anchor": "There is no mathematic but only mathematics."
+    },
+    {
+      "unit_id": "decline-vol-i-ch-03-the-problem-of-world-history-physiognomic-and-systematic",
+      "id": "dvi3-hist-nietzsche-distance",
+      "anchor": "to view the whole fact of Man from an immense distance"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-03-the-problem-of-world-history-physiognomic-and-systematic",
+      "id": "dvi3-form-moon-jupiter",
+      "anchor": "the moon, too, seems to us bigger than Jupiter or Saturn"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-03-the-problem-of-world-history-physiognomic-and-systematic",
+      "id": "dvi3-parallel-chinese-historian",
+      "anchor": "for the Chinese historian … 4000 years of Chinese history"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-03-the-problem-of-world-history-physiognomic-and-systematic",
+      "id": "dvi3-lex-world-as-history",
+      "anchor": "Plato, Rembrandt, Goethe and Beethoven … Parmenides, Descartes, Kant and Newton"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-03-the-problem-of-world-history-physiognomic-and-systematic",
+      "id": "dvi3-lex-physiognomic-systematic",
+      "anchor": "The Morphology of the organic … is called Physiognomic"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-03-the-problem-of-world-history-physiognomic-and-systematic",
+      "id": "dvi3-form-faust-portrait",
+      "anchor": "Faust the portrait of a whole Culture."
+    },
+    {
+      "unit_id": "decline-vol-i-ch-03-the-problem-of-world-history-physiognomic-and-systematic",
+      "id": "dvi3-form-anti-progress",
+      "anchor": "hidden all too deep under the surface of a trite “history of human progress”"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-04-the-problem-of-world-history-the-destiny-idea-and-the-causality-principle",
+      "id": "dvi4-lex-the-soul",
+      "anchor": "the soul is the idea of an existence"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-04-the-problem-of-world-history-the-destiny-idea-and-the-causality-principle",
+      "id": "dvi4-lex-world-as-history",
+      "anchor": "the World-as-history as opposed to the World-as-nature"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-04-the-problem-of-world-history-the-destiny-idea-and-the-causality-principle",
+      "id": "dvi4-lex-destiny-causality",
+      "anchor": "destiny is the word for an inner certainty that is not describable"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-04-the-problem-of-world-history-the-destiny-idea-and-the-causality-principle",
+      "id": "dvi4-hist-augustine-time",
+      "anchor": "if no one questions me, I know: if I would explain to a questioner, I know not"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-05-makrokosmos-the-symbolism-of-the-world-picture-and-the-problem-of-space",
+      "id": "dvi5-parallel-directions",
+      "anchor": "Chinese … free … wandering … to the goal; Egyptian … resolute march down the path"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-05-makrokosmos-the-symbolism-of-the-world-picture-and-the-problem-of-space",
+      "id": "dvi5-lex-prime-symbol",
+      "anchor": "the … Body … the Western … Space … the Arabian the world as a Cavern"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-05-makrokosmos-the-symbolism-of-the-world-picture-and-the-problem-of-space",
+      "id": "dvi5-form-anamnesis",
+      "anchor": "Plato … called anamnesis"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-05-makrokosmos-the-symbolism-of-the-world-picture-and-the-problem-of-space",
+      "id": "dvi5-form-kant-parochial",
+      "anchor": "the “eternal problem” that Kant … tackled with a passion that itself is symbolic"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-06-makrokosmos-apollinian-faustian-and-magian-soul",
+      "id": "dvi6-hist-nietzsche-apollinian",
+      "anchor": "the name (familiarized by Nietzsche) of the Apollinian"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-09-soul-image-and-life-feeling-on-the-form-of-the-soul",
+      "id": "dvi9-lex-the-soul-image",
+      "anchor": "A soul-image is never anything but the image of one quite definite soul"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-09-soul-image-and-life-feeling-on-the-form-of-the-soul",
+      "id": "dvi9-parallel-apollinian-soul-image",
+      "anchor": "the Apollinian soul-image — Plato’s biga-team with νοῦς as charioteer"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-01-origin-and-landscape-the-cosmic-and-the-microcosm",
+      "id": "dv2-1-reception-frye-romantic-poem",
+      "anchor": "Regard the flowers at eventide …"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-01-origin-and-landscape-the-cosmic-and-the-microcosm",
+      "id": "dv2-1-teacher-orientation",
+      "anchor": "Servitude and freedom … the differentia by which we distinguish vegetable and animal existence"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-01-origin-and-landscape-the-cosmic-and-the-microcosm",
+      "id": "dv2-1-lex-cosmic-microcosm",
+      "anchor": "The plant is something cosmic, and the animal is additionally a microcosm"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-01-origin-and-landscape-the-cosmic-and-the-microcosm",
+      "id": "dv2-1-form-beat-and-tension",
+      "anchor": "All that is cosmic bears the hall-mark of periodicity … microcosmic possesses … tension"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-01-origin-and-landscape-the-cosmic-and-the-microcosm",
+      "id": "dv2-1-lex-being-waking-being",
+      "anchor": "Being possesses beat and direction, while waking-consciousness is tension and extension."
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-01-origin-and-landscape-the-cosmic-and-the-microcosm",
+      "id": "dv2-1-form-visual-thought",
+      "anchor": "our concepts are derived from vision … our logic is a light-world in the imagination"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-01-origin-and-landscape-the-cosmic-and-the-microcosm",
+      "id": "dv2-1-hist-nietzsche-value-of-truth",
+      "anchor": "Nietzsche … confronted science with the problem of the value of truth and knowledge"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-02-origin-and-landscape-the-group-of-the-higher-cultures",
+      "id": "dv2-2-lex-history-nature-picture",
+      "anchor": "world-as-history and world-as-nature"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-02-origin-and-landscape-the-group-of-the-higher-cultures",
+      "id": "dv2-2-form-no-history-in-itself",
+      "anchor": "There is no history-in-itself."
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-02-origin-and-landscape-the-group-of-the-higher-cultures",
+      "id": "dv2-2-form-copernican-demotion",
+      "anchor": "human history … a mere episode in world-history"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-02-origin-and-landscape-the-group-of-the-higher-cultures",
+      "id": "dv2-2-difficult-anti-darwinism",
+      "anchor": "There is no more conclusive refutation of Darwinism … than that furnished by palæontology"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-02-origin-and-landscape-the-group-of-the-higher-cultures",
+      "id": "dv2-2-parallel-contemporaneity",
+      "anchor": "the Chinese imperialism of Shi-hwang-ti and the Roman of Augustus, as Hellenism and Buddhism and Islam"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-02-origin-and-landscape-the-group-of-the-higher-cultures",
+      "id": "dv2-2-lex-eight-high-cultures",
+      "anchor": "eight such Cultures, all of the same build, the same development, and the same duration"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-03-origin-and-landscape-the-relations-between-the-cultures",
+      "id": "dv2-3-form-influence-critique",
+      "anchor": "It is not products that 'influence,' but creators that absorb."
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-03-origin-and-landscape-the-relations-between-the-cultures",
+      "id": "dv2-3-form-connotations-not-transferable",
+      "anchor": "Connotations are not transferable."
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-03-origin-and-landscape-the-relations-between-the-cultures",
+      "id": "dv2-3-form-deliberate-misunderstanding",
+      "anchor": "Every relation that was accepted was … a misunderstanding"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-03-origin-and-landscape-the-relations-between-the-cultures",
+      "id": "dv2-3-parallel-three-aristotles",
+      "anchor": "the 'three Aristotles' — Greek, Arabian, and Gothic — who had not one concept or thought in common"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-03-origin-and-landscape-the-relations-between-the-cultures",
+      "id": "dv2-3-form-roman-law-three-cultures",
+      "anchor": "Roman law … passed through three whole courses of evolution in three Cultures"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-05-cities-and-peoples-peoples-races-tongues",
+      "id": "dv2-5-form-race-vs-language",
+      "anchor": "Race is something cosmic and psychic … Languages, on the other hand, are causal forms"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-05-cities-and-peoples-peoples-races-tongues",
+      "id": "dv2-5-form-expression-communication-language",
+      "anchor": "expression-languages and communication-languages"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-05-cities-and-peoples-peoples-races-tongues",
+      "id": "dv2-5-form-race-science-mocked",
+      "anchor": "Blumenbach … skull-forms; Müller … hair; Topinard … skin-colour; Huxley …"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-07-problems-of-the-arabian-culture-historic-pseudomorphoses",
+      "id": "dv2-7-lex-pseudomorphosis",
+      "anchor": "historical pseudomorphosis: an older alien Culture lies so massively over the land that a young Culture … cannot get its breath"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-07-problems-of-the-arabian-culture-historic-pseudomorphoses",
+      "id": "dv2-7-form-magian-discovery",
+      "anchor": "The Magian Culture … is the midmost of the group of higher Cultures"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-08-problems-of-the-arabian-culture-the-magian-soul",
+      "id": "dv2-8-parallel-three-space-symbols",
+      "anchor": "The world-as-cavern is just as different from the world-as-extent of the … Faustian"
+    },
+    {
+      "unit_id": "man-technics-ch-01-technics-as-the-tactics-of-living",
+      "id": "mt1-teacher-decline-in-miniature",
+      "anchor": "The problem of technics … first emerges only in the nineteenth century"
+    },
+    {
+      "unit_id": "man-technics-ch-01-technics-as-the-tactics-of-living",
+      "id": "mt1-hist-rousseau-lamb",
+      "anchor": "a kind of little lamb … corrupted only afterward, by Culture"
+    },
+    {
+      "unit_id": "man-technics-ch-01-technics-as-the-tactics-of-living",
+      "id": "mt1-hist-utilitarians",
+      "anchor": "the doctrine of Bentham, Mill and Spencer"
+    },
+    {
+      "unit_id": "man-technics-ch-01-technics-as-the-tactics-of-living",
+      "id": "mt1-form-technics-immemorial",
+      "anchor": "technics is immemorially old"
+    },
+    {
+      "unit_id": "man-technics-ch-01-technics-as-the-tactics-of-living",
+      "id": "mt1-form-not-the-implement",
+      "anchor": "a technics of the brush-stroke, of horsemanship, of steering an airship"
+    },
+    {
+      "unit_id": "man-technics-ch-01-technics-as-the-tactics-of-living",
+      "id": "mt1-teacher-downhill-seeing",
+      "anchor": "we men of the twentieth century are going down with our eyes open"
+    },
+    {
+      "unit_id": "man-technics-ch-01-technics-as-the-tactics-of-living",
+      "id": "mt1-hist-nietzsche-will-to-power",
+      "anchor": "life … in Nietzsche's sense, as a struggle out of the will-to-power, cruel, inexorable"
+    },
+    {
+      "unit_id": "man-technics-ch-02-herbivores-and-beasts-of-prey",
+      "id": "mt2-hist-uexkull-umwelt",
+      "anchor": "there arise out of the surrounding a world-around for each single being"
+    },
+    {
+      "unit_id": "man-technics-ch-02-herbivores-and-beasts-of-prey",
+      "id": "mt2-form-world-picture-eye",
+      "anchor": "The world-picture is the world-around mastered by the eye."
+    },
+    {
+      "unit_id": "man-technics-ch-02-herbivores-and-beasts-of-prey",
+      "id": "mt2-form-animal-technique-generic",
+      "anchor": "Ants know plant-culture, road-building, slavery and the conduct of war."
+    },
+    {
+      "unit_id": "man-technics-ch-03-the-origin-of-man-hand-and-tool",
+      "id": "mt3-form-genesis-of-hand",
+      "anchor": "The answer runs: through the arising of the hand."
+    },
+    {
+      "unit_id": "man-technics-ch-03-the-origin-of-man-hand-and-tool",
+      "id": "mt3-form-catastrophe-not-gradual",
+      "anchor": "World-history strides forward from catastrophe to catastrophe"
+    },
+    {
+      "unit_id": "man-technics-ch-03-the-origin-of-man-hand-and-tool",
+      "id": "mt3-form-hand-and-tool-coeval",
+      "anchor": "As the tool took form from the shape of the hand, so conversely the hand on the shape of the tool."
+    },
+    {
+      "unit_id": "man-technics-ch-03-the-origin-of-man-hand-and-tool",
+      "id": "mt3-form-thought-of-eye-and-hand",
+      "anchor": "the truth-men — the priest, the scholar, the philosopher — and of the fact-men — the politician, the general, the merchant"
+    },
+    {
+      "unit_id": "man-technics-ch-04-the-second-stage-speech-and-enterprise",
+      "id": "mt4-form-fifth-millennium",
+      "anchor": "This mutation can be fixed fairly exactly, at about the fifth millennium B.C."
+    },
+    {
+      "unit_id": "man-technics-ch-04-the-second-stage-speech-and-enterprise",
+      "id": "mt4-form-hamann-herder-language",
+      "anchor": "Ever since Hamann and Herder, men have again and again set themselves the question of its origin."
+    },
+    {
+      "unit_id": "man-technics-ch-04-the-second-stage-speech-and-enterprise",
+      "id": "mt4-form-speech-enterprise-parallel",
+      "anchor": "Speaking and enterprise presuppose each other in precisely the same way as, earlier, hand and tool."
+    }
+  ],
+  "culture:magian": [
+    {
+      "unit_id": "decline-vol-i-ch-01-introduction",
+      "id": "dvi1-lex-magian",
+      "anchor": "the Magian world-sense"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-01-introduction",
+      "id": "dvi1-lex-magian",
+      "anchor": "the Magian world-sense"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-04-the-problem-of-world-history-the-destiny-idea-and-the-causality-principle",
+      "id": "dvi4-parallel-great-men",
+      "anchor": "No one foreknew … Mohammed … nor foresaw Napoleon in the fall of Robespierre"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-05-makrokosmos-the-symbolism-of-the-world-picture-and-the-problem-of-space",
+      "id": "dvi5-lex-prime-symbol",
+      "anchor": "the … Body … the Western … Space … the Arabian the world as a Cavern"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-06-makrokosmos-apollinian-faustian-and-magian-soul",
+      "id": "dvi6-lex-magian",
+      "anchor": "the Magian soul of the Arabian Culture with its algebra, astrology and alchemy"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-06-makrokosmos-apollinian-faustian-and-magian-soul",
+      "id": "dvi6-lex-magian",
+      "anchor": "the Magian soul of the Arabian Culture with its algebra, astrology and alchemy"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-06-makrokosmos-apollinian-faustian-and-magian-soul",
+      "id": "dvi6-parallel-doric-gothic",
+      "anchor": "The Doric column bores into the ground"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-08-music-and-plastic-act-and-portrait",
+      "id": "dvi8-parallel-faces",
+      "anchor": "In China the face is like a landscape"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-09-soul-image-and-life-feeling-on-the-form-of-the-soul",
+      "id": "dvi9-lex-magian-soul-image",
+      "anchor": "the Magian soul-image is a strict dualism … Spirit and Soul"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-09-soul-image-and-life-feeling-on-the-form-of-the-soul",
+      "id": "dvi9-lex-magian-soul-image",
+      "anchor": "the Magian soul-image is a strict dualism … Spirit and Soul"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-11-faustian-and-apollinian-nature-knowledge",
+      "id": "dvi11-parallel-three-physics",
+      "anchor": "a dynamic of unlimited span, a physics of the distant"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-03-origin-and-landscape-the-relations-between-the-cultures",
+      "id": "dv2-3-parallel-three-aristotles",
+      "anchor": "the 'three Aristotles' — Greek, Arabian, and Gothic — who had not one concept or thought in common"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-03-origin-and-landscape-the-relations-between-the-cultures",
+      "id": "dv2-3-form-roman-law-three-cultures",
+      "anchor": "Roman law … passed through three whole courses of evolution in three Cultures"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-06-cities-and-peoples-primitives-culture-peoples-fellaheen",
+      "id": "dv2-6-form-persian-convert",
+      "anchor": "A Jew who went over to the Mazda faith became thereby a Persian"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-06-cities-and-peoples-primitives-culture-peoples-fellaheen",
+      "id": "dv2-6-form-persian-convert",
+      "anchor": "A Jew who went over to the Mazda faith became thereby a Persian"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-06-cities-and-peoples-primitives-culture-peoples-fellaheen",
+      "id": "dv2-6-parallel-three-nation-types",
+      "anchor": "nations of Faustian style emerge … from the time of Otto the Great"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-07-problems-of-the-arabian-culture-historic-pseudomorphoses",
+      "id": "dv2-7-lex-pseudomorphosis",
+      "anchor": "historical pseudomorphosis: an older alien Culture lies so massively over the land that a young Culture … cannot get its breath"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-07-problems-of-the-arabian-culture-historic-pseudomorphoses",
+      "id": "dv2-7-form-arabian-pseudomorphosis",
+      "anchor": "This is the case of the Arabian Culture."
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-07-problems-of-the-arabian-culture-historic-pseudomorphoses",
+      "id": "dv2-7-form-arabian-pseudomorphosis",
+      "anchor": "This is the case of the Arabian Culture."
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-07-problems-of-the-arabian-culture-historic-pseudomorphoses",
+      "id": "dv2-7-form-magian-discovery",
+      "anchor": "The Magian Culture … is the midmost of the group of higher Cultures"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-07-problems-of-the-arabian-culture-historic-pseudomorphoses",
+      "id": "dv2-7-form-magian-discovery",
+      "anchor": "The Magian Culture … is the midmost of the group of higher Cultures"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-07-problems-of-the-arabian-culture-historic-pseudomorphoses",
+      "id": "dv2-7-form-actium",
+      "anchor": "The Pseudomorphosis began with Actium; there it should have been Antony who won."
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-07-problems-of-the-arabian-culture-historic-pseudomorphoses",
+      "id": "dv2-7-form-jesus-two-worlds",
+      "anchor": "'Give unto Cæsar …' … What alone matters is the salvation of the soul."
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-07-problems-of-the-arabian-culture-historic-pseudomorphoses",
+      "id": "dv2-7-form-jesus-two-worlds",
+      "anchor": "'Give unto Cæsar …' … What alone matters is the salvation of the soul."
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-08-problems-of-the-arabian-culture-the-magian-soul",
+      "id": "dv2-8-lex-world-cavern",
+      "anchor": "the Magian world … a kind of extension that may be called cavern-like"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-08-problems-of-the-arabian-culture-the-magian-soul",
+      "id": "dv2-8-lex-world-cavern",
+      "anchor": "the Magian world … a kind of extension that may be called cavern-like"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-08-problems-of-the-arabian-culture-the-magian-soul",
+      "id": "dv2-8-parallel-three-space-symbols",
+      "anchor": "The world-as-cavern is just as different from the world-as-extent of the … Faustian"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-08-problems-of-the-arabian-culture-the-magian-soul",
+      "id": "dv2-8-form-dualism-pneuma",
+      "anchor": "the … pearl that illumines the dark house of the body is the Spirit entered into man"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-08-problems-of-the-arabian-culture-the-magian-soul",
+      "id": "dv2-8-form-dualism-pneuma",
+      "anchor": "the … pearl that illumines the dark house of the body is the Spirit entered into man"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-08-problems-of-the-arabian-culture-the-magian-soul",
+      "id": "dv2-8-form-word-as-substance",
+      "anchor": "the Word … that was sent down as Substance"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-08-problems-of-the-arabian-culture-the-magian-soul",
+      "id": "dv2-8-form-word-as-substance",
+      "anchor": "the Word … that was sent down as Substance"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-08-problems-of-the-arabian-culture-the-magian-soul",
+      "id": "dv2-8-form-christology",
+      "anchor": "Against Arius, who saw in Christ a demigod … Father and Son were of the same substance"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-08-problems-of-the-arabian-culture-the-magian-soul",
+      "id": "dv2-8-form-christology",
+      "anchor": "Against Arius, who saw in Christ a demigod … Father and Son were of the same substance"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-09-problems-of-the-arabian-culture-pythagoras-mohammed-cromwell",
+      "id": "dv2-9-parallel-pythagoras-mohammed-cromwell",
+      "anchor": "Pythagoras, Mohammed, and Cromwell embody one and the same movement in three Cultures."
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-09-problems-of-the-arabian-culture-pythagoras-mohammed-cromwell",
+      "id": "dv2-9-form-enlightenment-scepticism",
+      "anchor": "every 'Age of Enlightenment' proceeds from an unlimited optimism of the reason … to … scepticism"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-09-problems-of-the-arabian-culture-pythagoras-mohammed-cromwell",
+      "id": "dv2-9-form-fellah-religion",
+      "anchor": "In the end Second Religiousness issues in the fellah-religions."
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-14-the-form-world-of-economic-life-the-machine",
+      "id": "dv2-14-form-faustian-technics-mastery",
+      "anchor": "Faustian technics … thrusts itself upon Nature, with the firm resolve to be its master"
+    },
+    {
+      "unit_id": "man-technics-ch-05-the-last-act-rise-and-end-of-the-machine-culture",
+      "id": "mt5-form-working-hypothesis",
+      "anchor": "here, and here alone, theory is from the outset a working hypothesis"
+    }
+  ],
+  "domain:religion": [
+    {
+      "unit_id": "decline-vol-i-ch-01-introduction",
+      "id": "dvi1-lex-magian",
+      "anchor": "the Magian world-sense"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-04-the-problem-of-world-history-the-destiny-idea-and-the-causality-principle",
+      "id": "dvi4-form-predestination",
+      "anchor": "The Predestination doctrine of Calvin and Pascal"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-08-music-and-plastic-act-and-portrait",
+      "id": "dvi8-form-confession",
+      "anchor": "a self-portrait is a historical confession"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-10-soul-image-and-life-feeling-buddhism-stoicism-and-socialism",
+      "id": "dvi10-parallel-buddha-epicurus",
+      "anchor": "Buddha … gives a pattern to take or to leave, and Epicurus offers counsel."
+    },
+    {
+      "unit_id": "decline-vol-i-ch-10-soul-image-and-life-feeling-buddhism-stoicism-and-socialism",
+      "id": "dvi10-parallel-nirvana-ataraxia",
+      "anchor": "the Buddhist ideal of Nirvana … the Katharsis … Ataraxia"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-08-problems-of-the-arabian-culture-the-magian-soul",
+      "id": "dv2-8-form-dualism-pneuma",
+      "anchor": "the … pearl that illumines the dark house of the body is the Spirit entered into man"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-08-problems-of-the-arabian-culture-the-magian-soul",
+      "id": "dv2-8-form-word-as-substance",
+      "anchor": "the Word … that was sent down as Substance"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-08-problems-of-the-arabian-culture-the-magian-soul",
+      "id": "dv2-8-form-christology",
+      "anchor": "Against Arius, who saw in Christ a demigod … Father and Son were of the same substance"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-09-problems-of-the-arabian-culture-pythagoras-mohammed-cromwell",
+      "id": "dv2-9-form-religion-as-escape",
+      "anchor": "sleep, wine, dancing … modes of slipping out of awareness by the aid of being"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-09-problems-of-the-arabian-culture-pythagoras-mohammed-cromwell",
+      "id": "dv2-9-parallel-pythagoras-mohammed-cromwell",
+      "anchor": "Pythagoras, Mohammed, and Cromwell embody one and the same movement in three Cultures."
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-09-problems-of-the-arabian-culture-pythagoras-mohammed-cromwell",
+      "id": "dv2-9-form-enlightenment-scepticism",
+      "anchor": "every 'Age of Enlightenment' proceeds from an unlimited optimism of the reason … to … scepticism"
+    }
+  ],
+  "concept:decadence": [
+    {
+      "unit_id": "decline-vol-i-ch-01-introduction",
+      "id": "dvi1-hist-nietzsche",
+      "anchor": "decadence … the transvaluation of all values"
+    }
+  ],
+  "concept:contemporaneity": [
+    {
+      "unit_id": "decline-vol-i-ch-01-introduction",
+      "id": "dvi1-parallel-hellenism",
+      "anchor": "“contemporary” … with the phase of Hellenism"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-02-the-meaning-of-numbers",
+      "id": "dvi2-parallel-pythagoras-descartes",
+      "anchor": "the agent was Pythagoras … the second Descartes"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-03-the-problem-of-world-history-physiognomic-and-systematic",
+      "id": "dvi3-parallel-chinese-historian",
+      "anchor": "for the Chinese historian … 4000 years of Chinese history"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-04-the-problem-of-world-history-the-destiny-idea-and-the-causality-principle",
+      "id": "dvi4-parallel-great-men",
+      "anchor": "No one foreknew … Mohammed … nor foresaw Napoleon in the fall of Robespierre"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-07-music-and-plastic-the-arts-of-form",
+      "id": "dvi7-parallel-rembrandt-bach",
+      "anchor": "Rembrandt … the organ works of Buxtehude, Pachelbel and Bach"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-10-soul-image-and-life-feeling-buddhism-stoicism-and-socialism",
+      "id": "dvi10-parallel-buddha-epicurus",
+      "anchor": "Buddha … gives a pattern to take or to leave, and Epicurus offers counsel."
+    },
+    {
+      "unit_id": "decline-vol-i-ch-10-soul-image-and-life-feeling-buddhism-stoicism-and-socialism",
+      "id": "dvi10-parallel-nirvana-ataraxia",
+      "anchor": "the Buddhist ideal of Nirvana … the Katharsis … Ataraxia"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-10-soul-image-and-life-feeling-buddhism-stoicism-and-socialism",
+      "id": "dvi10-reception-frye-morphological",
+      "anchor": "Buddhism, Stoicism and Socialism are morphologically equivalent as end-phenomena"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-10-soul-image-and-life-feeling-buddhism-stoicism-and-socialism",
+      "id": "dvi10-parallel-stoicism-socialism",
+      "anchor": "Socialism is the dynamic treatment of the same theme"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-02-origin-and-landscape-the-group-of-the-higher-cultures",
+      "id": "dv2-2-form-copernican-demotion",
+      "anchor": "human history … a mere episode in world-history"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-02-origin-and-landscape-the-group-of-the-higher-cultures",
+      "id": "dv2-2-parallel-contemporaneity",
+      "anchor": "the Chinese imperialism of Shi-hwang-ti and the Roman of Augustus, as Hellenism and Buddhism and Islam"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-07-problems-of-the-arabian-culture-historic-pseudomorphoses",
+      "id": "dv2-7-form-actium",
+      "anchor": "The Pseudomorphosis began with Actium; there it should have been Antony who won."
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-09-problems-of-the-arabian-culture-pythagoras-mohammed-cromwell",
+      "id": "dv2-9-parallel-pythagoras-mohammed-cromwell",
+      "anchor": "Pythagoras, Mohammed, and Cromwell embody one and the same movement in three Cultures."
+    },
+    {
+      "unit_id": "man-technics-ch-01-technics-as-the-tactics-of-living",
+      "id": "mt1-form-panem-circenses",
+      "anchor": "the panem et circenses of the late world-cities"
+    }
+  ],
+  "concept:culture-civilization": [
+    {
+      "unit_id": "decline-vol-i-ch-01-introduction",
+      "id": "dvi1-lex-culture-civilization",
+      "anchor": "Civilization is the inevitable destiny of the Culture"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-10-soul-image-and-life-feeling-buddhism-stoicism-and-socialism",
+      "id": "dvi10-form-nietzsche-socialist",
+      "anchor": "Even Nietzsche, that most passionate opponent of “herd morale” …"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-10-soul-image-and-life-feeling-buddhism-stoicism-and-socialism",
+      "id": "dvi10-teacher-all-socialists",
+      "anchor": "All world-improvers are Socialists … no Classical world-improvers."
+    },
+    {
+      "unit_id": "decline-vol-i-ch-10-soul-image-and-life-feeling-buddhism-stoicism-and-socialism",
+      "id": "dvi10-parallel-stoicism-socialism",
+      "anchor": "Socialism is the dynamic treatment of the same theme"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-02-origin-and-landscape-the-group-of-the-higher-cultures",
+      "id": "dv2-2-lex-eight-high-cultures",
+      "anchor": "eight such Cultures, all of the same build, the same development, and the same duration"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-02-origin-and-landscape-the-group-of-the-higher-cultures",
+      "id": "dv2-2-form-mexico-murdered",
+      "anchor": "the one example of a Culture ended by violent death"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-02-origin-and-landscape-the-group-of-the-higher-cultures",
+      "id": "dv2-2-reception-adorno-fatalism",
+      "anchor": "the history of humanity has no meaning whatever"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-02-origin-and-landscape-the-group-of-the-higher-cultures",
+      "id": "dv2-2-difficult-historyless-mankind",
+      "anchor": "man is … historyless before the birth of the Culture, but again becomes so …"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-03-origin-and-landscape-the-relations-between-the-cultures",
+      "id": "dv2-3-parallel-three-aristotles",
+      "anchor": "the 'three Aristotles' — Greek, Arabian, and Gothic — who had not one concept or thought in common"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-03-origin-and-landscape-the-relations-between-the-cultures",
+      "id": "dv2-3-form-roman-law-three-cultures",
+      "anchor": "Roman law … passed through three whole courses of evolution in three Cultures"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-04-cities-and-peoples-the-soul-of-the-city",
+      "id": "dv2-4-form-world-city",
+      "anchor": "the world-city … the centre in which the course of a world-history ends by winding itself up"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-04-cities-and-peoples-the-soul-of-the-city",
+      "id": "dv2-4-reception-adorno-megacity",
+      "anchor": "long after A.D. 2000, cities laid out for ten to twenty million inhabitants"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-04-cities-and-peoples-the-soul-of-the-city",
+      "id": "dv2-4-difficult-sterility",
+      "anchor": "the sterility of civilized man"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-04-cities-and-peoples-the-soul-of-the-city",
+      "id": "dv2-4-form-fellah-type",
+      "anchor": "At the last, only the primitive blood remains … This residue is the Fellah type."
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-06-cities-and-peoples-primitives-culture-peoples-fellaheen",
+      "id": "dv2-6-form-culture-makes-people",
+      "anchor": "Out of the people-shapes of the Carolingian Empire … arise suddenly the German, the French, the Spaniards, the Italians"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-06-cities-and-peoples-primitives-culture-peoples-fellaheen",
+      "id": "dv2-6-form-nation-is-an-idea",
+      "anchor": "Peoples in the style of their Culture we will call Nations … underlying the nation there is an Idea"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-06-cities-and-peoples-primitives-culture-peoples-fellaheen",
+      "id": "dv2-6-parallel-three-nation-types",
+      "anchor": "nations of Faustian style emerge … from the time of Otto the Great"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-06-cities-and-peoples-primitives-culture-peoples-fellaheen",
+      "id": "dv2-6-form-fellaheen",
+      "anchor": "the fellah-instincts of Hellenism"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-09-problems-of-the-arabian-culture-pythagoras-mohammed-cromwell",
+      "id": "dv2-9-lex-second-religiousness",
+      "anchor": "This next phase I call the Second Religiousness."
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-09-problems-of-the-arabian-culture-pythagoras-mohammed-cromwell",
+      "id": "dv2-9-form-enlightenment-scepticism",
+      "anchor": "every 'Age of Enlightenment' proceeds from an unlimited optimism of the reason … to … scepticism"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-09-problems-of-the-arabian-culture-pythagoras-mohammed-cromwell",
+      "id": "dv2-9-form-fellah-religion",
+      "anchor": "In the end Second Religiousness issues in the fellah-religions."
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-10-the-state-the-problem-of-the-estates-nobility-and-priesthood",
+      "id": "dv2-10-form-universal-estates",
+      "anchor": "Every new Culture has potentially its nobility and its priesthood."
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-10-the-state-the-problem-of-the-estates-nobility-and-priesthood",
+      "id": "dv2-10-form-third-estate",
+      "anchor": "The Third Estate … the non-estate — the protest … against the existence of estates"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-11-the-state-state-and-history",
+      "id": "dv2-11-form-culture-in-state-form",
+      "anchor": "Culture is the being of nations in State-form."
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-11-the-state-state-and-history",
+      "id": "dv2-11-lex-caesarism",
+      "anchor": "Cæsarism: government which … is in its inward self a return to thorough formlessness"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-12-the-state-philosophy-of-politics",
+      "id": "dv2-12-form-prime-party-money-mind",
+      "anchor": "The prime Estates are nobility and priesthood. The prime Party is that of money and mind, the liberal"
+    }
+  ],
+  "translation": [
+    {
+      "unit_id": "decline-vol-i-ch-01-introduction",
+      "id": "dvi1-translation-untergang",
+      "anchor": "Decline of that West-European Culture"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-02-the-meaning-of-numbers",
+      "id": "dvi2-translation-becoming",
+      "anchor": "Das Werden, das Gewordne"
+    }
+  ],
+  "concept:becoming-become": [
+    {
+      "unit_id": "decline-vol-i-ch-02-the-meaning-of-numbers",
+      "id": "dvi2-translation-becoming",
+      "anchor": "Das Werden, das Gewordne"
+    }
+  ],
+  "concept:world-as-history": [
+    {
+      "unit_id": "decline-vol-i-ch-02-the-meaning-of-numbers",
+      "id": "dvi2-reception-frye-nature-history",
+      "anchor": "Nature is the numerable, while History … has no relation to mathematics"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-03-the-problem-of-world-history-physiognomic-and-systematic",
+      "id": "dvi3-lex-world-as-history",
+      "anchor": "Plato, Rembrandt, Goethe and Beethoven … Parmenides, Descartes, Kant and Newton"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-04-the-problem-of-world-history-the-destiny-idea-and-the-causality-principle",
+      "id": "dvi4-lex-world-as-history",
+      "anchor": "the World-as-history as opposed to the World-as-nature"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-08-music-and-plastic-act-and-portrait",
+      "id": "dvi8-lex-world-as-history-portrait",
+      "anchor": "the portrait … takes its man … as a centre of the World-as-History"
+    }
+  ],
+  "domain:art": [
+    {
+      "unit_id": "decline-vol-i-ch-02-the-meaning-of-numbers",
+      "id": "dvi2-form-mathematics-in-stone",
+      "anchor": "Gothic cathedrals and Doric temples are mathematics in stone."
+    },
+    {
+      "unit_id": "decline-vol-i-ch-06-makrokosmos-apollinian-faustian-and-magian-soul",
+      "id": "dvi6-reception-frye-statue-fugue",
+      "anchor": "The nude statue is Apollinian, the art of the fugue Faustian."
+    },
+    {
+      "unit_id": "decline-vol-i-ch-06-makrokosmos-apollinian-faustian-and-magian-soul",
+      "id": "dvi6-parallel-doric-gothic",
+      "anchor": "The Doric column bores into the ground"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-07-music-and-plastic-the-arts-of-form",
+      "id": "dvi7-teacher-music-is-form-art",
+      "anchor": "with these arts we count music in its many and very dissimilar kinds"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-07-music-and-plastic-the-arts-of-form",
+      "id": "dvi7-reception-frye-music",
+      "anchor": "the space-straining music since Bach"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-07-music-and-plastic-the-arts-of-form",
+      "id": "dvi7-lex-faustian-imagination",
+      "anchor": "the truly Faustian and wholly un-Classical power of imagination"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-07-music-and-plastic-the-arts-of-form",
+      "id": "dvi7-parallel-shakespeare-unity",
+      "anchor": "Shakespeare’s ceaseless change of scene as against the Classical unity of place"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-07-music-and-plastic-the-arts-of-form",
+      "id": "dvi7-form-beethoven-deaf",
+      "anchor": "It is not an incident that Beethoven wrote his last works when he was deaf"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-07-music-and-plastic-the-arts-of-form",
+      "id": "dvi7-parallel-marble-eye",
+      "anchor": "He felt the marble with his eye"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-07-music-and-plastic-the-arts-of-form",
+      "id": "dvi7-parallel-rembrandt-bach",
+      "anchor": "Rembrandt … the organ works of Buxtehude, Pachelbel and Bach"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-08-music-and-plastic-act-and-portrait",
+      "id": "dvi8-parallel-nude-portrait",
+      "anchor": "Faustian man … found … expression of his life-feeling in the Portrait"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-08-music-and-plastic-act-and-portrait",
+      "id": "dvi8-teacher-act-vs-portrait",
+      "anchor": "the conflict of these two form-ideals … the contrast of two worlds"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-08-music-and-plastic-act-and-portrait",
+      "id": "dvi8-parallel-faces",
+      "anchor": "In China the face is like a landscape"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-08-music-and-plastic-act-and-portrait",
+      "id": "dvi8-form-portrait-musical",
+      "anchor": "But, for us, the portrait is musical."
+    },
+    {
+      "unit_id": "decline-vol-i-ch-08-music-and-plastic-act-and-portrait",
+      "id": "dvi8-lex-world-as-history-portrait",
+      "anchor": "the portrait … takes its man … as a centre of the World-as-History"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-08-music-and-plastic-act-and-portrait",
+      "id": "dvi8-lex-apollinian-statue",
+      "anchor": "The Classical statue is a piece of present “Nature” and nothing besides"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-08-music-and-plastic-act-and-portrait",
+      "id": "dvi8-reception-hughes-style",
+      "anchor": "the portraits of Rembrandt and the music of Beethoven"
+    }
+  ],
+  "concept:number": [
+    {
+      "unit_id": "decline-vol-i-ch-02-the-meaning-of-numbers",
+      "id": "dvi2-hist-pythagoras",
+      "anchor": "Pythagoras … to conceive number scientifically … as standard and as magnitude"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-02-the-meaning-of-numbers",
+      "id": "dvi2-lex-number-magnitude-function",
+      "anchor": "the inner structure of the Euclidean geometry … quite different from … the Cartesian"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-02-the-meaning-of-numbers",
+      "id": "dvi2-hist-calculus",
+      "anchor": "the Infinitesimal Calculus"
+    }
+  ],
+  "domain:mathematics": [
+    {
+      "unit_id": "decline-vol-i-ch-02-the-meaning-of-numbers",
+      "id": "dvi2-hist-pythagoras",
+      "anchor": "Pythagoras … to conceive number scientifically … as standard and as magnitude"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-02-the-meaning-of-numbers",
+      "id": "dvi2-lex-number-magnitude-function",
+      "anchor": "the inner structure of the Euclidean geometry … quite different from … the Cartesian"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-02-the-meaning-of-numbers",
+      "id": "dvi2-hist-calculus",
+      "anchor": "the Infinitesimal Calculus"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-02-the-meaning-of-numbers",
+      "id": "dvi2-parallel-pythagoras-descartes",
+      "anchor": "the agent was Pythagoras … the second Descartes"
+    }
+  ],
+  "culture:chinese": [
+    {
+      "unit_id": "decline-vol-i-ch-03-the-problem-of-world-history-physiognomic-and-systematic",
+      "id": "dvi3-parallel-chinese-historian",
+      "anchor": "for the Chinese historian … 4000 years of Chinese history"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-05-makrokosmos-the-symbolism-of-the-world-picture-and-the-problem-of-space",
+      "id": "dvi5-parallel-directions",
+      "anchor": "Chinese … free … wandering … to the goal; Egyptian … resolute march down the path"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-08-music-and-plastic-act-and-portrait",
+      "id": "dvi8-parallel-faces",
+      "anchor": "In China the face is like a landscape"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-02-origin-and-landscape-the-group-of-the-higher-cultures",
+      "id": "dv2-2-parallel-contemporaneity",
+      "anchor": "the Chinese imperialism of Shi-hwang-ti and the Roman of Augustus, as Hellenism and Buddhism and Islam"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-09-problems-of-the-arabian-culture-pythagoras-mohammed-cromwell",
+      "id": "dv2-9-form-fellah-religion",
+      "anchor": "In the end Second Religiousness issues in the fellah-religions."
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-10-the-state-the-problem-of-the-estates-nobility-and-priesthood",
+      "id": "dv2-10-form-universal-estates",
+      "anchor": "Every new Culture has potentially its nobility and its priesthood."
+    }
+  ],
+  "concept:the-soul": [
+    {
+      "unit_id": "decline-vol-i-ch-04-the-problem-of-world-history-the-destiny-idea-and-the-causality-principle",
+      "id": "dvi4-lex-the-soul",
+      "anchor": "the soul is the idea of an existence"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-06-makrokosmos-apollinian-faustian-and-magian-soul",
+      "id": "dvi6-lex-apollinian",
+      "anchor": "the sensuously-present individual body as the ideal type of the extended"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-06-makrokosmos-apollinian-faustian-and-magian-soul",
+      "id": "dvi6-hist-nietzsche-apollinian",
+      "anchor": "the name (familiarized by Nietzsche) of the Apollinian"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-06-makrokosmos-apollinian-faustian-and-magian-soul",
+      "id": "dvi6-lex-faustian",
+      "anchor": "the Faustian soul, whose prime-symbol is pure and limitless space"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-06-makrokosmos-apollinian-faustian-and-magian-soul",
+      "id": "dvi6-teacher-the-two-lists",
+      "anchor": "Apollinian are: mechanical statics, the sensuous cult of the Olympian gods …"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-06-makrokosmos-apollinian-faustian-and-magian-soul",
+      "id": "dvi6-lex-magian",
+      "anchor": "the Magian soul of the Arabian Culture with its algebra, astrology and alchemy"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-07-music-and-plastic-the-arts-of-form",
+      "id": "dvi7-parallel-shakespeare-unity",
+      "anchor": "Shakespeare’s ceaseless change of scene as against the Classical unity of place"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-07-music-and-plastic-the-arts-of-form",
+      "id": "dvi7-parallel-marble-eye",
+      "anchor": "He felt the marble with his eye"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-08-music-and-plastic-act-and-portrait",
+      "id": "dvi8-parallel-nude-portrait",
+      "anchor": "Faustian man … found … expression of his life-feeling in the Portrait"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-09-soul-image-and-life-feeling-on-the-form-of-the-soul",
+      "id": "dvi9-teacher-psychology-fails",
+      "anchor": "the shallowest and most worthless of the disciplines of philosophy"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-09-soul-image-and-life-feeling-on-the-form-of-the-soul",
+      "id": "dvi9-form-will-prime-word",
+      "anchor": "Will … a prime-word like God"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-09-soul-image-and-life-feeling-on-the-form-of-the-soul",
+      "id": "dvi9-lex-the-soul-image",
+      "anchor": "A soul-image is never anything but the image of one quite definite soul"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-09-soul-image-and-life-feeling-on-the-form-of-the-soul",
+      "id": "dvi9-reception-hughes-soul-image",
+      "anchor": "the soul-image underlying the knowledge is really one’s own soul-image"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-09-soul-image-and-life-feeling-on-the-form-of-the-soul",
+      "id": "dvi9-parallel-apollinian-soul-image",
+      "anchor": "the Apollinian soul-image — Plato’s biga-team with νοῦς as charioteer"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-09-soul-image-and-life-feeling-on-the-form-of-the-soul",
+      "id": "dvi9-lex-magian-soul-image",
+      "anchor": "the Magian soul-image is a strict dualism … Spirit and Soul"
+    }
+  ],
+  "concept:destiny-causality": [
+    {
+      "unit_id": "decline-vol-i-ch-04-the-problem-of-world-history-the-destiny-idea-and-the-causality-principle",
+      "id": "dvi4-reception-adorno-fatalism",
+      "anchor": "directed, irrevocable in every line, fate-laden"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-04-the-problem-of-world-history-the-destiny-idea-and-the-causality-principle",
+      "id": "dvi4-lex-destiny-causality",
+      "anchor": "destiny is the word for an inner certainty that is not describable"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-04-the-problem-of-world-history-the-destiny-idea-and-the-causality-principle",
+      "id": "dvi4-teacher-destiny-causality-time-space",
+      "anchor": "Destiny and Causality are related as Time and Space."
+    },
+    {
+      "unit_id": "decline-vol-i-ch-04-the-problem-of-world-history-the-destiny-idea-and-the-causality-principle",
+      "id": "dvi4-hist-augustine-time",
+      "anchor": "if no one questions me, I know: if I would explain to a questioner, I know not"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-11-faustian-and-apollinian-nature-knowledge",
+      "id": "dvi11-parallel-two-questions",
+      "anchor": "The Greek asked, what is the essence of visible being? We ask … mastering the invisible motive-forces"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-02-origin-and-landscape-the-group-of-the-higher-cultures",
+      "id": "dv2-2-lex-history-nature-picture",
+      "anchor": "world-as-history and world-as-nature"
+    }
+  ],
+  "domain:politics": [
+    {
+      "unit_id": "decline-vol-i-ch-04-the-problem-of-world-history-the-destiny-idea-and-the-causality-principle",
+      "id": "dvi4-form-napoleon-destiny",
+      "anchor": "he who is to himself a Destiny (like Napoleon)"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-01-origin-and-landscape-the-cosmic-and-the-microcosm",
+      "id": "dv2-1-form-mass-souls",
+      "anchor": "the higher Cultures, which are born in great spiritual upheavals … weld all aggregates … into one unit"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-03-origin-and-landscape-the-relations-between-the-cultures",
+      "id": "dv2-3-form-electric-power-strain",
+      "anchor": "the theft of electric power … had to be dealt with under an ad hoc statute"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-03-origin-and-landscape-the-relations-between-the-cultures",
+      "id": "dv2-3-parallel-law-bodies-functions",
+      "anchor": "Classical law was a law of bodies, while ours is a law of functions."
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-04-cities-and-peoples-the-soul-of-the-city",
+      "id": "dv2-4-form-world-history-is-civic",
+      "anchor": "world-history is the history of civic man"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-04-cities-and-peoples-the-soul-of-the-city",
+      "id": "dv2-4-form-town-soul",
+      "anchor": "what distinguishes a town from a village is not size, but the presence of a soul"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-04-cities-and-peoples-the-soul-of-the-city",
+      "id": "dv2-4-form-world-city",
+      "anchor": "the world-city … the centre in which the course of a world-history ends by winding itself up"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-05-cities-and-peoples-peoples-races-tongues",
+      "id": "dv2-5-form-demolish-the-people",
+      "anchor": "What has inhabited the earth since the Ice Age is man, not 'peoples.'"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-05-cities-and-peoples-peoples-races-tongues",
+      "id": "dv2-5-form-this-i-call-race",
+      "anchor": "the cosmic-plantlike side of life, of Being … This I call race."
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-06-cities-and-peoples-primitives-culture-peoples-fellaheen",
+      "id": "dv2-6-form-people-unit-of-soul",
+      "anchor": "the 'people' is a unit of the soul … the great events … created the peoples"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-06-cities-and-peoples-primitives-culture-peoples-fellaheen",
+      "id": "dv2-6-form-culture-makes-people",
+      "anchor": "Out of the people-shapes of the Carolingian Empire … arise suddenly the German, the French, the Spaniards, the Italians"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-06-cities-and-peoples-primitives-culture-peoples-fellaheen",
+      "id": "dv2-6-form-nation-is-an-idea",
+      "anchor": "Peoples in the style of their Culture we will call Nations … underlying the nation there is an Idea"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-06-cities-and-peoples-primitives-culture-peoples-fellaheen",
+      "id": "dv2-6-parallel-three-nation-types",
+      "anchor": "nations of Faustian style emerge … from the time of Otto the Great"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-10-the-state-the-problem-of-the-estates-nobility-and-priesthood",
+      "id": "dv2-10-form-estates-symbolic-dignity",
+      "anchor": "the prime Estates … sustained … by a symbolic dignity … lives that exist to have meaning"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-10-the-state-the-problem-of-the-estates-nobility-and-priesthood",
+      "id": "dv2-10-form-nobility-time-priesthood-space",
+      "anchor": "Every nobility is a living symbol of Time, every priesthood of Space."
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-10-the-state-the-problem-of-the-estates-nobility-and-priesthood",
+      "id": "dv2-10-form-estates-exclude",
+      "anchor": "The two Estates in principle exclude one another."
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-10-the-state-the-problem-of-the-estates-nobility-and-priesthood",
+      "id": "dv2-10-form-universal-estates",
+      "anchor": "Every new Culture has potentially its nobility and its priesthood."
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-10-the-state-the-problem-of-the-estates-nobility-and-priesthood",
+      "id": "dv2-10-form-third-estate",
+      "anchor": "The Third Estate … the non-estate — the protest … against the existence of estates"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-11-the-state-state-and-history",
+      "id": "dv2-11-form-state-at-halt",
+      "anchor": "State is history regarded as at the halt, history the State regarded as on the move."
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-11-the-state-state-and-history",
+      "id": "dv2-11-form-in-form-anti-constitution",
+      "anchor": "a people 'in form' … is spoilt when … subjected to … a written constitution"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-11-the-state-state-and-history",
+      "id": "dv2-11-form-culture-in-state-form",
+      "anchor": "Culture is the being of nations in State-form."
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-11-the-state-state-and-history",
+      "id": "dv2-11-form-estate-vs-state",
+      "anchor": "Estate and State contend for supremacy — the social against the political"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-12-the-state-philosophy-of-politics",
+      "id": "dv2-12-form-war-primary-politics",
+      "anchor": "War is the primary politics of everything that lives"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-12-the-state-philosophy-of-politics",
+      "id": "dv2-12-form-prime-party-money-mind",
+      "anchor": "The prime Estates are nobility and priesthood. The prime Party is that of money and mind, the liberal"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-12-the-state-philosophy-of-politics",
+      "id": "dv2-12-form-press-as-army",
+      "anchor": "The Press … an army … journalists as officers, and readers as soldiers"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-12-the-state-philosophy-of-politics",
+      "id": "dv2-12-form-censorship-of-silence",
+      "anchor": "the Press can condemn any 'truth' to death by not communicating it — a censorship of silence"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-14-the-form-world-of-economic-life-the-machine",
+      "id": "dv2-14-difficult-spengler-socialism",
+      "anchor": "Spengler's 'Socialism' — an order that transcends all class interests, not Marxism"
+    },
+    {
+      "unit_id": "man-technics-ch-04-the-second-stage-speech-and-enterprise",
+      "id": "mt4-teacher-command-and-obey",
+      "anchor": "there are by nature commanders and obeyers, subjects and objects of the political or economic procedures"
+    },
+    {
+      "unit_id": "man-technics-ch-04-the-second-stage-speech-and-enterprise",
+      "id": "mt4-difficult-all-men-equal",
+      "anchor": "the talk of the 'natural equality of all' proves that there is here something to be explained away"
+    },
+    {
+      "unit_id": "man-technics-ch-04-the-second-stage-speech-and-enterprise",
+      "id": "mt4-form-politics-substitute-for-war",
+      "anchor": "Politics is only the temporary substitute of war by the struggle with more spiritual weapons."
+    },
+    {
+      "unit_id": "man-technics-ch-04-the-second-stage-speech-and-enterprise",
+      "id": "mt4-form-frederick-first-servant",
+      "anchor": "Frederick the Great's saying: 'I am the first servant of my State'"
+    },
+    {
+      "unit_id": "man-technics-ch-05-the-last-act-rise-and-end-of-the-machine-culture",
+      "id": "mt5-difficult-race-prophecy",
+      "anchor": "The irreplaceable prerogatives of the white peoples … betrayed"
+    }
+  ],
+  "concept:prime-symbol": [
+    {
+      "unit_id": "decline-vol-i-ch-05-makrokosmos-the-symbolism-of-the-world-picture-and-the-problem-of-space",
+      "id": "dvi5-parallel-directions",
+      "anchor": "Chinese … free … wandering … to the goal; Egyptian … resolute march down the path"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-05-makrokosmos-the-symbolism-of-the-world-picture-and-the-problem-of-space",
+      "id": "dvi5-lex-prime-symbol",
+      "anchor": "the … Body … the Western … Space … the Arabian the world as a Cavern"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-05-makrokosmos-the-symbolism-of-the-world-picture-and-the-problem-of-space",
+      "id": "dvi5-teacher-prime-symbol",
+      "anchor": "the kind of extension as the prime symbol of a Culture"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-05-makrokosmos-the-symbolism-of-the-world-picture-and-the-problem-of-space",
+      "id": "dvi5-reception-frye-prime-symbols",
+      "anchor": "the prime-symbol of the Classical soul is the … body, that of the Western … infinite space"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-05-makrokosmos-the-symbolism-of-the-world-picture-and-the-problem-of-space",
+      "id": "dvi5-lex-faustian-space",
+      "anchor": "Infinite space is the ideal that the Western soul has always striven to find"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-05-makrokosmos-the-symbolism-of-the-world-picture-and-the-problem-of-space",
+      "id": "dvi5-parallel-classical-silence",
+      "anchor": "the whole Classical world never expended one word on it"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-06-makrokosmos-apollinian-faustian-and-magian-soul",
+      "id": "dvi6-parallel-doric-gothic",
+      "anchor": "The Doric column bores into the ground"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-08-music-and-plastic-act-and-portrait",
+      "id": "dvi8-parallel-faces",
+      "anchor": "In China the face is like a landscape"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-11-faustian-and-apollinian-nature-knowledge",
+      "id": "dvi11-parallel-three-physics",
+      "anchor": "a dynamic of unlimited span, a physics of the distant"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-01-origin-and-landscape-the-cosmic-and-the-microcosm",
+      "id": "dv2-1-form-visual-thought",
+      "anchor": "our concepts are derived from vision … our logic is a light-world in the imagination"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-03-origin-and-landscape-the-relations-between-the-cultures",
+      "id": "dv2-3-form-electric-power-strain",
+      "anchor": "the theft of electric power … had to be dealt with under an ad hoc statute"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-03-origin-and-landscape-the-relations-between-the-cultures",
+      "id": "dv2-3-parallel-law-bodies-functions",
+      "anchor": "Classical law was a law of bodies, while ours is a law of functions."
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-08-problems-of-the-arabian-culture-the-magian-soul",
+      "id": "dv2-8-lex-world-cavern",
+      "anchor": "the Magian world … a kind of extension that may be called cavern-like"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-08-problems-of-the-arabian-culture-the-magian-soul",
+      "id": "dv2-8-parallel-three-space-symbols",
+      "anchor": "The world-as-cavern is just as different from the world-as-extent of the … Faustian"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-13-the-form-world-of-economic-life-money",
+      "id": "dv2-13-parallel-classical-coin",
+      "anchor": "Classical money is a body — the coin, born ~650 B.C. beside the Doric temple and the statue"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-13-the-form-world-of-economic-life-money",
+      "id": "dv2-13-parallel-faustian-book-value",
+      "anchor": "Faustian money is a function — double-entry book-keeping, the book-value; Pythagoras vs Descartes"
+    },
+    {
+      "unit_id": "man-technics-ch-05-the-last-act-rise-and-end-of-the-machine-culture",
+      "id": "mt5-lex-faustian",
+      "anchor": "The Faustian, West-European Culture … the mightiest, the most passionate … the most tragic of all"
+    }
+  ],
+  "culture:egyptian": [
+    {
+      "unit_id": "decline-vol-i-ch-05-makrokosmos-the-symbolism-of-the-world-picture-and-the-problem-of-space",
+      "id": "dvi5-parallel-directions",
+      "anchor": "Chinese … free … wandering … to the goal; Egyptian … resolute march down the path"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-08-music-and-plastic-act-and-portrait",
+      "id": "dvi8-parallel-faces",
+      "anchor": "In China the face is like a landscape"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-06-cities-and-peoples-primitives-culture-peoples-fellaheen",
+      "id": "dv2-6-form-fellaheen",
+      "anchor": "the fellah-instincts of Hellenism"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-09-problems-of-the-arabian-culture-pythagoras-mohammed-cromwell",
+      "id": "dv2-9-form-fellah-religion",
+      "anchor": "In the end Second Religiousness issues in the fellah-religions."
+    }
+  ],
+  "domain:science": [
+    {
+      "unit_id": "decline-vol-i-ch-11-faustian-and-apollinian-nature-knowledge",
+      "id": "dvi11-reception-farrenkopf-end-of-science",
+      "anchor": "as a science … it may have an exactly-definable end"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-11-faustian-and-apollinian-nature-knowledge",
+      "id": "dvi11-teacher-physics-is-symbol",
+      "anchor": "every one of its results is a symbol"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-11-faustian-and-apollinian-nature-knowledge",
+      "id": "dvi11-form-theory-not-number",
+      "anchor": "it is theories and not pure numbers that are the support of all natural science"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-11-faustian-and-apollinian-nature-knowledge",
+      "id": "dvi11-parallel-three-physics",
+      "anchor": "a dynamic of unlimited span, a physics of the distant"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-11-faustian-and-apollinian-nature-knowledge",
+      "id": "dvi11-lex-faustian-force",
+      "anchor": "to the Faustian the idea of force and mass"
+    },
+    {
+      "unit_id": "decline-vol-i-ch-11-faustian-and-apollinian-nature-knowledge",
+      "id": "dvi11-parallel-two-questions",
+      "anchor": "The Greek asked, what is the essence of visible being? We ask … mastering the invisible motive-forces"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-14-the-form-world-of-economic-life-the-machine",
+      "id": "dv2-14-form-faustian-technics-mastery",
+      "anchor": "Faustian technics … thrusts itself upon Nature, with the firm resolve to be its master"
+    },
+    {
+      "unit_id": "man-technics-ch-05-the-last-act-rise-and-end-of-the-machine-culture",
+      "id": "mt5-form-gothic-back-dating",
+      "anchor": "northern monks of the thirteenth and fourteenth centuries press into the world of technical-physical problems"
+    },
+    {
+      "unit_id": "man-technics-ch-05-the-last-act-rise-and-end-of-the-machine-culture",
+      "id": "mt5-form-working-hypothesis",
+      "anchor": "here, and here alone, theory is from the outset a working hypothesis"
+    }
+  ],
+  "concept:cosmic-microcosm": [
+    {
+      "unit_id": "decline-vol-ii-ch-01-origin-and-landscape-the-cosmic-and-the-microcosm",
+      "id": "dv2-1-lex-cosmic-microcosm",
+      "anchor": "The plant is something cosmic, and the animal is additionally a microcosm"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-01-origin-and-landscape-the-cosmic-and-the-microcosm",
+      "id": "dv2-1-form-beat-and-tension",
+      "anchor": "All that is cosmic bears the hall-mark of periodicity … microcosmic possesses … tension"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-01-origin-and-landscape-the-cosmic-and-the-microcosm",
+      "id": "dv2-1-form-mass-souls",
+      "anchor": "the higher Cultures, which are born in great spiritual upheavals … weld all aggregates … into one unit"
+    }
+  ],
+  "concept:being-waking-being": [
+    {
+      "unit_id": "decline-vol-ii-ch-01-origin-and-landscape-the-cosmic-and-the-microcosm",
+      "id": "dv2-1-form-blood-symbol",
+      "anchor": "The blood is for us the symbol of the living."
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-01-origin-and-landscape-the-cosmic-and-the-microcosm",
+      "id": "dv2-1-lex-being-waking-being",
+      "anchor": "Being possesses beat and direction, while waking-consciousness is tension and extension."
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-01-origin-and-landscape-the-cosmic-and-the-microcosm",
+      "id": "dv2-1-form-destiny-causality-men",
+      "anchor": "There are born destiny-men and causality-men."
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-04-cities-and-peoples-the-soul-of-the-city",
+      "id": "dv2-4-form-peasant-rooted",
+      "anchor": "with this, man himself becomes plant — namely, as peasant. He roots in the earth that he tends"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-04-cities-and-peoples-the-soul-of-the-city",
+      "id": "dv2-4-form-money-rootless",
+      "anchor": "Money … a form of the activity of waking-consciousness, having no longer any roots in Being"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-04-cities-and-peoples-the-soul-of-the-city",
+      "id": "dv2-4-form-intellectual-nomad",
+      "anchor": "the intellectual nomad"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-05-cities-and-peoples-peoples-races-tongues",
+      "id": "dv2-5-form-this-i-call-race",
+      "anchor": "the cosmic-plantlike side of life, of Being … This I call race."
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-05-cities-and-peoples-peoples-races-tongues",
+      "id": "dv2-5-form-race-vs-language",
+      "anchor": "Race is something cosmic and psychic … Languages, on the other hand, are causal forms"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-05-cities-and-peoples-peoples-races-tongues",
+      "id": "dv2-5-form-comradeship-breeds-races",
+      "anchor": "Comradeship breeds races."
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-05-cities-and-peoples-peoples-races-tongues",
+      "id": "dv2-5-difficult-race-not-biological",
+      "anchor": "'race' has travelled as flesh over the fixed skeleton-form of the land"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-07-problems-of-the-arabian-culture-historic-pseudomorphoses",
+      "id": "dv2-7-form-jesus-two-worlds",
+      "anchor": "'Give unto Cæsar …' … What alone matters is the salvation of the soul."
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-09-problems-of-the-arabian-culture-pythagoras-mohammed-cromwell",
+      "id": "dv2-9-form-religion-as-escape",
+      "anchor": "sleep, wine, dancing … modes of slipping out of awareness by the aid of being"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-10-the-state-the-problem-of-the-estates-nobility-and-priesthood",
+      "id": "dv2-10-form-nobility-time-priesthood-space",
+      "anchor": "Every nobility is a living symbol of Time, every priesthood of Space."
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-10-the-state-the-problem-of-the-estates-nobility-and-priesthood",
+      "id": "dv2-10-form-estates-exclude",
+      "anchor": "The two Estates in principle exclude one another."
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-11-the-state-state-and-history",
+      "id": "dv2-11-form-state-at-halt",
+      "anchor": "State is history regarded as at the halt, history the State regarded as on the move."
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-13-the-form-world-of-economic-life-money",
+      "id": "dv2-13-form-thinking-in-money",
+      "anchor": "in place of thinking in goods we have thinking in money"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-13-the-form-world-of-economic-life-money",
+      "id": "dv2-13-form-blood-vs-money-opens",
+      "anchor": "a desperate conflict … the soil-rooted tradition of a race … against the spirit of money"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-14-the-form-world-of-economic-life-the-machine",
+      "id": "dv2-14-form-money-is-thought",
+      "anchor": "money … is a form of thought; it fades out as soon as it has thought its economic world to finality"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-14-the-form-world-of-economic-life-the-machine",
+      "id": "dv2-14-form-money-vs-blood",
+      "anchor": "the last conflict … the conflict between money and blood"
+    }
+  ],
+  "concept:will-to-power": [
+    {
+      "unit_id": "decline-vol-ii-ch-01-origin-and-landscape-the-cosmic-and-the-microcosm",
+      "id": "dv2-1-hist-nietzsche-value-of-truth",
+      "anchor": "Nietzsche … confronted science with the problem of the value of truth and knowledge"
+    },
+    {
+      "unit_id": "man-technics-ch-01-technics-as-the-tactics-of-living",
+      "id": "mt1-hist-nietzsche-will-to-power",
+      "anchor": "life … in Nietzsche's sense, as a struggle out of the will-to-power, cruel, inexorable"
+    },
+    {
+      "unit_id": "man-technics-ch-02-herbivores-and-beasts-of-prey",
+      "id": "mt2-hist-amor-fati",
+      "anchor": "so thought Nietzsche, amor fati"
+    },
+    {
+      "unit_id": "man-technics-ch-04-the-second-stage-speech-and-enterprise",
+      "id": "mt4-form-mephistopheles-faust",
+      "anchor": "as Mephistopheles ironically expresses it in Faust"
+    }
+  ],
+  "culture:mexican": [
+    {
+      "unit_id": "decline-vol-ii-ch-02-origin-and-landscape-the-group-of-the-higher-cultures",
+      "id": "dv2-2-form-mexico-murdered",
+      "anchor": "the one example of a Culture ended by violent death"
+    }
+  ],
+  "domain:economics": [
+    {
+      "unit_id": "decline-vol-ii-ch-04-cities-and-peoples-the-soul-of-the-city",
+      "id": "dv2-4-form-peasant-rooted",
+      "anchor": "with this, man himself becomes plant — namely, as peasant. He roots in the earth that he tends"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-04-cities-and-peoples-the-soul-of-the-city",
+      "id": "dv2-4-form-money-rootless",
+      "anchor": "Money … a form of the activity of waking-consciousness, having no longer any roots in Being"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-12-the-state-philosophy-of-politics",
+      "id": "dv2-12-form-democracy-and-money",
+      "anchor": "on the soil of a democracy constitutional rights signify nothing without money and everything with it"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-13-the-form-world-of-economic-life-money",
+      "id": "dv2-13-form-thinking-in-money",
+      "anchor": "in place of thinking in goods we have thinking in money"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-13-the-form-world-of-economic-life-money",
+      "id": "dv2-13-form-democracy-equals-money",
+      "anchor": "Democracy is the completed equating of money with political power."
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-13-the-form-world-of-economic-life-money",
+      "id": "dv2-13-form-blood-vs-money-opens",
+      "anchor": "a desperate conflict … the soil-rooted tradition of a race … against the spirit of money"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-13-the-form-world-of-economic-life-money",
+      "id": "dv2-13-parallel-classical-coin",
+      "anchor": "Classical money is a body — the coin, born ~650 B.C. beside the Doric temple and the statue"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-13-the-form-world-of-economic-life-money",
+      "id": "dv2-13-difficult-slave-as-money",
+      "anchor": "the slave — a body, 'a thing and not a person' — thought of as money"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-13-the-form-world-of-economic-life-money",
+      "id": "dv2-13-parallel-faustian-book-value",
+      "anchor": "Faustian money is a function — double-entry book-keeping, the book-value; Pythagoras vs Descartes"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-14-the-form-world-of-economic-life-the-machine",
+      "id": "dv2-14-form-money-is-thought",
+      "anchor": "money … is a form of thought; it fades out as soon as it has thought its economic world to finality"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-14-the-form-world-of-economic-life-the-machine",
+      "id": "dv2-14-form-money-vs-blood",
+      "anchor": "the last conflict … the conflict between money and blood"
+    },
+    {
+      "unit_id": "man-technics-ch-02-herbivores-and-beasts-of-prey",
+      "id": "mt2-form-property",
+      "anchor": "the kingly concept of property"
+    }
+  ],
+  "concept:pseudomorphosis": [
+    {
+      "unit_id": "decline-vol-ii-ch-07-problems-of-the-arabian-culture-historic-pseudomorphoses",
+      "id": "dv2-7-lex-pseudomorphosis",
+      "anchor": "historical pseudomorphosis: an older alien Culture lies so massively over the land that a young Culture … cannot get its breath"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-07-problems-of-the-arabian-culture-historic-pseudomorphoses",
+      "id": "dv2-7-form-arabian-pseudomorphosis",
+      "anchor": "This is the case of the Arabian Culture."
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-07-problems-of-the-arabian-culture-historic-pseudomorphoses",
+      "id": "dv2-7-form-actium",
+      "anchor": "The Pseudomorphosis began with Actium; there it should have been Antony who won."
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-07-problems-of-the-arabian-culture-historic-pseudomorphoses",
+      "id": "dv2-7-form-russia-pseudomorphosis",
+      "anchor": "A second pseudomorphosis is presented to our eyes to-day in Russia."
+    }
+  ],
+  "concept:second-religiousness": [
+    {
+      "unit_id": "decline-vol-ii-ch-09-problems-of-the-arabian-culture-pythagoras-mohammed-cromwell",
+      "id": "dv2-9-lex-second-religiousness",
+      "anchor": "This next phase I call the Second Religiousness."
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-09-problems-of-the-arabian-culture-pythagoras-mohammed-cromwell",
+      "id": "dv2-9-form-fellah-religion",
+      "anchor": "In the end Second Religiousness issues in the fellah-religions."
+    }
+  ],
+  "concept:caesarism": [
+    {
+      "unit_id": "decline-vol-ii-ch-11-the-state-state-and-history",
+      "id": "dv2-11-lex-caesarism",
+      "anchor": "Cæsarism: government which … is in its inward self a return to thorough formlessness"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-12-the-state-philosophy-of-politics",
+      "id": "dv2-12-reception-farrenkopf-politics",
+      "anchor": "an irresistible tendency driving every democracy … on the road to suicide"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-14-the-form-world-of-economic-life-the-machine",
+      "id": "dv2-14-difficult-money-overthrown-by-blood",
+      "anchor": "Money is overthrown and abolished only by blood … World-history is the world court"
+    }
+  ],
+  "concept:tragedy": [
+    {
+      "unit_id": "decline-vol-ii-ch-14-the-form-world-of-economic-life-the-machine",
+      "id": "dv2-14-form-faust-figure-to-be-god",
+      "anchor": "the Gothic discoverers … forced this secret out of God in order themselves to be God"
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-14-the-form-world-of-economic-life-the-machine",
+      "id": "dv2-14-form-slave-of-the-machine",
+      "anchor": "Faustian man has become the slave of his creation."
+    },
+    {
+      "unit_id": "decline-vol-ii-ch-14-the-form-world-of-economic-life-the-machine",
+      "id": "dv2-14-form-ducunt-fata",
+      "anchor": "Ducunt Fata volentem, nolentem trahunt."
+    },
+    {
+      "unit_id": "man-technics-ch-01-technics-as-the-tactics-of-living",
+      "id": "mt1-parallel-achilles-choice",
+      "anchor": "the choice of whether he would wish a long life or a short one full of deeds and fame"
+    },
+    {
+      "unit_id": "man-technics-ch-01-technics-as-the-tactics-of-living",
+      "id": "mt1-form-prometheus",
+      "anchor": "the hubris of Prometheus, who reaches into the heavens to subject the divine powers to man"
+    },
+    {
+      "unit_id": "man-technics-ch-02-herbivores-and-beasts-of-prey",
+      "id": "mt2-form-ideals-are-cowardice",
+      "anchor": "Ideals are cowardices."
+    },
+    {
+      "unit_id": "man-technics-ch-03-the-origin-of-man-hand-and-tool",
+      "id": "mt3-form-fire-first-deed",
+      "anchor": "Nothing is so telling for the difference as the kindling of fire."
+    },
+    {
+      "unit_id": "man-technics-ch-03-the-origin-of-man-hand-and-tool",
+      "id": "mt3-teacher-mans-tragedy",
+      "anchor": "The tragedy of man begins, for Nature is the stronger"
+    },
+    {
+      "unit_id": "man-technics-ch-03-the-origin-of-man-hand-and-tool",
+      "id": "mt3-form-cultures-are-defeats",
+      "anchor": "All the great Cultures are so many defeats."
+    },
+    {
+      "unit_id": "man-technics-ch-03-the-origin-of-man-hand-and-tool",
+      "id": "mt3-teacher-fight-hopeless",
+      "anchor": "The struggle against Nature is hopeless, and nevertheless it will be fought out to the end."
+    },
+    {
+      "unit_id": "man-technics-ch-04-the-second-stage-speech-and-enterprise",
+      "id": "mt4-form-self-made-cage",
+      "anchor": "The beast of prey … has captured himself"
+    },
+    {
+      "unit_id": "man-technics-ch-05-the-last-act-rise-and-end-of-the-machine-culture",
+      "id": "mt5-teacher-every-culture-tragedy",
+      "anchor": "Every high Culture is a tragedy"
+    },
+    {
+      "unit_id": "man-technics-ch-05-the-last-act-rise-and-end-of-the-machine-culture",
+      "id": "mt5-teacher-machine-revolts",
+      "anchor": "the microcosm machine rebels against the northern man"
+    },
+    {
+      "unit_id": "man-technics-ch-05-the-last-act-rise-and-end-of-the-machine-culture",
+      "id": "mt5-reception-farrenkopf-apocalyptic",
+      "anchor": "most of the great forests have vanished … wholly or almost wholly exterminated"
+    },
+    {
+      "unit_id": "man-technics-ch-05-the-last-act-rise-and-end-of-the-machine-culture",
+      "id": "mt5-teacher-optimism-cowardice",
+      "anchor": "Optimism is cowardice."
+    },
+    {
+      "unit_id": "man-technics-ch-05-the-last-act-rise-and-end-of-the-machine-culture",
+      "id": "mt5-hist-pompeii-sentry",
+      "anchor": "that Roman soldier whose bones were found before a gate of Pompeii"
+    }
+  ],
+  "concept:beast-of-prey": [
+    {
+      "unit_id": "man-technics-ch-01-technics-as-the-tactics-of-living",
+      "id": "mt1-hist-rousseau-lamb",
+      "anchor": "a kind of little lamb … corrupted only afterward, by Culture"
+    },
+    {
+      "unit_id": "man-technics-ch-02-herbivores-and-beasts-of-prey",
+      "id": "mt2-form-beast-of-prey-dignity",
+      "anchor": "It gives the type man a high rank, that he is a beast of prey."
+    },
+    {
+      "unit_id": "man-technics-ch-02-herbivores-and-beasts-of-prey",
+      "id": "mt2-form-property",
+      "anchor": "the kingly concept of property"
+    },
+    {
+      "unit_id": "man-technics-ch-02-herbivores-and-beasts-of-prey",
+      "id": "mt2-form-anti-rousseau-haeckel",
+      "anchor": "the tactic of his life is that of a splendid, brave, cunning, cruel beast of prey"
+    },
+    {
+      "unit_id": "man-technics-ch-05-the-last-act-rise-and-end-of-the-machine-culture",
+      "id": "mt5-form-booty-to-be-god",
+      "anchor": "The concept of the prey of the beast of prey is thought to its end."
+    }
+  ],
+  "concept:technics": [
+    {
+      "unit_id": "man-technics-ch-01-technics-as-the-tactics-of-living",
+      "id": "mt1-form-technics-immemorial",
+      "anchor": "technics is immemorially old"
+    },
+    {
+      "unit_id": "man-technics-ch-01-technics-as-the-tactics-of-living",
+      "id": "mt1-form-not-the-implement",
+      "anchor": "a technics of the brush-stroke, of horsemanship, of steering an airship"
+    },
+    {
+      "unit_id": "man-technics-ch-02-herbivores-and-beasts-of-prey",
+      "id": "mt2-form-animal-technique-generic",
+      "anchor": "Ants know plant-culture, road-building, slavery and the conduct of war."
+    },
+    {
+      "unit_id": "man-technics-ch-02-herbivores-and-beasts-of-prey",
+      "id": "mt2-teacher-creator-grandeur-doom",
+      "anchor": "Man has become the creator of his tactic of living. That is his greatness and his doom."
+    },
+    {
+      "unit_id": "man-technics-ch-03-the-origin-of-man-hand-and-tool",
+      "id": "mt3-form-art-counter-to-nature",
+      "anchor": "Every technical procedure of man is an art and has always been so called"
+    }
+  ],
+  "concept:world-picture": [
+    {
+      "unit_id": "man-technics-ch-02-herbivores-and-beasts-of-prey",
+      "id": "mt2-hist-uexkull-umwelt",
+      "anchor": "there arise out of the surrounding a world-around for each single being"
+    },
+    {
+      "unit_id": "man-technics-ch-02-herbivores-and-beasts-of-prey",
+      "id": "mt2-form-world-picture-eye",
+      "anchor": "The world-picture is the world-around mastered by the eye."
+    }
+  ],
+  "concept:hand-and-tool": [
+    {
+      "unit_id": "man-technics-ch-03-the-origin-of-man-hand-and-tool",
+      "id": "mt3-form-genesis-of-hand",
+      "anchor": "The answer runs: through the arising of the hand."
+    },
+    {
+      "unit_id": "man-technics-ch-03-the-origin-of-man-hand-and-tool",
+      "id": "mt3-form-hand-and-tool-coeval",
+      "anchor": "As the tool took form from the shape of the hand, so conversely the hand on the shape of the tool."
+    }
+  ],
+  "concept:enterprise": [
+    {
+      "unit_id": "man-technics-ch-04-the-second-stage-speech-and-enterprise",
+      "id": "mt4-teacher-collective-doing",
+      "anchor": "planful doing in numbers. Until then each man lives his own life"
+    },
+    {
+      "unit_id": "man-technics-ch-04-the-second-stage-speech-and-enterprise",
+      "id": "mt4-form-speech-enterprise-parallel",
+      "anchor": "Speaking and enterprise presuppose each other in precisely the same way as, earlier, hand and tool."
+    }
+  ]
+}

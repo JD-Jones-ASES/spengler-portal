@@ -1,0 +1,80 @@
+{
+  "unit_id": "decline-vol-ii-ch-07-problems-of-the-arabian-culture-historic-pseudomorphoses",
+  "annotations": [
+    {
+      "id": "dv2-7-lex-pseudomorphosis",
+      "kind": "lexicon-term",
+      "selector": { "exact": "an older alien Culture lies so massively over the land that a young Culture, born in this land, cannot get its breath" },
+      "anchor": "historical pseudomorphosis: an older alien Culture lies so massively over the land that a young Culture … cannot get its breath",
+      "note": "One of Spengler's most influential coinages, borrowed from mineralogy: a 'pseudomorph' is a crystal forced to fill the hollow mould of a different, dissolved mineral, so that its inner structure contradicts its outer shape. A 'historical pseudomorphosis' is a young Culture compelled to grow inside the cast of an older alien one — 'young feelings stiffen in senile works,' and the thwarted soul turns to 'a hate that grows to be monstrous.' The concept has had a long life in cultural history well beyond Spengler.",
+      "cultures": ["magian"],
+      "tags": ["concept:pseudomorphosis", "domain:method"],
+      "see_also": ["pseudomorphosis", "magian"],
+      "evidence": [{ "claim_type": "lexical-definition", "citations": ["wikipedia-decline"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "lexicon", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-7-form-magian-discovery",
+      "kind": "form-observation",
+      "selector": { "exact": "The Magian Culture, geographically and historically, is the midmost of the group of higher Cultures" },
+      "anchor": "The Magian Culture … is the midmost of the group of higher Cultures",
+      "note": "Spengler's proudest 'discovery': that early Christianity, Judaism and the Talmud, Mazdaism, Mani, Byzantium, and Islam are not separate stories but expressions of one 'Arabian' or 'Magian' Culture. Western scholarship missed it, he argues, because it cut the material along philological and confessional lines — 'Ancient/Mediæval/Modern,' Greek vs. Hebrew vs. Iranian departments — and so 'the big problems' were never even seen. His striking corollary: 'a nation of Magian type has no mother tongue' (its literature is one in spirit but written in many languages).",
+      "cultures": ["magian"],
+      "tags": ["culture:magian", "domain:method"],
+      "see_also": ["magian"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-7-form-arabian-pseudomorphosis",
+      "kind": "form-observation",
+      "selector": { "exact": "This is the case of the Arabian Culture." },
+      "anchor": "This is the case of the Arabian Culture.",
+      "note": "The prime case of pseudomorphosis. A young Eastern soul began to wake among the Aramaic-speaking peoples from about 300 B.C. — 'a new relation of man to God' stirring under the names of Ahuramazda, Baal, and Yahweh — but the Macedonian conquest and then Rome laid 'a thin sheet of Classical Civilization' over it. The Magian springtime could not breathe in its own forms; it lived a borrowed, distorted life under Greek and Roman moulds. Everything Spengler says about the Magian soul (next chapter) is meant to recover the true form beneath that cast.",
+      "cultures": ["magian", "apollinian"],
+      "tags": ["concept:pseudomorphosis", "culture:magian"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-7-form-actium",
+      "kind": "form-observation",
+      "selector": { "exact": "The Pseudomorphosis began with Actium; there it should have been Antony who won." },
+      "anchor": "The Pseudomorphosis began with Actium; there it should have been Antony who won.",
+      "note": "Spengler reads the battle of Actium (31 B.C.) against the grain: not Rome vs. Greece, but 'the unborn Arabian Culture … opposed to iron-grey Classical Civilization' — 'the issue lay between Principate and Caliphate.' Antony's defeat 'drew over its lands the hard sheet of Roman Imperium.' He sharpens it with a counterfactual: had the Arabs won at Tours-Poitiers (732), the West itself would have been the pseudomorphosis — Gothic feeling forced into Mosque and Arabesque, German mysticism replaced by 'a sort of Sufism.'",
+      "cultures": ["magian", "apollinian"],
+      "tags": ["concept:pseudomorphosis", "concept:contemporaneity"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-7-form-russia-pseudomorphosis",
+      "kind": "form-observation",
+      "selector": { "exact": "A second pseudomorphosis is presented to our eyes to-day in Russia." },
+      "anchor": "A second pseudomorphosis is presented to our eyes to-day in Russia.",
+      "note": "Spengler applies the concept to the present: Russia is a young Culture forced under a Western, 'Petrine' cast since Peter the Great built Petersburg ('the first act of Antichrist'). Hence the 'apocalyptic hatred' of 'Europe.' His famous epigram: 'Tolstoi is the former Russia, Dostoyevski the coming Russia' — Tolstoi still bound to the West ('the great spokesman of Petrinism even when he is denying it'), Dostoyevski reaching past it to a deeper religiousness. He reads Bolshevism not as Russia's own voice but as 'the final issue of Petrinism,' a fresh pseudomorphosis — a reading worth weighing critically against the history that followed.",
+      "tags": ["concept:pseudomorphosis", "view:interpretation"],
+      "see_also": ["pseudomorphosis"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-7-form-jesus-two-worlds",
+      "kind": "form-observation",
+      "selector": { "exact": "What alone matters is the salvation of the soul." },
+      "anchor": "'Give unto Cæsar …' … What alone matters is the salvation of the soul.",
+      "note": "Spengler reads Jesus as belonging wholly to the Magian world of soul and truth, indifferent to the Roman world of fact and power. 'Render unto Caesar' means: 'fit yourselves to the powers of the fact-world, be patient, suffer' — 'what alone matters is the salvation of the soul.' The trial before Pilate becomes the archetypal collision of the two worlds mapped in chapter I: the man of fact ('What is truth?') face to face with the man for whom only truth, never fact, is real.",
+      "cultures": ["magian"],
+      "tags": ["culture:magian", "concept:being-waking-being"],
+      "see_also": ["magian"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    }
+  ]
+}

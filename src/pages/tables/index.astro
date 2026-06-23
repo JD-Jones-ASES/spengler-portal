@@ -1,0 +1,65 @@
+---
+import Layout from "../../components/Layout.astro";
+import PhaseClock from "../../components/PhaseClock.astro";
+import ComparativeTable from "../../islands/ComparativeTable.svelte";
+import { sourceInfo, publishedUnits } from "../../lib/guide-data.js";
+import spiritual from "../../../data/comparative/spiritual-epochs.table.json";
+import culture from "../../../data/comparative/culture-epochs.table.json";
+import political from "../../../data/comparative/political-epochs.table.json";
+
+const base = import.meta.env.BASE_URL.endsWith("/") ? import.meta.env.BASE_URL : import.meta.env.BASE_URL + "/";
+// unit_id → display label, so a cell's passage_targets render as a named deep-link into the reader.
+const units = Object.fromEntries(publishedUnits().map((u) => [u.unit_id, { label: u.title }]));
+
+// All three of Spengler's foldout tables, in his own order.
+const tables = [spiritual, culture, political];
+const nav = [
+  { id: "spiritual-epochs", n: "I", label: "Spiritual Epochs" },
+  { id: "culture-epochs", n: "II", label: "Culture Epochs" },
+  { id: "political-epochs", n: "III", label: "Political Epochs" },
+];
+---
+
+<Layout title="The Comparative Tables" current="tables">
+  <section class="wrap page-head">
+    <div style="display:flex;align-items:center;gap:1rem;">
+      <PhaseClock size={56} />
+      <div>
+        <p class="eyebrow">The Comparative Morphology of History</p>
+        <h1>The Tables</h1>
+      </div>
+    </div>
+    <p class="lede">
+      Spengler ends Volume I with three foldout tables setting the Cultures side by side. Read a row
+      across and you see the figures, styles and states he calls <em>“contemporary”</em> — at the same
+      point in their Culture's life-cycle, whatever the calendar says. Pick a phase to isolate one band
+      of contemporaries, or hide a Culture to compare the rest.
+    </p>
+    <nav class="table-nav" aria-label="Jump to a table">
+      {nav.map((t) => (
+        <a class="facet-btn" href={`#${t.id}`}>Table {t.n} · {t.label}</a>
+      ))}
+    </nav>
+  </section>
+
+  {tables.map((data) => {
+    const src = sourceInfo(data.source_citation);
+    return (
+      <section class="wrap" id={data.id} style="padding-bottom:3rem;scroll-margin-top:5rem;">
+        <h2 class="section-h">{data.title}</h2>
+        <ComparativeTable data={data} base={base} units={units} client:visible />
+        <p class="muted" style="margin-top:1.5rem;font-size:0.88rem;">
+          Source: every cell is transcribed from {data.source} —
+          {src.url ? <a href={src.url} target="_blank" rel="noopener">{src.title}</a> : src.title}.
+          Where the source OCR garbles a date or bleeds a cell, the entry carries an editorial note (⚑).
+          Where the reading text treats a cell's theme at length, the cell carries an <span style="white-space:nowrap;">“↪ chapter”</span> deep-link into the reader; this linking is thematic and selective — not every cell is wired.
+        </p>
+      </section>
+    );
+  })}
+</Layout>
+
+<style>
+  .table-nav { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1.25rem; }
+  .table-nav a { text-decoration: none; }
+</style>

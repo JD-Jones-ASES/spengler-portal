@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "timeline.schema.json",
+  "title": "Phase-clock timeline (Cultures in morphological time)",
+  "type": "object",
+  "required": ["id", "title", "source_citation", "contemporaneity_note", "cultures"],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "title": { "type": "string" },
+    "source": { "type": "string" },
+    "source_citation": { "type": "string" },
+    "contemporaneity_note": { "type": "string", "minLength": 30 },
+    "now": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["year", "culture", "label"],
+      "properties": {
+        "year": { "type": "integer" },
+        "culture": { "type": "string" },
+        "label": { "type": "string" }
+      }
+    },
+    "cultures": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "label", "cult", "span_start", "span_end", "birth", "phases"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+          "label": { "type": "string" },
+          "cult": { "enum": ["indian", "apollinian", "magian", "faustian", "egyptian", "chinese", "mexican"] },
+          "span_start": { "type": "integer" },
+          "span_end": { "type": "integer" },
+          "birth": { "type": "integer" },
+          "phases": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["id", "label", "from", "to"],
+              "properties": {
+                "id": { "enum": ["pre-cultural", "early", "late", "civilization"] },
+                "label": { "type": "string" },
+                "style": { "type": "string" },
+                "from": { "type": "integer" },
+                "to": { "type": "integer" }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

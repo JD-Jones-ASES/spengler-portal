@@ -1,0 +1,30 @@
+# Dependencies & build output
+node_modules/
+dist/
+.astro/
+.vite/
+*.log
+
+# Secrets & personal context — never published
+.env
+JD.md
+
+# Local agent / editor state
+.claude/
+.codex-screenshots/
+
+# Google Drive sync temp dirs (verify `git ls-files --cached` before first commit)
+.tmp.driveupload/
+.tmp.drivedownload/
+
+# OCR-correction scratch (regenerable candidate/decision files; the overlay + review-queue are kept)
+corrections/_candidates/
+
+# raw/ reference corpora — local-only OCR-correction sources dropped in here (alternate scans, German
+# originals, etc.) are NOT committed. The canonical Spengler_*.txt inputs are already tracked and stay
+# tracked (git ignore rules don't untrack); only new drop-ins are ignored.
+raw/
+
+# OS junk
+.DS_Store
+Thumbs.db

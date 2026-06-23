@@ -1,0 +1,108 @@
+{
+  "unit_id": "man-technics-ch-02-herbivores-and-beasts-of-prey",
+  "annotations": [
+    {
+      "id": "mt2-form-ideals-are-cowardice",
+      "kind": "form-observation",
+      "selector": { "exact": "Ideals are cowardices." },
+      "anchor": "Ideals are cowardices.",
+      "note": "A characteristic Spenglerian hand-grenade. The 'ideal', he charges, is a flinching away from a truth one already knows — here, the predatory truth about man. Watch the formula: it is the twin of the book's last line, 'Optimism is cowardice.' Both equate consolation with weakness; both are dares more than arguments.",
+      "tags": ["view:interpretation", "concept:tragedy"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "mt2-form-beast-of-prey-dignity",
+      "kind": "form-observation",
+      "selector": { "exact": "It gives the type man a high rank, that he is a beast of prey." },
+      "anchor": "It gives the type man a high rank, that he is a beast of prey.",
+      "note": "The central anthropology of the book, stated flat. Spengler ranks life: plant (lived, not living) below herbivore below carnivore, the 'highest form of mobile life'. Man belongs to the predators, and Spengler means this as praise — freedom, solitude, command. Everything about human technics and Culture is derived from this one premise, so it is worth deciding early how much of it you grant.",
+      "tags": ["concept:beast-of-prey", "view:interpretation"],
+      "see_also": ["beast-of-prey"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "mt2-hist-uexkull-umwelt",
+      "kind": "historical-reference",
+      "selector": { "exact": "a world-around for each single being" },
+      "anchor": "there arise out of the surrounding a world-around for each single being",
+      "note": "Spengler's 'world-around' is Jakob von Uexküll's Umwelt — the idea that each species builds its own self-centred perceptual world out of what it can sense and act on, so that animals sharing one habitat inhabit different worlds. The term 'Umwelt' is Uexküll's; Spengler adopts it (in the 1931 original he uses the word without a footnote). He uses it to contrast the herbivore's nose-world of flight with the predator's eye-world of command.",
+      "tags": ["concept:world-picture", "domain:method"],
+      "evidence": [{ "claim_type": "historical-context", "citations": ["wikipedia-umwelt"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "mt2-form-world-picture-eye",
+      "kind": "form-observation",
+      "selector": { "exact": "The world-picture is the world-around mastered by the eye." },
+      "anchor": "The world-picture is the world-around mastered by the eye.",
+      "note": "The predator's forward-set, binocular, fixing eye turns surroundings into a 'picture' — distance, perspective, objects at definite points — and to see so is already to command. Spengler derives theoretical seeing (cause and effect, 'truth') from the hunting gaze. This is the same move as the Decline's 'Faustian' soul, whose prime-symbol is infinite space: the will to grasp distance.",
+      "cultures": ["faustian"],
+      "tags": ["concept:world-picture", "domain:method"],
+      "see_also": ["prime-symbol", "faustian"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "mt2-form-property",
+      "kind": "form-observation",
+      "selector": { "exact": "the kingly concept of property has its root" },
+      "anchor": "the kingly concept of property",
+      "note": "Property, for Spengler, is not a legal right to have but the predator's domain of unlimited power — won in battle, defended against equals, 'the sovereign right to do as one will with one's own'. The economic categories he will use later (booty, enterprise, money) are all rooted back here, in the beast that tolerates no equal in its den.",
+      "tags": ["concept:beast-of-prey", "domain:economics"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "mt2-hist-amor-fati",
+      "kind": "historical-reference",
+      "selector": { "exact": "so thought Nietzsche, amor fati" },
+      "anchor": "so thought Nietzsche, amor fati",
+      "note": "Spengler sets his reading of life-as-struggle against two others he names: not Schopenhauer's 'misery', not Darwin's neutral 'struggle for existence', but Nietzsche's amor fati — the love of one's fate, the willing of necessity as if one had chosen it. It is the affirmative half of the will-to-power, and the ethical seed of the book's stoic ending.",
+      "tags": ["concept:will-to-power", "view:interpretation"],
+      "evidence": [{ "claim_type": "historical-context", "citations": ["sep-nietzsche"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "mt2-form-anti-rousseau-haeckel",
+      "kind": "form-observation",
+      "selector": { "exact": "the tactic of his life is that of a splendid, brave, cunning, cruel beast of prey" },
+      "anchor": "the tactic of his life is that of a splendid, brave, cunning, cruel beast of prey",
+      "note": "Spengler clears two rivals out of the way at once: Rousseau's gentle natural man and the Darwinians' 'semi-ape with technical tendencies' (he names Haeckel). Man is neither a fallen innocent nor a clever monkey but a predator with a soul. Note that he accepts evolution's facts while rejecting its tone — the quarrel is over meaning, not data.",
+      "tags": ["concept:beast-of-prey", "view:interpretation"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "mt2-teacher-creator-grandeur-doom",
+      "kind": "teacher-note",
+      "selector": { "exact": "Man has become the creator of his tactic of living. That is his greatness and his doom." },
+      "anchor": "Man has become the creator of his tactic of living. That is his greatness and his doom.",
+      "note": "The hinge of the whole book. Animal technique is fixed by the species ('the compulsion of the genus') — a bee builds one comb forever. Human technics alone is conscious, inventive, personal: the individual frees himself from the species. That liberation is Spengler's definition of man — and, because it sets him at war with Nature, it is in the same breath his doom. Grandeur and doom are not two facts but one.",
+      "tags": ["view:interpretation", "concept:technics"],
+      "see_also": ["technics", "beast-of-prey"],
+      "evidence": [{ "claim_type": "interpretive", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "mt2-form-animal-technique-generic",
+      "kind": "form-observation",
+      "selector": { "exact": "Ants know plant-culture, road-building, slavery and the conduct of war." },
+      "anchor": "Ants know plant-culture, road-building, slavery and the conduct of war.",
+      "note": "A deliberately humbling list: bees, termites, beavers, ants already 'do' agriculture, building, slavery, war. 'Man achieves nothing that is not achievable by life as a whole.' The difference is not the deed but its source — animal technique is generic and unalterable ('instinct'), while man's is invented anew by each individual. Keep the distinction in view; the next chapter builds the origin of man on it.",
+      "tags": ["concept:technics", "domain:method"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    }
+  ]
+}

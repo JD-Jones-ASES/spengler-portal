@@ -1,0 +1,60 @@
+---
+import Layout from "../../components/Layout.astro";
+import { allWorks, publishedUnits, getPaths } from "../../lib/guide-data.js";
+import { withBase, cultureLabel } from "../../lib/site.js";
+
+const works = allWorks();
+const paths = getPaths();
+const manifestUnits = publishedUnits();
+const byKey = (workId, volId) => manifestUnits.filter((u) => u.work === workId && u.volume === volId);
+---
+
+<Layout title="Read" current="read">
+  <section class="wrap page-head">
+    <p class="eyebrow">The corpus</p>
+    <h1>Read Spengler</h1>
+    <p class="lede">The Decline of the West, Volume I, is here in full — Chapter I fully annotated, every chapter searchable and indexed by Spengler's own topic-headings. Volume II and Man and Technics are registered; their texts are being prepared.</p>
+  </section>
+
+  <section class="wrap" style="padding-bottom:1.5rem;">
+    <h2 class="section-h">Reading paths</h2>
+    <div class="grid cols-3">
+      {paths.map((p) => (
+        <a class="card" href={withBase(`read/${p.units[0]}/`)}>
+          <span class="kicker">{p.units.length} chapter{p.units.length > 1 ? "s" : ""}</span>
+          <h3>{p.title}</h3>
+          <p>{p.blurb}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  {works.map((work) => (
+    <section class="wrap" style="padding-bottom:1.5rem;">
+      {work.volumes.map((vol) => {
+        const units = byKey(work.id, vol.id);
+        return (
+          <div>
+            <h2 class="section-h">{work.title}{vol.title && vol.title !== work.title ? ` — ${vol.title}` : ""}{!vol.published ? " (in preparation)" : ""}</h2>
+            {vol.published ? (
+              units.map((u) => (
+                <div class="unit-row" data-cult={u.cultures?.[0] || ""}>
+                  <span class="num">{u.roman}</span>
+                  <div class="meta">
+                    <a href={withBase(`read/${u.unit_id}/`)}>{u.title}</a>
+                    {u.summary?.one_line && <p>{u.summary.one_line}</p>}
+                    <div class="tags">
+                      {u.cultures?.map((c) => <span class="cult-tag" data-cult={c}><span class="dot"></span>{cultureLabel(c)}</span>)}
+                    </div>
+                  </div>
+                </div>
+              ))
+            ) : (
+              <p class="muted" style="padding:0.5rem 0 1rem;">{vol.unit_ids.length} chapters registered. {vol.text_status === "raw-deferred" ? "The source text carries OCR damage that cannot be auto-corrected without guessing at meaning; the body is withheld until a verified cleanup pass — see the About page." : ""}</p>
+            )}
+          </div>
+        );
+      })}
+    </section>
+  ))}
+</Layout>

@@ -1,0 +1,79 @@
+{
+  "unit_id": "decline-vol-ii-ch-13-the-form-world-of-economic-life-money",
+  "annotations": [
+    {
+      "id": "dv2-13-form-thinking-in-money",
+      "kind": "form-observation",
+      "selector": { "exact": "in place of thinking in goods we have thinking in money" },
+      "anchor": "in place of thinking in goods we have thinking in money",
+      "note": "The hinge of the economics chapters. The land thinks in goods (giving and taking, need); the city thinks in money (prices, sales, profit). With money-thinking the trader stops being 'an organ of economic life' and becomes 'its master,' and the middleman raises 'mediation to a monopoly.' Spengler calls acquisition an 'intellectual plunder' — not a moral charge so much as a description of a wholly new, abstract, city-bred way of experiencing the economy.",
+      "tags": ["concept:being-waking-being", "domain:economics"],
+      "see_also": ["world-city"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-13-parallel-classical-coin",
+      "kind": "cross-culture-parallel",
+      "selector": { "exact": "money, too, therefore represented such a body, in the same way as an Apollo-statue represented a god" },
+      "anchor": "Classical money is a body — the coin, born ~650 B.C. beside the Doric temple and the statue",
+      "note": "Money, like everything else, takes the shape of its Culture's prime-symbol. The Apollinian soul felt the world as bodies present-at-hand, so its money is the coin — 'a metal weight of beautiful impressed form,' born about 650 B.C. 'simultaneously with the stone body of the Doric temple and the free statue.' Money as magnitude, a body among bodies. 'The coin as money is a purely Classical phenomenon,' Spengler insists — which is why the West only imitates its shape without its meaning.",
+      "cultures": ["apollinian"],
+      "tags": ["concept:prime-symbol", "domain:economics"],
+      "see_also": ["prime-symbol"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-13-parallel-faustian-book-value",
+      "kind": "cross-culture-parallel",
+      "selector": { "exact": "Double-entry book-keeping is a pure Analysis of the space of values" },
+      "anchor": "Faustian money is a function — double-entry book-keeping, the book-value; Pythagoras vs Descartes",
+      "note": "The Faustian soul feels the world as force and function, so its money is not a body but a relation: 'a field of money-tensions' that assigns every object 'a positive or negative effect-value … represented by a book-entry' — 'Quod non est in libris, non est in mundo' ('what is not in the books is not in the world'). Spengler dates this to double-entry book-keeping. 'Here, as ever, Pythagoras and Descartes stand opposed' — money-as-magnitude against money-as-function, the very contrast that divided Classical number from Western number in Volume I.",
+      "cultures": ["faustian", "apollinian"],
+      "tags": ["concept:prime-symbol", "domain:economics"],
+      "see_also": ["prime-symbol", "blood-and-money"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-13-difficult-slave-as-money",
+      "kind": "difficult-material",
+      "selector": { "exact": "capable, therefore, of being thought of as money" },
+      "anchor": "the slave — a body, 'a thing and not a person' — thought of as money",
+      "note": "A stark consequence of money-as-body. When coin ran short in the late Republic, Rome made money out of the slave — 'another sort of body, but a thing and not a person.' Slaves 'answered their purpose by simply existing, as a stock of money in hand,' which (Spengler argues) explains the otherwise inexplicable slave-masses, the slave-wars, and the Delos market that 'must have dealt with ten thousand slaves a day.' At the sack of Corinth, melting statues into coin and auctioning the inhabitants were 'one and the same operation.' Spengler reports this particular morphology clinically, withholding here the obvious moral judgment (elsewhere in the chapter he is freer with it); the reader should supply what he leaves unsaid.",
+      "cultures": ["apollinian"],
+      "tags": ["difficult-material", "domain:economics"],
+      "evidence": [{ "claim_type": "difficult-material", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-13-form-democracy-equals-money",
+      "kind": "form-observation",
+      "selector": { "exact": "Democracy is the completed equating of money with political power." },
+      "anchor": "Democracy is the completed equating of money with political power.",
+      "note": "The economic chapter restates the political one. In a money-Civilization 'every idea, to be actualized, has to be put into terms of money': 'at the beginning a man was wealthy because he was powerful — now he is powerful because he has money,' and 'intellect reaches the throne only when money puts it there.' So 'democracy is the completed equating of money with political power' — the same nexus the philosophy-of-politics chapter drew, now seen from the side of the economy.",
+      "tags": ["view:interpretation", "domain:economics"],
+      "see_also": ["caesarism", "blood-and-money"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-13-form-blood-vs-money-opens",
+      "kind": "form-observation",
+      "selector": { "exact": "a desperate conflict waged by the soil-rooted tradition of a race, by its soul, against the spirit of money" },
+      "anchor": "a desperate conflict … the soil-rooted tradition of a race … against the spirit of money",
+      "note": "Here the volume's climactic duel is named. Through every Culture's economy 'runs a desperate conflict' — the blood, the soil-rooted soul of a people, against 'the spirit of money,' which 'aims at mobilizing all things' ('he who mobilizes the soil dissolves it into dust'). The early peasant-wars are 'the first reaction of the blood against the money.' Hold this opposition — blood/Being against money/waking-being — for the final chapter, where Spengler stages its last battle.",
+      "tags": ["concept:being-waking-being", "domain:economics"],
+      "see_also": ["blood-and-money", "being-waking-being"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    }
+  ]
+}

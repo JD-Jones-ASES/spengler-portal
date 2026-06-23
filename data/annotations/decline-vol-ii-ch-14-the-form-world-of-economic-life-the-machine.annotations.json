@@ -1,0 +1,107 @@
+{
+  "unit_id": "decline-vol-ii-ch-14-the-form-world-of-economic-life-the-machine",
+  "annotations": [
+    {
+      "id": "dv2-14-form-faustian-technics-mastery",
+      "kind": "form-observation",
+      "selector": { "exact": "thrusts itself upon Nature, with the firm resolve to be its master" },
+      "anchor": "Faustian technics … thrusts itself upon Nature, with the firm resolve to be its master",
+      "note": "The volume's last chapter is the seed of Man and Technics (1931). Classical man 'contemplated' Nature like Aristotle's god; the Arabian alchemist sought magical short-cuts; only 'the Western strives to direct the world according to his will.' 'Theory is working hypothesis from the outset' — science as an instrument of power, not contemplation — and the 'passion of the third dimension' (the Faustian craving for infinite space) drives it. Read this chapter and Man and Technics together: the same argument, the longer here and the sharper there.",
+      "cultures": ["faustian", "apollinian", "magian"],
+      "tags": ["culture:faustian", "domain:science"],
+      "see_also": ["faustian"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-14-form-faust-figure-to-be-god",
+      "kind": "form-observation",
+      "selector": { "exact": "they forced this secret out of God in order themselves to be God" },
+      "anchor": "the Gothic discoverers … forced this secret out of God in order themselves to be God",
+      "note": "The Faustian inventor is the Faust-figure: the Gothic monks 'who with prayers and fastings wrung God's secret out of him,' dreaming of perpetual motion, 'created the idea of the machine as a small cosmos obeying the will of man alone' — 'they forced this secret out of God in order themselves to be God.' And with that they crossed the line 'whereat the reverent piety of others saw the beginning of sin'; 'true belief has regarded the machine as of the Devil.' Exactly the Promethean overreach of Man and Technics, here given its Gothic genealogy.",
+      "cultures": ["faustian"],
+      "tags": ["culture:faustian", "concept:tragedy"],
+      "see_also": ["faustian"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-14-form-slave-of-the-machine",
+      "kind": "form-observation",
+      "selector": { "exact": "Faustian man has become the slave of his creation." },
+      "anchor": "Faustian man has become the slave of his creation.",
+      "note": "The reversal at the heart of Man and Technics, stated here too: the master becomes the slave. The machine 'forces the entrepreneur not less than the workman to obedience' — both 'become slaves, and not masters, of the machine.' And it breeds three new figures who eclipse peasant, craftsman, and merchant: the entrepreneur, the engineer, and the factory-worker. Spengler's surprising emphasis falls on the engineer — 'the priest of the machine,' 'the machine's master and destiny' — whose disappearance (if the gifted turn from technics to the soul) would end 'this grand drama' more surely than any strike.",
+      "cultures": ["faustian"],
+      "tags": ["culture:faustian", "concept:tragedy"],
+      "see_also": ["faustian"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-14-form-money-is-thought",
+      "kind": "form-observation",
+      "selector": { "exact": "it is a form of thought, it fades out as soon as it has thought its economic world to finality" },
+      "anchor": "money … is a form of thought; it fades out as soon as it has thought its economic world to finality",
+      "note": "Spengler's deepest claim about money, and the key to the ending. Money is not a thing but 'a form of thought' (waking-being, like number) — so, unlike a tangible hoard, it is not eternal: once it has 'thought its economic world to finality' and has 'no more material upon which to feed,' it 'fades out.' Having made the machine, the entrepreneur, and the engineer its spoil, money reaches the limit of its own success — and the last conflict opens.",
+      "cultures": ["faustian"],
+      "tags": ["concept:being-waking-being", "domain:economics"],
+      "see_also": ["blood-and-money"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-14-form-money-vs-blood",
+      "kind": "form-observation",
+      "selector": { "exact": "the conflict between money and blood." },
+      "anchor": "the last conflict … the conflict between money and blood",
+      "note": "The climax the whole second volume has been building toward. After money's long triumph comes 'the last conflict … in which the Civilization receives its conclusive form — the conflict between money and blood.' Money is waking-being — intellect, the abstract, the world-city; blood is Being — race, soil, the cosmic pulse. Everything Spengler has laid down since chapter I (being/waking-being, destiny/causality, country/city, coin/book-value) converges on this single duel.",
+      "cultures": ["faustian"],
+      "tags": ["concept:being-waking-being", "domain:economics"],
+      "see_also": ["blood-and-money", "being-waking-being"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-14-difficult-money-overthrown-by-blood",
+      "kind": "difficult-material",
+      "selector": { "exact": "Money is overthrown and abolished only by blood." },
+      "anchor": "Money is overthrown and abolished only by blood … World-history is the world court",
+      "note": "The book's resolution, and its hardest passage. Caesarism 'breaks the dictature of money and its political weapon democracy'; 'the sword is victorious over the money, the master-will subdues again the plunderer-will.' 'Money is overthrown and abolished only by blood.' Read with open eyes: this is a frank doctrine of might over right — 'World-history is the world court, and it has ever decided in favour of the stronger … Always it has sacrificed truth and justice to might and race.' It is exactly the blood-over-intellect, force-over-justice conclusion that the authoritarian Right embraced. Spengler offers it as iron description; whether one can read history's verdict as its justification is the deepest question this work leaves you.",
+      "cultures": ["faustian"],
+      "tags": ["difficult-material", "concept:caesarism"],
+      "see_also": ["blood-and-money", "caesarism"],
+      "evidence": [{ "claim_type": "difficult-material", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-14-difficult-spengler-socialism",
+      "kind": "difficult-material",
+      "selector": { "exact": "a mighty politico-economic order that transcends all class interests" },
+      "anchor": "Spengler's 'Socialism' — an order that transcends all class interests, not Marxism",
+      "note": "Beware a false friend. When Spengler writes 'Socialism' here he does NOT mean Marx — he treats Marxist labour-politics as a tool of money and democracy. His 'Socialism' is the opposite: 'a mighty politico-economic order that transcends all class interests, a system of lofty thoughtfulness and duty-sense' that keeps the whole 'in fine condition for the decisive battle of its history.' This is the authoritarian, anti-plutocratic — anti-money-power, NOT anti-enterprise: he glorifies the entrepreneur and engineer in this very chapter — duty-and-rulership 'Prussian Socialism' of his 1919 tract Preussentum und Sozialismus, closer to a state-ethic of service than to anything a modern reader means by the word. Do not import the usual meaning.",
+      "cultures": ["faustian"],
+      "tags": ["difficult-material", "domain:politics"],
+      "evidence": [{ "claim_type": "difficult-material", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-14-form-ducunt-fata",
+      "kind": "form-observation",
+      "selector": { "exact": "Ducunt Fata volentem, nolentem trahunt." },
+      "anchor": "Ducunt Fata volentem, nolentem trahunt.",
+      "note": "The last words of the entire Decline of the West. The Latin is Seneca's (Epistle 107, rendering the Stoic Cleanthes; this closing couplet may be Seneca's own coda): 'The Fates lead the willing; the unwilling they drag.' It is the same ethic Man and Technics ends on — amor fati, the heroic acceptance of a destiny one cannot avert. 'We have not the freedom to reach to this or to that, but the freedom to do the necessary or to do nothing.' Whatever one makes of the politics, the closing note is Stoic resolve in the face of an ending: meet your fate willingly, or be dragged.",
+      "cultures": ["faustian", "apollinian"],
+      "tags": ["concept:tragedy", "view:interpretation"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    }
+  ]
+}

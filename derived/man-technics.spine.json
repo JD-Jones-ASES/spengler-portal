@@ -1,0 +1,301 @@
+{
+  "work": "man-technics",
+  "volume": null,
+  "source_id": "spengler-mensch-technik-de-1931",
+  "source_sha256": "30bb6bb54f1f7eb11f5ec3f39e0da6a7152f32699869863f31120047cd99073d",
+  "generator": "build-cleaned-spine@1",
+  "chapters": [
+    {
+      "unit_id": "man-technics-ch-01-technics-as-the-tactics-of-living",
+      "work": "man-technics",
+      "volume": null,
+      "n": 1,
+      "roman": "I",
+      "title": "Technics as the Tactics of Living",
+      "function": "economics",
+      "text_status": "clean",
+      "source_id": "spengler-mensch-technik-de-1931",
+      "source_raw_path": "raw/Man_and_Technics.en.txt",
+      "clean_path": "derived/man-technics/ch-01.txt",
+      "char_count": 14519,
+      "paragraph_count": 21,
+      "paragraph_offsets": [
+        0,
+        482,
+        849,
+        1247,
+        2723,
+        3282,
+        4108,
+        5459,
+        6131,
+        6401,
+        6624,
+        7242,
+        7723,
+        8873,
+        9667,
+        9950,
+        9989,
+        10519,
+        11442,
+        12442,
+        13165
+      ],
+      "segments": [],
+      "page_map": [],
+      "footnote_refs": [
+        {
+          "number": 1,
+          "offset": 6172
+        },
+        {
+          "number": 2,
+          "offset": 7282
+        }
+      ],
+      "ocr_corrections": [],
+      "extracted_footnotes": []
+    },
+    {
+      "unit_id": "man-technics-ch-02-herbivores-and-beasts-of-prey",
+      "work": "man-technics",
+      "volume": null,
+      "n": 2,
+      "roman": "II",
+      "title": "Herbivores and Beasts of Prey",
+      "function": "economics",
+      "text_status": "clean",
+      "source_id": "spengler-mensch-technik-de-1931",
+      "source_raw_path": "raw/Man_and_Technics.en.txt",
+      "clean_path": "derived/man-technics/ch-02.txt",
+      "char_count": 12790,
+      "paragraph_count": 16,
+      "paragraph_offsets": [
+        0,
+        740,
+        2015,
+        2648,
+        3020,
+        3561,
+        3880,
+        5682,
+        7210,
+        8515,
+        9072,
+        9648,
+        10069,
+        10973,
+        11383,
+        12133
+      ],
+      "segments": [],
+      "page_map": [],
+      "footnote_refs": [
+        {
+          "number": 3,
+          "offset": 2087
+        }
+      ],
+      "ocr_corrections": [],
+      "extracted_footnotes": []
+    },
+    {
+      "unit_id": "man-technics-ch-03-the-origin-of-man-hand-and-tool",
+      "work": "man-technics",
+      "volume": null,
+      "n": 3,
+      "roman": "III",
+      "title": "The Origin of Man: Hand and Tool",
+      "function": "economics",
+      "text_status": "clean",
+      "source_id": "spengler-mensch-technik-de-1931",
+      "source_raw_path": "raw/Man_and_Technics.en.txt",
+      "clean_path": "derived/man-technics/ch-03.txt",
+      "char_count": 11147,
+      "paragraph_count": 15,
+      "paragraph_offsets": [
+        0,
+        185,
+        1139,
+        2653,
+        3260,
+        3833,
+        4473,
+        5147,
+        6370,
+        6840,
+        7559,
+        8233,
+        8674,
+        9561,
+        10725
+      ],
+      "segments": [],
+      "page_map": [],
+      "footnote_refs": [
+        {
+          "number": 4,
+          "offset": 5849
+        }
+      ],
+      "ocr_corrections": [],
+      "extracted_footnotes": []
+    },
+    {
+      "unit_id": "man-technics-ch-04-the-second-stage-speech-and-enterprise",
+      "work": "man-technics",
+      "volume": null,
+      "n": 4,
+      "roman": "IV",
+      "title": "The Second Stage: Speech and Enterprise",
+      "function": "economics",
+      "text_status": "clean",
+      "source_id": "spengler-mensch-technik-de-1931",
+      "source_raw_path": "raw/Man_and_Technics.en.txt",
+      "clean_path": "derived/man-technics/ch-04.txt",
+      "char_count": 24058,
+      "paragraph_count": 29,
+      "paragraph_offsets": [
+        0,
+        337,
+        1497,
+        1858,
+        2350,
+        3046,
+        3267,
+        3987,
+        4923,
+        7002,
+        7702,
+        8802,
+        8934,
+        9651,
+        11993,
+        13039,
+        13987,
+        14577,
+        15889,
+        16343,
+        16914,
+        18100,
+        18501,
+        19211,
+        19787,
+        20338,
+        20914,
+        21921,
+        22218
+      ],
+      "segments": [],
+      "page_map": [],
+      "footnote_refs": [
+        {
+          "number": 5,
+          "offset": 3286
+        },
+        {
+          "number": 6,
+          "offset": 5009
+        },
+        {
+          "number": 7,
+          "offset": 10416
+        },
+        {
+          "number": 8,
+          "offset": 12210
+        },
+        {
+          "number": 9,
+          "offset": 17285
+        },
+        {
+          "number": 10,
+          "offset": 19928
+        }
+      ],
+      "ocr_corrections": [],
+      "extracted_footnotes": []
+    },
+    {
+      "unit_id": "man-technics-ch-05-the-last-act-rise-and-end-of-the-machine-culture",
+      "work": "man-technics",
+      "volume": null,
+      "n": 5,
+      "roman": "V",
+      "title": "The Last Act: Rise and End of the Machine Culture",
+      "function": "economics",
+      "text_status": "clean",
+      "source_id": "spengler-mensch-technik-de-1931",
+      "source_raw_path": "raw/Man_and_Technics.en.txt",
+      "clean_path": "derived/man-technics/ch-05.txt",
+      "char_count": 32431,
+      "paragraph_count": 32,
+      "paragraph_offsets": [
+        0,
+        660,
+        1453,
+        3277,
+        3905,
+        4887,
+        5988,
+        6722,
+        9194,
+        9988,
+        10971,
+        11644,
+        12118,
+        13333,
+        14179,
+        15848,
+        16172,
+        16751,
+        18303,
+        18961,
+        19629,
+        20576,
+        21407,
+        22198,
+        22942,
+        23784,
+        25269,
+        26832,
+        28219,
+        30572,
+        31517,
+        31974
+      ],
+      "segments": [],
+      "page_map": [],
+      "footnote_refs": [
+        {
+          "number": 11,
+          "offset": 4241
+        },
+        {
+          "number": 12,
+          "offset": 5062
+        },
+        {
+          "number": 13,
+          "offset": 7371
+        },
+        {
+          "number": 14,
+          "offset": 14115
+        },
+        {
+          "number": 15,
+          "offset": 18548
+        },
+        {
+          "number": 15,
+          "offset": 20015
+        }
+      ],
+      "ocr_corrections": [],
+      "extracted_footnotes": []
+    }
+  ]
+}

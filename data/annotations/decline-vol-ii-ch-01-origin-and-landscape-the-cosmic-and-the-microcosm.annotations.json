@@ -1,0 +1,122 @@
+{
+  "unit_id": "decline-vol-ii-ch-01-origin-and-landscape-the-cosmic-and-the-microcosm",
+  "annotations": [
+    {
+      "id": "dv2-1-teacher-orientation",
+      "kind": "teacher-note",
+      "selector": { "exact": "the differentia by which we distinguish vegetable and animal existence" },
+      "anchor": "Servitude and freedom … the differentia by which we distinguish vegetable and animal existence",
+      "note": "Orientation for the whole second volume. Vol I asked 'what is a Culture?' (Form and Actuality); Vol II asks how Cultures stand to one another in world-history (Perspectives) — and it begins, surprisingly, not with history but with biology and metaphysics. The plant (bound, 'cosmic') against the animal (free, a 'microcosm') is the bedrock on which everything later — peoples, cities, money, the State — is built. Don't skip this chapter as preamble; it is the foundation.",
+      "tags": ["view:interpretation", "domain:method"],
+      "evidence": [{ "claim_type": "interpretive", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-1-reception-frye-romantic-poem",
+      "kind": "scholarly-reception",
+      "selector": { "exact": "Regard the flowers at eventide as, one after the other, they close in the setting sun." },
+      "anchor": "Regard the flowers at eventide …",
+      "note": "Notice how Volume Two opens: not with evidence but with a prose-poem — flowers closing at dusk, the one free gnat still dancing in the light. According to Northrop Frye, this is how the whole work should be read: less as social science than as a feat of imaginative vision, 'one of the world's great Romantic poems.' Frye's point is not dismissal but redirection — judge Spengler the way you judge a poet's master-image, for its imaginative reach and coherence rather than its testability.",
+      "tags": ["view:interpretation", "domain:method"],
+      "attribution": { "scholar": "Northrop Frye", "work": "“The Decline of the West” by Oswald Spengler", "year": 1974, "stance": "sympathetic", "citation": "frye-decline-1974" },
+      "evidence": [{ "claim_type": "scholarly-interpretation", "citations": ["frye-decline-1974"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-1-lex-cosmic-microcosm",
+      "kind": "lexicon-term",
+      "selector": { "exact": "The plant is something cosmic, and the animal is additionally a microcosm in relation to a macrocosm." },
+      "anchor": "The plant is something cosmic, and the animal is additionally a microcosm",
+      "note": "Spengler's foundational pair. 'The Cosmic' is life bound into the great periodic flow of nature — the plant, rooted, moved by wind and sun, never choosing. The 'microcosm' is the free-moving animal that has detached a little world of its own and can define its position over against the All. All higher life, man included, is a microcosm that never wholly escapes its cosmic ground — a tension the chapter never lets go of.",
+      "tags": ["concept:cosmic-microcosm", "domain:method"],
+      "see_also": ["cosmic-microcosm", "being-waking-being"],
+      "evidence": [{ "claim_type": "lexical-definition", "citations": ["wikipedia-decline"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "lexicon", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-1-form-beat-and-tension",
+      "kind": "form-observation",
+      "selector": { "exact": "All that is cosmic bears the hall-mark of periodicity" },
+      "anchor": "All that is cosmic bears the hall-mark of periodicity … microcosmic possesses … tension",
+      "note": "The two rhythms of life. The cosmic side has 'beat' — periodicity, the pulse of blood and the cycles of the stars, everything Spengler files under direction, time, destiny. The microcosmic side has 'tension' — the polarity of subject and object, I and thou, cause and effect, the wakeful strain of attention. Sleep dissolves the tension and leaves only the beat ('a human being asleep … is leading only a plantlike existence'). Hold this pairing; it is the source of his Time/Space, destiny/causality oppositions.",
+      "tags": ["concept:cosmic-microcosm", "domain:method"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-1-lex-being-waking-being",
+      "kind": "lexicon-term",
+      "selector": { "exact": "Being possesses beat and direction, while waking-consciousness is tension and extension." },
+      "anchor": "Being possesses beat and direction, while waking-consciousness is tension and extension.",
+      "note": "Spengler's master-distinction in Vol II: 'being' (Dasein, 'being-there') versus 'waking-being' (Wachsein, waking-consciousness). Being is the deep cosmic existence — blood, destiny, the 'when and wherefore'; waking-being is the alert, sensing, knowing surface — the eye, causality, the 'where and how.' Cultures, peoples, classes are forms of Being; thought and theory belong to waking-being. When he later opposes blood to money, or the man of fact to the man of truth, this is the root.",
+      "tags": ["concept:being-waking-being", "domain:method"],
+      "see_also": ["being-waking-being", "destiny-causality"],
+      "evidence": [{ "claim_type": "lexical-definition", "citations": ["wikipedia-decline"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "lexicon", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-1-form-blood-symbol",
+      "kind": "form-observation",
+      "selector": { "exact": "The blood is for us the symbol of the living." },
+      "anchor": "The blood is for us the symbol of the living.",
+      "note": "Watch the word 'blood' — it will carry enormous weight later in this volume. Here it is defined: the ceaseless cosmic stream that 'binds the generations in a great linkage of destiny, beat, and time.' Blood is Being made flesh. When Spengler reaches the modern crisis he stages it as a duel of 'blood and money'; the blood that wins the last battle (ch. XIV) is this — the cosmic, race-deep, destiny-bearing current, set against the abstract waking-being of money and intellect.",
+      "tags": ["concept:being-waking-being", "view:interpretation"],
+      "see_also": ["blood-and-money", "being-waking-being"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-1-form-visual-thought",
+      "kind": "form-observation",
+      "selector": { "exact": "our concepts are derived from vision, and the whole fabric of our logic is a light-world in the imagination" },
+      "anchor": "our concepts are derived from vision … our logic is a light-world in the imagination",
+      "note": "Spengler derives all human thought from the tyranny of one sense, the eye: 'I' is a 'light-concept,' the world becomes a light-world, and even our most abstract words keep a faint 'light-value.' This is the same intuition as Vol I's Faustian prime-symbol of infinite space — the will to see into the distance. It also sets up his claim that music, alone among the arts, works outside the light-world and so can break its 'steely tyranny.'",
+      "cultures": ["faustian"],
+      "tags": ["concept:prime-symbol", "domain:method"],
+      "see_also": ["prime-symbol"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-1-hist-nietzsche-value-of-truth",
+      "kind": "historical-reference",
+      "selector": { "exact": "It is one of the greatest achievements of Nietzsche that he confronted science with the problem of the value of truth and knowledge" },
+      "anchor": "Nietzsche … confronted science with the problem of the value of truth and knowledge",
+      "note": "Spengler's epistemology is Nietzschean: 'truth' is not life's master but its instrument — 'for life they are valuable or valueless.' He credits Nietzsche with forcing science to ask what truth is worth, and twits Descartes for doubting everything 'but certainly not the value of his doubting.' This is the ground for his recurring put-down of the philosopher and the 'ink-slinger' against the man of action.",
+      "tags": ["concept:will-to-power", "domain:method"],
+      "evidence": [{ "claim_type": "historical-context", "citations": ["sep-nietzsche"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-1-form-destiny-causality-men",
+      "kind": "form-observation",
+      "selector": { "exact": "There are born destiny-men and causality-men." },
+      "anchor": "There are born destiny-men and causality-men.",
+      "note": "The same two-types contrast that runs through Man and Technics (fact-men vs. truth-men) here gets its metaphysical name: the 'destiny-man' (peasant, warrior, statesman, entrepreneur — whole, planted, living from the blood) and the 'causality-man' (priest, savant, ideologue — living from detached understanding). Spengler's sympathy is unmistakable: 'the man of the active category is a whole man.' He will insist a Plato or Rousseau was 'without importance' for a Caesar or Napoleon — the thinker can discuss destiny; these men were destiny.",
+      "tags": ["concept:being-waking-being", "view:interpretation"],
+      "see_also": ["being-waking-being"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-1-form-mass-souls",
+      "kind": "form-observation",
+      "selector": { "exact": "the higher Cultures, which are born in great spiritual upheavals" },
+      "anchor": "the higher Cultures, which are born in great spiritual upheavals … weld all aggregates … into one unit",
+      "note": "The chapter ends by scaling the cosmic/microcosmic pair up to history. 'Mass-souls' — peoples, armies, classes, the crowd that forms in a street and dissolves again — are cosmic unities, felt and lived, not reasoned; the greatest of them are the high Cultures themselves, which 'weld all aggregates of lower degree … into one unit.' This is Spengler's bridge from metaphysics to the world-history that fills the rest of the volume, and his definition of the statesman: the man with an eye for these mass-souls.",
+      "tags": ["concept:cosmic-microcosm", "domain:politics"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    }
+  ]
+}

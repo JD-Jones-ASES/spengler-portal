@@ -1,0 +1,123 @@
+{
+  "unit_id": "decline-vol-i-ch-03-the-problem-of-world-history-physiognomic-and-systematic",
+  "annotations": [
+    {
+      "id": "dvi3-teacher-cultures-organisms",
+      "kind": "teacher-note",
+      "selector": { "exact": "Cultures are organisms, and world-history is their collective biography." },
+      "anchor": "Cultures are organisms, and world-history is their collective biography.",
+      "note": "If you remember one sentence from this chapter, make it this one. It is the master-image of the whole book: a Culture is not a chapter in a single human story but a living organism with a birth, youth, maturity, and death, and 'world-history' is just the comparative biography of these organisms set side by side. Everything else in the chapter — the attack on 'progress', the demand to de-centre our own age — follows from taking the metaphor literally.",
+      "tags": ["view:interpretation", "concept:morphology"],
+      "evidence": [{ "claim_type": "interpretive", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi3-lex-physiognomic-systematic",
+      "kind": "lexicon-term",
+      "selector": { "exact": "The Morphology of the organic, of history and life and all that bears the sign of direction and destiny, is called Physiognomic." },
+      "anchor": "The Morphology of the organic … is called Physiognomic",
+      "note": "Here Spengler defines his two methods outright. The Systematic dissects dead Nature into laws and causes — it is what the sciences do. The Physiognomic reads a living whole by its look and gesture, the way one reads a face or the growth of a plant; it is intuitive and analogical, and the only road into History. Comparative morphology, the method of the whole book, is physiognomic tact made rigorous.",
+      "tags": ["concept:morphology", "domain:method"],
+      "see_also": ["physiognomic-systematic", "morphology", "world-as-history"],
+      "evidence": [{ "claim_type": "lexical-definition", "citations": ["hughes-spengler-1952"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "lexicon", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi3-lex-world-as-history",
+      "kind": "lexicon-term",
+      "selector": { "exact": "the worlds of Plato, Rembrandt, Goethe and Beethoven, the second in the worlds of Parmenides, Descartes, Kant and Newton" },
+      "anchor": "Plato, Rembrandt, Goethe and Beethoven … Parmenides, Descartes, Kant and Newton",
+      "note": "Spengler sorts the great names into two camps. On the side of History (contemplation, becoming, time) stand the poets and seers — Plato, Rembrandt, Goethe, Beethoven. On the side of Nature (cognition, the become, space) stand the system-builders — Parmenides, Descartes, Kant, Newton. The rosters dramatize the book's founding distinction between the world-as-history and the world-as-nature.",
+      "cultures": ["faustian"],
+      "tags": ["concept:world-as-history", "domain:method"],
+      "see_also": ["world-as-history", "becoming-become"],
+      "evidence": [{ "claim_type": "lexical-definition", "citations": ["wikipedia-decline"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "lexicon", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi3-reception-frye-organism",
+      "kind": "scholarly-reception",
+      "selector": { "exact": "the comparative morphology of plants and animals has long ago given us the methods" },
+      "anchor": "the comparative morphology of plants and animals has long ago given us the methods",
+      "note": "The organism analogy — whole Cultures living and dying like plants — is the device critics attack most often. Northrop Frye, however, argues that there is 'no inherent improbability' in supposing that the organic rhythm of birth, growth and death which governs every individual life extends to larger human units; and that because Spengler's method is avowedly analogical, it can 'no longer be dismissed as merely mystical or irrational' on that account. Frye thus treats the biology as a working analogy to be judged by its fruits, not a literal claim to be refuted.",
+      "cultures": ["faustian"],
+      "tags": ["view:interpretation", "concept:morphology"],
+      "attribution": { "scholar": "Northrop Frye", "work": "“The Decline of the West” by Oswald Spengler (Daedalus)", "year": 1974, "stance": "sympathetic", "citation": "frye-decline-1974" },
+      "evidence": [{ "claim_type": "scholarly-interpretation", "citations": ["frye-decline-1974"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi3-hist-nietzsche-distance",
+      "kind": "historical-reference",
+      "selector": { "exact": "to view the whole fact of Man from an immense distance" },
+      "anchor": "to view the whole fact of Man from an immense distance",
+      "note": "Spengler again leans on Nietzsche — whom his Preface names, beside Goethe, as one of the two to whom he owes 'practically everything' ('Goethe gave me method, Nietzsche the questioning faculty') — for the ideal of a detached, far-off view of humanity, the better to see whole Cultures as one sees peaks along a horizon. Characteristically, he adds a jab that Nietzsche himself was 'far from possessing enough of it'. The detachment Spengler wants here is the historian's version of Nietzsche's distance from his own age.",
+      "tags": ["domain:method", "concept:morphology"],
+      "evidence": [{ "claim_type": "historical-context", "citations": ["sep-nietzsche"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi3-parallel-chinese-historian",
+      "kind": "cross-culture-parallel",
+      "selector": { "exact": "for the Chinese historian, on the contrary, who looks back on and judges by 4000 years of Chinese history" },
+      "anchor": "for the Chinese historian … 4000 years of Chinese history",
+      "note": "A pointed thought-experiment. To a Western eye, 1500–1800 in Europe is the decisive third of 'world'-history; to a Chinese historian measuring by four thousand years, those same centuries are a minor episode beside the Han dynasty. Spengler uses the reversal to expose how our periodization smuggles in our own standpoint — the very Eurocentrism the chapter sets out to break.",
+      "cultures": ["chinese", "faustian"],
+      "tags": ["concept:contemporaneity", "domain:method"],
+      "see_also": ["chinese", "contemporaneity"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi3-form-moon-jupiter",
+      "kind": "form-observation",
+      "selector": { "exact": "but the moon, too, seems to us bigger than Jupiter or Saturn." },
+      "anchor": "the moon, too, seems to us bigger than Jupiter or Saturn",
+      "note": "Watch the move: an optical illusion (the near moon looks larger than the far planets) is offered as proof of a claim about history (the recent past looks more important than the remote past). Spengler reaches, as so often, for an astronomical figure to lend a historical argument the prestige of physics. It is vivid and persuasive — and worth asking whether the analogy actually establishes the point or merely illustrates it.",
+      "tags": ["view:interpretation", "domain:method"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi3-form-faust-portrait",
+      "kind": "form-observation",
+      "selector": { "exact": "Faust the portrait of a whole Culture." },
+      "anchor": "Faust the portrait of a whole Culture.",
+      "note": "Spengler likens his method to portraiture: as Rembrandt's self-portraits are an autobiography, so the lives of Cultures are to be 'painted' rather than dissected — Faust, for him, is the portrait of the whole Western soul. This is the physiognomic method declaring itself an art. Notice that it quietly licenses Spengler to value evidence by how expressive it is, not by how it bears on a proof.",
+      "cultures": ["faustian"],
+      "tags": ["view:interpretation", "domain:method"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi3-difficult-history-as-art",
+      "kind": "difficult-material",
+      "selector": { "exact": "contemplation and vision become an experience which can only be rendered in forms of art." },
+      "anchor": "an experience which can only be rendered in forms of art",
+      "note": "A claim that decides everything about how you read the book. Spengler holds that once history is grasped at its deepest — as pure becoming — it passes beyond what science can state and can be rendered only as art, like Dante's or Goethe's vision. This is why sympathetic critics have called The Decline a poem rather than a treatise; it is also why hostile ones say it cannot be checked. Hold the difficulty: it is the hinge between admiring the book and trusting it.",
+      "tags": ["view:interpretation", "difficult-material"],
+      "evidence": [{ "claim_type": "difficult-material", "citations": ["hughes-spengler-1952"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi3-form-anti-progress",
+      "kind": "form-observation",
+      "selector": { "exact": "hidden all too deep under the surface of a trite" },
+      "anchor": "hidden all too deep under the surface of a trite “history of human progress”",
+      "note": "The phrase the chapter is built to demolish: the 'history of human progress', the comfortable Victorian story in which all ages climb toward the present. Spengler dismisses it as trite and provincial — there is no single ladder of progress, only many Cultures each completing its own shape. Watch how thoroughly the anti-progress conviction shapes everything the book sees.",
+      "tags": ["view:interpretation", "domain:method"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+---
+import Layout from "../components/Layout.astro";
+import PhaseClock from "../components/PhaseClock.astro";
+import { cultures } from "../lib/site.js";
+import { withBase } from "../lib/site.js";
+---
+
+<Layout current="home">
+  <section class="wrap hero">
+    <p class="eyebrow">A reading room for Oswald Spengler</p>
+    <h1>The morphology of history, made navigable.</h1>
+    <p class="lede">
+      Read <em>The Decline of the West</em> and <em>Man and Technics</em> in the full public-domain
+      translation — with the apparatus a new reader needs: a searchable concordance, a lexicon of
+      Spengler's vocabulary, and an interactive recreation of his Comparative Tables.
+    </p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href={withBase("read/decline-vol-i-ch-01-introduction/")}>Begin reading →</a>
+      <a class="btn btn-ghost" href={withBase("tables/")}>The Comparative Tables</a>
+    </div>
+  </section>
+
+  <section class="wrap" style="padding:2rem 0;">
+    <div style="display:flex;align-items:center;gap:1.25rem;flex-wrap:wrap;">
+      <PhaseClock size={72} />
+      <p class="muted" style="max-width:48ch;margin:0;">
+        Every Culture is a living organism that passes through Spring, Summer, Autumn, and Winter —
+        and then ossifies into Civilization. That thesis is the spine of this site.
+      </p>
+    </div>
+  </section>
+
+  <section class="wrap" style="padding-bottom:3rem;">
+    <h2 class="section-h">The Cultures</h2>
+    <div class="cult-legend">
+      {cultures.map((c) => (
+        <span class="cult-tag" data-cult={c.id}><span class="dot"></span>{c.soul}</span>
+      ))}
+    </div>
+  </section>
+</Layout>

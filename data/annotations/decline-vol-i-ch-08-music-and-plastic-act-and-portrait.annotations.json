@@ -1,0 +1,116 @@
+{
+  "unit_id": "decline-vol-i-ch-08-music-and-plastic-act-and-portrait",
+  "annotations": [
+    {
+      "id": "dvi8-teacher-act-vs-portrait",
+      "kind": "teacher-note",
+      "selector": { "exact": "it is in the conflict of these two form-ideals that the contrast of two worlds is first manifested" },
+      "anchor": "the conflict of these two form-ideals … the contrast of two worlds",
+      "note": "The chapter's organizing opposition: the Act (the nude, the deed-in-the-body) versus the Portrait. The first shows an existence in its outward, bounded structure — the Apollinian way; the second makes the inner soul speak — the Faustian way. Hold this pair (Act / Portrait) and you have the whole chapter: two arts, two souls, two ways of being a self.",
+      "tags": ["view:interpretation", "domain:art"],
+      "evidence": [{ "claim_type": "interpretive", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi8-parallel-nude-portrait",
+      "kind": "cross-culture-parallel",
+      "selector": { "exact": "found the most genuine, the only exhaustive, expression of his life-feeling in the Portrait" },
+      "anchor": "Faustian man … found … expression of his life-feeling in the Portrait",
+      "note": "The core contrast. Classical man exhausts the human being in the bounding surfaces of the nude statue — the soma, the present body. Faustian man finds his fullest expression in the Portrait, which reaches behind the surface to a biography and a soul. Spengler calls the Hellenic nude 'the great exceptional case'; for him the portrait, not the statue, is the natural human image.",
+      "cultures": ["apollinian", "faustian"],
+      "tags": ["domain:art", "concept:the-soul"],
+      "see_also": ["apollinian", "faustian"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi8-form-portrait-musical",
+      "kind": "form-observation",
+      "selector": { "exact": "But, for us, the portrait is musical." },
+      "anchor": "But, for us, the portrait is musical.",
+      "note": "The chapter's most beautiful equation, tying this chapter to the last: the Western portrait — 'the look, the play of the mouth, the pose of head and hands' — is 'a fugue of the subtlest meaning, a composition of many voices'. Painting and music meet again. Notice how the claim turns on the prior assumption that all Faustian arts share one inner language; granted that, the portrait simply is music in another medium.",
+      "cultures": ["faustian"],
+      "tags": ["view:interpretation", "domain:art"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi8-parallel-faces",
+      "kind": "cross-culture-parallel",
+      "selector": { "exact": "In China the face is like a landscape" },
+      "anchor": "In China the face is like a landscape",
+      "note": "A four-Culture comparison of the human face in art. The Magian mosque 'had no face' (hence Islamic iconoclasm drove the portrait out into arabesque); in Egypt the statue's face was a pylon, a mighty emergence from the stone-mass; in China the face is read 'like a landscape', full of little signs; for the West it is musical. Each Culture meets the face as its prime-symbol dictates.",
+      "cultures": ["magian", "egyptian", "chinese", "faustian"],
+      "tags": ["domain:art", "concept:prime-symbol"],
+      "see_also": ["egyptian", "chinese", "magian"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi8-lex-apollinian-statue",
+      "kind": "lexicon-term",
+      "selector": { "exact": "The Classical statue is a piece of present" },
+      "anchor": "The Classical statue is a piece of present “Nature” and nothing besides",
+      "note": "A compact restatement of the Apollinian soul through its art: the Classical statue is 'a piece of present Nature and nothing besides' — it belongs wholly to the world-as-nature, the bounded body in the present, with no inner history. 'Classical poetry is statuary in verse.' This is why, for Spengler, the Greek lives 'point-wise, ahistorically, somatically' and never produced genuine self-criticism or self-portrait.",
+      "cultures": ["apollinian"],
+      "tags": ["culture:apollinian", "domain:art"],
+      "see_also": ["apollinian", "world-as-history"],
+      "evidence": [{ "claim_type": "lexical-definition", "citations": ["britannica-spengler"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "lexicon", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi8-lex-world-as-history-portrait",
+      "kind": "lexicon-term",
+      "selector": { "exact": "as a centre of the World-as-History" },
+      "anchor": "the portrait … takes its man … as a centre of the World-as-History",
+      "note": "The portrait, Spengler says, takes its subject not as a centre of the World-as-Nature (as the statue does) but as a centre of the World-as-History — a being with a past and a future, woken 'out of the stone from about 1200' and 'become completely music in the 17th Century'. The art-contrast of this chapter is the same world-as-history / world-as-nature distinction that opened the book, now read off paint and marble.",
+      "cultures": ["faustian"],
+      "tags": ["concept:world-as-history", "domain:art"],
+      "see_also": ["world-as-history", "becoming-become"],
+      "evidence": [{ "claim_type": "lexical-definition", "citations": ["wikipedia-decline"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "lexicon", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi8-form-confession",
+      "kind": "form-observation",
+      "selector": { "exact": "a self-portrait is a historical confession" },
+      "anchor": "a self-portrait is a historical confession",
+      "note": "One of the chapter's richest threads: Spengler ties the Western portrait to the sacrament of Confession. A self-portrait by Rembrandt, like a Beethoven quartet or a Goethe autobiography, is a laying-bare of the inner history of a self before a judge — and even the Protestant or freethinker who refuses the priest, he says, still confesses, to himself or to all the world. The Faustian portrait is the picture-form of the confessing, historical soul.",
+      "cultures": ["faustian"],
+      "tags": ["view:interpretation", "domain:religion"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi8-reception-hughes-style",
+      "kind": "scholarly-reception",
+      "selector": { "exact": "So are the portraits of Rembrandt and the music of Beethoven" },
+      "anchor": "the portraits of Rembrandt and the music of Beethoven",
+      "note": "It is analyses like this one — reading a whole culture-soul off the style of its art — that H. Stuart Hughes judged the durable core of Spengler's achievement, as against the discredited prophecy of dates. Hughes reads Spengler less as a forecaster than as a morphologist of cultural style; the Act/Portrait contrast, drawing Rembrandt's portraits and Beethoven's music into one Faustian confession, is that morphology at its most suggestive — and least falsifiable.",
+      "cultures": ["faustian"],
+      "tags": ["view:interpretation", "domain:art"],
+      "attribution": { "scholar": "H. Stuart Hughes", "work": "Oswald Spengler: A Critical Estimate", "year": 1952, "stance": "sympathetic", "citation": "hughes-spengler-1952" },
+      "evidence": [{ "claim_type": "scholarly-interpretation", "citations": ["hughes-spengler-1952"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi8-difficult-renaissance",
+      "kind": "difficult-material",
+      "selector": { "exact": "long after the plastic art itself had become entirely alien to our inner soul" },
+      "anchor": "long after the plastic art itself had become entirely alien to our inner soul",
+      "note": "A claim that quietly reframes how you should read the whole Western tradition. Spengler argues that the Renaissance's reverence for Classical sculpture made us misjudge our own art — we kept ranking the nude statue highest 'long after' plastic had gone dead for the Faustian soul. The difficulty: this lets him treat the entire Renaissance valuation of Classical art as a kind of collective error. Powerful, but it assumes exactly the soul-typology it is meant to illustrate.",
+      "tags": ["view:interpretation", "difficult-material"],
+      "evidence": [{ "claim_type": "difficult-material", "citations": ["hughes-spengler-1952"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    }
+  ]
+}

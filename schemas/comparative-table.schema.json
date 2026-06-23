@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "comparative-table.schema.json",
+  "title": "Comparative Morphology table",
+  "type": "object",
+  "required": ["id", "title", "source", "cultures", "phases", "rows"],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "title": { "type": "string" },
+    "caption": { "type": "string" },
+    "source": { "type": "string", "description": "Where in Spengler this table appears (e.g. 'Decline I, Table I')." },
+    "source_citation": { "type": "string" },
+    "cultures": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "label", "cult"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+          "label": { "type": "string" },
+          "cult": { "enum": ["indian", "apollinian", "magian", "faustian", "egyptian", "chinese", "mexican"] },
+          "from": { "type": "string", "description": "Spengler's start date for the Culture, e.g. 'from 900'." }
+        }
+      }
+    },
+    "phases": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "label"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9-]+$", "description": "Macro-phase id. Table I uses the four seasons; Tables II/III use pre-cultural/early/late/civilization." },
+          "label": { "type": "string" },
+          "cult": { "enum": ["indian", "apollinian", "magian", "faustian", "egyptian", "chinese", "mexican"], "description": "Optional Culture hue for the phase-band header." }
+        }
+      }
+    },
+    "rows": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["epoch", "phase", "label", "cells"],
+        "properties": {
+          "epoch": { "type": "string", "description": "Spengler's roman epoch number, or the substage label (1–5)." },
+          "phase": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+          "label": { "type": "string", "description": "The epoch's heading, e.g. “Enlightenment”." },
+          "cells": {
+            "type": "object",
+            "description": "Keyed by culture id. Each cell holds Spengler's entry for that Culture in this epoch.",
+            "additionalProperties": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["text"],
+              "properties": {
+                "text": { "type": "string" },
+                "note": { "type": "string" },
+                "passage_targets": {
+                  "type": "array",
+                  "items": { "type": "string", "pattern": "^[a-z0-9-]+#p[0-9]+$" },
+                  "description": "unit#pN reading anchors where this cell's theme is discussed at length."
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

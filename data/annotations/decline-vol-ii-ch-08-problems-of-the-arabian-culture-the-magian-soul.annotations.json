@@ -1,0 +1,67 @@
+{
+  "unit_id": "decline-vol-ii-ch-08-problems-of-the-arabian-culture-the-magian-soul",
+  "annotations": [
+    {
+      "id": "dv2-8-lex-world-cavern",
+      "kind": "lexicon-term",
+      "selector": { "exact": "possesses a kind of extension that may be called cavern-like" },
+      "anchor": "the Magian world … a kind of extension that may be called cavern-like",
+      "note": "The Magian prime-symbol: the world as a cavern. Where the Faustian soul feels space as infinite distance and the Apollinian as a finite body, the Magian feels it as a vaulted, enclosed cavern in which Light and Darkness contend. The dome and the mosque, alchemy and algebra, the dualism of spirit and flesh, the descent of divine substance into the dark 'house of the body' — all, for Spengler, unfold from this one space-feeling. It is the deep form the pseudomorphosis hid.",
+      "cultures": ["magian"],
+      "tags": ["concept:prime-symbol", "culture:magian"],
+      "see_also": ["magian", "prime-symbol"],
+      "evidence": [{ "claim_type": "lexical-definition", "citations": ["wikipedia-decline"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "lexicon", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-8-parallel-three-space-symbols",
+      "kind": "cross-culture-parallel",
+      "selector": { "exact": "The world-as-cavern is just as different from the world-as-extent" },
+      "anchor": "The world-as-cavern is just as different from the world-as-extent of the … Faustian",
+      "note": "A compact statement of Spengler's three space-feelings, the heart of his comparative method. The Magian 'world-as-cavern' (enclosed, dual, lit from within) stands against the Faustian 'world-as-extent' (infinite, far-thrusting space) and the Apollinian world-as-body (finite, present, corporeal). 'Space' is not one thing experienced differently but three different things; each Culture's mathematics, architecture, religion, and politics are variations on its own prime-symbol. This is the engine behind the Comparative Tables.",
+      "cultures": ["magian", "faustian", "apollinian"],
+      "tags": ["concept:prime-symbol", "domain:method"],
+      "see_also": ["prime-symbol"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-8-form-dualism-pneuma",
+      "kind": "form-observation",
+      "selector": { "exact": "The light-diffusing pearl that illumines the dark house of the body is the Spirit entered into man" },
+      "anchor": "the … pearl that illumines the dark house of the body is the Spirit entered into man",
+      "note": "The Magian world-feeling is dualistic through and through. In the cavern there are two substances — divine Spirit (pneuma) and dark flesh — and salvation is the descent of light into the 'dark house of the body.' From this dualism, Spengler argues, flow Gnosticism, the idea of Grace as a substance, the resurrection of the flesh, and the whole atmosphere of early Christianity, Mani, and the mystery religions. It is a soul utterly unlike the Faustian, whose drama is an infinite striving rather than a rescue of light from darkness.",
+      "cultures": ["magian"],
+      "tags": ["culture:magian", "domain:religion"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-8-form-word-as-substance",
+      "kind": "form-observation",
+      "selector": { "exact": "the Word itself that was sent down as Substance" },
+      "anchor": "the Word … that was sent down as Substance",
+      "note": "A defining Magian idea: the holy Word is not a text about God but a divine Substance 'sent down' — the Koran 'made visible,' the Logos that 'became Flesh.' Because the Word is substance, its very letters carry power: hence the Kabbalah, which 'out of numbers, letter-forms, points, and strokes unfolds secret significances.' Spengler sees one impulse behind the Christian, Jewish, and Islamic scriptural cults — the Word as the medium through which the cavern-world's light reaches man.",
+      "cultures": ["magian"],
+      "tags": ["culture:magian", "domain:religion"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-8-form-christology",
+      "kind": "form-observation",
+      "selector": { "exact": "Against Arius, who saw in Christ a demigod" },
+      "anchor": "Against Arius, who saw in Christ a demigod … Father and Son were of the same substance",
+      "note": "Spengler reads the great dogma-battles — Athanasius against Arius, the homoousios ('same substance') of Father and Son — not as theological hairsplitting but as the Magian soul working out the relation of its two substances in the cavern-world. The question 'what of Christ?' is the question of how divine and human substance meet in one figure. The Western formula 'the Word became Flesh,' he insists, already misreads a Magian mystery in the more corporeal terms of the cult-Churches.",
+      "cultures": ["magian"],
+      "tags": ["culture:magian", "domain:religion"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    }
+  ]
+}

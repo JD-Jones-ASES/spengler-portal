@@ -1,0 +1,127 @@
+---
+import Layout from "../../components/Layout.astro";
+import PhaseClock from "../../components/PhaseClock.astro";
+import { publishedUnits, getReaderData, getLexicon, getSources } from "../../lib/guide-data.js";
+import { renderUnit, readerPayload } from "../../lib/render.js";
+import { withBase, cultureLabel } from "../../lib/site.js";
+
+export function getStaticPaths() {
+  return publishedUnits().map((u) => ({ params: { unit: u.unit_id } }));
+}
+
+const { unit: unitId } = Astro.params;
+const d = getReaderData(unitId);
+const { unit, text, annotations, footnotes, topics, prev, next } = d;
+const ocr = unit.ocr_corrections || [];
+const html = renderUnit(text, annotations, footnotes, unit.segments, ocr);
+
+const lex = getLexicon();
+const sourceById = new Map(getSources().map((s) => [s.id, s]));
+const lexById = new Map(lex.terms.map((t) => [t.id, t]));
+const payload = readerPayload(annotations, footnotes, sourceById, lexById, withBase);
+
+const cult = unit.cultures?.[0] || "faustian";
+const kicker = `${unit.work_title}${unit.volume_title ? " · " + unit.volume_title : ""} · Chapter ${unit.n}`;
+---
+
+<Layout title={unit.title} current="read" reader={true}>
+  <div class="reading-progress"><span class="bar" id="progress-bar"></span></div>
+
+  <div class="wrap reader-page" data-cult={cult}>
+    <div class="reader">
+      <article class="reader-main">
+        <p class="reader-kicker">{kicker}</p>
+        <h1 class="reader-title">{unit.title}</h1>
+        <div class="reader-meta">
+          {unit.cultures?.map((c) => <span class="cult-tag" data-cult={c}><span class="dot"></span>{cultureLabel(c)}</span>)}
+        </div>
+
+        {unit.summary?.one_line && (
+          <div class="summary-card" data-cult={cult}>
+            <span class="lbl">In one breath</span>
+            <p class="one">{unit.summary.one_line}</p>
+            {unit.summary.why_it_matters && <p class="why">{unit.summary.why_it_matters}</p>}
+          </div>
+        )}
+
+        {unit.text_status === "ocr-corrected" && (
+          <p class="ocr-banner">
+            <strong>Reconstructed from an OCR scan.</strong> {ocr.length} correction{ocr.length === 1 ? "" : "s"}
+            in this chapter — hover a <span class="ocr-fix" title="example">dotted word</span> to see what the
+            scan actually read. Every correction is logged; unreconstructable passages are flagged for review,
+            never guessed. See <a href={withBase("about/")}>Method</a>.
+          </p>
+        )}
+
+        <div class="reader-tools">
+          <span class="legend"><span class="swatch"></span> hover an underline for a note · a small number is a translator's footnote</span>
+        </div>
+
+        <div class="prose" set:html={html}></div>
+
+        <nav class="pager">
+          {prev ? (
+            <a href={withBase(`read/${prev.unit_id}/`)}>
+              <span class="dir">← Previous</span>
+              <span class="t">{prev.title}</span>
+            </a>
+          ) : <span></span>}
+          {next ? (
+            <a class="next" href={withBase(`read/${next.unit_id}/`)}>
+              <span class="dir">Next →</span>
+              <span class="t">{next.title}</span>
+            </a>
+          ) : <span></span>}
+        </nav>
+      </article>
+
+      <aside class="reader-side">
+        {topics.length > 0 && (
+          <div class="topic-spine">
+            <h2>In this chapter</h2>
+            <ul class="topic-list">
+              {topics.map((t) => (
+                t.anchor_status === "page-anchor-resolved" ? (
+                  <li><a href={`#p${t.anchor_paragraph}`} data-para={t.anchor_paragraph}>{t.topic}<span class="pg">p.{t.page}</span></a></li>
+                ) : (
+                  <li><span class="topic-list" style="display:block;padding:0.3rem 0 0.3rem 0.85rem;color:var(--ink-faint);font-size:0.86rem;">{t.topic}</span></li>
+                )
+              ))}
+            </ul>
+          </div>
+        )}
+      </aside>
+    </div>
+  </div>
+
+  <!-- margin card -->
+  <aside class="margin-note" id="margin-note" hidden aria-live="polite">
+    <button class="mn-close" id="mn-close" aria-label="Close note">×</button>
+    <span class="mn-kind" id="mn-kind"></span>
+    <div id="mn-body"></div>
+  </aside>
+
+  <!-- reader dock -->
+  <div class="reader-dock">
+    <details class="dock-panel">
+      <summary class="dock-btn" aria-label="Text size">A<span class="dock-txt" style="font-size:0.7em">A</span></summary>
+      <div class="typo-panel">
+        <div class="typo-row">
+          <span class="typo-label">Size</span>
+          <span class="typo-seg">
+            <button data-typo-size="1.05rem">S</button>
+            <button data-typo-size="1.2rem" aria-pressed="true">M</button>
+            <button data-typo-size="1.36rem">L</button>
+          </span>
+        </div>
+      </div>
+    </details>
+    <button class="dock-btn" id="focus-toggle" aria-pressed="false"><span class="dock-ico">◎</span><span class="dock-txt">Focus</span></button>
+  </div>
+
+  <script type="application/json" id="reader-data" set:html={JSON.stringify(payload)} is:inline></script>
+  <script>
+    import { initReader } from "../../lib/reader-ui.js";
+    initReader();
+  </script>
+</Layout>

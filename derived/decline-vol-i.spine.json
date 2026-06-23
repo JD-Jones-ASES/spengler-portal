@@ -1,0 +1,5317 @@
+{
+  "work": "decline",
+  "volume": "vol-i",
+  "source_id": "gutenberg-decline-i",
+  "source_sha256": "c5b704606e9318aabf9833ff3d4980eed1fb416be2c04425b08f4b2122bafb7f",
+  "generator": "build-cleaned-spine@1",
+  "chapters": [
+    {
+      "unit_id": "decline-vol-i-ch-01-introduction",
+      "work": "decline",
+      "volume": "vol-i",
+      "n": 1,
+      "roman": "I",
+      "title": "Introduction",
+      "function": "exposition",
+      "text_status": "clean",
+      "source_id": "gutenberg-decline-i",
+      "source_raw_path": "raw/Spengler_Decline_I.txt",
+      "clean_path": "derived/decline-vol-i/ch-01.txt",
+      "char_count": 135154,
+      "paragraph_count": 140,
+      "paragraph_offsets": [
+        0,
+        296,
+        519,
+        1127,
+        1800,
+        2100,
+        2604,
+        2808,
+        4156,
+        4678,
+        4865,
+        5609,
+        6289,
+        7526,
+        8409,
+        9551,
+        12096,
+        14052,
+        14355,
+        14814,
+        16298,
+        16642,
+        17458,
+        17956,
+        18242,
+        19358,
+        21123,
+        23780,
+        24030,
+        24784,
+        25551,
+        25759,
+        26714,
+        27977,
+        28759,
+        30281,
+        31988,
+        32948,
+        33920,
+        34364,
+        34815,
+        35439,
+        36992,
+        37802,
+        38596,
+        40036,
+        40766,
+        41136,
+        41775,
+        42571,
+        43407,
+        43898,
+        44985,
+        46314,
+        46616,
+        47514,
+        47680,
+        47755,
+        47802,
+        47875,
+        47880,
+        48385,
+        49527,
+        51580,
+        53657,
+        53986,
+        55362,
+        56325,
+        57040,
+        57645,
+        58511,
+        59238,
+        61013,
+        61442,
+        61766,
+        63067,
+        63416,
+        63980,
+        64879,
+        65343,
+        66688,
+        67979,
+        69060,
+        70745,
+        71807,
+        73503,
+        74016,
+        75379,
+        77484,
+        78352,
+        78752,
+        79329,
+        79610,
+        80509,
+        82078,
+        82660,
+        83800,
+        86468,
+        86778,
+        88480,
+        91622,
+        92893,
+        94295,
+        96012,
+        96655,
+        97786,
+        98926,
+        99565,
+        99895,
+        99922,
+        100508,
+        101012,
+        101298,
+        101605,
+        101951,
+        102751,
+        103865,
+        104223,
+        106789,
+        107460,
+        108921,
+        109772,
+        110349,
+        112691,
+        114039,
+        115252,
+        117747,
+        118479,
+        118978,
+        120538,
+        121658,
+        122684,
+        123120,
+        125571,
+        127334,
+        129835,
+        130282,
+        133300,
+        134128,
+        134958
+      ],
+      "segments": [
+        {
+          "roman": "I",
+          "beforeParagraph": 0
+        },
+        {
+          "roman": "II",
+          "beforeParagraph": 6
+        },
+        {
+          "roman": "III",
+          "beforeParagraph": 13
+        },
+        {
+          "roman": "IV",
+          "beforeParagraph": 18
+        },
+        {
+          "roman": "V",
+          "beforeParagraph": 33
+        },
+        {
+          "roman": "VI",
+          "beforeParagraph": 39
+        },
+        {
+          "roman": "VII",
+          "beforeParagraph": 46
+        },
+        {
+          "roman": "VIII",
+          "beforeParagraph": 64
+        },
+        {
+          "roman": "IX",
+          "beforeParagraph": 73
+        },
+        {
+          "roman": "X",
+          "beforeParagraph": 78
+        },
+        {
+          "roman": "XI",
+          "beforeParagraph": 84
+        },
+        {
+          "roman": "XII",
+          "beforeParagraph": 91
+        },
+        {
+          "roman": "XIII",
+          "beforeParagraph": 101
+        },
+        {
+          "roman": "XIV",
+          "beforeParagraph": 113
+        },
+        {
+          "roman": "XV",
+          "beforeParagraph": 118
+        },
+        {
+          "roman": "XVI",
+          "beforeParagraph": 132
+        }
+      ],
+      "page_map": [
+        {
+          "page": 4,
+          "offset": 2415
+        },
+        {
+          "page": 5,
+          "offset": 5244
+        },
+        {
+          "page": 6,
+          "offset": 8287
+        },
+        {
+          "page": 7,
+          "offset": 10953
+        },
+        {
+          "page": 8,
+          "offset": 13878
+        },
+        {
+          "page": 9,
+          "offset": 16642
+        },
+        {
+          "page": 10,
+          "offset": 19593
+        },
+        {
+          "page": 11,
+          "offset": 21347
+        },
+        {
+          "page": 12,
+          "offset": 24492
+        },
+        {
+          "page": 13,
+          "offset": 26607
+        },
+        {
+          "page": 14,
+          "offset": 29227
+        },
+        {
+          "page": 15,
+          "offset": 32274
+        },
+        {
+          "page": 16,
+          "offset": 34681
+        },
+        {
+          "page": 17,
+          "offset": 36821
+        },
+        {
+          "page": 18,
+          "offset": 39912
+        },
+        {
+          "page": 19,
+          "offset": 42571
+        },
+        {
+          "page": 20,
+          "offset": 45450
+        },
+        {
+          "page": 21,
+          "offset": 48268
+        },
+        {
+          "page": 22,
+          "offset": 51339
+        },
+        {
+          "page": 23,
+          "offset": 54057
+        },
+        {
+          "page": 24,
+          "offset": 57040
+        },
+        {
+          "page": 25,
+          "offset": 60149
+        },
+        {
+          "page": 26,
+          "offset": 63144
+        },
+        {
+          "page": 27,
+          "offset": 66099
+        },
+        {
+          "page": 28,
+          "offset": 69221
+        },
+        {
+          "page": 29,
+          "offset": 71669
+        },
+        {
+          "page": 30,
+          "offset": 74402
+        },
+        {
+          "page": 31,
+          "offset": 77562
+        },
+        {
+          "page": 32,
+          "offset": 80509
+        },
+        {
+          "page": 33,
+          "offset": 83585
+        },
+        {
+          "page": 34,
+          "offset": 86224
+        },
+        {
+          "page": 35,
+          "offset": 88952
+        },
+        {
+          "page": 36,
+          "offset": 91929
+        },
+        {
+          "page": 37,
+          "offset": 94670
+        },
+        {
+          "page": 38,
+          "offset": 97350
+        },
+        {
+          "page": 39,
+          "offset": 100365
+        },
+        {
+          "page": 40,
+          "offset": 103286
+        },
+        {
+          "page": 41,
+          "offset": 106460
+        },
+        {
+          "page": 42,
+          "offset": 109388
+        },
+        {
+          "page": 43,
+          "offset": 112422
+        },
+        {
+          "page": 44,
+          "offset": 115568
+        },
+        {
+          "page": 45,
+          "offset": 118712
+        },
+        {
+          "page": 46,
+          "offset": 121806
+        },
+        {
+          "page": 47,
+          "offset": 124760
+        },
+        {
+          "page": 48,
+          "offset": 127876
+        },
+        {
+          "page": 49,
+          "offset": 131059
+        },
+        {
+          "page": 50,
+          "offset": 133376
+        }
+      ],
+      "footnote_refs": [
+        {
+          "number": 1,
+          "offset": 9549
+        },
+        {
+          "number": 2,
+          "offset": 13272
+        },
+        {
+          "number": 3,
+          "offset": 18240
+        },
+        {
+          "number": 4,
+          "offset": 21121
+        },
+        {
+          "number": 5,
+          "offset": 26257
+        },
+        {
+          "number": 6,
+          "offset": 26356
+        },
+        {
+          "number": 7,
+          "offset": 29167
+        },
+        {
+          "number": 8,
+          "offset": 32282
+        },
+        {
+          "number": 9,
+          "offset": 33492
+        },
+        {
+          "number": 10,
+          "offset": 35772
+        },
+        {
+          "number": 11,
+          "offset": 40929
+        },
+        {
+          "number": 12,
+          "offset": 41134
+        },
+        {
+          "number": 13,
+          "offset": 41773
+        },
+        {
+          "number": 14,
+          "offset": 43641
+        },
+        {
+          "number": 15,
+          "offset": 45081
+        },
+        {
+          "number": 16,
+          "offset": 45767
+        },
+        {
+          "number": 17,
+          "offset": 49684
+        },
+        {
+          "number": 18,
+          "offset": 52430
+        },
+        {
+          "number": 19,
+          "offset": 55195
+        },
+        {
+          "number": 20,
+          "offset": 70260
+        },
+        {
+          "number": 21,
+          "offset": 73716
+        },
+        {
+          "number": 22,
+          "offset": 73739
+        },
+        {
+          "number": 23,
+          "offset": 82683
+        },
+        {
+          "number": 24,
+          "offset": 83775
+        },
+        {
+          "number": 25,
+          "offset": 84228
+        },
+        {
+          "number": 26,
+          "offset": 84906
+        },
+        {
+          "number": 27,
+          "offset": 85520
+        },
+        {
+          "number": 28,
+          "offset": 87097
+        },
+        {
+          "number": 29,
+          "offset": 88918
+        },
+        {
+          "number": 30,
+          "offset": 90722
+        },
+        {
+          "number": 31,
+          "offset": 93169
+        },
+        {
+          "number": 32,
+          "offset": 93986
+        },
+        {
+          "number": 33,
+          "offset": 95463
+        },
+        {
+          "number": 34,
+          "offset": 95573
+        },
+        {
+          "number": 35,
+          "offset": 96038
+        },
+        {
+          "number": 36,
+          "offset": 96227
+        },
+        {
+          "number": 37,
+          "offset": 96653
+        },
+        {
+          "number": 38,
+          "offset": 110983
+        },
+        {
+          "number": 39,
+          "offset": 123627
+        },
+        {
+          "number": 40,
+          "offset": 131054
+        },
+        {
+          "number": 41,
+          "offset": 134981
+        }
+      ],
+      "ocr_corrections": [],
+      "extracted_footnotes": []
+    },
+    {
+      "unit_id": "decline-vol-i-ch-02-the-meaning-of-numbers",
+      "work": "decline",
+      "volume": "vol-i",
+      "n": 2,
+      "roman": "II",
+      "title": "The Meaning of Numbers",
+      "function": "mathematics",
+      "text_status": "clean",
+      "source_id": "gutenberg-decline-i",
+      "source_raw_path": "raw/Spengler_Decline_I.txt",
+      "clean_path": "derived/decline-vol-i/ch-02.txt",
+      "char_count": 109216,
+      "paragraph_count": 97,
+      "paragraph_offsets": [
+        0,
+        399,
+        1418,
+        2216,
+        2422,
+        4000,
+        4889,
+        5785,
+        7345,
+        8090,
+        8726,
+        9892,
+        11007,
+        15126,
+        15843,
+        16906,
+        17272,
+        17414,
+        17418,
+        17540,
+        18840,
+        19456,
+        20223,
+        22993,
+        24460,
+        26654,
+        29071,
+        31116,
+        32786,
+        33693,
+        34957,
+        35898,
+        36968,
+        38176,
+        40230,
+        40261,
+        40288,
+        40505,
+        43089,
+        44453,
+        45275,
+        49705,
+        50834,
+        50868,
+        50900,
+        50934,
+        50977,
+        51017,
+        51890,
+        52975,
+        55078,
+        56013,
+        57031,
+        57303,
+        57886,
+        61340,
+        61344,
+        62207,
+        63336,
+        64096,
+        64100,
+        66454,
+        67156,
+        67884,
+        68271,
+        69741,
+        70522,
+        72606,
+        73274,
+        73911,
+        74521,
+        75626,
+        77031,
+        78744,
+        79792,
+        81918,
+        83852,
+        84252,
+        85521,
+        86855,
+        88394,
+        92003,
+        93138,
+        93423,
+        94151,
+        96064,
+        96068,
+        98085,
+        100647,
+        102732,
+        103605,
+        105000,
+        106917,
+        107977,
+        109149,
+        109196,
+        109206
+      ],
+      "segments": [
+        {
+          "roman": "II",
+          "beforeParagraph": 11
+        },
+        {
+          "roman": "III",
+          "beforeParagraph": 18
+        },
+        {
+          "roman": "IV",
+          "beforeParagraph": 23
+        },
+        {
+          "roman": "V",
+          "beforeParagraph": 26
+        },
+        {
+          "roman": "VI",
+          "beforeParagraph": 38
+        },
+        {
+          "roman": "VII",
+          "beforeParagraph": 49
+        },
+        {
+          "roman": "VIII",
+          "beforeParagraph": 56
+        },
+        {
+          "roman": "IX",
+          "beforeParagraph": 60
+        },
+        {
+          "roman": "X",
+          "beforeParagraph": 63
+        },
+        {
+          "roman": "XI",
+          "beforeParagraph": 70
+        },
+        {
+          "roman": "XII",
+          "beforeParagraph": 75
+        },
+        {
+          "roman": "XIII",
+          "beforeParagraph": 81
+        },
+        {
+          "roman": "XIV",
+          "beforeParagraph": 83
+        },
+        {
+          "roman": "XV",
+          "beforeParagraph": 86
+        },
+        {
+          "roman": "XVI",
+          "beforeParagraph": 87
+        },
+        {
+          "roman": "XVII",
+          "beforeParagraph": 88
+        },
+        {
+          "roman": "XVIII",
+          "beforeParagraph": 92
+        }
+      ],
+      "page_map": [
+        {
+          "page": 54,
+          "offset": 2422
+        },
+        {
+          "page": 55,
+          "offset": 5681
+        },
+        {
+          "page": 57,
+          "offset": 11465
+        },
+        {
+          "page": 58,
+          "offset": 14638
+        },
+        {
+          "page": 60,
+          "offset": 20526
+        },
+        {
+          "page": 61,
+          "offset": 23599
+        },
+        {
+          "page": 62,
+          "offset": 26542
+        },
+        {
+          "page": 63,
+          "offset": 29526
+        },
+        {
+          "page": 64,
+          "offset": 32672
+        },
+        {
+          "page": 65,
+          "offset": 35789
+        },
+        {
+          "page": 66,
+          "offset": 38054
+        },
+        {
+          "page": 67,
+          "offset": 41192
+        },
+        {
+          "page": 68,
+          "offset": 44152
+        },
+        {
+          "page": 69,
+          "offset": 46903
+        },
+        {
+          "page": 70,
+          "offset": 49788
+        },
+        {
+          "page": 71,
+          "offset": 52665
+        },
+        {
+          "page": 72,
+          "offset": 55630
+        },
+        {
+          "page": 73,
+          "offset": 58653
+        },
+        {
+          "page": 76,
+          "offset": 67000
+        },
+        {
+          "page": 77,
+          "offset": 69594
+        },
+        {
+          "page": 78,
+          "offset": 72676
+        },
+        {
+          "page": 79,
+          "offset": 75463
+        },
+        {
+          "page": 80,
+          "offset": 78591
+        },
+        {
+          "page": 81,
+          "offset": 81508
+        },
+        {
+          "page": 82,
+          "offset": 84480
+        },
+        {
+          "page": 83,
+          "offset": 87618
+        },
+        {
+          "page": 84,
+          "offset": 90413
+        },
+        {
+          "page": 85,
+          "offset": 93290
+        },
+        {
+          "page": 87,
+          "offset": 98311
+        },
+        {
+          "page": 88,
+          "offset": 101349
+        },
+        {
+          "page": 89,
+          "offset": 104544
+        },
+        {
+          "page": 90,
+          "offset": 107227
+        }
+      ],
+      "footnote_refs": [
+        {
+          "number": 42,
+          "offset": 6676
+        },
+        {
+          "number": 43,
+          "offset": 8088
+        },
+        {
+          "number": 44,
+          "offset": 9890
+        },
+        {
+          "number": 45,
+          "offset": 11005
+        },
+        {
+          "number": 46,
+          "offset": 12814
+        },
+        {
+          "number": 47,
+          "offset": 15932
+        },
+        {
+          "number": 48,
+          "offset": 24554
+        },
+        {
+          "number": 49,
+          "offset": 26530
+        },
+        {
+          "number": 50,
+          "offset": 36966
+        },
+        {
+          "number": 51,
+          "offset": 37346
+        },
+        {
+          "number": 52,
+          "offset": 43667
+        },
+        {
+          "number": 53,
+          "offset": 45476
+        },
+        {
+          "number": 54,
+          "offset": 45602
+        },
+        {
+          "number": 55,
+          "offset": 46831
+        },
+        {
+          "number": 56,
+          "offset": 47390
+        },
+        {
+          "number": 57,
+          "offset": 48771
+        },
+        {
+          "number": 58,
+          "offset": 51015
+        },
+        {
+          "number": 59,
+          "offset": 55273
+        },
+        {
+          "number": 60,
+          "offset": 59727
+        },
+        {
+          "number": 61,
+          "offset": 59797
+        },
+        {
+          "number": 62,
+          "offset": 60807
+        },
+        {
+          "number": 63,
+          "offset": 62205
+        },
+        {
+          "number": 64,
+          "offset": 64591
+        },
+        {
+          "number": 65,
+          "offset": 67882
+        },
+        {
+          "number": 66,
+          "offset": 69543
+        },
+        {
+          "number": 67,
+          "offset": 73050
+        },
+        {
+          "number": 68,
+          "offset": 79790
+        },
+        {
+          "number": 69,
+          "offset": 79969
+        },
+        {
+          "number": 70,
+          "offset": 90175
+        },
+        {
+          "number": 71,
+          "offset": 90354
+        },
+        {
+          "number": 72,
+          "offset": 92001
+        },
+        {
+          "number": 73,
+          "offset": 96494
+        },
+        {
+          "number": 74,
+          "offset": 98083
+        },
+        {
+          "number": 75,
+          "offset": 100517
+        },
+        {
+          "number": 76,
+          "offset": 105884
+        }
+      ],
+      "ocr_corrections": [],
+      "extracted_footnotes": []
+    },
+    {
+      "unit_id": "decline-vol-i-ch-03-the-problem-of-world-history-physiognomic-and-systematic",
+      "work": "decline",
+      "volume": "vol-i",
+      "n": 3,
+      "roman": "III",
+      "title": "The Problem of World-history (1): Physiognomic and Systematic",
+      "function": "comparative-morphology",
+      "text_status": "clean",
+      "source_id": "gutenberg-decline-i",
+      "source_raw_path": "raw/Spengler_Decline_I.txt",
+      "clean_path": "derived/decline-vol-i/ch-03.txt",
+      "char_count": 57214,
+      "paragraph_count": 68,
+      "paragraph_offsets": [
+        0,
+        612,
+        987,
+        2381,
+        2799,
+        3962,
+        4286,
+        5642,
+        5985,
+        6841,
+        7251,
+        9263,
+        10306,
+        11107,
+        11488,
+        12213,
+        14273,
+        15865,
+        16762,
+        18186,
+        18735,
+        19082,
+        20037,
+        20843,
+        21374,
+        21740,
+        22906,
+        23740,
+        24386,
+        25866,
+        27820,
+        27868,
+        27892,
+        27931,
+        27951,
+        27980,
+        28023,
+        28047,
+        28086,
+        28106,
+        28132,
+        28181,
+        28212,
+        28230,
+        30607,
+        30695,
+        31097,
+        32638,
+        33702,
+        34443,
+        35958,
+        36639,
+        37003,
+        37853,
+        38071,
+        39842,
+        43634,
+        47238,
+        48122,
+        49855,
+        51318,
+        51745,
+        53599,
+        54771,
+        55809,
+        56087,
+        56273,
+        56564
+      ],
+      "segments": [
+        {
+          "roman": "I",
+          "beforeParagraph": 0
+        },
+        {
+          "roman": "II",
+          "beforeParagraph": 6
+        },
+        {
+          "roman": "III",
+          "beforeParagraph": 15
+        },
+        {
+          "roman": "IV",
+          "beforeParagraph": 19
+        },
+        {
+          "roman": "V",
+          "beforeParagraph": 25
+        },
+        {
+          "roman": "VI",
+          "beforeParagraph": 44
+        },
+        {
+          "roman": "VII",
+          "beforeParagraph": 51
+        },
+        {
+          "roman": "VIII",
+          "beforeParagraph": 56
+        }
+      ],
+      "page_map": [
+        {
+          "page": 94,
+          "offset": 2290
+        },
+        {
+          "page": 95,
+          "offset": 5061
+        },
+        {
+          "page": 96,
+          "offset": 8104
+        },
+        {
+          "page": 97,
+          "offset": 11260
+        },
+        {
+          "page": 98,
+          "offset": 13827
+        },
+        {
+          "page": 99,
+          "offset": 16762
+        },
+        {
+          "page": 100,
+          "offset": 19703
+        },
+        {
+          "page": 101,
+          "offset": 22665
+        },
+        {
+          "page": 102,
+          "offset": 25771
+        },
+        {
+          "page": 103,
+          "offset": 28230
+        },
+        {
+          "page": 104,
+          "offset": 31097
+        },
+        {
+          "page": 105,
+          "offset": 34025
+        },
+        {
+          "page": 106,
+          "offset": 37003
+        },
+        {
+          "page": 107,
+          "offset": 40064
+        },
+        {
+          "page": 108,
+          "offset": 42451
+        },
+        {
+          "page": 109,
+          "offset": 45298
+        },
+        {
+          "page": 110,
+          "offset": 48375
+        },
+        {
+          "page": 111,
+          "offset": 50927
+        },
+        {
+          "page": 112,
+          "offset": 53502
+        },
+        {
+          "page": 113,
+          "offset": 56273
+        }
+      ],
+      "footnote_refs": [
+        {
+          "number": 77,
+          "offset": 4304
+        },
+        {
+          "number": 78,
+          "offset": 11746
+        },
+        {
+          "number": 79,
+          "offset": 12976
+        },
+        {
+          "number": 80,
+          "offset": 14170
+        },
+        {
+          "number": 81,
+          "offset": 14309
+        },
+        {
+          "number": 82,
+          "offset": 25864
+        },
+        {
+          "number": 83,
+          "offset": 29165
+        },
+        {
+          "number": 84,
+          "offset": 31191
+        },
+        {
+          "number": 85,
+          "offset": 33095
+        },
+        {
+          "number": 86,
+          "offset": 37899
+        },
+        {
+          "number": 87,
+          "offset": 39840
+        },
+        {
+          "number": 88,
+          "offset": 40271
+        },
+        {
+          "number": 89,
+          "offset": 40625
+        },
+        {
+          "number": 90,
+          "offset": 41937
+        },
+        {
+          "number": 91,
+          "offset": 42001
+        },
+        {
+          "number": 92,
+          "offset": 43406
+        },
+        {
+          "number": 93,
+          "offset": 44405
+        },
+        {
+          "number": 94,
+          "offset": 46817
+        },
+        {
+          "number": 95,
+          "offset": 48021
+        },
+        {
+          "number": 96,
+          "offset": 48792
+        },
+        {
+          "number": 97,
+          "offset": 49944
+        },
+        {
+          "number": 98,
+          "offset": 50645
+        },
+        {
+          "number": 99,
+          "offset": 51679
+        },
+        {
+          "number": 100,
+          "offset": 52246
+        },
+        {
+          "number": 101,
+          "offset": 54741
+        }
+      ],
+      "ocr_corrections": [],
+      "extracted_footnotes": []
+    },
+    {
+      "unit_id": "decline-vol-i-ch-04-the-problem-of-world-history-the-destiny-idea-and-the-causality-principle",
+      "work": "decline",
+      "volume": "vol-i",
+      "n": 4,
+      "roman": "IV",
+      "title": "The Problem of World-history (2): The Destiny-idea and the Causality-principle",
+      "function": "comparative-morphology",
+      "text_status": "clean",
+      "source_id": "gutenberg-decline-i",
+      "source_raw_path": "raw/Spengler_Decline_I.txt",
+      "clean_path": "derived/decline-vol-i/ch-04.txt",
+      "char_count": 118280,
+      "paragraph_count": 117,
+      "paragraph_offsets": [
+        0,
+        469,
+        1048,
+        3125,
+        4648,
+        5616,
+        6986,
+        8099,
+        8799,
+        12160,
+        12703,
+        13614,
+        14025,
+        14271,
+        14611,
+        16041,
+        18980,
+        19289,
+        20421,
+        22643,
+        25187,
+        26476,
+        27301,
+        27978,
+        29501,
+        30135,
+        31367,
+        33973,
+        33978,
+        34859,
+        36550,
+        39232,
+        39412,
+        40443,
+        41627,
+        44804,
+        45308,
+        47220,
+        49313,
+        50198,
+        50437,
+        50960,
+        53516,
+        54362,
+        55481,
+        57648,
+        58231,
+        59307,
+        60959,
+        60992,
+        61022,
+        61058,
+        61090,
+        61131,
+        61165,
+        61202,
+        61229,
+        62731,
+        66006,
+        67663,
+        68039,
+        68988,
+        71288,
+        71737,
+        74248,
+        76759,
+        78400,
+        82166,
+        83996,
+        84001,
+        85687,
+        86852,
+        88658,
+        92240,
+        93837,
+        96190,
+        96983,
+        98390,
+        99671,
+        100971,
+        102925,
+        102963,
+        103009,
+        103012,
+        103039,
+        103076,
+        103094,
+        103141,
+        103157,
+        103217,
+        103237,
+        103266,
+        103306,
+        103364,
+        103400,
+        103445,
+        103513,
+        103571,
+        103595,
+        103622,
+        103643,
+        103656,
+        103671,
+        103676,
+        106184,
+        108394,
+        109785,
+        110982,
+        111029,
+        111072,
+        111114,
+        111159,
+        111856,
+        113488,
+        114909,
+        115296,
+        116669
+      ],
+      "segments": [
+        {
+          "roman": "I",
+          "beforeParagraph": 0
+        },
+        {
+          "roman": "II",
+          "beforeParagraph": 12
+        },
+        {
+          "roman": "III",
+          "beforeParagraph": 23
+        },
+        {
+          "roman": "IV",
+          "beforeParagraph": 28
+        },
+        {
+          "roman": "V",
+          "beforeParagraph": 31
+        },
+        {
+          "roman": "VI",
+          "beforeParagraph": 41
+        },
+        {
+          "roman": "VII",
+          "beforeParagraph": 45
+        },
+        {
+          "roman": "VIII",
+          "beforeParagraph": 58
+        },
+        {
+          "roman": "IX",
+          "beforeParagraph": 69
+        },
+        {
+          "roman": "X",
+          "beforeParagraph": 74
+        },
+        {
+          "roman": "XI",
+          "beforeParagraph": 103
+        },
+        {
+          "roman": "XII",
+          "beforeParagraph": 114
+        }
+      ],
+      "page_map": [
+        {
+          "page": 119,
+          "offset": 5245
+        },
+        {
+          "page": 120,
+          "offset": 8405
+        },
+        {
+          "page": 121,
+          "offset": 11595
+        },
+        {
+          "page": 122,
+          "offset": 14493
+        },
+        {
+          "page": 123,
+          "offset": 17351
+        },
+        {
+          "page": 124,
+          "offset": 20069
+        },
+        {
+          "page": 125,
+          "offset": 22711
+        },
+        {
+          "page": 126,
+          "offset": 25864
+        },
+        {
+          "page": 127,
+          "offset": 28219
+        },
+        {
+          "page": 128,
+          "offset": 30913
+        },
+        {
+          "page": 130,
+          "offset": 36693
+        },
+        {
+          "page": 131,
+          "offset": 39109
+        },
+        {
+          "page": 132,
+          "offset": 41931
+        },
+        {
+          "page": 133,
+          "offset": 44220
+        },
+        {
+          "page": 134,
+          "offset": 46546
+        },
+        {
+          "page": 135,
+          "offset": 48686
+        },
+        {
+          "page": 136,
+          "offset": 50726
+        },
+        {
+          "page": 137,
+          "offset": 52647
+        },
+        {
+          "page": 138,
+          "offset": 55046
+        },
+        {
+          "page": 139,
+          "offset": 58018
+        },
+        {
+          "page": 140,
+          "offset": 60827
+        },
+        {
+          "page": 141,
+          "offset": 63595
+        },
+        {
+          "page": 142,
+          "offset": 66156
+        },
+        {
+          "page": 143,
+          "offset": 69070
+        },
+        {
+          "page": 144,
+          "offset": 72291
+        },
+        {
+          "page": 145,
+          "offset": 75321
+        },
+        {
+          "page": 146,
+          "offset": 78110
+        },
+        {
+          "page": 147,
+          "offset": 81202
+        },
+        {
+          "page": 149,
+          "offset": 86926
+        },
+        {
+          "page": 150,
+          "offset": 89799
+        },
+        {
+          "page": 151,
+          "offset": 92240
+        },
+        {
+          "page": 152,
+          "offset": 95151
+        },
+        {
+          "page": 153,
+          "offset": 98390
+        },
+        {
+          "page": 154,
+          "offset": 101055
+        },
+        {
+          "page": 156,
+          "offset": 106641
+        },
+        {
+          "page": 157,
+          "offset": 109351
+        },
+        {
+          "page": 158,
+          "offset": 111856
+        },
+        {
+          "page": 159,
+          "offset": 113958
+        },
+        {
+          "page": 160,
+          "offset": 117057
+        }
+      ],
+      "footnote_refs": [
+        {
+          "number": 102,
+          "offset": 16721
+        },
+        {
+          "number": 103,
+          "offset": 16970
+        },
+        {
+          "number": 104,
+          "offset": 18696
+        },
+        {
+          "number": 105,
+          "offset": 18978
+        },
+        {
+          "number": 106,
+          "offset": 19287
+        },
+        {
+          "number": 107,
+          "offset": 19796
+        },
+        {
+          "number": 108,
+          "offset": 20031
+        },
+        {
+          "number": 109,
+          "offset": 21131
+        },
+        {
+          "number": 110,
+          "offset": 22160
+        },
+        {
+          "number": 111,
+          "offset": 22641
+        },
+        {
+          "number": 112,
+          "offset": 26531
+        },
+        {
+          "number": 113,
+          "offset": 26794
+        },
+        {
+          "number": 114,
+          "offset": 27519
+        },
+        {
+          "number": 115,
+          "offset": 28242
+        },
+        {
+          "number": 116,
+          "offset": 28444
+        },
+        {
+          "number": 117,
+          "offset": 28693
+        },
+        {
+          "number": 118,
+          "offset": 29499
+        },
+        {
+          "number": 119,
+          "offset": 31365
+        },
+        {
+          "number": 120,
+          "offset": 33964
+        },
+        {
+          "number": 121,
+          "offset": 35102
+        },
+        {
+          "number": 122,
+          "offset": 35145
+        },
+        {
+          "number": 123,
+          "offset": 35221
+        },
+        {
+          "number": 124,
+          "offset": 38316
+        },
+        {
+          "number": 125,
+          "offset": 38367
+        },
+        {
+          "number": 126,
+          "offset": 38548
+        },
+        {
+          "number": 127,
+          "offset": 40158
+        },
+        {
+          "number": 128,
+          "offset": 42006
+        },
+        {
+          "number": 129,
+          "offset": 42218
+        },
+        {
+          "number": 130,
+          "offset": 43118
+        },
+        {
+          "number": 131,
+          "offset": 43674
+        },
+        {
+          "number": 132,
+          "offset": 44117
+        },
+        {
+          "number": 133,
+          "offset": 45617
+        },
+        {
+          "number": 134,
+          "offset": 45946
+        },
+        {
+          "number": 135,
+          "offset": 46428
+        },
+        {
+          "number": 136,
+          "offset": 46620
+        },
+        {
+          "number": 137,
+          "offset": 46843
+        },
+        {
+          "number": 138,
+          "offset": 47218
+        },
+        {
+          "number": 139,
+          "offset": 48724
+        },
+        {
+          "number": 140,
+          "offset": 49127
+        },
+        {
+          "number": 141,
+          "offset": 50154
+        },
+        {
+          "number": 142,
+          "offset": 50905
+        },
+        {
+          "number": 143,
+          "offset": 50995
+        },
+        {
+          "number": 144,
+          "offset": 51800
+        },
+        {
+          "number": 145,
+          "offset": 52398
+        },
+        {
+          "number": 146,
+          "offset": 52607
+        },
+        {
+          "number": 147,
+          "offset": 52768
+        },
+        {
+          "number": 148,
+          "offset": 53514
+        },
+        {
+          "number": 149,
+          "offset": 54360
+        },
+        {
+          "number": 150,
+          "offset": 54884
+        },
+        {
+          "number": 151,
+          "offset": 58466
+        },
+        {
+          "number": 152,
+          "offset": 58992
+        },
+        {
+          "number": 153,
+          "offset": 61227
+        },
+        {
+          "number": 154,
+          "offset": 62933
+        },
+        {
+          "number": 155,
+          "offset": 63333
+        },
+        {
+          "number": 156,
+          "offset": 63749
+        },
+        {
+          "number": 157,
+          "offset": 68255
+        },
+        {
+          "number": 158,
+          "offset": 68986
+        },
+        {
+          "number": 159,
+          "offset": 72886
+        },
+        {
+          "number": 160,
+          "offset": 73548
+        },
+        {
+          "number": 161,
+          "offset": 76247
+        },
+        {
+          "number": 162,
+          "offset": 77846
+        },
+        {
+          "number": 163,
+          "offset": 79987
+        },
+        {
+          "number": 164,
+          "offset": 82673
+        },
+        {
+          "number": 165,
+          "offset": 83111
+        },
+        {
+          "number": 166,
+          "offset": 88656
+        },
+        {
+          "number": 167,
+          "offset": 89278
+        },
+        {
+          "number": 168,
+          "offset": 90292
+        },
+        {
+          "number": 169,
+          "offset": 91426
+        },
+        {
+          "number": 170,
+          "offset": 92184
+        },
+        {
+          "number": 171,
+          "offset": 93646
+        },
+        {
+          "number": 172,
+          "offset": 98830
+        },
+        {
+          "number": 173,
+          "offset": 100605
+        },
+        {
+          "number": 174,
+          "offset": 106199
+        },
+        {
+          "number": 175,
+          "offset": 108802
+        },
+        {
+          "number": 176,
+          "offset": 109315
+        },
+        {
+          "number": 177,
+          "offset": 111633
+        }
+      ],
+      "ocr_corrections": [],
+      "extracted_footnotes": []
+    },
+    {
+      "unit_id": "decline-vol-i-ch-05-makrokosmos-the-symbolism-of-the-world-picture-and-the-problem-of-space",
+      "work": "decline",
+      "volume": "vol-i",
+      "n": 5,
+      "roman": "V",
+      "title": "Makrokosmos (1): The Symbolism of the World-picture and the Problem of Space",
+      "function": "prime-symbol",
+      "text_status": "clean",
+      "source_id": "gutenberg-decline-i",
+      "source_raw_path": "raw/Spengler_Decline_I.txt",
+      "clean_path": "derived/decline-vol-i/ch-05.txt",
+      "char_count": 49790,
+      "paragraph_count": 39,
+      "paragraph_offsets": [
+        0,
+        1796,
+        2864,
+        4115,
+        4416,
+        5761,
+        6255,
+        8074,
+        12854,
+        14308,
+        16239,
+        17552,
+        18670,
+        19579,
+        22091,
+        22417,
+        22844,
+        24213,
+        24873,
+        25922,
+        26612,
+        26770,
+        28745,
+        29433,
+        30809,
+        33872,
+        34702,
+        35628,
+        37200,
+        42332,
+        44282,
+        44648,
+        45083,
+        47038,
+        48317,
+        48476,
+        48551,
+        48616,
+        48697
+      ],
+      "segments": [
+        {
+          "roman": "I",
+          "beforeParagraph": 0
+        },
+        {
+          "roman": "II",
+          "beforeParagraph": 7
+        },
+        {
+          "roman": "III",
+          "beforeParagraph": 13
+        },
+        {
+          "roman": "IV",
+          "beforeParagraph": 19
+        },
+        {
+          "roman": "V",
+          "beforeParagraph": 29
+        }
+      ],
+      "page_map": [
+        {
+          "page": 164,
+          "offset": 2333
+        },
+        {
+          "page": 165,
+          "offset": 5510
+        },
+        {
+          "page": 166,
+          "offset": 8453
+        },
+        {
+          "page": 167,
+          "offset": 11645
+        },
+        {
+          "page": 168,
+          "offset": 14768
+        },
+        {
+          "page": 169,
+          "offset": 17855
+        },
+        {
+          "page": 170,
+          "offset": 20115
+        },
+        {
+          "page": 171,
+          "offset": 22567
+        },
+        {
+          "page": 172,
+          "offset": 25404
+        },
+        {
+          "page": 173,
+          "offset": 28223
+        },
+        {
+          "page": 174,
+          "offset": 31273
+        },
+        {
+          "page": 175,
+          "offset": 34336
+        },
+        {
+          "page": 176,
+          "offset": 37087
+        },
+        {
+          "page": 177,
+          "offset": 38781
+        },
+        {
+          "page": 178,
+          "offset": 42042
+        },
+        {
+          "page": 179,
+          "offset": 44648
+        },
+        {
+          "page": 180,
+          "offset": 47803
+        }
+      ],
+      "footnote_refs": [
+        {
+          "number": 178,
+          "offset": 10387
+        },
+        {
+          "number": 179,
+          "offset": 14239
+        },
+        {
+          "number": 180,
+          "offset": 17910
+        },
+        {
+          "number": 181,
+          "offset": 19926
+        },
+        {
+          "number": 182,
+          "offset": 22089
+        },
+        {
+          "number": 183,
+          "offset": 23651
+        },
+        {
+          "number": 184,
+          "offset": 26021
+        },
+        {
+          "number": 185,
+          "offset": 28743
+        },
+        {
+          "number": 186,
+          "offset": 33361
+        },
+        {
+          "number": 187,
+          "offset": 36360
+        },
+        {
+          "number": 188,
+          "offset": 37692
+        },
+        {
+          "number": 189,
+          "offset": 44280
+        }
+      ],
+      "ocr_corrections": [],
+      "extracted_footnotes": []
+    },
+    {
+      "unit_id": "decline-vol-i-ch-06-makrokosmos-apollinian-faustian-and-magian-soul",
+      "work": "decline",
+      "volume": "vol-i",
+      "n": 6,
+      "roman": "VI",
+      "title": "Makrokosmos (2): Apollinian, Faustian, and Magian Soul",
+      "function": "prime-symbol",
+      "text_status": "clean",
+      "source_id": "gutenberg-decline-i",
+      "source_raw_path": "raw/Spengler_Decline_I.txt",
+      "clean_path": "derived/decline-vol-i/ch-06.txt",
+      "char_count": 93281,
+      "paragraph_count": 72,
+      "paragraph_offsets": [
+        0,
+        1986,
+        4684,
+        6425,
+        7406,
+        7441,
+        7477,
+        7511,
+        7528,
+        9290,
+        9331,
+        9374,
+        9411,
+        9451,
+        10476,
+        11373,
+        13598,
+        19318,
+        19580,
+        21811,
+        22525,
+        23098,
+        26435,
+        27004,
+        28206,
+        30931,
+        32456,
+        33927,
+        35218,
+        36577,
+        39170,
+        40990,
+        42626,
+        43435,
+        47592,
+        48188,
+        50159,
+        50782,
+        51985,
+        53328,
+        54875,
+        55508,
+        58971,
+        60336,
+        63103,
+        63282,
+        64721,
+        65918,
+        67221,
+        67794,
+        69016,
+        70429,
+        72356,
+        73256,
+        75799,
+        77454,
+        79404,
+        79692,
+        81078,
+        82563,
+        83816,
+        84895,
+        85111,
+        85326,
+        86197,
+        87031,
+        89111,
+        91289,
+        92826,
+        93225,
+        93260,
+        93278
+      ],
+      "segments": [
+        {
+          "roman": "I",
+          "beforeParagraph": 0
+        },
+        {
+          "roman": "II",
+          "beforeParagraph": 16
+        },
+        {
+          "roman": "III",
+          "beforeParagraph": 19
+        },
+        {
+          "roman": "IV",
+          "beforeParagraph": 28
+        },
+        {
+          "roman": "V",
+          "beforeParagraph": 31
+        },
+        {
+          "roman": "VI",
+          "beforeParagraph": 34
+        },
+        {
+          "roman": "VII",
+          "beforeParagraph": 41
+        },
+        {
+          "roman": "VIII",
+          "beforeParagraph": 43
+        },
+        {
+          "roman": "IX",
+          "beforeParagraph": 49
+        },
+        {
+          "roman": "X",
+          "beforeParagraph": 63
+        },
+        {
+          "roman": "I",
+          "beforeParagraph": 70
+        }
+      ],
+      "page_map": [
+        {
+          "page": 184,
+          "offset": 2204
+        },
+        {
+          "page": 185,
+          "offset": 5236
+        },
+        {
+          "page": 186,
+          "offset": 7290
+        },
+        {
+          "page": 187,
+          "offset": 10129
+        },
+        {
+          "page": 188,
+          "offset": 13203
+        },
+        {
+          "page": 189,
+          "offset": 15983
+        },
+        {
+          "page": 190,
+          "offset": 18994
+        },
+        {
+          "page": 191,
+          "offset": 21471
+        },
+        {
+          "page": 192,
+          "offset": 23949
+        },
+        {
+          "page": 193,
+          "offset": 27079
+        },
+        {
+          "page": 194,
+          "offset": 29541
+        },
+        {
+          "page": 195,
+          "offset": 32179
+        },
+        {
+          "page": 196,
+          "offset": 35086
+        },
+        {
+          "page": 197,
+          "offset": 37759
+        },
+        {
+          "page": 198,
+          "offset": 40330
+        },
+        {
+          "page": 199,
+          "offset": 43318
+        },
+        {
+          "page": 200,
+          "offset": 45935
+        },
+        {
+          "page": 201,
+          "offset": 48637
+        },
+        {
+          "page": 202,
+          "offset": 51166
+        },
+        {
+          "page": 203,
+          "offset": 53951
+        },
+        {
+          "page": 204,
+          "offset": 56895
+        },
+        {
+          "page": 205,
+          "offset": 59810
+        },
+        {
+          "page": 206,
+          "offset": 62875
+        },
+        {
+          "page": 207,
+          "offset": 65918
+        },
+        {
+          "page": 208,
+          "offset": 68878
+        },
+        {
+          "page": 209,
+          "offset": 71761
+        },
+        {
+          "page": 210,
+          "offset": 74188
+        },
+        {
+          "page": 211,
+          "offset": 76728
+        },
+        {
+          "page": 212,
+          "offset": 79252
+        },
+        {
+          "page": 213,
+          "offset": 82249
+        },
+        {
+          "page": 214,
+          "offset": 85111
+        },
+        {
+          "page": 215,
+          "offset": 87884
+        },
+        {
+          "page": 216,
+          "offset": 90873
+        },
+        {
+          "page": 217,
+          "offset": 93225
+        }
+      ],
+      "footnote_refs": [
+        {
+          "number": 190,
+          "offset": 3932
+        },
+        {
+          "number": 191,
+          "offset": 4102
+        },
+        {
+          "number": 192,
+          "offset": 5020
+        },
+        {
+          "number": 193,
+          "offset": 5621
+        },
+        {
+          "number": 194,
+          "offset": 5950
+        },
+        {
+          "number": 195,
+          "offset": 6668
+        },
+        {
+          "number": 196,
+          "offset": 6820
+        },
+        {
+          "number": 197,
+          "offset": 6962
+        },
+        {
+          "number": 198,
+          "offset": 7198
+        },
+        {
+          "number": 199,
+          "offset": 10474
+        },
+        {
+          "number": 200,
+          "offset": 11542
+        },
+        {
+          "number": 201,
+          "offset": 11672
+        },
+        {
+          "number": 202,
+          "offset": 15525
+        },
+        {
+          "number": 203,
+          "offset": 16931
+        },
+        {
+          "number": 204,
+          "offset": 17041
+        },
+        {
+          "number": 205,
+          "offset": 18985
+        },
+        {
+          "number": 206,
+          "offset": 19793
+        },
+        {
+          "number": 207,
+          "offset": 20652
+        },
+        {
+          "number": 208,
+          "offset": 21009
+        },
+        {
+          "number": 209,
+          "offset": 21607
+        },
+        {
+          "number": 210,
+          "offset": 21842
+        },
+        {
+          "number": 211,
+          "offset": 22523
+        },
+        {
+          "number": 212,
+          "offset": 27002
+        },
+        {
+          "number": 213,
+          "offset": 27457
+        },
+        {
+          "number": 214,
+          "offset": 28432
+        },
+        {
+          "number": 215,
+          "offset": 28783
+        },
+        {
+          "number": 216,
+          "offset": 28970
+        },
+        {
+          "number": 217,
+          "offset": 29257
+        },
+        {
+          "number": 218,
+          "offset": 30357
+        },
+        {
+          "number": 219,
+          "offset": 31332
+        },
+        {
+          "number": 220,
+          "offset": 31521
+        },
+        {
+          "number": 221,
+          "offset": 31543
+        },
+        {
+          "number": 222,
+          "offset": 31951
+        },
+        {
+          "number": 223,
+          "offset": 32055
+        },
+        {
+          "number": 224,
+          "offset": 32217
+        },
+        {
+          "number": 225,
+          "offset": 32454
+        },
+        {
+          "number": 226,
+          "offset": 34045
+        },
+        {
+          "number": 227,
+          "offset": 34376
+        },
+        {
+          "number": 228,
+          "offset": 35724
+        },
+        {
+          "number": 229,
+          "offset": 37021
+        },
+        {
+          "number": 230,
+          "offset": 37570
+        },
+        {
+          "number": 231,
+          "offset": 37779
+        },
+        {
+          "number": 232,
+          "offset": 38187
+        },
+        {
+          "number": 233,
+          "offset": 43433
+        },
+        {
+          "number": 234,
+          "offset": 43841
+        },
+        {
+          "number": 235,
+          "offset": 44030
+        },
+        {
+          "number": 236,
+          "offset": 44172
+        },
+        {
+          "number": 237,
+          "offset": 47147
+        },
+        {
+          "number": 238,
+          "offset": 48308
+        },
+        {
+          "number": 239,
+          "offset": 48684
+        },
+        {
+          "number": 240,
+          "offset": 49379
+        },
+        {
+          "number": 241,
+          "offset": 50016
+        },
+        {
+          "number": 242,
+          "offset": 50049
+        },
+        {
+          "number": 243,
+          "offset": 51581
+        },
+        {
+          "number": 244,
+          "offset": 57307
+        },
+        {
+          "number": 245,
+          "offset": 57584
+        },
+        {
+          "number": 246,
+          "offset": 57951
+        },
+        {
+          "number": 247,
+          "offset": 69014
+        },
+        {
+          "number": 248,
+          "offset": 71014
+        },
+        {
+          "number": 249,
+          "offset": 71020
+        },
+        {
+          "number": 250,
+          "offset": 71036
+        },
+        {
+          "number": 251,
+          "offset": 71790
+        },
+        {
+          "number": 252,
+          "offset": 71881
+        },
+        {
+          "number": 253,
+          "offset": 72252
+        },
+        {
+          "number": 254,
+          "offset": 72618
+        },
+        {
+          "number": 255,
+          "offset": 73466
+        },
+        {
+          "number": 256,
+          "offset": 73548
+        },
+        {
+          "number": 257,
+          "offset": 73683
+        },
+        {
+          "number": 258,
+          "offset": 74966
+        },
+        {
+          "number": 259,
+          "offset": 75060
+        },
+        {
+          "number": 260,
+          "offset": 75797
+        },
+        {
+          "number": 261,
+          "offset": 76708
+        },
+        {
+          "number": 262,
+          "offset": 77452
+        },
+        {
+          "number": 263,
+          "offset": 79000
+        },
+        {
+          "number": 264,
+          "offset": 80981
+        },
+        {
+          "number": 265,
+          "offset": 84574
+        },
+        {
+          "number": 266,
+          "offset": 87208
+        },
+        {
+          "number": 267,
+          "offset": 89161
+        },
+        {
+          "number": 268,
+          "offset": 90730
+        },
+        {
+          "number": 269,
+          "offset": 91023
+        },
+        {
+          "number": 270,
+          "offset": 92519
+        },
+        {
+          "number": 271,
+          "offset": 92983
+        }
+      ],
+      "ocr_corrections": [],
+      "extracted_footnotes": []
+    },
+    {
+      "unit_id": "decline-vol-i-ch-07-music-and-plastic-the-arts-of-form",
+      "work": "decline",
+      "volume": "vol-i",
+      "n": 7,
+      "roman": "VII",
+      "title": "Music and Plastic (1): The Arts of Form",
+      "function": "art-music",
+      "text_status": "clean",
+      "source_id": "gutenberg-decline-i",
+      "source_raw_path": "raw/Spengler_Decline_I.txt",
+      "clean_path": "derived/decline-vol-i/ch-07.txt",
+      "char_count": 103457,
+      "paragraph_count": 68,
+      "paragraph_offsets": [
+        0,
+        3249,
+        3951,
+        5129,
+        5422,
+        6264,
+        7408,
+        8517,
+        9695,
+        11253,
+        11679,
+        13158,
+        15398,
+        17303,
+        20017,
+        21330,
+        22525,
+        23507,
+        23695,
+        24516,
+        25393,
+        27145,
+        27920,
+        29350,
+        30422,
+        31876,
+        33914,
+        36691,
+        40920,
+        41536,
+        43151,
+        44088,
+        44779,
+        45904,
+        46631,
+        48728,
+        49589,
+        54819,
+        55239,
+        55244,
+        55750,
+        58169,
+        58819,
+        60683,
+        62329,
+        64330,
+        66798,
+        68947,
+        71439,
+        74237,
+        74620,
+        75289,
+        75597,
+        77073,
+        77778,
+        78547,
+        79232,
+        81318,
+        81828,
+        85422,
+        85990,
+        89328,
+        92022,
+        94361,
+        95418,
+        96794,
+        98119,
+        102312
+      ],
+      "segments": [
+        {
+          "roman": "I",
+          "beforeParagraph": 0
+        },
+        {
+          "roman": "II",
+          "beforeParagraph": 6
+        },
+        {
+          "roman": "III",
+          "beforeParagraph": 11
+        },
+        {
+          "roman": "IV",
+          "beforeParagraph": 14
+        },
+        {
+          "roman": "V",
+          "beforeParagraph": 27
+        },
+        {
+          "roman": "VI",
+          "beforeParagraph": 39
+        },
+        {
+          "roman": "VII",
+          "beforeParagraph": 47
+        },
+        {
+          "roman": "VIII",
+          "beforeParagraph": 49
+        },
+        {
+          "roman": "IX",
+          "beforeParagraph": 57
+        },
+        {
+          "roman": "X",
+          "beforeParagraph": 60
+        }
+      ],
+      "page_map": [
+        {
+          "page": 220,
+          "offset": 1263
+        },
+        {
+          "page": 221,
+          "offset": 4336
+        },
+        {
+          "page": 222,
+          "offset": 7110
+        },
+        {
+          "page": 223,
+          "offset": 10067
+        },
+        {
+          "page": 224,
+          "offset": 13064
+        },
+        {
+          "page": 225,
+          "offset": 15713
+        },
+        {
+          "page": 226,
+          "offset": 18414
+        },
+        {
+          "page": 227,
+          "offset": 21165
+        },
+        {
+          "page": 228,
+          "offset": 23507
+        },
+        {
+          "page": 229,
+          "offset": 26077
+        },
+        {
+          "page": 230,
+          "offset": 28773
+        },
+        {
+          "page": 231,
+          "offset": 31789
+        },
+        {
+          "page": 232,
+          "offset": 34530
+        },
+        {
+          "page": 233,
+          "offset": 37320
+        },
+        {
+          "page": 234,
+          "offset": 40085
+        },
+        {
+          "page": 235,
+          "offset": 43006
+        },
+        {
+          "page": 236,
+          "offset": 46126
+        },
+        {
+          "page": 237,
+          "offset": 48951
+        },
+        {
+          "page": 238,
+          "offset": 52150
+        },
+        {
+          "page": 240,
+          "offset": 58318
+        },
+        {
+          "page": 241,
+          "offset": 61222
+        },
+        {
+          "page": 242,
+          "offset": 64246
+        },
+        {
+          "page": 243,
+          "offset": 67114
+        },
+        {
+          "page": 244,
+          "offset": 70200
+        },
+        {
+          "page": 245,
+          "offset": 73426
+        },
+        {
+          "page": 246,
+          "offset": 76363
+        },
+        {
+          "page": 247,
+          "offset": 79462
+        },
+        {
+          "page": 248,
+          "offset": 82518
+        },
+        {
+          "page": 249,
+          "offset": 85352
+        },
+        {
+          "page": 250,
+          "offset": 88129
+        },
+        {
+          "page": 251,
+          "offset": 91171
+        },
+        {
+          "page": 252,
+          "offset": 93503
+        },
+        {
+          "page": 253,
+          "offset": 95890
+        },
+        {
+          "page": 254,
+          "offset": 98575
+        },
+        {
+          "page": 255,
+          "offset": 101081
+        }
+      ],
+      "footnote_refs": [
+        {
+          "number": 272,
+          "offset": 234
+        },
+        {
+          "number": 273,
+          "offset": 657
+        },
+        {
+          "number": 274,
+          "offset": 6397
+        },
+        {
+          "number": 275,
+          "offset": 12359
+        },
+        {
+          "number": 276,
+          "offset": 15396
+        },
+        {
+          "number": 277,
+          "offset": 17256
+        },
+        {
+          "number": 278,
+          "offset": 17559
+        },
+        {
+          "number": 279,
+          "offset": 17994
+        },
+        {
+          "number": 280,
+          "offset": 18146
+        },
+        {
+          "number": 281,
+          "offset": 18561
+        },
+        {
+          "number": 282,
+          "offset": 18764
+        },
+        {
+          "number": 283,
+          "offset": 19857
+        },
+        {
+          "number": 284,
+          "offset": 22830
+        },
+        {
+          "number": 285,
+          "offset": 23833
+        },
+        {
+          "number": 286,
+          "offset": 24845
+        },
+        {
+          "number": 287,
+          "offset": 25295
+        },
+        {
+          "number": 288,
+          "offset": 25783
+        },
+        {
+          "number": 289,
+          "offset": 25882
+        },
+        {
+          "number": 290,
+          "offset": 26653
+        },
+        {
+          "number": 291,
+          "offset": 26967
+        },
+        {
+          "number": 292,
+          "offset": 27075
+        },
+        {
+          "number": 293,
+          "offset": 27752
+        },
+        {
+          "number": 294,
+          "offset": 28675
+        },
+        {
+          "number": 295,
+          "offset": 30907
+        },
+        {
+          "number": 296,
+          "offset": 32633
+        },
+        {
+          "number": 297,
+          "offset": 32953
+        },
+        {
+          "number": 298,
+          "offset": 34657
+        },
+        {
+          "number": 299,
+          "offset": 36775
+        },
+        {
+          "number": 300,
+          "offset": 37631
+        },
+        {
+          "number": 301,
+          "offset": 38538
+        },
+        {
+          "number": 302,
+          "offset": 41727
+        },
+        {
+          "number": 303,
+          "offset": 46889
+        },
+        {
+          "number": 304,
+          "offset": 48124
+        },
+        {
+          "number": 305,
+          "offset": 52369
+        },
+        {
+          "number": 306,
+          "offset": 60140
+        },
+        {
+          "number": 307,
+          "offset": 60468
+        },
+        {
+          "number": 308,
+          "offset": 61404
+        },
+        {
+          "number": 309,
+          "offset": 64221
+        },
+        {
+          "number": 310,
+          "offset": 65931
+        },
+        {
+          "number": 311,
+          "offset": 82940
+        },
+        {
+          "number": 312,
+          "offset": 84165
+        },
+        {
+          "number": 313,
+          "offset": 85377
+        },
+        {
+          "number": 314,
+          "offset": 90962
+        },
+        {
+          "number": 315,
+          "offset": 91065
+        },
+        {
+          "number": 316,
+          "offset": 93532
+        },
+        {
+          "number": 317,
+          "offset": 95692
+        },
+        {
+          "number": 318,
+          "offset": 97426
+        },
+        {
+          "number": 319,
+          "offset": 98117
+        },
+        {
+          "number": 320,
+          "offset": 99030
+        },
+        {
+          "number": 321,
+          "offset": 99523
+        },
+        {
+          "number": 322,
+          "offset": 100721
+        },
+        {
+          "number": 323,
+          "offset": 103071
+        }
+      ],
+      "ocr_corrections": [],
+      "extracted_footnotes": []
+    },
+    {
+      "unit_id": "decline-vol-i-ch-08-music-and-plastic-act-and-portrait",
+      "work": "decline",
+      "volume": "vol-i",
+      "n": 8,
+      "roman": "VIII",
+      "title": "Music and Plastic (2): Act and Portrait",
+      "function": "art-music",
+      "text_status": "clean",
+      "source_id": "gutenberg-decline-i",
+      "source_raw_path": "raw/Spengler_Decline_I.txt",
+      "clean_path": "derived/decline-vol-i/ch-08.txt",
+      "char_count": 106542,
+      "paragraph_count": 66,
+      "paragraph_offsets": [
+        0,
+        437,
+        994,
+        2341,
+        2895,
+        3914,
+        4585,
+        5070,
+        8026,
+        9421,
+        11505,
+        12388,
+        15715,
+        18128,
+        18721,
+        19648,
+        20126,
+        21057,
+        21714,
+        23013,
+        24404,
+        25805,
+        31024,
+        31030,
+        34272,
+        35768,
+        39184,
+        41251,
+        44685,
+        45519,
+        48059,
+        49830,
+        51780,
+        51952,
+        53612,
+        55466,
+        56665,
+        58631,
+        59278,
+        61174,
+        62281,
+        63918,
+        64403,
+        66241,
+        69537,
+        71525,
+        73168,
+        74123,
+        75230,
+        75508,
+        77796,
+        78506,
+        83395,
+        83400,
+        88182,
+        92530,
+        92535,
+        92822,
+        93840,
+        97322,
+        99276,
+        99750,
+        100093,
+        103078,
+        104157,
+        106539
+      ],
+      "segments": [
+        {
+          "roman": "I",
+          "beforeParagraph": 0
+        },
+        {
+          "roman": "II",
+          "beforeParagraph": 17
+        },
+        {
+          "roman": "III",
+          "beforeParagraph": 23
+        },
+        {
+          "roman": "IV",
+          "beforeParagraph": 27
+        },
+        {
+          "roman": "V",
+          "beforeParagraph": 36
+        },
+        {
+          "roman": "VI",
+          "beforeParagraph": 41
+        },
+        {
+          "roman": "VII",
+          "beforeParagraph": 49
+        },
+        {
+          "roman": "VIII",
+          "beforeParagraph": 53
+        },
+        {
+          "roman": "IX",
+          "beforeParagraph": 56
+        }
+      ],
+      "page_map": [
+        {
+          "page": 260,
+          "offset": 2252
+        },
+        {
+          "page": 261,
+          "offset": 4825
+        },
+        {
+          "page": 262,
+          "offset": 7937
+        },
+        {
+          "page": 263,
+          "offset": 10670
+        },
+        {
+          "page": 264,
+          "offset": 13782
+        },
+        {
+          "page": 265,
+          "offset": 16730
+        },
+        {
+          "page": 266,
+          "offset": 19338
+        },
+        {
+          "page": 267,
+          "offset": 22183
+        },
+        {
+          "page": 268,
+          "offset": 25252
+        },
+        {
+          "page": 269,
+          "offset": 27509
+        },
+        {
+          "page": 270,
+          "offset": 30451
+        },
+        {
+          "page": 271,
+          "offset": 33208
+        },
+        {
+          "page": 272,
+          "offset": 35922
+        },
+        {
+          "page": 273,
+          "offset": 39039
+        },
+        {
+          "page": 274,
+          "offset": 41944
+        },
+        {
+          "page": 275,
+          "offset": 45077
+        },
+        {
+          "page": 276,
+          "offset": 47751
+        },
+        {
+          "page": 277,
+          "offset": 49986
+        },
+        {
+          "page": 278,
+          "offset": 53106
+        },
+        {
+          "page": 279,
+          "offset": 55829
+        },
+        {
+          "page": 280,
+          "offset": 58781
+        },
+        {
+          "page": 282,
+          "offset": 64626
+        },
+        {
+          "page": 283,
+          "offset": 67805
+        },
+        {
+          "page": 284,
+          "offset": 70913
+        },
+        {
+          "page": 285,
+          "offset": 74006
+        },
+        {
+          "page": 286,
+          "offset": 76980
+        },
+        {
+          "page": 287,
+          "offset": 80126
+        },
+        {
+          "page": 289,
+          "offset": 86187
+        },
+        {
+          "page": 290,
+          "offset": 89328
+        },
+        {
+          "page": 292,
+          "offset": 95302
+        },
+        {
+          "page": 293,
+          "offset": 98477
+        },
+        {
+          "page": 294,
+          "offset": 101647
+        },
+        {
+          "page": 295,
+          "offset": 104680
+        }
+      ],
+      "footnote_refs": [
+        {
+          "number": 324,
+          "offset": 3080
+        },
+        {
+          "number": 325,
+          "offset": 3817
+        },
+        {
+          "number": 326,
+          "offset": 4687
+        },
+        {
+          "number": 327,
+          "offset": 6723
+        },
+        {
+          "number": 328,
+          "offset": 8024
+        },
+        {
+          "number": 329,
+          "offset": 10354
+        },
+        {
+          "number": 330,
+          "offset": 13197
+        },
+        {
+          "number": 331,
+          "offset": 16655
+        },
+        {
+          "number": 332,
+          "offset": 16711
+        },
+        {
+          "number": 333,
+          "offset": 16731
+        },
+        {
+          "number": 334,
+          "offset": 16990
+        },
+        {
+          "number": 335,
+          "offset": 17048
+        },
+        {
+          "number": 336,
+          "offset": 18274
+        },
+        {
+          "number": 337,
+          "offset": 19493
+        },
+        {
+          "number": 338,
+          "offset": 24005
+        },
+        {
+          "number": 339,
+          "offset": 26252
+        },
+        {
+          "number": 340,
+          "offset": 27049
+        },
+        {
+          "number": 341,
+          "offset": 27073
+        },
+        {
+          "number": 342,
+          "offset": 28650
+        },
+        {
+          "number": 343,
+          "offset": 29571
+        },
+        {
+          "number": 344,
+          "offset": 29646
+        },
+        {
+          "number": 345,
+          "offset": 30471
+        },
+        {
+          "number": 346,
+          "offset": 31295
+        },
+        {
+          "number": 347,
+          "offset": 31583
+        },
+        {
+          "number": 348,
+          "offset": 33412
+        },
+        {
+          "number": 349,
+          "offset": 33465
+        },
+        {
+          "number": 350,
+          "offset": 34649
+        },
+        {
+          "number": 351,
+          "offset": 34753
+        },
+        {
+          "number": 352,
+          "offset": 35766
+        },
+        {
+          "number": 353,
+          "offset": 35932
+        },
+        {
+          "number": 354,
+          "offset": 36400
+        },
+        {
+          "number": 355,
+          "offset": 39017
+        },
+        {
+          "number": 356,
+          "offset": 45874
+        },
+        {
+          "number": 357,
+          "offset": 49576
+        },
+        {
+          "number": 358,
+          "offset": 55402
+        },
+        {
+          "number": 359,
+          "offset": 57072
+        },
+        {
+          "number": 360,
+          "offset": 57112
+        },
+        {
+          "number": 361,
+          "offset": 60313
+        },
+        {
+          "number": 362,
+          "offset": 61359
+        },
+        {
+          "number": 363,
+          "offset": 63450
+        },
+        {
+          "number": 364,
+          "offset": 85766
+        },
+        {
+          "number": 365,
+          "offset": 92977
+        },
+        {
+          "number": 366,
+          "offset": 94939
+        },
+        {
+          "number": 367,
+          "offset": 103178
+        },
+        {
+          "number": 368,
+          "offset": 106377
+        }
+      ],
+      "ocr_corrections": [],
+      "extracted_footnotes": []
+    },
+    {
+      "unit_id": "decline-vol-i-ch-09-soul-image-and-life-feeling-on-the-form-of-the-soul",
+      "work": "decline",
+      "volume": "vol-i",
+      "n": 9,
+      "roman": "IX",
+      "title": "Soul-image and Life-feeling (1): On the Form of the Soul",
+      "function": "religion-metaphysics",
+      "text_status": "clean",
+      "source_id": "gutenberg-decline-i",
+      "source_raw_path": "raw/Spengler_Decline_I.txt",
+      "clean_path": "derived/decline-vol-i/ch-09.txt",
+      "char_count": 107283,
+      "paragraph_count": 72,
+      "paragraph_offsets": [
+        0,
+        1935,
+        2579,
+        4233,
+        6421,
+        8866,
+        10090,
+        11440,
+        12138,
+        12654,
+        14135,
+        14953,
+        16001,
+        17825,
+        19083,
+        19452,
+        22186,
+        24153,
+        25357,
+        25362,
+        26881,
+        27405,
+        28079,
+        28906,
+        30343,
+        31126,
+        33177,
+        34762,
+        35312,
+        36225,
+        39829,
+        41363,
+        42083,
+        42454,
+        44859,
+        46304,
+        47634,
+        48982,
+        49405,
+        51990,
+        52216,
+        54876,
+        55328,
+        58353,
+        59565,
+        60866,
+        65718,
+        68861,
+        69382,
+        70079,
+        71745,
+        73526,
+        74779,
+        76644,
+        78192,
+        80545,
+        82715,
+        84545,
+        85136,
+        85921,
+        86875,
+        88565,
+        89278,
+        90258,
+        91527,
+        94851,
+        96737,
+        99095,
+        99632,
+        102964,
+        105267,
+        106545
+      ],
+      "segments": [
+        {
+          "roman": "I",
+          "beforeParagraph": 0
+        },
+        {
+          "roman": "II",
+          "beforeParagraph": 6
+        },
+        {
+          "roman": "III",
+          "beforeParagraph": 19
+        },
+        {
+          "roman": "IV",
+          "beforeParagraph": 33
+        },
+        {
+          "roman": "V",
+          "beforeParagraph": 39
+        },
+        {
+          "roman": "VI",
+          "beforeParagraph": 47
+        },
+        {
+          "roman": "VII",
+          "beforeParagraph": 53
+        },
+        {
+          "roman": "VIII",
+          "beforeParagraph": 58
+        },
+        {
+          "roman": "IX",
+          "beforeParagraph": 65
+        }
+      ],
+      "page_map": [
+        {
+          "page": 300,
+          "offset": 2318
+        },
+        {
+          "page": 301,
+          "offset": 5400
+        },
+        {
+          "page": 302,
+          "offset": 8461
+        },
+        {
+          "page": 303,
+          "offset": 11009
+        },
+        {
+          "page": 304,
+          "offset": 14046
+        },
+        {
+          "page": 305,
+          "offset": 17156
+        },
+        {
+          "page": 306,
+          "offset": 19529
+        },
+        {
+          "page": 307,
+          "offset": 22573
+        },
+        {
+          "page": 309,
+          "offset": 28157
+        },
+        {
+          "page": 310,
+          "offset": 31040
+        },
+        {
+          "page": 311,
+          "offset": 33177
+        },
+        {
+          "page": 312,
+          "offset": 35981
+        },
+        {
+          "page": 313,
+          "offset": 38860
+        },
+        {
+          "page": 314,
+          "offset": 41820
+        },
+        {
+          "page": 315,
+          "offset": 44325
+        },
+        {
+          "page": 316,
+          "offset": 47529
+        },
+        {
+          "page": 317,
+          "offset": 50019
+        },
+        {
+          "page": 318,
+          "offset": 52679
+        },
+        {
+          "page": 319,
+          "offset": 55641
+        },
+        {
+          "page": 320,
+          "offset": 58424
+        },
+        {
+          "page": 321,
+          "offset": 60800
+        },
+        {
+          "page": 322,
+          "offset": 63367
+        },
+        {
+          "page": 323,
+          "offset": 66191
+        },
+        {
+          "page": 324,
+          "offset": 69254
+        },
+        {
+          "page": 325,
+          "offset": 72434
+        },
+        {
+          "page": 326,
+          "offset": 75232
+        },
+        {
+          "page": 327,
+          "offset": 78192
+        },
+        {
+          "page": 328,
+          "offset": 81298
+        },
+        {
+          "page": 329,
+          "offset": 84344
+        },
+        {
+          "page": 330,
+          "offset": 87342
+        },
+        {
+          "page": 331,
+          "offset": 90405
+        },
+        {
+          "page": 332,
+          "offset": 93362
+        },
+        {
+          "page": 333,
+          "offset": 95076
+        },
+        {
+          "page": 334,
+          "offset": 97499
+        },
+        {
+          "page": 335,
+          "offset": 100401
+        },
+        {
+          "page": 336,
+          "offset": 103416
+        },
+        {
+          "page": 337,
+          "offset": 106399
+        }
+      ],
+      "footnote_refs": [
+        {
+          "number": 369,
+          "offset": 4840
+        },
+        {
+          "number": 370,
+          "offset": 5555
+        },
+        {
+          "number": 371,
+          "offset": 9065
+        },
+        {
+          "number": 372,
+          "offset": 9597
+        },
+        {
+          "number": 373,
+          "offset": 11711
+        },
+        {
+          "number": 374,
+          "offset": 17210
+        },
+        {
+          "number": 375,
+          "offset": 20983
+        },
+        {
+          "number": 376,
+          "offset": 22291
+        },
+        {
+          "number": 377,
+          "offset": 22856
+        },
+        {
+          "number": 378,
+          "offset": 23072
+        },
+        {
+          "number": 379,
+          "offset": 23974
+        },
+        {
+          "number": 380,
+          "offset": 24070
+        },
+        {
+          "number": 381,
+          "offset": 26689
+        },
+        {
+          "number": 382,
+          "offset": 29064
+        },
+        {
+          "number": 383,
+          "offset": 29741
+        },
+        {
+          "number": 384,
+          "offset": 30045
+        },
+        {
+          "number": 385,
+          "offset": 30175
+        },
+        {
+          "number": 386,
+          "offset": 31956
+        },
+        {
+          "number": 387,
+          "offset": 33175
+        },
+        {
+          "number": 388,
+          "offset": 37680
+        },
+        {
+          "number": 389,
+          "offset": 39069
+        },
+        {
+          "number": 390,
+          "offset": 39269
+        },
+        {
+          "number": 391,
+          "offset": 41958
+        },
+        {
+          "number": 392,
+          "offset": 47632
+        },
+        {
+          "number": 393,
+          "offset": 50459
+        },
+        {
+          "number": 394,
+          "offset": 52214
+        },
+        {
+          "number": 395,
+          "offset": 52295
+        },
+        {
+          "number": 396,
+          "offset": 54720
+        },
+        {
+          "number": 397,
+          "offset": 55591
+        },
+        {
+          "number": 398,
+          "offset": 55728
+        },
+        {
+          "number": 399,
+          "offset": 55908
+        },
+        {
+          "number": 400,
+          "offset": 59133
+        },
+        {
+          "number": 401,
+          "offset": 59730
+        },
+        {
+          "number": 402,
+          "offset": 60301
+        },
+        {
+          "number": 403,
+          "offset": 60573
+        },
+        {
+          "number": 404,
+          "offset": 60736
+        },
+        {
+          "number": 405,
+          "offset": 62257
+        },
+        {
+          "number": 406,
+          "offset": 63342
+        },
+        {
+          "number": 407,
+          "offset": 66065
+        },
+        {
+          "number": 408,
+          "offset": 73788
+        },
+        {
+          "number": 409,
+          "offset": 83417
+        },
+        {
+          "number": 410,
+          "offset": 88407
+        },
+        {
+          "number": 411,
+          "offset": 89276
+        },
+        {
+          "number": 412,
+          "offset": 91809
+        },
+        {
+          "number": 413,
+          "offset": 92870
+        },
+        {
+          "number": 414,
+          "offset": 93962
+        },
+        {
+          "number": 415,
+          "offset": 94441
+        },
+        {
+          "number": 416,
+          "offset": 95037
+        },
+        {
+          "number": 417,
+          "offset": 95620
+        },
+        {
+          "number": 418,
+          "offset": 98443
+        },
+        {
+          "number": 419,
+          "offset": 98613
+        },
+        {
+          "number": 420,
+          "offset": 99941
+        },
+        {
+          "number": 421,
+          "offset": 100717
+        },
+        {
+          "number": 422,
+          "offset": 102408
+        },
+        {
+          "number": 423,
+          "offset": 104144
+        }
+      ],
+      "ocr_corrections": [],
+      "extracted_footnotes": []
+    },
+    {
+      "unit_id": "decline-vol-i-ch-10-soul-image-and-life-feeling-buddhism-stoicism-and-socialism",
+      "work": "decline",
+      "volume": "vol-i",
+      "n": 10,
+      "roman": "X",
+      "title": "Soul-image and Life-feeling (2): Buddhism, Stoicism, and Socialism",
+      "function": "religion-metaphysics",
+      "text_status": "clean",
+      "source_id": "gutenberg-decline-i",
+      "source_raw_path": "raw/Spengler_Decline_I.txt",
+      "clean_path": "derived/decline-vol-i/ch-10.txt",
+      "char_count": 97746,
+      "paragraph_count": 91,
+      "paragraph_offsets": [
+        0,
+        638,
+        1927,
+        3659,
+        5090,
+        6280,
+        8424,
+        9430,
+        10960,
+        11923,
+        13786,
+        14879,
+        16174,
+        16780,
+        18957,
+        21722,
+        25399,
+        28357,
+        30337,
+        34108,
+        35070,
+        36346,
+        37495,
+        38074,
+        40307,
+        43018,
+        43023,
+        43248,
+        44767,
+        45986,
+        50073,
+        52015,
+        53041,
+        53959,
+        57218,
+        58628,
+        58996,
+        59353,
+        60156,
+        61870,
+        63363,
+        64265,
+        65473,
+        67804,
+        67885,
+        68769,
+        69147,
+        71177,
+        72394,
+        73721,
+        74972,
+        76220,
+        76992,
+        77628,
+        78980,
+        79618,
+        80235,
+        83132,
+        84231,
+        86345,
+        87098,
+        89631,
+        90154,
+        91867,
+        93666,
+        94220,
+        94478,
+        94587,
+        94725,
+        94855,
+        95016,
+        95180,
+        95303,
+        95356,
+        95416,
+        95585,
+        95622,
+        95762,
+        95804,
+        95879,
+        95900,
+        96004,
+        96092,
+        96159,
+        96212,
+        96326,
+        96423,
+        96454,
+        96595,
+        96669,
+        96763
+      ],
+      "segments": [
+        {
+          "roman": "I",
+          "beforeParagraph": 0
+        },
+        {
+          "roman": "II",
+          "beforeParagraph": 8
+        },
+        {
+          "roman": "III",
+          "beforeParagraph": 13
+        },
+        {
+          "roman": "IV",
+          "beforeParagraph": 18
+        },
+        {
+          "roman": "V",
+          "beforeParagraph": 23
+        },
+        {
+          "roman": "VI",
+          "beforeParagraph": 26
+        },
+        {
+          "roman": "VII",
+          "beforeParagraph": 32
+        },
+        {
+          "roman": "VIII",
+          "beforeParagraph": 35
+        },
+        {
+          "roman": "IX",
+          "beforeParagraph": 43
+        }
+      ],
+      "page_map": [
+        {
+          "page": 342,
+          "offset": 1927
+        },
+        {
+          "page": 343,
+          "offset": 4893
+        },
+        {
+          "page": 344,
+          "offset": 8053
+        },
+        {
+          "page": 345,
+          "offset": 10348
+        },
+        {
+          "page": 346,
+          "offset": 13222
+        },
+        {
+          "page": 347,
+          "offset": 16250
+        },
+        {
+          "page": 348,
+          "offset": 19262
+        },
+        {
+          "page": 349,
+          "offset": 22412
+        },
+        {
+          "page": 350,
+          "offset": 24796
+        },
+        {
+          "page": 351,
+          "offset": 27923
+        },
+        {
+          "page": 352,
+          "offset": 30963
+        },
+        {
+          "page": 353,
+          "offset": 34108
+        },
+        {
+          "page": 354,
+          "offset": 36961
+        },
+        {
+          "page": 355,
+          "offset": 39871
+        },
+        {
+          "page": 357,
+          "offset": 45629
+        },
+        {
+          "page": 358,
+          "offset": 48528
+        },
+        {
+          "page": 359,
+          "offset": 51464
+        },
+        {
+          "page": 360,
+          "offset": 54203
+        },
+        {
+          "page": 361,
+          "offset": 57374
+        },
+        {
+          "page": 362,
+          "offset": 60233
+        },
+        {
+          "page": 363,
+          "offset": 63363
+        },
+        {
+          "page": 364,
+          "offset": 66528
+        },
+        {
+          "page": 365,
+          "offset": 69619
+        },
+        {
+          "page": 366,
+          "offset": 72267
+        },
+        {
+          "page": 367,
+          "offset": 75130
+        },
+        {
+          "page": 368,
+          "offset": 78270
+        },
+        {
+          "page": 369,
+          "offset": 81450
+        },
+        {
+          "page": 370,
+          "offset": 84231
+        },
+        {
+          "page": 371,
+          "offset": 87402
+        },
+        {
+          "page": 372,
+          "offset": 90600
+        },
+        {
+          "page": 373,
+          "offset": 93666
+        }
+      ],
+      "footnote_refs": [
+        {
+          "number": 424,
+          "offset": 70
+        },
+        {
+          "number": 425,
+          "offset": 2973
+        },
+        {
+          "number": 426,
+          "offset": 4281
+        },
+        {
+          "number": 427,
+          "offset": 9382
+        },
+        {
+          "number": 428,
+          "offset": 9428
+        },
+        {
+          "number": 429,
+          "offset": 9859
+        },
+        {
+          "number": 430,
+          "offset": 10764
+        },
+        {
+          "number": 431,
+          "offset": 15151
+        },
+        {
+          "number": 432,
+          "offset": 19930
+        },
+        {
+          "number": 433,
+          "offset": 24032
+        },
+        {
+          "number": 434,
+          "offset": 24241
+        },
+        {
+          "number": 435,
+          "offset": 26953
+        },
+        {
+          "number": 436,
+          "offset": 33991
+        },
+        {
+          "number": 437,
+          "offset": 36118
+        },
+        {
+          "number": 438,
+          "offset": 36511
+        },
+        {
+          "number": 439,
+          "offset": 37245
+        },
+        {
+          "number": 440,
+          "offset": 43589
+        },
+        {
+          "number": 441,
+          "offset": 44057
+        },
+        {
+          "number": 442,
+          "offset": 45216
+        },
+        {
+          "number": 443,
+          "offset": 45561
+        },
+        {
+          "number": 444,
+          "offset": 47122
+        },
+        {
+          "number": 445,
+          "offset": 51190
+        },
+        {
+          "number": 446,
+          "offset": 51283
+        },
+        {
+          "number": 447,
+          "offset": 53039
+        },
+        {
+          "number": 448,
+          "offset": 53663
+        },
+        {
+          "number": 449,
+          "offset": 54038
+        },
+        {
+          "number": 450,
+          "offset": 55660
+        },
+        {
+          "number": 451,
+          "offset": 55846
+        },
+        {
+          "number": 452,
+          "offset": 59452
+        },
+        {
+          "number": 453,
+          "offset": 69909
+        },
+        {
+          "number": 454,
+          "offset": 70232
+        },
+        {
+          "number": 455,
+          "offset": 70254
+        },
+        {
+          "number": 456,
+          "offset": 71228
+        },
+        {
+          "number": 457,
+          "offset": 73309
+        },
+        {
+          "number": 458,
+          "offset": 74988
+        },
+        {
+          "number": 459,
+          "offset": 82077
+        },
+        {
+          "number": 460,
+          "offset": 83130
+        },
+        {
+          "number": 461,
+          "offset": 83584
+        },
+        {
+          "number": 462,
+          "offset": 90683
+        }
+      ],
+      "ocr_corrections": [],
+      "extracted_footnotes": []
+    },
+    {
+      "unit_id": "decline-vol-i-ch-11-faustian-and-apollinian-nature-knowledge",
+      "work": "decline",
+      "volume": "vol-i",
+      "n": 11,
+      "roman": "XI",
+      "title": "Faustian and Apollinian Nature-knowledge",
+      "function": "science",
+      "text_status": "clean",
+      "source_id": "gutenberg-decline-i",
+      "source_raw_path": "raw/Spengler_Decline_I.txt",
+      "clean_path": "derived/decline-vol-i/ch-11.txt",
+      "char_count": 148557,
+      "paragraph_count": 115,
+      "paragraph_offsets": [
+        0,
+        1023,
+        3291,
+        6514,
+        7882,
+        9802,
+        10565,
+        11513,
+        12552,
+        15011,
+        16348,
+        19119,
+        21011,
+        21777,
+        22403,
+        24293,
+        26441,
+        28168,
+        28856,
+        30516,
+        31599,
+        32850,
+        34201,
+        34434,
+        34893,
+        36276,
+        37273,
+        38689,
+        39852,
+        41626,
+        42106,
+        43701,
+        44564,
+        45930,
+        46646,
+        47799,
+        50861,
+        51870,
+        53467,
+        54998,
+        56433,
+        58684,
+        59471,
+        60605,
+        61613,
+        63937,
+        63942,
+        64787,
+        65612,
+        66467,
+        68965,
+        69624,
+        71208,
+        72156,
+        73531,
+        73885,
+        76290,
+        79709,
+        82762,
+        84474,
+        84775,
+        86034,
+        87023,
+        89648,
+        90155,
+        90710,
+        91051,
+        92257,
+        94046,
+        94956,
+        97244,
+        100364,
+        101606,
+        102417,
+        103185,
+        103621,
+        104640,
+        106351,
+        107632,
+        108187,
+        109469,
+        110316,
+        110814,
+        113144,
+        114683,
+        115363,
+        115991,
+        116812,
+        118193,
+        118954,
+        121493,
+        123774,
+        124641,
+        125477,
+        126060,
+        127087,
+        127704,
+        128905,
+        130323,
+        130550,
+        131554,
+        132313,
+        133598,
+        134362,
+        135676,
+        135824,
+        136711,
+        137313,
+        139188,
+        140637,
+        141453,
+        142734,
+        143999,
+        145317,
+        147267
+      ],
+      "segments": [
+        {
+          "roman": "I",
+          "beforeParagraph": 0
+        },
+        {
+          "roman": "II",
+          "beforeParagraph": 6
+        },
+        {
+          "roman": "III",
+          "beforeParagraph": 13
+        },
+        {
+          "roman": "IV",
+          "beforeParagraph": 17
+        },
+        {
+          "roman": "V",
+          "beforeParagraph": 23
+        },
+        {
+          "roman": "VI",
+          "beforeParagraph": 29
+        },
+        {
+          "roman": "VII",
+          "beforeParagraph": 36
+        },
+        {
+          "roman": "VIII",
+          "beforeParagraph": 46
+        },
+        {
+          "roman": "IX",
+          "beforeParagraph": 54
+        },
+        {
+          "roman": "X",
+          "beforeParagraph": 59
+        },
+        {
+          "roman": "XI",
+          "beforeParagraph": 63
+        },
+        {
+          "roman": "XII",
+          "beforeParagraph": 71
+        },
+        {
+          "roman": "XIII",
+          "beforeParagraph": 87
+        },
+        {
+          "roman": "XIV",
+          "beforeParagraph": 92
+        },
+        {
+          "roman": "XV",
+          "beforeParagraph": 104
+        }
+      ],
+      "page_map": [
+        {
+          "page": 378,
+          "offset": 2278
+        },
+        {
+          "page": 379,
+          "offset": 5401
+        },
+        {
+          "page": 380,
+          "offset": 8578
+        },
+        {
+          "page": 381,
+          "offset": 11430
+        },
+        {
+          "page": 382,
+          "offset": 14274
+        },
+        {
+          "page": 383,
+          "offset": 16422
+        },
+        {
+          "page": 384,
+          "offset": 19513
+        },
+        {
+          "page": 385,
+          "offset": 22308
+        },
+        {
+          "page": 386,
+          "offset": 24679
+        },
+        {
+          "page": 387,
+          "offset": 27916
+        },
+        {
+          "page": 388,
+          "offset": 30823
+        },
+        {
+          "page": 389,
+          "offset": 33851
+        },
+        {
+          "page": 390,
+          "offset": 36667
+        },
+        {
+          "page": 391,
+          "offset": 39772
+        },
+        {
+          "page": 392,
+          "offset": 42737
+        },
+        {
+          "page": 393,
+          "offset": 45794
+        },
+        {
+          "page": 395,
+          "offset": 51763
+        },
+        {
+          "page": 396,
+          "offset": 54865
+        },
+        {
+          "page": 397,
+          "offset": 58066
+        },
+        {
+          "page": 398,
+          "offset": 60908
+        },
+        {
+          "page": 400,
+          "offset": 66769
+        },
+        {
+          "page": 401,
+          "offset": 69766
+        },
+        {
+          "page": 402,
+          "offset": 72792
+        },
+        {
+          "page": 403,
+          "offset": 75820
+        },
+        {
+          "page": 404,
+          "offset": 78798
+        },
+        {
+          "page": 405,
+          "offset": 81258
+        },
+        {
+          "page": 406,
+          "offset": 84242
+        },
+        {
+          "page": 407,
+          "offset": 86493
+        },
+        {
+          "page": 409,
+          "offset": 91588
+        },
+        {
+          "page": 410,
+          "offset": 94616
+        },
+        {
+          "page": 411,
+          "offset": 97695
+        },
+        {
+          "page": 412,
+          "offset": 100586
+        },
+        {
+          "page": 413,
+          "offset": 103411
+        },
+        {
+          "page": 414,
+          "offset": 106016
+        },
+        {
+          "page": 415,
+          "offset": 108793
+        },
+        {
+          "page": 416,
+          "offset": 111821
+        },
+        {
+          "page": 417,
+          "offset": 114985
+        },
+        {
+          "page": 418,
+          "offset": 117905
+        },
+        {
+          "page": 419,
+          "offset": 121128
+        },
+        {
+          "page": 420,
+          "offset": 124075
+        },
+        {
+          "page": 421,
+          "offset": 126767
+        },
+        {
+          "page": 422,
+          "offset": 129456
+        },
+        {
+          "page": 423,
+          "offset": 132463
+        },
+        {
+          "page": 424,
+          "offset": 135511
+        },
+        {
+          "page": 425,
+          "offset": 138493
+        },
+        {
+          "page": 426,
+          "offset": 141611
+        },
+        {
+          "page": 427,
+          "offset": 144774
+        },
+        {
+          "page": 428,
+          "offset": 147646
+        }
+      ],
+      "footnote_refs": [
+        {
+          "number": 463,
+          "offset": 1667
+        },
+        {
+          "number": 464,
+          "offset": 3478
+        },
+        {
+          "number": 465,
+          "offset": 4484
+        },
+        {
+          "number": 466,
+          "offset": 8997
+        },
+        {
+          "number": 467,
+          "offset": 12045
+        },
+        {
+          "number": 468,
+          "offset": 12416
+        },
+        {
+          "number": 469,
+          "offset": 13893
+        },
+        {
+          "number": 470,
+          "offset": 13966
+        },
+        {
+          "number": 471,
+          "offset": 15543
+        },
+        {
+          "number": 472,
+          "offset": 15815
+        },
+        {
+          "number": 473,
+          "offset": 16089
+        },
+        {
+          "number": 474,
+          "offset": 18814
+        },
+        {
+          "number": 475,
+          "offset": 19368
+        },
+        {
+          "number": 476,
+          "offset": 19595
+        },
+        {
+          "number": 477,
+          "offset": 22738
+        },
+        {
+          "number": 478,
+          "offset": 23336
+        },
+        {
+          "number": 479,
+          "offset": 23580
+        },
+        {
+          "number": 480,
+          "offset": 24056
+        },
+        {
+          "number": 481,
+          "offset": 28871
+        },
+        {
+          "number": 482,
+          "offset": 32777
+        },
+        {
+          "number": 483,
+          "offset": 33938
+        },
+        {
+          "number": 484,
+          "offset": 34199
+        },
+        {
+          "number": 485,
+          "offset": 37377
+        },
+        {
+          "number": 486,
+          "offset": 44004
+        },
+        {
+          "number": 487,
+          "offset": 45153
+        },
+        {
+          "number": 488,
+          "offset": 46525
+        },
+        {
+          "number": 489,
+          "offset": 53465
+        },
+        {
+          "number": 490,
+          "offset": 60603
+        },
+        {
+          "number": 491,
+          "offset": 61070
+        },
+        {
+          "number": 492,
+          "offset": 64599
+        },
+        {
+          "number": 493,
+          "offset": 64914
+        },
+        {
+          "number": 494,
+          "offset": 68963
+        },
+        {
+          "number": 495,
+          "offset": 69622
+        },
+        {
+          "number": 496,
+          "offset": 72326
+        },
+        {
+          "number": 497,
+          "offset": 77353
+        },
+        {
+          "number": 498,
+          "offset": 77651
+        },
+        {
+          "number": 499,
+          "offset": 80647
+        },
+        {
+          "number": 500,
+          "offset": 80978
+        },
+        {
+          "number": 501,
+          "offset": 82020
+        },
+        {
+          "number": 502,
+          "offset": 83291
+        },
+        {
+          "number": 503,
+          "offset": 84655
+        },
+        {
+          "number": 504,
+          "offset": 85309
+        },
+        {
+          "number": 505,
+          "offset": 85489
+        },
+        {
+          "number": 506,
+          "offset": 85554
+        },
+        {
+          "number": 507,
+          "offset": 86357
+        },
+        {
+          "number": 508,
+          "offset": 87627
+        },
+        {
+          "number": 509,
+          "offset": 88043
+        },
+        {
+          "number": 510,
+          "offset": 89646
+        },
+        {
+          "number": 511,
+          "offset": 91312
+        },
+        {
+          "number": 512,
+          "offset": 92932
+        },
+        {
+          "number": 513,
+          "offset": 95019
+        },
+        {
+          "number": 514,
+          "offset": 98221
+        },
+        {
+          "number": 515,
+          "offset": 101084
+        },
+        {
+          "number": 516,
+          "offset": 103619
+        },
+        {
+          "number": 517,
+          "offset": 103849
+        },
+        {
+          "number": 518,
+          "offset": 106092
+        },
+        {
+          "number": 519,
+          "offset": 107198
+        },
+        {
+          "number": 520,
+          "offset": 109433
+        },
+        {
+          "number": 521,
+          "offset": 115014
+        },
+        {
+          "number": 522,
+          "offset": 115597
+        },
+        {
+          "number": 523,
+          "offset": 122386
+        },
+        {
+          "number": 524,
+          "offset": 123851
+        },
+        {
+          "number": 525,
+          "offset": 126701
+        },
+        {
+          "number": 526,
+          "offset": 131173
+        },
+        {
+          "number": 527,
+          "offset": 134360
+        },
+        {
+          "number": 528,
+          "offset": 144807
+        }
+      ],
+      "ocr_corrections": [],
+      "extracted_footnotes": []
+    }
+  ]
+}

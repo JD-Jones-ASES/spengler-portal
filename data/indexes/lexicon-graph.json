@@ -1,0 +1,1470 @@
+{
+  "nodes": [
+    {
+      "id": "culture-civilization",
+      "term": "Culture vs Civilization",
+      "german": "Kultur / Zivilisation",
+      "definition": "Spengler's master-opposition. A Culture is the living, creative, religious youth of a people's soul; Civilization is its rigid, intellectual, irreligious old age — the megalopolitan, money-and-machine winter that follows when creative force is spent. Each high Culture passes from the one state into the other; the 'decline' of the West is its passage into Civilization.",
+      "culture": null,
+      "prime_symbol": null,
+      "domain": "prime-concept",
+      "cluster": "prime-concept",
+      "degree": 15,
+      "variants": [
+        "Culture",
+        "Civilization"
+      ],
+      "targets": [
+        "decline-vol-i-ch-01-introduction#p0"
+      ],
+      "citations": [
+        "britannica-spengler",
+        "britannica-decline"
+      ],
+      "secondary": [
+        "hughes-spengler-1952"
+      ]
+    },
+    {
+      "id": "morphology",
+      "term": "Morphology of History",
+      "german": "Morphologie der Weltgeschichte",
+      "definition": "The method Spengler borrows from Goethe's study of living forms: to grasp a Culture by its shape and stage of growth rather than by causes and effects. History is read like botany — Cultures bloom, ripen, wilt and die in a regular sequence open to comparison.",
+      "culture": null,
+      "prime_symbol": null,
+      "domain": "method",
+      "cluster": "method",
+      "degree": 4,
+      "variants": [
+        "morphology",
+        "comparative morphology"
+      ],
+      "targets": [
+        "decline-vol-i-ch-01-introduction#p0"
+      ],
+      "citations": [
+        "britannica-spengler"
+      ],
+      "secondary": [
+        "hughes-spengler-1952"
+      ]
+    },
+    {
+      "id": "prime-symbol",
+      "term": "Prime-symbol",
+      "german": "Ursymbol",
+      "definition": "The single root-intuition of space out of which a Culture's whole world — its mathematics, art, religion and politics — unfolds. For Spengler the Classical prime-symbol is the bounded material body, the Magian is the cavern, the Faustian is pure, infinite space.",
+      "culture": null,
+      "prime_symbol": null,
+      "domain": "prime-concept",
+      "cluster": "prime-concept",
+      "degree": 8,
+      "variants": [
+        "prime symbol",
+        "Ursymbol"
+      ],
+      "targets": [
+        "decline-vol-i-ch-06-makrokosmos-apollinian-faustian-and-magian-soul#p0"
+      ],
+      "citations": [
+        "britannica-spengler"
+      ],
+      "secondary": [
+        "hughes-spengler-1952"
+      ]
+    },
+    {
+      "id": "faustian",
+      "term": "Faustian",
+      "german": "faustisch",
+      "definition": "Spengler's name for the Western Culture born around 900 AD, whose prime-symbol is infinite space and whose signature is the reaching of the limitless — Gothic cathedrals, the calculus, oil-painting perspective, the symphony, the long-range gun. Named for Goethe's Faust, the soul that will trade anything for the unbounded.",
+      "culture": "faustian",
+      "prime_symbol": "pure infinite space",
+      "domain": "culture",
+      "cluster": "faustian",
+      "degree": 11,
+      "variants": [
+        "Faustian soul",
+        "Faustian Culture"
+      ],
+      "targets": [
+        "decline-vol-i-ch-06-makrokosmos-apollinian-faustian-and-magian-soul#p0"
+      ],
+      "citations": [
+        "britannica-spengler"
+      ],
+      "secondary": [
+        "hughes-spengler-1952"
+      ]
+    },
+    {
+      "id": "apollinian",
+      "term": "Apollinian",
+      "german": "apollinisch",
+      "definition": "Spengler's name for the Classical (Greco-Roman) Culture, whose prime-symbol is the bounded, present, material body. Its mathematics is geometry of magnitude, its art the free-standing statue, its physics the static cosmos; it has no feeling for distance, history, or the infinite.",
+      "culture": "apollinian",
+      "prime_symbol": "the bounded material body",
+      "domain": "culture",
+      "cluster": "apollinian",
+      "degree": 7,
+      "variants": [
+        "Apollonian",
+        "Classical soul"
+      ],
+      "targets": [
+        "decline-vol-i-ch-06-makrokosmos-apollinian-faustian-and-magian-soul#p0"
+      ],
+      "citations": [
+        "britannica-spengler"
+      ],
+      "secondary": [
+        "hughes-spengler-1952"
+      ]
+    },
+    {
+      "id": "magian",
+      "term": "Magian",
+      "german": "magisch",
+      "definition": "Spengler's name for the Culture of the early Christian, Jewish, Byzantine and Islamic East, whose prime-symbol is the world-cavern — a closed space lit by the dualism of spirit and matter, light and dark. Its forms include the mosque and basilica dome, algebra, and the sacred book.",
+      "culture": "magian",
+      "prime_symbol": "the world-cavern",
+      "domain": "culture",
+      "cluster": "magian",
+      "degree": 5,
+      "variants": [
+        "Magian soul",
+        "Arabian Culture"
+      ],
+      "targets": [
+        "decline-vol-i-ch-01-introduction#p0",
+        "decline-vol-i-ch-06-makrokosmos-apollinian-faustian-and-magian-soul#p0"
+      ],
+      "citations": [
+        "britannica-spengler"
+      ],
+      "secondary": [
+        "hughes-spengler-1952"
+      ]
+    },
+    {
+      "id": "contemporaneity",
+      "term": "Contemporaneity",
+      "german": "Gleichzeitigkeit",
+      "definition": "Spengler's claim that events in different Cultures are 'contemporary' when they fall at the same point in their life-cycles, whatever their calendar dates. Buddha, the Stoics and modern socialism are 'contemporary'; so are Pythagoras and Descartes. This homology is what the Comparative Tables tabulate.",
+      "culture": null,
+      "prime_symbol": null,
+      "domain": "method",
+      "cluster": "method",
+      "degree": 2,
+      "variants": [
+        "contemporary",
+        "homology"
+      ],
+      "targets": [
+        "decline-vol-i-ch-01-introduction#p0"
+      ],
+      "citations": [
+        "britannica-spengler"
+      ],
+      "secondary": [
+        "hughes-spengler-1952"
+      ]
+    },
+    {
+      "id": "destiny-causality",
+      "term": "Destiny vs Causality",
+      "german": "Schicksal / Kausalität",
+      "definition": "Spengler's opposition between two ways of grasping the world: Causality is the logic of space, of things-become, of physics and system; Destiny is the logic of time, of becoming, of life and history. Nature is read causally; history can only be felt as Destiny.",
+      "culture": null,
+      "prime_symbol": null,
+      "domain": "prime-concept",
+      "cluster": "prime-concept",
+      "degree": 6,
+      "variants": [
+        "Destiny",
+        "the destiny-idea"
+      ],
+      "targets": [
+        "decline-vol-i-ch-04-the-problem-of-world-history-the-destiny-idea-and-the-causality-principle#p0"
+      ],
+      "citations": [
+        "britannica-spengler"
+      ],
+      "secondary": [
+        "hughes-spengler-1952"
+      ]
+    },
+    {
+      "id": "becoming-become",
+      "term": "Becoming vs the Become",
+      "german": "das Werden / das Gewordene",
+      "definition": "A distinction Spengler takes from Goethe: 'becoming' is living process, direction, time; 'the become' is the finished, extended, spatial thing. Number, logic and Nature belong to the become; life and history are pure becoming. The whole system rests on this pair.",
+      "culture": null,
+      "prime_symbol": null,
+      "domain": "prime-concept",
+      "cluster": "prime-concept",
+      "degree": 4,
+      "variants": [
+        "becoming",
+        "the become"
+      ],
+      "targets": [
+        "decline-vol-i-ch-02-the-meaning-of-numbers#p0"
+      ],
+      "citations": [
+        "britannica-spengler"
+      ],
+      "secondary": [
+        "hughes-spengler-1952"
+      ]
+    },
+    {
+      "id": "world-city",
+      "term": "World-city",
+      "german": "Weltstadt",
+      "definition": "The giant cosmopolitan metropolis that marks a Culture's passage into Civilization: rootless, money-driven, intellectual, sterile. The world-city drains the countryside, breeds the formless masses, and replaces the people of the soil with the 'Fellaheen' of the end-time.",
+      "culture": null,
+      "prime_symbol": null,
+      "domain": "politics",
+      "cluster": "politics",
+      "degree": 4,
+      "variants": [
+        "megalopolis",
+        "world-town"
+      ],
+      "targets": [
+        "decline-vol-i-ch-01-introduction#p0"
+      ],
+      "citations": [
+        "britannica-spengler"
+      ],
+      "secondary": [
+        "hughes-spengler-1952"
+      ]
+    },
+    {
+      "id": "caesarism",
+      "term": "Caesarism",
+      "german": "Cäsarismus",
+      "definition": "The form of rule Spengler predicts for the West's winter: after democracy is hollowed out by money, power passes to strong individuals — 'Caesars' — who govern by force and personal authority rather than by constitution, as in the late Roman Republic.",
+      "culture": null,
+      "prime_symbol": null,
+      "domain": "politics",
+      "cluster": "politics",
+      "degree": 7,
+      "variants": [
+        "Caesar-men"
+      ],
+      "targets": [
+        "decline-vol-i-ch-01-introduction#p0"
+      ],
+      "citations": [
+        "britannica-spengler"
+      ],
+      "secondary": [
+        "hughes-spengler-1952"
+      ]
+    },
+    {
+      "id": "fellaheen",
+      "term": "Fellaheen",
+      "german": "Fellachentum",
+      "definition": "Spengler's term (from the Arabic for 'peasants') for the people of a Culture after its history is over — those who remain when the high Culture has died, living on without creative destiny, as the Egyptians did under Rome. The West, he warns, is bound for its own fellah-age.",
+      "culture": null,
+      "prime_symbol": null,
+      "domain": "politics",
+      "cluster": "politics",
+      "degree": 4,
+      "variants": [
+        "Fellah peoples",
+        "post-historical man"
+      ],
+      "targets": [
+        "decline-vol-i-ch-01-introduction#p0"
+      ],
+      "citations": [
+        "britannica-spengler"
+      ],
+      "secondary": [
+        "hughes-spengler-1952"
+      ]
+    },
+    {
+      "id": "pseudomorphosis",
+      "term": "Historic Pseudomorphosis",
+      "german": "historische Pseudomorphose",
+      "definition": "Borrowed from mineralogy: when a young Culture is forced to grow inside the rigid forms of an older, alien one, so that its own soul can never find true expression. Spengler's chief case is the Magian soul forced into Classical (Greco-Roman) moulds — and, later, Russia forced into Western ones.",
+      "culture": "magian",
+      "prime_symbol": null,
+      "domain": "method",
+      "cluster": "magian",
+      "degree": 2,
+      "variants": [
+        "pseudomorphosis"
+      ],
+      "targets": [
+        "decline-vol-i-ch-01-introduction#p0"
+      ],
+      "citations": [
+        "britannica-spengler"
+      ],
+      "secondary": [
+        "hughes-spengler-1952"
+      ]
+    },
+    {
+      "id": "the-soul",
+      "term": "The Soul of a Culture",
+      "german": "die Kulturseele",
+      "definition": "For Spengler each high Culture is the unfolding of a single living soul — a particular way of feeling world, space and time that is there, whole, from the start and works itself out through every form the Culture makes. The soul is invisible; we read it only in its expressions: its prime-symbol, its mathematics, its art, its idea of the state.",
+      "culture": null,
+      "prime_symbol": null,
+      "domain": "prime-concept",
+      "cluster": "prime-concept",
+      "degree": 4,
+      "variants": [
+        "Culture-soul",
+        "world-feeling"
+      ],
+      "targets": [
+        "decline-vol-i-ch-06-makrokosmos-apollinian-faustian-and-magian-soul#p0",
+        "decline-vol-i-ch-09-soul-image-and-life-feeling-on-the-form-of-the-soul#p0"
+      ],
+      "citations": [
+        "wikipedia-decline"
+      ],
+      "secondary": [
+        "hughes-spengler-1952"
+      ]
+    },
+    {
+      "id": "world-as-history",
+      "term": "World-as-History vs World-as-Nature",
+      "german": "Welt als Geschichte / Welt als Natur",
+      "definition": "The opening move of the book: there are two ways to regard the world. As Nature it is the become — fixed, extended, dissected into cause and effect by the systematic intellect. As History it is becoming — living, directional, felt as Destiny. Physics grasps the first; only a physiognomic, morphological tact can grasp the second. Spengler's whole project is to treat history as history, not as disguised nature.",
+      "culture": null,
+      "prime_symbol": null,
+      "domain": "method",
+      "cluster": "method",
+      "degree": 4,
+      "variants": [
+        "world-as-history",
+        "world-as-nature"
+      ],
+      "targets": [
+        "decline-vol-i-ch-01-introduction#p0",
+        "decline-vol-i-ch-03-the-problem-of-world-history-physiognomic-and-systematic#p0"
+      ],
+      "citations": [
+        "wikipedia-decline"
+      ],
+      "secondary": [
+        "hughes-spengler-1952"
+      ]
+    },
+    {
+      "id": "physiognomic-systematic",
+      "term": "Physiognomic vs Systematic",
+      "german": "das Physiognomische / das Systematische",
+      "definition": "Spengler's two cognitive methods. The Systematic dissects, measures and seeks laws — the way of the scientist working on dead Nature. The Physiognomic reads a living whole by its look and gesture, the way one reads a face or a plant's growth; it is intuitive, analogical, and the only road into History. Comparative morphology is physiognomic tact made rigorous.",
+      "culture": null,
+      "prime_symbol": null,
+      "domain": "method",
+      "cluster": "method",
+      "degree": 2,
+      "variants": [
+        "physiognomic tact",
+        "systematic"
+      ],
+      "targets": [
+        "decline-vol-i-ch-03-the-problem-of-world-history-physiognomic-and-systematic#p0"
+      ],
+      "citations": [],
+      "secondary": [
+        "hughes-spengler-1952"
+      ]
+    },
+    {
+      "id": "second-religiousness",
+      "term": "The Second Religiousness",
+      "german": "die zweite Religiosität",
+      "definition": "Late in a Civilization, when the cities' rationalism has burnt itself out, the old myths and pieties return among the masses in a softened, weary form — a second childhood of faith. Spengler pairs this with Caesarism as the twin signs of the end: force in politics, credulity in the soul.",
+      "culture": null,
+      "prime_symbol": null,
+      "domain": "religion",
+      "cluster": "religion",
+      "degree": 2,
+      "variants": [
+        "second religiousness"
+      ],
+      "targets": [
+        "decline-vol-i-ch-01-introduction#p0"
+      ],
+      "citations": [
+        "wikipedia-decline"
+      ],
+      "secondary": [
+        "farrenkopf-prophet-2001"
+      ]
+    },
+    {
+      "id": "money",
+      "term": "The Rule of Money",
+      "german": "das Geld",
+      "definition": "In the Civilization-winter the decisive power, for Spengler, is money: abstract, rootless, at home in the world-city. Democracy and the press are its instruments — they manufacture the opinion money needs — so that politics becomes a department of economics. He expects this reign to end only when 'blood' (Caesarism) at last breaks the dictatorship of money.",
+      "culture": null,
+      "prime_symbol": null,
+      "domain": "economics",
+      "cluster": "economics",
+      "degree": 5,
+      "variants": [
+        "money",
+        "money-thinking"
+      ],
+      "targets": [
+        "decline-vol-i-ch-01-introduction#p0"
+      ],
+      "citations": [
+        "wikipedia-decline"
+      ],
+      "secondary": [
+        "adorno-prisms-spengler"
+      ]
+    },
+    {
+      "id": "race-blood",
+      "term": "Blood and Race",
+      "german": "Rasse / Blut",
+      "definition": "Spengler's 'race' is deliberately not biological stock but a felt, cosmic quality of strong, rooted life — he insists one 'has' race rather than 'belongs to' one. At the end of the cycle he sets blood against money as the last creative power. This strand of the system, with its proto-authoritarian charge, is among the most criticised; read it as the system's politics, not its science.",
+      "culture": null,
+      "prime_symbol": null,
+      "domain": "politics",
+      "cluster": "politics",
+      "degree": 4,
+      "variants": [
+        "race",
+        "blood"
+      ],
+      "targets": [
+        "decline-vol-i-ch-01-introduction#p0"
+      ],
+      "citations": [
+        "wikipedia-decline"
+      ],
+      "secondary": [
+        "farrenkopf-prophet-2001"
+      ]
+    },
+    {
+      "id": "indian",
+      "term": "Indian",
+      "german": "indisch",
+      "definition": "Spengler's earliest high Culture in his comparative tables, which he reads as the most 'ahistoric' of souls: it kept no chronology, felt time as illusion, and sought release from becoming in Nirvana. Its 'contemporary' to our scepticism is Buddhism. (Spengler's ranking of Indian thought as world-denying is exactly the value-laden reading later scholars treat as the system's bias.)",
+      "culture": "indian",
+      "prime_symbol": null,
+      "domain": "culture",
+      "cluster": "indian",
+      "degree": 2,
+      "variants": [
+        "Indian soul",
+        "Indian Culture"
+      ],
+      "targets": [
+        "decline-vol-i-ch-01-introduction#p0"
+      ],
+      "citations": [
+        "wikipedia-decline"
+      ],
+      "secondary": [
+        "hughes-spengler-1952"
+      ]
+    },
+    {
+      "id": "egyptian",
+      "term": "Egyptian",
+      "german": "ägyptisch",
+      "definition": "The Culture whose whole existence Spengler reads as a single resolute Way: the prime-symbol is direction, the path through the corridor-temple toward the tomb. Duration, stone, and the care of the dead are its signature. It is one of the columns of his Comparative Table of art-epochs.",
+      "culture": "egyptian",
+      "prime_symbol": "the path / direction",
+      "domain": "culture",
+      "cluster": "egyptian",
+      "degree": 2,
+      "variants": [
+        "Egyptian soul",
+        "Egyptian Culture"
+      ],
+      "targets": [
+        "decline-vol-i-ch-06-makrokosmos-apollinian-faustian-and-magian-soul#p0"
+      ],
+      "citations": [
+        "wikipedia-decline"
+      ],
+      "secondary": [
+        "hughes-spengler-1952"
+      ]
+    },
+    {
+      "id": "chinese",
+      "term": "Chinese",
+      "german": "chinesisch",
+      "definition": "The Culture whose prime-symbol Spengler finds in the Tao — the wandering Way through a friendly Nature, traced in the winding garden-path and the sited temple rather than driven straight at a goal. It is the political column set beside the Classical and Western in his Table of political epochs.",
+      "culture": "chinese",
+      "prime_symbol": "the Tao / the wandering way",
+      "domain": "culture",
+      "cluster": "chinese",
+      "degree": 1,
+      "variants": [
+        "Chinese soul",
+        "Chinese Culture"
+      ],
+      "targets": [
+        "decline-vol-i-ch-05-makrokosmos-the-symbolism-of-the-world-picture-and-the-problem-of-space#p0"
+      ],
+      "citations": [
+        "wikipedia-decline"
+      ],
+      "secondary": [
+        "hughes-spengler-1952"
+      ]
+    },
+    {
+      "id": "number-magnitude-function",
+      "term": "Number as Magnitude vs Function",
+      "german": "Zahl als Größe / als Funktion",
+      "definition": "Spengler's claim that each Culture has its own kind of number. The Classical (Apollinian) number is magnitude — a definite, measurable amount, the unit, embodied in Euclid's geometry and the Pythagorean ratios. The Western (Faustian) number is function — a pure relation, a variable, the limit and the infinite, embodied in Descartes's coordinates and the Newton–Leibniz calculus. The shift from the one to the other is, for Spengler, the shift from one soul to another.",
+      "culture": null,
+      "prime_symbol": null,
+      "domain": "mathematics",
+      "cluster": "mathematics",
+      "degree": 5,
+      "variants": [
+        "number as magnitude",
+        "number as function"
+      ],
+      "targets": [
+        "decline-vol-i-ch-02-the-meaning-of-numbers#p0"
+      ],
+      "citations": [
+        "sep-pythagoras",
+        "sep-continuity-infinitesimals"
+      ],
+      "secondary": [
+        "hughes-spengler-1952"
+      ]
+    },
+    {
+      "id": "cosmic-microcosm",
+      "term": "The Cosmic and the Microcosm",
+      "german": "das Kosmische / der Mikrokosmos",
+      "definition": "The foundational pair that opens Volume Two. 'The Cosmic' is life bound into the great periodic flow of nature — the plant, rooted, swayed by sun and season, never choosing; it has beat, direction, blood, destiny. The 'microcosm' is the free-moving animal that has detached a little world of its own and can set itself over against the All; it has tension, sense, waking attention. All higher life, man included, is a microcosm that never wholly escapes its cosmic ground, and the whole second volume — peoples, cities, money, the State — is built on this tension.",
+      "culture": null,
+      "prime_symbol": null,
+      "domain": "prime-concept",
+      "cluster": "prime-concept",
+      "degree": 2,
+      "variants": [
+        "the cosmic",
+        "microcosm",
+        "the cosmic and the microcosmic"
+      ],
+      "targets": [
+        "decline-vol-ii-ch-01-origin-and-landscape-the-cosmic-and-the-microcosm#p0"
+      ],
+      "citations": [
+        "wikipedia-decline"
+      ],
+      "secondary": [
+        "hughes-spengler-1952"
+      ]
+    },
+    {
+      "id": "being-waking-being",
+      "term": "Being and Waking-Being",
+      "german": "Dasein / Wachsein",
+      "definition": "Spengler's master-distinction in Volume Two. 'Being' (Dasein) is the deep, cosmic existence — blood, beat, destiny, the 'when and wherefore'; 'waking-being' (Wachsein) is the alert, sensing, knowing surface — the eye, causality, the 'where and how.' Peoples, classes and Cultures are forms of Being; thought, theory and money belong to waking-being. When he later opposes blood to money, destiny-man to causality-man, or the man of fact to the man of truth, this distinction is the root.",
+      "culture": null,
+      "prime_symbol": null,
+      "domain": "prime-concept",
+      "cluster": "prime-concept",
+      "degree": 4,
+      "variants": [
+        "being",
+        "waking-being",
+        "waking-consciousness",
+        "Sein and Wachsein"
+      ],
+      "targets": [
+        "decline-vol-ii-ch-01-origin-and-landscape-the-cosmic-and-the-microcosm#p0"
+      ],
+      "citations": [
+        "wikipedia-decline"
+      ],
+      "secondary": [
+        "hughes-spengler-1952"
+      ]
+    },
+    {
+      "id": "blood-and-money",
+      "term": "Blood and Money",
+      "german": "Blut und Geld",
+      "definition": "The last opposition of the system and the climax of the second volume. 'Money' is waking-being made power — abstract, intellectual, at home in the world-city; 'blood' is Being made power — race, soil, the cosmic pulse of the generations. Spengler stages the end of the Civilization-winter as a duel between them, resolved when Caesarism ('blood') at last breaks 'the dictature of money.' Read it with open eyes: his maxim that 'money is overthrown and abolished only by blood' is a frank doctrine of might over right that the authoritarian Right embraced; he offers it as iron description, and whether description is meant as justification is among the deepest questions the work leaves open.",
+      "culture": null,
+      "prime_symbol": null,
+      "domain": "economics",
+      "cluster": "economics",
+      "degree": 5,
+      "variants": [
+        "money and blood",
+        "blood vs money"
+      ],
+      "targets": [
+        "decline-vol-ii-ch-14-the-form-world-of-economic-life-the-machine#p0",
+        "decline-vol-ii-ch-13-the-form-world-of-economic-life-money#p0"
+      ],
+      "citations": [
+        "wikipedia-decline"
+      ],
+      "secondary": [
+        "farrenkopf-prophet-2001"
+      ]
+    },
+    {
+      "id": "technics",
+      "term": "Technics",
+      "german": "die Technik",
+      "definition": "Spengler's founding redefinition in Man and Technics: technics is not machinery, nor even specifically human, but 'the tactic of the whole of life' — the purposive activity of any free-moving creature. A lion stalking, a brush-stroke, diplomacy and a strike are all 'technics'; what matters is 'not the weapon, but the battle,' the doing rather than the thing made. Because human technics alone is conscious, inventive and personal — freed from the fixed instinct of the species — it is at once man's grandeur and, since it sets him at war with Nature, his doom.",
+      "culture": null,
+      "prime_symbol": null,
+      "domain": "science",
+      "cluster": "science",
+      "degree": 4,
+      "variants": [
+        "technique",
+        "the tactics of living"
+      ],
+      "targets": [
+        "man-technics-ch-01-technics-as-the-tactics-of-living#p0"
+      ],
+      "citations": [
+        "wikipedia-man-and-technics"
+      ],
+      "secondary": [
+        "farrenkopf-prophet-2001"
+      ]
+    },
+    {
+      "id": "beast-of-prey",
+      "term": "Man the Beast of Prey",
+      "german": "das Raubtier",
+      "definition": "The central anthropology of Man and Technics, set against Rousseau's gentle natural man and the Darwinian 'semi-ape.' Spengler ranks life — plant below herbivore below carnivore — and places man among the predators: the beast of prey is 'the highest form of the freely-moving life,' marked by freedom, solitude and command, from which the human eye, hand, idea of property and the State are all derived. He means the predatory verdict as praise, which is exactly why a reader should decide early how much of the premise to grant — the dignity he assigns to cruelty and command is the seed of his anti-egalitarian politics.",
+      "culture": null,
+      "prime_symbol": null,
+      "domain": "method",
+      "cluster": "method",
+      "degree": 3,
+      "variants": [
+        "beast of prey",
+        "predator",
+        "Raubtier"
+      ],
+      "targets": [
+        "man-technics-ch-02-herbivores-and-beasts-of-prey#p0"
+      ],
+      "citations": [
+        "wikipedia-man-and-technics"
+      ],
+      "secondary": []
+    },
+    {
+      "id": "hand-and-tool",
+      "term": "Hand and Tool",
+      "german": "Hand und Werkzeug",
+      "definition": "Spengler's account of the origin of man: not the brain but the hand made him. The free hand is 'a weapon without equal' — grasping the world theoretically with the eye and commanding it practically — and hand and tool are inseparable and equally old ('as the tool took form from the shape of the hand, so conversely the hand on the shape of the tool'). From the 'thought of the eye' and the 'thought of the hand' he derives his two permanent human types: the truth-men (priest, scholar, philosopher) and the fact-men (statesman, general, merchant).",
+      "culture": null,
+      "prime_symbol": null,
+      "domain": "method",
+      "cluster": "method",
+      "degree": 3,
+      "variants": [
+        "the hand",
+        "hand and implement"
+      ],
+      "targets": [
+        "man-technics-ch-03-the-origin-of-man-hand-and-tool#p0"
+      ],
+      "citations": [
+        "wikipedia-man-and-technics"
+      ],
+      "secondary": []
+    },
+    {
+      "id": "enterprise",
+      "term": "The Enterprise",
+      "german": "das Unternehmen",
+      "definition": "The 'second stage' of human technics in Man and Technics: 'planful doing in numbers.' Where each predator-man once made his own weapon and needed no one, long multi-person undertakings now demand coordination — and so, in Spengler's argument, speech is born, standing to enterprise 'in precisely the same way as, earlier, hand and tool.' The enterprise also splits mankind into leaders and led, the men 'whose nature is to command' and those 'whose nature is to obey' — the anti-egalitarian spine that runs forward into the Decline's account of Caesarism.",
+      "culture": null,
+      "prime_symbol": null,
+      "domain": "economics",
+      "cluster": "economics",
+      "degree": 3,
+      "variants": [
+        "enterprise",
+        "collective doing by plan",
+        "speech and enterprise"
+      ],
+      "targets": [
+        "man-technics-ch-04-the-second-stage-speech-and-enterprise#p0"
+      ],
+      "citations": [
+        "wikipedia-man-and-technics"
+      ],
+      "secondary": []
+    },
+    {
+      "id": "tragedy",
+      "term": "Tragedy",
+      "german": "das Tragische",
+      "definition": "For Spengler each Culture has its own form of tragedy. Apollinian (Classical) tragedy is the tragedy of the moment — a fixed situation, a gesture, a fate that strikes from outside; Faustian (Western) tragedy is the tragedy of a whole life's inner development, the biography driven from within (Macbeth, Faust, the symphony). Beneath the art-form lies a tragic sense of history itself: every Culture is a living thing that must die and whose highest creations deepen the end — 'all the great Cultures are defeats' — answered by the heroic pessimism of the 'Choice of Achilles' and the sentry who dies at his post ('optimism is cowardice').",
+      "culture": null,
+      "prime_symbol": null,
+      "domain": "art",
+      "cluster": "art",
+      "degree": 3,
+      "variants": [
+        "the tragic",
+        "heroic pessimism",
+        "Faustian tragedy"
+      ],
+      "targets": [
+        "man-technics-ch-03-the-origin-of-man-hand-and-tool#p0",
+        "decline-vol-i-ch-07-music-and-plastic-the-arts-of-form#p0"
+      ],
+      "citations": [
+        "wikipedia-decline"
+      ],
+      "secondary": [
+        "frye-decline-1974"
+      ]
+    },
+    {
+      "id": "world-cavern",
+      "term": "The World-Cavern",
+      "german": "die Welthöhle",
+      "definition": "The prime-symbol of the Magian Culture — the Arabian world of early Christianity, Judaism, Byzantium and Islam. Where the Faustian soul feels world as infinite space and the Apollinian as the bounded body, the Magian feels it as a closed cavern, a vaulted space charged with the dualism of light and dark, spirit and matter, good and evil. Its forms follow from the cave: the domed mosque and basilica, the golden mosaic ground, the sacred book, the consensus of the faithful, and an algebra and alchemy at home with hidden substances.",
+      "culture": "magian",
+      "prime_symbol": "the world-cavern",
+      "domain": "prime-concept",
+      "cluster": "magian",
+      "degree": 3,
+      "variants": [
+        "world-cavern",
+        "the cavern",
+        "world-as-cavern"
+      ],
+      "targets": [
+        "decline-vol-i-ch-06-makrokosmos-apollinian-faustian-and-magian-soul#p0",
+        "decline-vol-ii-ch-08-problems-of-the-arabian-culture-the-magian-soul#p0"
+      ],
+      "citations": [
+        "wikipedia-decline"
+      ],
+      "secondary": [
+        "hughes-spengler-1952"
+      ]
+    },
+    {
+      "id": "mexican",
+      "term": "Mexican",
+      "german": "mexikanisch",
+      "definition": "The eighth of Spengler's high Cultures and the one anomaly in his scheme: the Mexican (Maya-Aztec) Culture, the only one whose life was not spent but violently cut short — 'murdered' by a handful of Spaniards in the full glory of its unfolding, like a sunflower whose head is struck off by a passer-by. He treats it as a Culture that died not of inward old age but by external killing, leaving its later history blank; it is the limiting case that proves the rule that a Culture's death is normally a destiny worked out from within, not an accident.",
+      "culture": "mexican",
+      "prime_symbol": null,
+      "domain": "culture",
+      "cluster": "mexican",
+      "degree": 2,
+      "variants": [
+        "Mexican Culture",
+        "Mexican soul",
+        "Maya-Aztec"
+      ],
+      "targets": [
+        "decline-vol-ii-ch-02-origin-and-landscape-the-group-of-the-higher-cultures#p0"
+      ],
+      "citations": [
+        "wikipedia-decline"
+      ],
+      "secondary": [
+        "hughes-spengler-1952"
+      ]
+    },
+    {
+      "id": "the-machine",
+      "term": "The Machine",
+      "german": "die Maschine",
+      "definition": "The Faustian creation in which the Western will-to-power over Nature becomes literal. For Spengler the machine is born of the Gothic dream of forcing God's secret from him 'in order themselves to be God' — a 'small cosmos obeying the will of man alone,' long felt by the pious as 'of the Devil.' Its culminating irony is the reversal at the heart of Man and Technics: 'Faustian man has become the slave of his creation,' entrepreneur and worker alike bound to the machine, with the engineer — 'the priest of the machine' — holding the Culture's technical destiny in his hands.",
+      "culture": "faustian",
+      "prime_symbol": null,
+      "domain": "science",
+      "cluster": "faustian",
+      "degree": 3,
+      "variants": [
+        "the machine",
+        "machine-culture"
+      ],
+      "targets": [
+        "decline-vol-ii-ch-14-the-form-world-of-economic-life-the-machine#p0",
+        "man-technics-ch-05-the-last-act-rise-and-end-of-the-machine-culture#p0"
+      ],
+      "citations": [
+        "wikipedia-man-and-technics"
+      ],
+      "secondary": [
+        "adorno-prisms-spengler"
+      ]
+    },
+    {
+      "id": "nation",
+      "term": "Nation",
+      "german": "die Nation",
+      "definition": "For Spengler a nation is not a unit of race, speech or state but a 'mass-soul' — a community held together by an inward form-feeling and a common destiny, one of the cosmic unities of Being. Nations are the peoples 'of style,' brought into being by the high Cultures rather than prior to them; the same population can be welded into a nation by a great history and fall back into formless 'population' when that history is spent. He distinguishes such culture-peoples sharply from both the primitives before history and the Fellaheen after it.",
+      "culture": null,
+      "prime_symbol": null,
+      "domain": "politics",
+      "cluster": "politics",
+      "degree": 4,
+      "variants": [
+        "nation",
+        "people of style",
+        "mass-soul"
+      ],
+      "targets": [
+        "decline-vol-ii-ch-05-cities-and-peoples-peoples-races-tongues#p0"
+      ],
+      "citations": [
+        "wikipedia-decline"
+      ],
+      "secondary": [
+        "hughes-spengler-1952"
+      ]
+    },
+    {
+      "id": "culture-seasons",
+      "term": "The Seasons of a Culture",
+      "german": "Frühling · Sommer · Herbst · Winter",
+      "definition": "Spengler maps the life of every high Culture onto the four seasons of a single year. Spring is the early, rural, religious dawn (the Gothic, Homeric Greece); Summer the ripening of its forms; Autumn the great intellectual maturity of its big cities (the Enlightenment, Classical Athens); Winter the cosmopolitan, money-ruled, irreligious Civilization-end — the 'decline.' The seasons recur in the same order in every Culture, which is what makes them comparable, and what lets him locate the modern West firmly in its winter. The Comparative Tables tabulate this scheme.",
+      "culture": null,
+      "prime_symbol": null,
+      "domain": "phase",
+      "cluster": "phase",
+      "degree": 3,
+      "variants": [
+        "culture-seasons",
+        "spring summer autumn winter",
+        "the four seasons"
+      ],
+      "targets": [
+        "decline-vol-i-ch-01-introduction#p0"
+      ],
+      "citations": [
+        "britannica-spengler"
+      ],
+      "secondary": [
+        "hughes-spengler-1952"
+      ]
+    },
+    {
+      "id": "will-to-power",
+      "term": "Will-to-Power",
+      "german": "der Wille zur Macht",
+      "definition": "Nietzsche's name for life as an active, expansive striving to master and overcome, which Spengler takes over as the frame of both works — 'life in the Nietzschean sense, a grim, pitiless, no-quarter battle of the Will-to-Power.' With Goethe, Nietzsche is one of his two masters, but the borrowing is selective: Spengler keeps the combative vitalism and the amor fati (the love of one's fate) while dropping Nietzsche's hope of an 'overcoming,' leaving a tragic, no-exit struggle. It underlies his picture of man the beast of prey and of history as war-history.",
+      "culture": null,
+      "prime_symbol": null,
+      "domain": "method",
+      "cluster": "method",
+      "degree": 3,
+      "variants": [
+        "will to power",
+        "amor fati"
+      ],
+      "targets": [
+        "man-technics-ch-01-technics-as-the-tactics-of-living#p0",
+        "decline-vol-ii-ch-01-origin-and-landscape-the-cosmic-and-the-microcosm#p0"
+      ],
+      "citations": [
+        "sep-nietzsche"
+      ],
+      "secondary": [
+        "farrenkopf-prophet-2001"
+      ]
+    },
+    {
+      "id": "nature-knowledge",
+      "term": "Nature-Knowledge",
+      "german": "Naturerkenntnis",
+      "definition": "Spengler's claim that natural science is not one universal enterprise but the expression of a Culture's soul — every physics is the mythology of its world-feeling. Apollinian science contemplates a cosmos of bounded, static bodies; Faustian science is dynamics, force and field, a restless will to master infinite space, and 'theory is working hypothesis from the outset' — knowledge as an instrument of power, not contemplation. He predicts that even Western physics will dissolve its own clear concepts (force, atom, cause) as it reaches the limit of its style — the science completing, and so ending, its Culture.",
+      "culture": "faustian",
+      "prime_symbol": null,
+      "domain": "science",
+      "cluster": "faustian",
+      "degree": 3,
+      "variants": [
+        "natural science",
+        "Faustian science",
+        "physics"
+      ],
+      "targets": [
+        "decline-vol-i-ch-11-faustian-and-apollinian-nature-knowledge#p0"
+      ],
+      "citations": [
+        "wikipedia-decline"
+      ],
+      "secondary": [
+        "hughes-spengler-1952"
+      ]
+    },
+    {
+      "id": "the-city",
+      "term": "The City",
+      "german": "die Stadt",
+      "definition": "For Spengler the city is the form in which a Culture concentrates and finally consumes itself. The early Culture is rural and rooted; the town draws the soul out of the land, and the late 'world-city' (megalopolis) becomes a rootless, intellectual, money-ruled organism that lives off the countryside it has emptied. For Spengler world-history is, in the end, the history of the city: the soul of the city, set against the soil, is the engine that carries a Culture from its spring into its Civilization-winter — breeding the masses, the intelligentsia, and at last the Fellaheen.",
+      "culture": null,
+      "prime_symbol": null,
+      "domain": "politics",
+      "cluster": "politics",
+      "degree": 3,
+      "variants": [
+        "the city",
+        "the soul of the city",
+        "town"
+      ],
+      "targets": [
+        "decline-vol-ii-ch-04-cities-and-peoples-the-soul-of-the-city#p0"
+      ],
+      "citations": [
+        "wikipedia-decline"
+      ],
+      "secondary": [
+        "hughes-spengler-1952"
+      ]
+    },
+    {
+      "id": "the-estates",
+      "term": "The Estates: Nobility and Priesthood",
+      "german": "die Stände — Adel und Priestertum",
+      "definition": "Spengler's two 'prime-estates,' the only ones rooted in the blood and the deep current of Being: the Nobility, the estate of time, breeding, war and the country — the 'fact-men' of history — and the Priesthood, the estate of space, truth, knowledge and the timeless — the 'truth-men.' Peasantry stands outside history as mere soil, and the bourgeoisie (the city, money, the 'third estate') is a later, derivative form. The nobility lives history as destiny; the priesthood holds itself above it — the social face of his destiny/causality and Being/waking-being oppositions.",
+      "culture": null,
+      "prime_symbol": null,
+      "domain": "politics",
+      "cluster": "politics",
+      "degree": 3,
+      "variants": [
+        "the estates",
+        "nobility and priesthood",
+        "the prime-estates"
+      ],
+      "targets": [
+        "decline-vol-ii-ch-10-the-state-the-problem-of-the-estates-nobility-and-priesthood#p0"
+      ],
+      "citations": [
+        "wikipedia-decline"
+      ],
+      "secondary": [
+        "hughes-spengler-1952"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "faustian",
+      "target": "apollinian",
+      "type": "contrasts-with",
+      "gloss": "infinite space against the bounded body"
+    },
+    {
+      "source": "apollinian",
+      "target": "magian",
+      "type": "contrasts-with",
+      "gloss": "the body against the cavern"
+    },
+    {
+      "source": "magian",
+      "target": "faustian",
+      "type": "contrasts-with",
+      "gloss": "the cavern against infinite space"
+    },
+    {
+      "source": "faustian",
+      "target": "prime-symbol",
+      "type": "related-to",
+      "gloss": "its prime-symbol is infinite space"
+    },
+    {
+      "source": "apollinian",
+      "target": "prime-symbol",
+      "type": "related-to",
+      "gloss": "its prime-symbol is the bounded body"
+    },
+    {
+      "source": "magian",
+      "target": "prime-symbol",
+      "type": "related-to",
+      "gloss": "its prime-symbol is the cavern"
+    },
+    {
+      "source": "morphology",
+      "target": "contemporaneity",
+      "type": "coined-from",
+      "gloss": "contemporaneity is morphology applied to time"
+    },
+    {
+      "source": "destiny-causality",
+      "target": "becoming-become",
+      "type": "related-to",
+      "gloss": "Destiny is to becoming as Causality is to the become"
+    },
+    {
+      "source": "world-city",
+      "target": "culture-civilization",
+      "type": "instance-of",
+      "gloss": "the world-city is the mark of Civilization"
+    },
+    {
+      "source": "caesarism",
+      "target": "culture-civilization",
+      "type": "instance-of",
+      "gloss": "Caesarism is the politics of the Civilization-winter"
+    },
+    {
+      "source": "fellaheen",
+      "target": "culture-civilization",
+      "type": "instance-of",
+      "gloss": "the Fellaheen remain after Civilization dies"
+    },
+    {
+      "source": "caesarism",
+      "target": "world-city",
+      "type": "related-to",
+      "gloss": "the Caesars rule over the world-cities"
+    },
+    {
+      "source": "pseudomorphosis",
+      "target": "magian",
+      "type": "exemplified-by",
+      "gloss": "the Magian soul under Classical forms"
+    },
+    {
+      "source": "faustian",
+      "target": "culture-civilization",
+      "type": "instance-of",
+      "gloss": "the West is a high Culture in its Civilization phase"
+    },
+    {
+      "source": "apollinian",
+      "target": "culture-civilization",
+      "type": "instance-of",
+      "gloss": "the Classical is a completed Culture-cycle"
+    },
+    {
+      "source": "morphology",
+      "target": "destiny-causality",
+      "type": "related-to",
+      "gloss": "morphology reads history as Destiny, not Cause"
+    },
+    {
+      "source": "prime-symbol",
+      "target": "the-soul",
+      "type": "prime-symbol-of",
+      "gloss": "the prime-symbol is the soul made visible"
+    },
+    {
+      "source": "the-soul",
+      "target": "culture-civilization",
+      "type": "related-to",
+      "gloss": "a Culture is a soul unfolding; Civilization is that soul spent"
+    },
+    {
+      "source": "world-as-history",
+      "target": "destiny-causality",
+      "type": "related-to",
+      "gloss": "history is the realm of Destiny, nature of Causality"
+    },
+    {
+      "source": "world-as-history",
+      "target": "becoming-become",
+      "type": "related-to",
+      "gloss": "history is becoming; nature is the become"
+    },
+    {
+      "source": "physiognomic-systematic",
+      "target": "morphology",
+      "type": "related-to",
+      "gloss": "physiognomic tact is the morphological method"
+    },
+    {
+      "source": "physiognomic-systematic",
+      "target": "world-as-history",
+      "type": "related-to",
+      "gloss": "the physiognomic alone opens the world-as-history"
+    },
+    {
+      "source": "money",
+      "target": "race-blood",
+      "type": "contrasts-with",
+      "gloss": "money against blood — the last opposition"
+    },
+    {
+      "source": "money",
+      "target": "culture-civilization",
+      "type": "instance-of",
+      "gloss": "the rule of money is the economics of Civilization"
+    },
+    {
+      "source": "money",
+      "target": "world-city",
+      "type": "related-to",
+      "gloss": "money is at home in the world-city"
+    },
+    {
+      "source": "race-blood",
+      "target": "caesarism",
+      "type": "related-to",
+      "gloss": "blood breaks through money as Caesarism"
+    },
+    {
+      "source": "second-religiousness",
+      "target": "culture-civilization",
+      "type": "instance-of",
+      "gloss": "the Second Religiousness belongs to the Civilization-winter"
+    },
+    {
+      "source": "second-religiousness",
+      "target": "caesarism",
+      "type": "related-to",
+      "gloss": "the twin signs of the end: force and credulity"
+    },
+    {
+      "source": "egyptian",
+      "target": "prime-symbol",
+      "type": "related-to",
+      "gloss": "its prime-symbol is the Way / direction"
+    },
+    {
+      "source": "chinese",
+      "target": "prime-symbol",
+      "type": "related-to",
+      "gloss": "its prime-symbol is the Tao, the wandering way"
+    },
+    {
+      "source": "egyptian",
+      "target": "faustian",
+      "type": "contrasts-with",
+      "gloss": "the bounded Way against unbounded space"
+    },
+    {
+      "source": "indian",
+      "target": "apollinian",
+      "type": "related-to",
+      "gloss": "both are 'ahistoric' souls for Spengler"
+    },
+    {
+      "source": "indian",
+      "target": "culture-civilization",
+      "type": "instance-of",
+      "gloss": "a completed Culture-cycle in the Tables"
+    },
+    {
+      "source": "apollinian",
+      "target": "number-magnitude-function",
+      "type": "related-to",
+      "gloss": "the Classical number is magnitude"
+    },
+    {
+      "source": "faustian",
+      "target": "number-magnitude-function",
+      "type": "related-to",
+      "gloss": "the Western number is function and the infinite"
+    },
+    {
+      "source": "number-magnitude-function",
+      "target": "prime-symbol",
+      "type": "related-to",
+      "gloss": "each number-world expresses a Culture's prime-symbol"
+    },
+    {
+      "source": "number-magnitude-function",
+      "target": "becoming-become",
+      "type": "related-to",
+      "gloss": "number orders the become, not the becoming"
+    },
+    {
+      "source": "cosmic-microcosm",
+      "target": "being-waking-being",
+      "type": "related-to",
+      "gloss": "the cosmic is Being; the microcosmic is waking-being"
+    },
+    {
+      "source": "cosmic-microcosm",
+      "target": "becoming-become",
+      "type": "related-to",
+      "gloss": "the cosmic 'beat' is becoming; microcosmic 'tension' grasps the become"
+    },
+    {
+      "source": "being-waking-being",
+      "target": "destiny-causality",
+      "type": "related-to",
+      "gloss": "Being is destiny and time; waking-being is causality and space"
+    },
+    {
+      "source": "being-waking-being",
+      "target": "blood-and-money",
+      "type": "related-to",
+      "gloss": "blood is Being; money is waking-being"
+    },
+    {
+      "source": "being-waking-being",
+      "target": "the-soul",
+      "type": "related-to",
+      "gloss": "the soul lives as Being beneath the waking surface"
+    },
+    {
+      "source": "blood-and-money",
+      "target": "money",
+      "type": "related-to",
+      "gloss": "money is the waking-being pole of the duel"
+    },
+    {
+      "source": "blood-and-money",
+      "target": "race-blood",
+      "type": "related-to",
+      "gloss": "blood is the Being pole of the duel"
+    },
+    {
+      "source": "blood-and-money",
+      "target": "caesarism",
+      "type": "related-to",
+      "gloss": "Caesarism — blood — breaks the dictature of money"
+    },
+    {
+      "source": "blood-and-money",
+      "target": "culture-civilization",
+      "type": "instance-of",
+      "gloss": "the last conflict of the Civilization-winter"
+    },
+    {
+      "source": "technics",
+      "target": "beast-of-prey",
+      "type": "related-to",
+      "gloss": "technics is the tactics of the beast of prey"
+    },
+    {
+      "source": "technics",
+      "target": "hand-and-tool",
+      "type": "related-to",
+      "gloss": "the hand-and-tool is technics at its origin"
+    },
+    {
+      "source": "technics",
+      "target": "the-machine",
+      "type": "related-to",
+      "gloss": "the machine is Faustian technics at its limit"
+    },
+    {
+      "source": "technics",
+      "target": "faustian",
+      "type": "related-to",
+      "gloss": "Faustian technics wills mastery over Nature"
+    },
+    {
+      "source": "beast-of-prey",
+      "target": "will-to-power",
+      "type": "related-to",
+      "gloss": "the predatory will is the will-to-power embodied"
+    },
+    {
+      "source": "beast-of-prey",
+      "target": "hand-and-tool",
+      "type": "related-to",
+      "gloss": "the free hand is the predator's organ"
+    },
+    {
+      "source": "hand-and-tool",
+      "target": "enterprise",
+      "type": "related-to",
+      "gloss": "speech and enterprise repeat the hand-and-tool pair"
+    },
+    {
+      "source": "enterprise",
+      "target": "caesarism",
+      "type": "related-to",
+      "gloss": "the split into leaders and led runs into Caesarism"
+    },
+    {
+      "source": "enterprise",
+      "target": "money",
+      "type": "related-to",
+      "gloss": "collective doing by plan becomes economic enterprise"
+    },
+    {
+      "source": "tragedy",
+      "target": "faustian",
+      "type": "related-to",
+      "gloss": "Faustian tragedy is the inner biography"
+    },
+    {
+      "source": "tragedy",
+      "target": "apollinian",
+      "type": "contrasts-with",
+      "gloss": "Apollinian tragedy is the momentary situation"
+    },
+    {
+      "source": "tragedy",
+      "target": "culture-civilization",
+      "type": "related-to",
+      "gloss": "every Culture's life-cycle ends in tragedy"
+    },
+    {
+      "source": "world-cavern",
+      "target": "magian",
+      "type": "prime-symbol-of",
+      "gloss": "the cavern is the Magian prime-symbol"
+    },
+    {
+      "source": "world-cavern",
+      "target": "prime-symbol",
+      "type": "instance-of",
+      "gloss": "a Culture's prime-symbol of space"
+    },
+    {
+      "source": "world-cavern",
+      "target": "pseudomorphosis",
+      "type": "related-to",
+      "gloss": "the cavern-soul forced into Classical forms"
+    },
+    {
+      "source": "mexican",
+      "target": "culture-civilization",
+      "type": "instance-of",
+      "gloss": "a high Culture — uniquely killed, not spent"
+    },
+    {
+      "source": "mexican",
+      "target": "fellaheen",
+      "type": "contrasts-with",
+      "gloss": "no fellah-aftermath: the Culture was annihilated whole"
+    },
+    {
+      "source": "the-machine",
+      "target": "faustian",
+      "type": "instance-of",
+      "gloss": "the machine is the Faustian creation"
+    },
+    {
+      "source": "the-machine",
+      "target": "culture-civilization",
+      "type": "related-to",
+      "gloss": "the machine-age is the Civilization-winter"
+    },
+    {
+      "source": "nation",
+      "target": "the-soul",
+      "type": "related-to",
+      "gloss": "a nation is a 'mass-soul'"
+    },
+    {
+      "source": "nation",
+      "target": "race-blood",
+      "type": "related-to",
+      "gloss": "a nation lives from the blood, not biological race"
+    },
+    {
+      "source": "nation",
+      "target": "fellaheen",
+      "type": "contrasts-with",
+      "gloss": "the culture-people against the post-historical Fellaheen"
+    },
+    {
+      "source": "culture-seasons",
+      "target": "culture-civilization",
+      "type": "related-to",
+      "gloss": "Culture is spring–summer; Civilization is winter"
+    },
+    {
+      "source": "culture-seasons",
+      "target": "contemporaneity",
+      "type": "related-to",
+      "gloss": "events are 'contemporary' when they fall in the same season"
+    },
+    {
+      "source": "culture-seasons",
+      "target": "morphology",
+      "type": "related-to",
+      "gloss": "the seasons are morphology applied to a Culture's life"
+    },
+    {
+      "source": "will-to-power",
+      "target": "faustian",
+      "type": "related-to",
+      "gloss": "the Faustian soul is will-to-power over infinite space"
+    },
+    {
+      "source": "will-to-power",
+      "target": "destiny-causality",
+      "type": "related-to",
+      "gloss": "amor fati: the willing of one's destiny"
+    },
+    {
+      "source": "nature-knowledge",
+      "target": "faustian",
+      "type": "instance-of",
+      "gloss": "Faustian science as dynamics and force"
+    },
+    {
+      "source": "nature-knowledge",
+      "target": "number-magnitude-function",
+      "type": "related-to",
+      "gloss": "the Western number-world is its instrument"
+    },
+    {
+      "source": "nature-knowledge",
+      "target": "world-as-history",
+      "type": "contrasts-with",
+      "gloss": "knowledge of world-as-nature against world-as-history"
+    },
+    {
+      "source": "the-city",
+      "target": "world-city",
+      "type": "related-to",
+      "gloss": "the world-city is the city's final form"
+    },
+    {
+      "source": "the-city",
+      "target": "culture-civilization",
+      "type": "related-to",
+      "gloss": "the city carries a Culture into Civilization"
+    },
+    {
+      "source": "the-city",
+      "target": "fellaheen",
+      "type": "related-to",
+      "gloss": "the emptied land breeds the Fellaheen"
+    },
+    {
+      "source": "the-estates",
+      "target": "nation",
+      "type": "related-to",
+      "gloss": "the estates are the inner articulation of a people"
+    },
+    {
+      "source": "the-estates",
+      "target": "destiny-causality",
+      "type": "related-to",
+      "gloss": "nobility lives destiny; priesthood lives causal truth"
+    },
+    {
+      "source": "the-estates",
+      "target": "caesarism",
+      "type": "related-to",
+      "gloss": "the decay of the estates clears the way for Caesarism"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+---
+import Layout from "../../components/Layout.astro";
+import { getSources } from "../../lib/guide-data.js";
+
+const sources = getSources();
+const kindLabel = {
+  "source-text": "Source texts", "primary-philosophical": "Primary works", "scholarly-secondary": "Scholarship",
+  encyclopedia: "Encyclopedias", reference: "Reference works", dictionary: "Dictionaries", biographical: "Biography", license: "Licensing", other: "Other",
+};
+const order = ["source-text", "scholarly-secondary", "encyclopedia", "reference", "primary-philosophical", "dictionary", "biographical", "other", "license"];
+const grouped = {};
+for (const s of sources) (grouped[s.kind] ||= []).push(s);
+---
+
+<Layout title="Sources" current="sources">
+  <section class="wrap page-head">
+    <p class="eyebrow">The evidence</p>
+    <h1>Sources</h1>
+    <p class="lede">
+      Every teaching note on this site cites a source other than Spengler; every contested reading
+      names the scholar it comes from. Each record below was checked by hand — the note says what was
+      actually visible on the page, and the date it was seen.
+    </p>
+  </section>
+
+  <section class="wrap" style="padding-bottom:3rem;">
+    {order.filter((k) => grouped[k]).map((k) => (
+      <div>
+        <h2 class="section-h">{kindLabel[k] || k}</h2>
+        {grouped[k].map((s) => (
+          <div class="src">
+            <span class="src-kind">{s.citation_status}</span>
+            <h3>{s.url ? <a href={s.url} target="_blank" rel="noopener">{s.title}</a> : s.title}</h3>
+            <p class="who">{[s.author, s.publisher, s.year].filter(Boolean).join(" · ")}</p>
+            <p>{s.source_note}</p>
+            {s.license_note && <p class="muted" style="font-size:0.82rem;">{s.license_note}</p>}
+          </div>
+        ))}
+      </div>
+    ))}
+  </section>
+</Layout>

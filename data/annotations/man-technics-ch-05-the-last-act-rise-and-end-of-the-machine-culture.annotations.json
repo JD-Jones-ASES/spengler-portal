@@ -1,0 +1,153 @@
+{
+  "unit_id": "man-technics-ch-05-the-last-act-rise-and-end-of-the-machine-culture",
+  "annotations": [
+    {
+      "id": "mt5-lex-faustian",
+      "kind": "lexicon-term",
+      "selector": { "exact": "The Faustian, West-European Culture is perhaps not the last, but certainly the mightiest, the most passionate" },
+      "anchor": "The Faustian, West-European Culture … the mightiest, the most passionate … the most tragic of all",
+      "note": "'Faustian' is Spengler's name (from Goethe's Faust) for the Western soul, whose prime-symbol is infinite space and whose deepest drive is unbounded striving toward the distant and the unattainable. Here that striving takes its technical form: the will to seize the very forces of Nature. He calls the Faustian the most powerful and 'the most tragic' of the high Cultures — its intellect at war with its own soul.",
+      "cultures": ["faustian"],
+      "tags": ["culture:faustian", "concept:prime-symbol"],
+      "see_also": ["faustian", "prime-symbol"],
+      "evidence": [{ "claim_type": "lexical-definition", "citations": ["britannica-spengler", "wikipedia-decline"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "lexicon", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "mt5-form-working-hypothesis",
+      "kind": "form-observation",
+      "selector": { "exact": "here alone, theory is from the outset a working hypothesis" },
+      "anchor": "here, and here alone, theory is from the outset a working hypothesis",
+      "note": "Spengler's account of why the West, alone, built a machine-world: its science is instrumental from the start. A working hypothesis 'need not be correct; it must only be practically usable' — it aims not to contemplate Nature but to make her serviceable. Hence his contrast: 'The Faustian natural science, and this alone, is dynamics, over against the statics of the Greeks and the alchemy of the Arabs.' Knowing-in-order-to-command, not knowing-for-its-own-sake.",
+      "cultures": ["faustian", "apollinian", "magian"],
+      "tags": ["culture:faustian", "domain:science"],
+      "see_also": ["faustian"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "mt5-form-gothic-back-dating",
+      "kind": "form-observation",
+      "selector": { "exact": "northern monks of the thirteenth and fourteenth centuries press into the world of technical-physical problems" },
+      "anchor": "northern monks of the thirteenth and fourteenth centuries press into the world of technical-physical problems",
+      "note": "Watch the chronology Spengler builds. He dates Faustian 'dynamics' not to the 1700s but to the Gothic friars — Grosseteste, Roger Bacon, Albertus Magnus, Oresme — so that modern technics becomes the 900-year fulfilment of a medieval will-to-power, and experiment is 'the questioning of Nature with the rack, with levers and screws'. The real figures and dates do work for him, but his claim that Oresme 'anticipated' Copernicus and Galileo is his own strong reading, not settled history; weigh it as argument.",
+      "cultures": ["faustian"],
+      "tags": ["culture:faustian", "domain:science"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "mt5-form-booty-to-be-god",
+      "kind": "form-observation",
+      "selector": { "exact": "The concept of the prey of the beast of prey is thought to its end." },
+      "anchor": "The concept of the prey of the beast of prey is thought to its end.",
+      "note": "Here the book's threads knot together. The machine is the predator's 'booty-idea' carried to its limit: not 'this and that, like the fire that Prometheus stole,' but 'the world itself, with the secret of its force'. Its secret ideal is perpetual motion — 'to build a world oneself, oneself to be God', the Faustian inventor's dream. The beast of prey from chapter II is now reaching for omnipotence.",
+      "cultures": ["faustian"],
+      "tags": ["concept:beast-of-prey", "culture:faustian"],
+      "see_also": ["beast-of-prey", "faustian"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "mt5-teacher-machine-revolts",
+      "kind": "teacher-note",
+      "selector": { "exact": "as once the microcosm man against Nature, so now the microcosm machine rebels against the northern man." },
+      "anchor": "the microcosm machine rebels against the northern man",
+      "note": "The dialectical climax of the whole book. Man rebelled against Nature (chs. III–IV); now his own creation rebels against him — 'The lord of the world becomes the slave of the machine.' The rebel is overthrown by his rebellion. 'The fallen victor is dragged to death by the racing team.' This reversal, not mere 'progress' or 'decline', is what Spengler thinks the machine age really is.",
+      "tags": ["view:interpretation", "concept:tragedy"],
+      "see_also": ["culture-civilization"],
+      "evidence": [{ "claim_type": "interpretive", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "mt5-teacher-every-culture-tragedy",
+      "kind": "teacher-note",
+      "selector": { "exact": "Every high Culture is a tragedy; the history of man as a whole is tragic." },
+      "anchor": "Every high Culture is a tragedy",
+      "note": "Spengler's philosophy of history in two sentences. 'Tragedy' is not a mood here but a structure: a Culture, like a tragic hero, is destroyed by the very greatness that defines it. He claims the Faustian catastrophe is the largest of all — 'greater than anything that Aeschylus and Shakespeare ever beheld' — because its creature, the machine, turns on a planetary scale. Read the chapter's 'fifth act' language as meant literally.",
+      "cultures": ["faustian"],
+      "tags": ["view:interpretation", "concept:tragedy"],
+      "evidence": [{ "claim_type": "interpretive", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "mt5-reception-farrenkopf-apocalyptic",
+      "kind": "scholarly-reception",
+      "selector": { "exact": "most of the great forests have vanished, been turned into newspaper" },
+      "anchor": "most of the great forests have vanished … wholly or almost wholly exterminated",
+      "note": "According to John Farrenkopf, Man and Technics is the point where Spengler's pessimism turns from qualified to fully apocalyptic — extending the decline from the West's culture to the living earth itself. The passage bears it out: vanished forests, man-made 'alterations of climate,' species 'like the buffalo … wholly or almost wholly exterminated,' whole races 'brought almost to vanishing'. Farrenkopf reads such passages as Spengler anticipating an ecological catastrophe, even the possibility of populations collapsing toward pre-civilized numbers.",
+      "cultures": ["faustian"],
+      "tags": ["view:interpretation", "concept:tragedy"],
+      "attribution": { "scholar": "John Farrenkopf", "work": "Prophet of Decline: Spengler on World History and Politics", "year": 2001, "stance": "contextual", "citation": "farrenkopf-prophet-2001" },
+      "evidence": [{ "claim_type": "scholarly-interpretation", "citations": ["farrenkopf-prophet-2001"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "mt5-difficult-race-prophecy",
+      "kind": "difficult-material",
+      "selector": { "exact": "The irreplaceable prerogatives of the white peoples" },
+      "anchor": "The irreplaceable prerogatives of the white peoples … betrayed",
+      "note": "Difficult material. The book's climactic geopolitical prophecy is framed in explicit racial terms: the West's edge was its industrial monopoly, 'betrayed' by exporting its methods (the 'betrayal of technics'), so that the 'coloured races' will turn the machine against its makers and the 'white worker' will be undone by his own high wages. Strip the 1931 race-talk and a durable observation remains — technology diffuses, and monopolies of method do not last (Japan after 1905 is his example). But the racial framing is the period's ideology, not a finding; the Wikipedia overview of the book records this as one of its central, and most dated, theses.",
+      "cultures": ["faustian"],
+      "tags": ["difficult-material", "domain:politics"],
+      "evidence": [{ "claim_type": "difficult-material", "citations": ["wikipedia-man-and-technics"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "mt5-reception-hughes-prediction",
+      "kind": "scholarly-reception",
+      "selector": { "exact": "The history of this technics nears swiftly its inescapable end." },
+      "anchor": "The history of this technics nears swiftly its inescapable end.",
+      "note": "A flat prediction of exactly the kind later critics found least durable. According to H. Stuart Hughes, Spengler repays reading not as a forecaster whose specific predictions can be checked off, but as a morphologist of cultural style — Hughes prized the imaginative grasp of cultural form and judged the system's predictive machinery its least durable part. Western machine-technics was not 'smashed to pieces and forgotten' in the decades after 1931; hold the gloom of the diagnosis apart from the failure of the timetable.",
+      "cultures": ["faustian"],
+      "tags": ["view:interpretation", "concept:morphology"],
+      "attribution": { "scholar": "H. Stuart Hughes", "work": "Oswald Spengler: A Critical Estimate", "year": 1952, "stance": "critical", "citation": "hughes-spengler-1952" },
+      "evidence": [{ "claim_type": "scholarly-interpretation", "citations": ["hughes-spengler-1952"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "mt5-form-navigare",
+      "kind": "form-observation",
+      "selector": { "exact": "navigare necesse est, vivere non est necesse" },
+      "anchor": "navigare necesse est, vivere non est necesse",
+      "note": "'To sail is necessary; to live is not.' The Latin tag is ascribed to Pompey, ordering his frightened crews to put to sea in a storm to carry grain to Rome. Spengler makes it the Faustian motto: the deed matters more than the doer's survival. For the 'coloured races', he adds, the machine is only a borrowed weapon; for Faustian man it is a spiritual need — done for its victories, not its uses.",
+      "cultures": ["faustian"],
+      "tags": ["view:interpretation", "culture:faustian"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "mt5-teacher-optimism-cowardice",
+      "kind": "teacher-note",
+      "selector": { "exact": "Optimism is cowardice." },
+      "anchor": "Optimism is cowardice.",
+      "note": "The book's moral, and the close of the bracket opened in chapter I. The 'Choice of Achilles' returns by name — 'better a short life full of deeds and fame than a long one without content' — and 'Ideals are cowardices' (ch. II) becomes 'Optimism is cowardice'. There is, Spengler insists, no prudent retreat and no way out; the only stance 'worthy of us' is to hold the lost position without hope. Agree or not, see how tightly the ethic is wired across the whole essay.",
+      "tags": ["view:interpretation", "concept:tragedy"],
+      "evidence": [{ "claim_type": "interpretive", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "mt5-hist-pompeii-sentry",
+      "kind": "historical-reference",
+      "selector": { "exact": "like that Roman soldier whose bones were found before a gate of Pompeii" },
+      "anchor": "that Roman soldier whose bones were found before a gate of Pompeii",
+      "note": "Spengler ends on his most famous image: the sentry who 'died because … they had forgotten to relieve him'. It is worth knowing that the image is a nineteenth-century legend, not an established archaeological fact. The sentry-who-stayed was popularized by Bulwer-Lytton's novel The Last Days of Pompeii (1834) and Poynter's painting Faithful unto Death (1865); the structure at the Herculaneum Gate was in fact a tomb. The motif is real and moving — but it is a cultural memory Spengler inherited, characteristically reached for to clinch a feeling rather than to report a fact.",
+      "cultures": ["apollinian"],
+      "tags": ["concept:tragedy", "view:interpretation"],
+      "evidence": [{ "claim_type": "historical-context", "citations": ["wikipedia-faithful-unto-death"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    }
+  ]
+}

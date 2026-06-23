@@ -1,0 +1,90 @@
+{
+  "unit_id": "decline-vol-i-ch-11-faustian-and-apollinian-nature-knowledge",
+  "annotations": [
+    {
+      "id": "dvi11-teacher-physics-is-symbol",
+      "kind": "teacher-note",
+      "selector": { "exact": "every one of its results is a symbol" },
+      "anchor": "every one of its results is a symbol",
+      "note": "The book's boldest application of its method, saved for last: even physics — the hardest, most 'objective' science — is for Spengler an expression of a Culture, and 'every one of its results is a symbol'. Modern physics works because it lets us handle Nature 'as a machine', but its concepts (force, cause, motion) are Faustian myths, not neutral truths. Read the chapter as the claim that there is no culture-free knowledge of Nature, only Faustian, Apollinian and Magian natures.",
+      "tags": ["view:interpretation", "domain:science"],
+      "evidence": [{ "claim_type": "interpretive", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi11-parallel-three-physics",
+      "kind": "cross-culture-parallel",
+      "selector": { "exact": "a dynamic of unlimited span, a physics of the distant" },
+      "anchor": "a dynamic of unlimited span, a physics of the distant",
+      "note": "Three souls, three natural sciences. Out of the Classical nude statue grew 'a static of bodies, a physics of the near' (matter and form); out of the Magian cavern-world grew Alchemy (substances with secret attributes, a means of Grace); out of the Faustian feeling for infinite space grew 'a dynamic of unlimited span, a physics of the distant' — the idea of force and mass. Each Culture's physics is its prime-symbol turned into law.",
+      "cultures": ["apollinian", "magian", "faustian"],
+      "tags": ["concept:prime-symbol", "domain:science"],
+      "see_also": ["prime-symbol", "faustian"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi11-parallel-two-questions",
+      "kind": "cross-culture-parallel",
+      "selector": { "exact": "The Greek asked, what is the essence of visible being?" },
+      "anchor": "The Greek asked, what is the essence of visible being? We ask … mastering the invisible motive-forces",
+      "note": "The two sciences in two questions. The Greek asks 'what is the essence of visible being?' — and rests in contented contemplation of the present body. We ask 'what possibility is there of mastering the invisible motive-forces of becoming?' — and drive at masterful experiment and control. Apollinian theory is 'quiet meditation'; Faustian science is 'from the very outset a working hypothesis'. Pure knowing versus the will to power over Nature.",
+      "cultures": ["apollinian", "faustian"],
+      "tags": ["concept:destiny-causality", "domain:science"],
+      "see_also": ["world-as-history"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi11-lex-faustian-force",
+      "kind": "lexicon-term",
+      "selector": { "exact": "to the Faustian the idea of force and mass" },
+      "anchor": "to the Faustian the idea of force and mass",
+      "note": "Spengler's reading of the master-concept of Western physics: 'force' is not a neutral discovery but the Faustian soul's own signature — the Will read into Nature, the demand to master action-at-a-distance. Where the Greek has 'matter and form' and the Arabian 'substances with secret attributes', the Faustian has 'force and mass'. The same will-to-the-distant that built the Gothic and the calculus also built Galilean dynamics.",
+      "cultures": ["faustian"],
+      "tags": ["culture:faustian", "domain:science"],
+      "see_also": ["faustian", "prime-symbol"],
+      "evidence": [{ "claim_type": "lexical-definition", "citations": ["britannica-spengler"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "lexicon", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi11-reception-farrenkopf-end-of-science",
+      "kind": "scholarly-reception",
+      "selector": { "exact": "it may have an exactly-definable end" },
+      "anchor": "as a science … it may have an exactly-definable end",
+      "note": "Spengler holds that Western physics, being the unfolding of one Culture's soul, is finite — it 'may have an exactly-definable end', a point at which it has said all it can say. According to John Farrenkopf, whose reassessment of Spengler gives sustained attention to his ideas on science and technology, this diagnosis of a self-limiting, self-exhausting Western science belongs to the genuinely serious side of Spengler's thought — a prescient strand of his critique of modernity, to be weighed rather than dismissed with the dated political prophecies.",
+      "cultures": ["faustian"],
+      "tags": ["view:interpretation", "domain:science"],
+      "attribution": { "scholar": "John Farrenkopf", "work": "Prophet of Decline: Spengler on World History and Politics", "year": 2001, "stance": "sympathetic", "citation": "farrenkopf-prophet-2001" },
+      "evidence": [{ "claim_type": "scholarly-interpretation", "citations": ["farrenkopf-prophet-2001"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi11-form-theory-not-number",
+      "kind": "form-observation",
+      "selector": { "exact": "it is theories and not pure numbers that are the support of all natural science" },
+      "anchor": "it is theories and not pure numbers that are the support of all natural science",
+      "note": "A genuinely sharp point about science, dressed in Spengler's metaphysics. A bare formula (s = ½gt²) is 'dumb'; it means nothing until vision (θεωρία = 'image, vision') clothes the signs in words and pictures. So 'it is theories and not pure numbers' that carry science — measurement alone is 'a delight for little minds'. Modern philosophy of science would partly agree (observation is theory-laden); notice how Spengler pushes it to the stronger claim that theory is myth.",
+      "tags": ["view:interpretation", "domain:science"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi11-difficult-faith-and-knowledge",
+      "kind": "difficult-material",
+      "selector": { "exact": "faith is the older and it dominates all the conditions of knowing" },
+      "anchor": "faith is the older and it dominates all the conditions of knowing",
+      "note": "The chapter's deepest and most contestable claim: 'Faith and knowledge are only two species of inner certitude', and faith is the elder that 'dominates all the conditions of knowing'. Even the most exact investigator, Spengler says, is 'controlled by the unconscious form' of his Culture. There is a real insight here (no inquiry is presuppositionless), but pressed to the limit it dissolves the distinction between science and myth — and, once more, would swallow Spengler's own claims. Hold the difficulty.",
+      "tags": ["view:interpretation", "difficult-material"],
+      "evidence": [{ "claim_type": "difficult-material", "citations": ["hughes-spengler-1952"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    }
+  ]
+}

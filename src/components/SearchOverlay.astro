@@ -1,0 +1,30 @@
+---
+import { withBase } from "../lib/site.js";
+---
+<div class="search-overlay" id="search-overlay" hidden>
+  <div class="search-backdrop" data-search-close></div>
+  <div class="search-dialog" role="dialog" aria-modal="true" aria-label="Search the portal">
+    <div class="search-inputrow">
+      <svg class="search-ico" viewBox="0 0 20 20" width="18" height="18" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="9" cy="9" r="6"></circle><line x1="13.5" y1="13.5" x2="18" y2="18" stroke-linecap="round"></line>
+      </svg>
+      <input id="search-input" type="text" placeholder="Find anything Spengler said — a term, a name, a topic…" autocomplete="off" spellcheck="false" />
+      <button class="search-close" data-search-close type="button">Esc</button>
+    </div>
+    <div class="search-facets" id="search-facets" role="group" aria-label="Filter by kind">
+      <button class="facet-btn" data-facet="all" aria-pressed="true">All</button>
+      <button class="facet-btn" data-facet="chapter">Text</button>
+      <button class="facet-btn" data-facet="note">Notes</button>
+      <button class="facet-btn" data-facet="lexicon">Lexicon</button>
+      <button class="facet-btn" data-facet="topic">Topics</button>
+      <button class="facet-btn" data-facet="table">Tables</button>
+      <button class="facet-btn" data-facet="footnote">Footnotes</button>
+    </div>
+    <div class="search-results" id="search-results">
+      <p class="sr-hint">Type to search the full text, the annotations, the lexicon, Spengler's own topic-index, and the Comparative Tables.</p>
+    </div>
+  </div>
+</div>
+<script data-search-base={withBase("")} is:inline define:vars={{ indexUrl: withBase("search-index.json") }}>
+  window.__SP_SEARCH_INDEX__ = indexUrl;
+</script>

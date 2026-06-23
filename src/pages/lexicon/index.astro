@@ -1,0 +1,29 @@
+---
+import Layout from "../../components/Layout.astro";
+import ConceptGraph from "../../islands/ConceptGraph.svelte";
+import { cultures } from "../../lib/site.js";
+import graph from "../../../data/indexes/lexicon-graph.json";
+
+const base = import.meta.env.BASE_URL.endsWith("/") ? import.meta.env.BASE_URL : import.meta.env.BASE_URL + "/";
+const usedCultures = cultures.filter((c) => graph.nodes.some((n) => n.culture === c.id));
+---
+
+<Layout title="The Concept Lexicon" current="lexicon">
+  <section class="wrap page-head">
+    <p class="eyebrow">A reader's glossary</p>
+    <h1>The Concept Lexicon</h1>
+    <p class="lede">
+      Spengler writes in a private vocabulary — Faustian, Magian, pseudomorphosis, the prime-symbol,
+      Caesarism. Here each coinage is defined and wired to the others: tap a term to see what it
+      opposes, what it is an instance of, and where it lives in the text. Nodes carry their Culture's
+      colour; dashed lines are oppositions.
+    </p>
+    <div class="cult-legend">
+      {usedCultures.map((c) => <span class="cult-tag" data-cult={c.id}><span class="dot"></span>{c.soul}</span>)}
+    </div>
+  </section>
+
+  <section class="wrap" style="padding-bottom:3rem;">
+    <ConceptGraph data={graph} base={base} client:visible />
+  </section>
+</Layout>

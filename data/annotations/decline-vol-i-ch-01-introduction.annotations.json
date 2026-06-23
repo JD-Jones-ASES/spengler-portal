@@ -1,0 +1,128 @@
+{
+  "unit_id": "decline-vol-i-ch-01-introduction",
+  "annotations": [
+    {
+      "id": "dvi1-teacher-logic-of-history",
+      "kind": "teacher-note",
+      "selector": { "exact": "Is there a logic of history?" },
+      "anchor": "Is there a logic of history?",
+      "note": "Spengler opens the whole work with this question. For a first reading, treat the Introduction as the thesis in miniature: everything that follows is an attempt to answer yes — that history has a discernible form, a 'morphology', as exact as the form of a plant. Don't get lost in the cascade of examples; hold onto the question.",
+      "tags": ["view:interpretation"],
+      "evidence": [{ "claim_type": "interpretive", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi1-reception-predetermining",
+      "kind": "scholarly-reception",
+      "selector": { "exact": "the venture of predetermining history", "prefix": "first time " },
+      "anchor": "predetermining history",
+      "note": "Spengler's boast that the future stages of a Culture can be foretold is the single claim later scholars found least defensible. According to H. Stuart Hughes, Spengler is most valuable read not as a prophet whose dating can be checked, but as a morphologist of cultural style — the predictive apparatus is the part of the system that has worn worst.",
+      "cultures": ["faustian"],
+      "tags": ["view:interpretation", "concept:morphology"],
+      "attribution": { "scholar": "H. Stuart Hughes", "work": "Oswald Spengler: A Critical Estimate", "year": 1952, "stance": "critical", "citation": "hughes-spengler-1952" },
+      "evidence": [{ "claim_type": "scholarly-interpretation", "citations": ["hughes-spengler-1952"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi1-lex-morphology",
+      "kind": "lexicon-term",
+      "selector": { "exact": "a morphology of world-history" },
+      "anchor": "a morphology of world-history",
+      "note": "'Morphology' is the study of living forms and their transformations — a method Spengler takes directly from Goethe's botany and applies to history. Cultures are treated not as a chain of causes but as organisms with a shape and a life-cycle. This is the master-method of the entire book.",
+      "cultures": ["faustian"],
+      "tags": ["concept:morphology", "domain:method"],
+      "see_also": ["morphology", "culture-civilization"],
+      "evidence": [{ "claim_type": "lexical-definition", "citations": ["britannica-spengler"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "lexicon", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi1-lex-culture-civilization",
+      "kind": "lexicon-term",
+      "selector": { "exact": "The Civilization is the inevitable destiny of the Culture" },
+      "anchor": "Civilization is the inevitable destiny of the Culture",
+      "note": "The book's central opposition. A 'Culture' (Kultur) is the living, creative spring-and-summer of a people's soul; 'Civilization' (Zivilisation) is its frozen winter — the late, megalopolitan, irreligious, money-and-machine stage after creative force is spent. Spengler insists the West has already crossed from the one into the other; the 'decline' is this crossing.",
+      "cultures": ["faustian"],
+      "tags": ["concept:culture-civilization", "domain:method"],
+      "see_also": ["culture-civilization", "world-city"],
+      "evidence": [{ "claim_type": "lexical-definition", "citations": ["britannica-spengler", "britannica-decline"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "lexicon", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi1-lex-magian",
+      "kind": "lexicon-term",
+      "selector": { "exact": "a creation of the Magian world-sense" },
+      "anchor": "the Magian world-sense",
+      "note": "'Magian' is Spengler's name for the Culture of the early Christian, Jewish, Byzantine and Islamic East — the soul whose prime-symbol is the world as a cavern, an enclosed space lit between heaven and earth. He treats Christianity, the Talmud, and the Qur'an as expressions of one and the same Magian springtime.",
+      "cultures": ["magian"],
+      "tags": ["culture:magian", "domain:religion"],
+      "see_also": ["magian", "prime-symbol"],
+      "evidence": [{ "claim_type": "lexical-definition", "citations": ["hughes-spengler-1952"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "lexicon", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi1-parallel-hellenism",
+      "kind": "cross-culture-parallel",
+      "selector": { "exact": "“contemporary” in our special sense—with the phase of Hellenism" },
+      "anchor": "“contemporary” … with the phase of Hellenism",
+      "note": "Spengler's idea of 'contemporaneity': two events in different Cultures are 'contemporary' when they occupy the same position in their respective life-cycles, regardless of calendar date. Our own modern age, he argues, stands where Hellenism stood in the Classical — both are the Culture's late, sceptical, cosmopolitan autumn. This homology is the engine of the Comparative Tables.",
+      "cultures": ["faustian", "apollinian"],
+      "tags": ["concept:contemporaneity", "view:interpretation"],
+      "see_also": ["contemporaneity"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi1-form-copernican",
+      "kind": "form-observation",
+      "selector": { "exact": "the Copernican discovery in the historical sphere" },
+      "anchor": "the Copernican discovery in the historical sphere",
+      "note": "A characteristic Spenglerian gesture: just as Copernicus displaced the Earth from the centre of the cosmos, Spengler claims to displace Western Europe from the centre of history, demoting 'ancient–medieval–modern' to a parochial, Ptolemaic conceit. Watch how often he reaches for an astronomical or mathematical figure to dignify a historical claim.",
+      "cultures": ["faustian"],
+      "tags": ["view:interpretation", "domain:method"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi1-hist-nietzsche",
+      "kind": "historical-reference",
+      "selector": { "exact": "conceptions of decadence, militarism, the transvaluation of all" },
+      "anchor": "decadence … the transvaluation of all values",
+      "note": "Spengler names Nietzsche as one of his two masters ('Goethe gave me method, Nietzsche the questioning faculty'). 'Decadence' and 'the transvaluation of all values' are Nietzsche's terms; Spengler borrows the diagnosis of cultural exhaustion while discarding Nietzsche's hope of an overcoming. The two share a vocabulary and a mood, not a remedy.",
+      "tags": ["concept:decadence", "domain:method"],
+      "evidence": [{ "claim_type": "historical-context", "citations": ["sep-nietzsche"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi1-translation-untergang",
+      "kind": "translation-note",
+      "selector": { "exact": "Decline of that West-European Culture" },
+      "anchor": "Decline of that West-European Culture",
+      "note": "'Decline' renders the German Untergang — literally a 'going-under', the setting of the sun, a downfall. Atkinson's 'Decline' is gentler than the German; Spengler's title Der Untergang des Abendlandes carries the finality of a sunset (Abendland, the 'evening-land', is itself the German word for the West). The title is an image, not a forecast of catastrophe.",
+      "cultures": ["faustian"],
+      "tags": ["domain:method", "translation"],
+      "evidence": [{ "claim_type": "translation-philology", "citations": ["britannica-decline"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi1-difficult-ahistoric",
+      "kind": "difficult-material",
+      "selector": { "exact": "we have the perfectly ahistoric soul", "prefix": "Indian Culture " },
+      "anchor": "the perfectly ahistoric soul",
+      "note": "Spengler ranks Cultures by their relation to time, calling the Classical and Indian souls 'ahistoric' — incapable, he claims, of feeling history as the West does. Read this as a value-laden hierarchy typical of early-20th-century German thought: it is doing analytic work for his system, but it also flattens Indian and Greek thought into a foil for the 'Faustian'. Later scholarship treats the ranking as the system's bias, not its discovery.",
+      "cultures": ["indian", "apollinian"],
+      "tags": ["view:interpretation", "difficult-material"],
+      "evidence": [{ "claim_type": "difficult-material", "citations": ["hughes-spengler-1952"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    }
+  ]
+}

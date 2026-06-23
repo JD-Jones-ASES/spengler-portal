@@ -1,0 +1,90 @@
+{
+  "unit_id": "decline-vol-i-ch-09-soul-image-and-life-feeling-on-the-form-of-the-soul",
+  "annotations": [
+    {
+      "id": "dvi9-teacher-psychology-fails",
+      "kind": "teacher-note",
+      "selector": { "exact": "always been the shallowest and most worthless of the disciplines of philosophy" },
+      "anchor": "the shallowest and most worthless of the disciplines of philosophy",
+      "note": "The chapter opens by demolishing 'scientific' psychology: it fails, Spengler says, because the soul is not a systematic object that reason can dissect into elements and functions. What psychology really produces is a 'soul-image' — a picture the soul makes of itself, always coloured by the Culture doing the picturing. Read the chapter as a morphology of these soul-images, not as psychology in the laboratory sense.",
+      "tags": ["view:interpretation", "concept:the-soul"],
+      "evidence": [{ "claim_type": "interpretive", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi9-lex-the-soul-image",
+      "kind": "lexicon-term",
+      "selector": { "exact": "A soul-image is never anything but the image of one quite definite soul" },
+      "anchor": "A soul-image is never anything but the image of one quite definite soul",
+      "note": "Spengler's key term here: the 'soul-image' (Seelenbild) is the picture a Culture forms of its own inner life — its model of what a self is. It is never neutral or universal; it is 'the image of one quite definite soul', the soul of that Culture. So every system of psychology is really a self-portrait of its age, and the soul-images of the Cultures differ as much as their mathematics or their art.",
+      "tags": ["concept:the-soul", "domain:method"],
+      "see_also": ["the-soul", "prime-symbol"],
+      "evidence": [{ "claim_type": "lexical-definition", "citations": ["wikipedia-decline"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "lexicon", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi9-form-will-prime-word",
+      "kind": "form-observation",
+      "selector": { "exact": "a name, a prime-word like God" },
+      "anchor": "Will … a prime-word like God",
+      "note": "Watch the move, which echoes the chapter on Destiny. 'Will', Spengler says, is no concept the psychologist can define but a 'prime-word like God' — something known with immediate inward certainty and never describable. It is the same gesture by which he placed Destiny beyond Causality: the deepest realities are felt, not analysed. For the Faustian soul, Will is the prime-word; that is why its soul-image is all direction and depth.",
+      "cultures": ["faustian"],
+      "tags": ["view:interpretation", "concept:the-soul"],
+      "see_also": ["destiny-causality"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi9-parallel-apollinian-soul-image",
+      "kind": "cross-culture-parallel",
+      "selector": { "exact": "Plato’s biga-team" },
+      "anchor": "the Apollinian soul-image — Plato’s biga-team with νοῦς as charioteer",
+      "note": "Each Culture pictures the soul in its own form. The Apollinian soul-image is Plato's chariot-team (biga) with Reason as charioteer — a small society of bodily parts in the visible present, exactly as the Classical world is a sum of bounded bodies. Set this beside the Faustian soul-image of a single deep will straining into infinity, and the difference of souls is laid bare in the very diagrams they draw of themselves.",
+      "cultures": ["apollinian", "faustian"],
+      "tags": ["concept:the-soul", "domain:method"],
+      "see_also": ["apollinian"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi9-lex-magian-soul-image",
+      "kind": "lexicon-term",
+      "selector": { "exact": "Magian soul-image is a strict dualism of two mysterious substances, Spirit and Soul" },
+      "anchor": "the Magian soul-image is a strict dualism … Spirit and Soul",
+      "note": "The Magian soul-image is a dualism of two substances — Spirit and Soul, light and dark, the divine breath and the lower self — locked together in the world-cavern. This is the inner shape of the Magian world: not the bounded body of the Classical nor the lonely will of the Faustian, but a battleground of two powers, the same dualism that runs through Persian, Gnostic, Christian and Islamic theology.",
+      "cultures": ["magian"],
+      "tags": ["culture:magian", "concept:the-soul"],
+      "see_also": ["magian", "prime-symbol"],
+      "evidence": [{ "claim_type": "lexical-definition", "citations": ["britannica-spengler"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "lexicon", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi9-reception-hughes-soul-image",
+      "kind": "scholarly-reception",
+      "selector": { "exact": "the soul-image underlying the knowledge is really one’s own soul-image" },
+      "anchor": "the soul-image underlying the knowledge is really one’s own soul-image",
+      "note": "Spengler's claim that all psychology is secretly a Culture's self-portrait is, on H. Stuart Hughes's reading, a prime example of what survives in Spengler — the morphologist's eye for how a whole age expresses itself in its forms of thought, as against the dated forecasting Hughes judged worthless. Hughes treats this culture-bound 'soul-image' as a genuine, if overstated, contribution to the history of ideas rather than as science.",
+      "tags": ["view:interpretation", "concept:the-soul"],
+      "attribution": { "scholar": "H. Stuart Hughes", "work": "Oswald Spengler: A Critical Estimate", "year": 1952, "stance": "sympathetic", "citation": "hughes-spengler-1952" },
+      "evidence": [{ "claim_type": "scholarly-interpretation", "citations": ["hughes-spengler-1952"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi9-difficult-fights-shadows",
+      "kind": "difficult-material",
+      "selector": { "exact": "Its searches and solutions are fights with shadows and ghosts" },
+      "anchor": "Its searches and solutions are fights with shadows and ghosts",
+      "note": "A sweeping dismissal worth pausing on. Spengler writes off the whole of experimental psychology as 'fights with shadows and ghosts' — a science with no real object. There is a serious point underneath (introspective categories may indeed be culture-bound), but the verdict is total, and it conveniently clears the ground for his own intuitive 'morphology of the soul'. Weigh how much is insight and how much is a rhetorical scorched-earth.",
+      "tags": ["view:interpretation", "difficult-material"],
+      "evidence": [{ "claim_type": "difficult-material", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    }
+  ]
+}

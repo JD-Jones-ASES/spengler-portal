@@ -1,0 +1,101 @@
+{
+  "unit_id": "decline-vol-i-ch-07-music-and-plastic-the-arts-of-form",
+  "annotations": [
+    {
+      "id": "dvi7-teacher-music-is-form-art",
+      "kind": "teacher-note",
+      "selector": { "exact": "with these arts we count music in its many and very dissimilar kinds" },
+      "anchor": "with these arts we count music in its many and very dissimilar kinds",
+      "note": "The move that organizes the whole chapter: Spengler refuses to file music apart from the 'pictorial-plastic' arts. The division that matters, he says, is not eye versus ear (a 'superficial' physiological distinction) but the inner form-language of a Culture. So a Rembrandt and a Bach fugue can be nearer kin than two paintings. Read the chapter as an argument that all of a Culture's arts say one thing.",
+      "tags": ["view:interpretation", "domain:art"],
+      "evidence": [{ "claim_type": "interpretive", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi7-lex-faustian-imagination",
+      "kind": "lexicon-term",
+      "selector": { "exact": "the truly Faustian and wholly un-Classical power of imagination" },
+      "anchor": "the truly Faustian and wholly un-Classical power of imagination",
+      "note": "A defining Faustian trait: art that appeals past the bodily senses to an 'inner' eye and ear — the imagination. We read Faust and study orchestral scores in silence, letting the inner sense supply what the outer cannot. Spengler ties this to the Faustian feeling for infinite space: the work points beyond any sensuous surface to 'a whole world of others' behind it.",
+      "cultures": ["faustian"],
+      "tags": ["culture:faustian", "domain:art"],
+      "see_also": ["faustian", "prime-symbol"],
+      "evidence": [{ "claim_type": "lexical-definition", "citations": ["britannica-spengler"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "lexicon", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi7-parallel-rembrandt-bach",
+      "kind": "cross-culture-parallel",
+      "selector": { "exact": "that of Rembrandt as that of the organ works of Buxtehude, Pachelbel and Bach" },
+      "anchor": "Rembrandt … the organ works of Buxtehude, Pachelbel and Bach",
+      "note": "Spengler's most concrete statement of the thesis: within one Culture-period, a painting and a piece of music share an 'inner form-language' so nearly identical that the optical/acoustic difference is negligible. Poussin's landscape answers to the chamber-cantata, Rembrandt to Bach's organ works, Guardi to Mozart's operas. The pairings are meant as morphological equations, not mere analogies.",
+      "cultures": ["faustian"],
+      "tags": ["domain:art", "concept:contemporaneity"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi7-parallel-marble-eye",
+      "kind": "cross-culture-parallel",
+      "selector": { "exact": "He felt the marble with his eye" },
+      "anchor": "He felt the marble with his eye",
+      "note": "The Apollinian counter-case: the Greek's enjoyment of art was sensuous and bodily — he 'felt the marble with his eye', and the aulos moved him almost physically; eye and ear received the whole of the work. The Faustian appeal to an inner, visionary imagination was, Spengler says, simply alien to him. The contrast is the chapter's engine: two utterly different relations between the art-work and the senses.",
+      "cultures": ["apollinian", "faustian"],
+      "tags": ["domain:art", "concept:the-soul"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi7-form-beethoven-deaf",
+      "kind": "form-observation",
+      "selector": { "exact": "It is not an incident that Beethoven wrote his last works when he was deaf" },
+      "anchor": "It is not an incident that Beethoven wrote his last works when he was deaf",
+      "note": "A characteristic Spenglerian flourish, and a good one to weigh. Beethoven's deafness, he says, was no accident but a release — 'sight and hearing equally are bridges into the soul and nothing more.' It is a thrilling claim about the inwardness of Faustian art; notice that it also converts a biographical fact into a symbol with a confidence that outruns any evidence.",
+      "cultures": ["faustian"],
+      "tags": ["view:interpretation", "domain:art"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi7-reception-frye-music",
+      "kind": "scholarly-reception",
+      "selector": { "exact": "the space-straining music since Bach" },
+      "anchor": "the space-straining music since Bach",
+      "note": "Northrop Frye endorses exactly this ranking of music: 'the central art of Faustian man is contrapuntal music', as 'Classical culture expressed its sense of the pure present in its sculpture.' For Frye the Faustian is the culture of 'a drive into infinite distance', so its supreme art is the one that builds and develops in time and space — the fugue and symphony — which is why Spengler's 'space-straining music' is, on this reading, the West's most revealing art.",
+      "cultures": ["faustian"],
+      "tags": ["view:interpretation", "domain:art"],
+      "attribution": { "scholar": "Northrop Frye", "work": "“The Decline of the West” by Oswald Spengler (Daedalus)", "year": 1974, "stance": "contextual", "citation": "frye-decline-1974" },
+      "evidence": [{ "claim_type": "scholarly-interpretation", "citations": ["frye-decline-1974"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi7-difficult-optical-acoustic",
+      "kind": "difficult-material",
+      "selector": { "exact": "the difference between optical and acoustic means is negligible" },
+      "anchor": "the difference between optical and acoustic means is negligible",
+      "note": "The chapter's boldest methodological claim, and a real difficulty. To say the sensory medium of an art is 'negligible' beside its inner form-language lets Spengler equate a painting with a fugue — a liberating idea for cultural analysis, but one that quietly discards exactly what painters and composers labour over. Hold the question: how much of an art really is its medium? Spengler's whole comparative method needs the answer to be 'little'.",
+      "tags": ["view:interpretation", "difficult-material"],
+      "evidence": [{ "claim_type": "difficult-material", "citations": ["hughes-spengler-1952"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi7-parallel-shakespeare-unity",
+      "kind": "cross-culture-parallel",
+      "selector": { "exact": "Shakespeare’s ceaseless change of scene as against the Classical unity of place" },
+      "anchor": "Shakespeare’s ceaseless change of scene as against the Classical unity of place",
+      "note": "A neat illustration of the two world-feelings in dramatic form. Classical tragedy keeps the unity of place — one bounded here-and-now, like the standing body; Shakespeare ranges freely across space and time, addressing the inner imagination. The 'unity of place' is Apollinian; the restless scene-change is Faustian. The same opposition Spengler finds between statue and fugue, he finds between Sophocles and Shakespeare.",
+      "cultures": ["apollinian", "faustian"],
+      "tags": ["domain:art", "concept:the-soul"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    }
+  ]
+}

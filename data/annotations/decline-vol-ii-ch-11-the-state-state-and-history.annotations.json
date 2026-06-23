@@ -1,0 +1,63 @@
+{
+  "unit_id": "decline-vol-ii-ch-11-the-state-state-and-history",
+  "annotations": [
+    {
+      "id": "dv2-11-form-state-at-halt",
+      "kind": "form-observation",
+      "selector": { "exact": "State is history regarded as at the halt, history the State regarded as on the move." },
+      "anchor": "State is history regarded as at the halt, history the State regarded as on the move.",
+      "note": "Spengler's definition of the State, and a neat application of his Being/waking-being method. A people is a being-stream with 'Direction'; look at the movement and you see history, look at the same thing held still — 'the Form as such, as something extended and timelessly standing fast' — and you see the State. They are not two things but one seen two ways: 'State is history regarded as at the halt.' This is why, for him, a State is a living physiognomy, never a paper system.",
+      "tags": ["concept:being-waking-being", "domain:politics"],
+      "see_also": ["being-waking-being"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-11-form-culture-in-state-form",
+      "kind": "form-observation",
+      "selector": { "exact": "Culture is the being of nations in State-form." },
+      "anchor": "Culture is the being of nations in State-form.",
+      "note": "A nation, Spengler says, possesses a State 'not merely as a condition of movement, but also (above all) as an idea.' And 'the State of the grand style is as old as and no older than its two prime Estates, nobility and priesthood' — it emerges with the Culture and vanishes into it. So the State is not a contract or an institution bolted onto a people; it is what a living Culture looks like when it acts in history.",
+      "tags": ["concept:culture-civilization", "domain:politics"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-11-form-in-form-anti-constitution",
+      "kind": "form-observation",
+      "selector": { "exact": "an existence-unit of history is spoilt when we seriously subject its movement to the constraint of a written constitution" },
+      "anchor": "a people 'in form' … is spoilt when … subjected to … a written constitution",
+      "note": "A politically loaded idea. A people is 'in form' the way a racehorse or an army is 'in form' — at peak condition for its wrestle with history — and 'only the smallest part of this can be got at by means of the reason.' The living constitution is 'the unwritten, the indescribable, the usual, the felt,' which 'outweigh everything else,' so a people 'is spoilt' when forced under a paper constitution. Read critically: this 'living form over written law' instinct is the same one that fed the anti-parliamentary mood of his moment, and it cuts against the constitutionalism most readers will value.",
+      "tags": ["view:interpretation", "domain:politics"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-11-form-estate-vs-state",
+      "kind": "form-observation",
+      "selector": { "exact": "two such life-forms, Estate and State, contend for supremacy" },
+      "anchor": "Estate and State contend for supremacy — the social against the political",
+      "note": "Spengler's frame for all internal politics: 'Estate' (the social — nobility, priesthood, later money and mind, each pressing its own interest) versus 'State' (the political — the whole people as one acting unit). The social powers always try 'to subordinate the State-ideal to its own Estate-ideal,' and in the extreme 'the one element succeeds so completely as to make the other its tool.' His sympathies lie with the State as a whole over any class that would capture it — a thread that runs straight into the money-and-democracy critique of chapter XII.",
+      "tags": ["view:interpretation", "domain:politics"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-11-lex-caesarism",
+      "kind": "lexicon-term",
+      "selector": { "exact": "I mean that kind of government which, irrespective of any constitutional formulation that it may have, is in its inward self a return to thorough formlessness" },
+      "anchor": "Cæsarism: government which … is in its inward self a return to thorough formlessness",
+      "note": "Spengler's name for the final political form of every Civilization. After money has hollowed out the old constitutional forms, their 'spirit is dead,' and power reverts to sheer personal force — a strong man ruling through institutions that have become empty shells (Spengler's examples: Augustus in Rome, Hwang-ti in China, Amasis in Egypt, Alp Arslan in Baghdad, each behind dead antique forms). Caesarism is, paradoxically, a 'return to formlessness': the end of the age of grand forms and the beginning of a long, post-historical drift. Spengler expected it as the West's near future — the prophecy most argued-over today.",
+      "cultures": ["faustian", "apollinian"],
+      "tags": ["concept:caesarism", "concept:culture-civilization"],
+      "see_also": ["caesarism", "second-religiousness"],
+      "evidence": [{ "claim_type": "lexical-definition", "citations": ["wikipedia-decline"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "lexicon", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    }
+  ]
+}

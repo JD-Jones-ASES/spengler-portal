@@ -1,0 +1,121 @@
+{
+  "unit_id": "man-technics-ch-04-the-second-stage-speech-and-enterprise",
+  "annotations": [
+    {
+      "id": "mt4-form-fifth-millennium",
+      "kind": "form-observation",
+      "selector": { "exact": "at about the fifth millennium B.C." },
+      "anchor": "This mutation can be fixed fairly exactly, at about the fifth millennium B.C.",
+      "note": "Spengler dates a 'second mutation' — pottery, herding, tillage, building, travel — to about 5000 B.C., roughly what archaeology calls the Neolithic revolution, and notes the high Cultures of Egypt and Mesopotamia follow only ~2,000 years later. Notice the accelerating tempo he keeps insisting on: 'with tearing leaps, the rolling stone is approaching the abyss' — geological time gives way to historical time gives way to the crisis of our own century.",
+      "tags": ["view:interpretation", "domain:method"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "mt4-teacher-collective-doing",
+      "kind": "teacher-note",
+      "selector": { "exact": "planful doing in numbers. Until then each man lives his own life" },
+      "anchor": "planful doing in numbers. Until then each man lives his own life",
+      "note": "The spiritual change of the second stage, in three words: 'collective doing by plan' — what Spengler also calls the enterprise. Where each predator-man once made his own weapon and needed no one, now long, multi-person tasks (felling a tree, then years later sailing the ship built from it) demand coordination. And coordination demands a medium — which is why speech, in his argument, must be born at exactly this moment, not before.",
+      "tags": ["view:interpretation", "concept:enterprise"],
+      "see_also": ["enterprise"],
+      "evidence": [{ "claim_type": "interpretive", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "mt4-form-speech-enterprise-parallel",
+      "kind": "form-observation",
+      "selector": { "exact": "Speaking and enterprise presuppose each other in precisely the same way as, earlier, hand and tool." },
+      "anchor": "Speaking and enterprise presuppose each other in precisely the same way as, earlier, hand and tool.",
+      "note": "Spengler builds the second stage by analogy to the first: speech is to enterprise what the hand was to the tool — inseparable, co-evolved, two faces of one act. This parallelism is his compositional signature. Spotting it tells you what he thinks language is for: not contemplation but the running of joint undertakings.",
+      "tags": ["concept:enterprise", "domain:method"],
+      "see_also": ["hand-and-tool", "enterprise"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "mt4-form-hamann-herder-language",
+      "kind": "form-observation",
+      "selector": { "exact": "Ever since Hamann and Herder, men have again and again set themselves the question of its origin." },
+      "anchor": "Ever since Hamann and Herder, men have again and again set themselves the question of its origin.",
+      "note": "Spengler enters an old German debate on the origin of language (J. G. Hamann, J. G. Herder) only to reject both sides. Against the Romantics (Herder), language did not begin as 'primary poesy' — myth and lyric; against the rationalists, the sentence is not first a 'judgment' or 'thought'. His own answer: speech is practical and dialogic from the start — command, question, answer ('Do this!' 'Ready?' 'Yes!'), the verbal side of getting a job done together.",
+      "tags": ["view:interpretation", "domain:method"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "mt4-form-mephistopheles-faust",
+      "kind": "form-observation",
+      "selector": { "exact": "as Mephistopheles ironically expresses it in Faust" },
+      "anchor": "as Mephistopheles ironically expresses it in Faust",
+      "note": "Spengler illustrates the 'will-to-more-power' of collective enterprise with Goethe's Faust — Mephistopheles' boast that money harnessing six horses makes their twenty-four legs his own. Goethe is the master Spengler credits with his method, and Faust is his recurring emblem of the Western, 'Faustian' soul. The quotation is the Anster translation, as the translator's footnote records.",
+      "cultures": ["faustian"],
+      "tags": ["view:interpretation", "concept:will-to-power"],
+      "see_also": ["faustian"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "mt4-teacher-command-and-obey",
+      "kind": "teacher-note",
+      "selector": { "exact": "there are by nature commanders and obeyers" },
+      "anchor": "there are by nature commanders and obeyers, subjects and objects of the political or economic procedures",
+      "note": "The enterprise splits not only work (planning vs. executing) but mankind: leaders and led, 'subjects and objects of the political or economic process'. Spengler presents this as a natural fact 'only to be eliminated along with life itself', and ties genius (creative power) to command. This is the anti-egalitarian spine of his politics — track it into the next note, and into the Decline's account of Caesarism.",
+      "tags": ["view:interpretation", "domain:politics"],
+      "evidence": [{ "claim_type": "interpretive", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "mt4-difficult-all-men-equal",
+      "kind": "difficult-material",
+      "selector": { "exact": "proves that there is here something to be explained away" },
+      "anchor": "the talk of the 'natural equality of all' proves that there is here something to be explained away",
+      "note": "Difficult material, read it with a cold eye. Spengler treats a natural ranking of men as plain fact and the claim that 'all men are equal' as a decadent evasion. This is the elitist, anti-democratic strain he shares with the late-Weimar radical Right, and it is asserted, not demonstrated — the 'fact' does the work a value-judgment should. Later readers generally take this as the ideology of the system, not a finding of it; weigh it as such rather than swallowing or simply skipping it.",
+      "tags": ["difficult-material", "domain:politics"],
+      "evidence": [{ "claim_type": "difficult-material", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "mt4-form-politics-substitute-for-war",
+      "kind": "form-observation",
+      "selector": { "exact": "Politics is only the temporary substitute of war by the struggle with more spiritual weapons." },
+      "anchor": "Politics is only the temporary substitute of war by the struggle with more spiritual weapons.",
+      "note": "Spengler inverts Clausewitz's famous formula (war as the continuation of politics): for him politics is sublimated war, and 'history, of old as now, is war-history.' Hence his definition of the state — 'the internal order of a people for its external purpose' — peace within so that force is available without. The beast of prey has simply scaled up: 'the animal with one soul and many hands.'",
+      "tags": ["view:interpretation", "domain:politics"],
+      "see_also": ["beast-of-prey"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "mt4-form-frederick-first-servant",
+      "kind": "form-observation",
+      "selector": { "exact": "I am the first servant of my State" },
+      "anchor": "Frederick the Great's saying: 'I am the first servant of my State'",
+      "note": "Frederick II of Prussia's famous self-description. Spengler cites it to make a melancholy point: even the absolute ruler is now a 'servant' — the organized state has caged the leader as surely as the led. The old predator-freedom survives only as the lonely struggle of 'the exceptional man to keep himself inwardly free', which Spengler links to the conqueror, the adventurer, the hermit, even the criminal.",
+      "tags": ["view:interpretation", "domain:politics"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "mt4-form-self-made-cage",
+      "kind": "form-observation",
+      "selector": { "exact": "The beast of prey, who made other beings his domestic animals in order to exploit them for himself, has captured himself." },
+      "anchor": "The beast of prey … has captured himself",
+      "note": "The tragic turn of the whole 'enterprise' chapter: in organizing the world, man cages himself. Culture, 'the sum of artificial, personal, self-created life-forms,' becomes 'a cage with narrow bars for this unruly soul.' 'The house of man is the great symbol of it.' This self-capture is the seed of the machine's later revolt against its maker (ch. V).",
+      "tags": ["concept:tragedy", "view:interpretation"],
+      "see_also": ["culture-civilization"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    }
+  ]
+}

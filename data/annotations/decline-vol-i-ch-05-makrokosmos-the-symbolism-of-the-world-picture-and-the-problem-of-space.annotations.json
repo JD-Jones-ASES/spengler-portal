@@ -1,0 +1,113 @@
+{
+  "unit_id": "decline-vol-i-ch-05-makrokosmos-the-symbolism-of-the-world-picture-and-the-problem-of-space",
+  "annotations": [
+    {
+      "id": "dvi5-teacher-prime-symbol",
+      "kind": "teacher-note",
+      "selector": { "exact": "we shall consider the kind of extension as the prime symbol of a Culture" },
+      "anchor": "the kind of extension as the prime symbol of a Culture",
+      "note": "This is the engine of the whole book and the hardest idea to take on first reading. Spengler claims that each Culture is born with a single root-intuition of space — a 'prime-symbol' — and that everything the Culture then makes (its mathematics, art, religion, politics) is that one feeling unfolding. Don't demand proof here; grasp the move. Once you accept that a Culture has one space-feeling, the side-by-side comparisons of the rest of the book follow.",
+      "tags": ["view:interpretation", "concept:prime-symbol"],
+      "evidence": [{ "claim_type": "interpretive", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi5-lex-prime-symbol",
+      "kind": "lexicon-term",
+      "selector": { "exact": "for the Classical world-view the near, strictly limited, self-contained Body, for the Western infinitely wide and infinitely profound three-dimensional Space, for the Arabian the world as a Cavern" },
+      "anchor": "the … Body … the Western … Space … the Arabian the world as a Cavern",
+      "note": "Here are the three prime-symbols stated together. The Classical (Apollinian) soul takes as its root-symbol the near, bounded, self-contained Body; the Western (Faustian) soul, pure infinite three-dimensional Space; the Arabian (Magian) soul, the world as a Cavern (the domed mosque, the enclosed cosmos of light and dark). From each, Spengler says, the Culture's whole world is deduced.",
+      "cultures": ["apollinian", "faustian", "magian"],
+      "tags": ["concept:prime-symbol", "domain:method"],
+      "see_also": ["prime-symbol", "apollinian", "faustian", "magian"],
+      "evidence": [{ "claim_type": "lexical-definition", "citations": ["britannica-spengler"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "lexicon", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi5-parallel-directions",
+      "kind": "cross-culture-parallel",
+      "selector": { "exact": "Chinese, in free hither-and-thither wandering that nevertheless goes to the goal; Egyptian in resolute march down the path once entered" },
+      "anchor": "Chinese … free … wandering … to the goal; Egyptian … resolute march down the path",
+      "note": "Spengler reads a Culture's feeling for direction off its sense of life: Classical man clings to the near present, Faustian man strains toward the most distant horizon, the Chinese wanders by winding ways that still arrive, the Egyptian marches resolutely down the one path he has entered. These directional styles are the seeds of the Egyptian prime-symbol (the Way) and the Chinese (the Tao) that organize the Comparative Tables.",
+      "cultures": ["apollinian", "faustian", "chinese", "egyptian"],
+      "tags": ["concept:prime-symbol", "domain:method"],
+      "see_also": ["egyptian", "chinese", "prime-symbol"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi5-lex-faustian-space",
+      "kind": "lexicon-term",
+      "selector": { "exact": "Infinite space is the ideal that the Western soul has always striven to find" },
+      "anchor": "Infinite space is the ideal that the Western soul has always striven to find",
+      "note": "The Faustian prime-symbol named directly: pure, infinite space. Spengler reads the West's centuries of space-theories, its perspective painting, its long-range artillery and its calculus as so many attempts to seize the limitless — the same yearning Goethe gave to Faust. Watch how he treats even physics as a 'symptom of a world-feeling' rather than neutral knowledge.",
+      "cultures": ["faustian"],
+      "tags": ["culture:faustian", "concept:prime-symbol"],
+      "see_also": ["faustian", "prime-symbol"],
+      "evidence": [{ "claim_type": "lexical-definition", "citations": ["britannica-spengler"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "lexicon", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi5-parallel-classical-silence",
+      "kind": "cross-culture-parallel",
+      "selector": { "exact": "the whole Classical world never expended one word on it" },
+      "anchor": "the whole Classical world never expended one word on it",
+      "note": "A favourite Spenglerian argument from silence: the problem of space, which obsesses the West from Descartes to Kant to Einstein, the Classical world never even posed — it had no word for it. For Spengler this silence is not an oversight but proof that space was simply not the Greeks' prime-symbol; the bounded body was. Each Culture, on this view, can only ask the questions its own soul contains.",
+      "cultures": ["apollinian", "faustian"],
+      "tags": ["concept:prime-symbol", "view:interpretation"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi5-reception-frye-prime-symbols",
+      "kind": "scholarly-reception",
+      "selector": { "exact": "the prime-symbol of the Classical soul is the material and individual body, that of the Western pure infinite space" },
+      "anchor": "the prime-symbol of the Classical soul is the … body, that of the Western … infinite space",
+      "note": "Northrop Frye, expounding the system, runs through the same prime-symbols — the cavern for the Magian (the mosque), the straight way for the Egyptian, the garden for the wandering Chinese — and singles out the Western: its central symbol is 'a centre with radiating points', a 'drive into infinite distance that makes it unique among other cultures', whose central art is contrapuntal music as Classical culture's was sculpture. Frye takes the scheme seriously as imaginative morphology, the most fertile part of Spengler's vision.",
+      "cultures": ["faustian", "apollinian"],
+      "tags": ["view:interpretation", "concept:prime-symbol"],
+      "attribution": { "scholar": "Northrop Frye", "work": "“The Decline of the West” by Oswald Spengler (Daedalus)", "year": 1974, "stance": "contextual", "citation": "frye-decline-1974" },
+      "evidence": [{ "claim_type": "scholarly-interpretation", "citations": ["frye-decline-1974"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi5-difficult-incommensurable",
+      "kind": "difficult-material",
+      "selector": { "exact": "is a purely Western problem that simply does not arise in the intellects of other Cultures" },
+      "anchor": "a purely Western problem that … does not arise in the intellects of other Cultures",
+      "note": "The strong relativist claim, and the chapter's deep difficulty. If the very questions a mind can ask are fixed by its Culture's prime-symbol, then Cultures are, at bottom, mutually unintelligible — a Greek could not even be made to see the West's problem of space. This gives Spengler enormous explanatory reach but at a steep price: taken strictly it would make his own cross-cultural insight impossible. Hold the tension; it is the same self-endangering relativism met in the chapter on number.",
+      "tags": ["view:interpretation", "difficult-material"],
+      "evidence": [{ "claim_type": "difficult-material", "citations": ["hughes-spengler-1952"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi5-form-anamnesis",
+      "kind": "form-observation",
+      "selector": { "exact": "connecting it with an early Hellenic belief" },
+      "anchor": "Plato … called anamnesis",
+      "note": "Spengler insists the prime-symbol is at once innate and re-enacted: every child of a Culture unfolds its depth-symbol 'as the emerging butterfly unfolds its wings', recovering what was always its own — which he aligns with Plato's anamnesis, knowledge as recollection. Note the two patrons of the move: Goethe's living form (the butterfly) and Plato's recollection, enlisted to make the prime-symbol feel discovered rather than asserted.",
+      "tags": ["view:interpretation", "domain:method"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi5-form-kant-parochial",
+      "kind": "form-observation",
+      "selector": { "exact": "tackled with a passion that itself is symbolic" },
+      "anchor": "the “eternal problem” that Kant … tackled with a passion that itself is symbolic",
+      "note": "A characteristic reversal. Kant treated the nature of space as the eternal problem of the human mind as such; Spengler answers that Kant's very passion for it is a symptom — the problem is parochially Western, unthinkable to a Classical mind. The move turns a philosopher's claim to universality into evidence for Spengler's thesis of culture-bound cognition. It is brilliant and circular at once; weigh which.",
+      "tags": ["view:interpretation", "domain:method"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "spengler-portal",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "dev:preview": "set LOCAL_ROOT=1&& astro dev --port 4321",
+    "build": "astro build",
+    "preview": "astro preview",
+    "ingest:spine": "node scripts/ingest/build-cleaned-spine.mjs",
+    "ingest:footnotes": "node scripts/ingest/build-footnotes.mjs",
+    "ingest:manifest": "node scripts/ingest/build-chapter-manifest.mjs",
+    "ingest:concordance": "node scripts/ingest/build-concordance.mjs",
+    "ingest:paths": "node scripts/ingest/build-reading-paths.mjs",
+    "ingest:selectors": "node scripts/ingest/build-annotation-selectors.mjs",
+    "ingest:indexes": "node scripts/ingest/build-annotation-indexes.mjs",
+    "ingest:table": "node scripts/ingest/build-comparative-table.mjs",
+    "ingest:lexicon": "node scripts/ingest/build-lexicon-graph.mjs",
+    "validate:basic": "node scripts/validate/validate-basic.mjs",
+    "prepare:data": "npm run ingest:spine && npm run ingest:footnotes && npm run ingest:manifest && npm run ingest:concordance && npm run ingest:paths && npm run ingest:selectors && npm run ingest:indexes && npm run ingest:table && npm run ingest:lexicon && npm run validate:basic",
+    "review": "node scripts/review/build-review-tool.mjs",
+    "review:apply": "node scripts/ingest/apply-review-resolutions.mjs"
+  },
+  "dependencies": {
+    "@astrojs/svelte": "^9.0.0",
+    "astro": "^7.0.0",
+    "svelte": "^5.56.3"
+  },
+  "devDependencies": {
+    "@fontsource-variable/source-serif-4": "^5.2.5",
+    "@fontsource-variable/space-grotesk": "^5.2.5",
+    "@fontsource/ibm-plex-mono": "^5.2.5",
+    "ajv": "^8.20.0",
+    "ajv-formats": "^3.0.1",
+    "an-array-of-english-words": "^2.0.0"
+  }
+}

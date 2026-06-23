@@ -1,0 +1,80 @@
+---
+import Layout from "../../components/Layout.astro";
+import PhaseClock from "../../components/PhaseClock.astro";
+import { publishedUnits, getConcordance, getLexicon, getSources } from "../../lib/guide-data.js";
+
+const units = publishedUnits();
+const topics = getConcordance().entries.length;
+const terms = getLexicon().terms.length;
+const sources = getSources().length;
+---
+
+<Layout title="About & Method" current="about">
+  <section class="wrap page-head narrow">
+    <p class="eyebrow">How this was made</p>
+    <h1>Method</h1>
+    <p class="lede">A reading room built on one rule: <strong>verification is the product</strong>.</p>
+  </section>
+
+  <section class="wrap narrow" style="padding-bottom:3rem;line-height:1.7;color:var(--ink-soft);">
+    <div class="stats">
+      <div class="stat"><div class="n tnum">{units.length}</div><div class="l">chapters published</div></div>
+      <div class="stat"><div class="n tnum">{topics}</div><div class="l">topic-index entries</div></div>
+      <div class="stat"><div class="n tnum">{terms}</div><div class="l">lexicon terms</div></div>
+      <div class="stat"><div class="n tnum">{sources}</div><div class="l">verified sources</div></div>
+    </div>
+
+    <h2 class="section-h">What this is</h2>
+    <p>
+      This is a source-cited reading room for Oswald Spengler. It begins with <em>The Decline of the
+      West</em>, Volume I — the full public-domain Atkinson translation — and is built to grow to his
+      other works. The point is not to abridge Spengler but to give a new reader the apparatus he
+      needs: a navigable text, a search that reaches every word, a lexicon of Spengler's private
+      vocabulary, and an interactive recreation of his Comparative Tables.
+    </p>
+
+    <h2 class="section-h">The text is never altered</h2>
+    <p>
+      The raw scans live read-only; nothing is ever edited in place. A deterministic, logged program
+      turns them into the clean reading text you see — stripping page numbers, rejoining hyphenated
+      lines, lifting footnotes — and records every change it makes. Where the scan is corrupted in a
+      way that would change Spengler's meaning, the program <strong>flags it rather than guessing</strong>.
+      That is why Volume II and <em>Man and Technics</em> are registered here but not yet published:
+      their scans carry damage no machine should silently "correct."
+    </p>
+
+    <h2 class="section-h">Two rules for the notes</h2>
+    <p>
+      The annotations are written by an AI under a verification system designed by the site's author,
+      and the build refuses to publish anything that breaks its rules:
+    </p>
+    <ul>
+      <li><strong>A note that teaches a fact</strong> — a date, a definition, who someone was — must
+        cite a source <em>other than Spengler</em>. The build fails if it doesn't.</li>
+      <li><strong>A note that offers an interpretation</strong> — especially a criticism of Spengler,
+        who is a deeply contested thinker — must name the scholar it comes from, cite that scholarship,
+        and be phrased as an attribution, never as settled fact. You will see these flagged in the
+        margin as <em>“a reading attributed to …”</em>.</li>
+    </ul>
+    <p>
+      You can filter the search by <em>fact</em> versus <em>interpretation</em>. That split is the
+      whole ethic of the site, exposed as a control.
+    </p>
+
+    <h2 class="section-h">A note on Spengler</h2>
+    <p>
+      Spengler's morphology of history is grand, suggestive, and frequently wrong in its particulars —
+      his datings can be checked and his cultural rankings carry the prejudices of 1918. This portal
+      neither endorses nor debunks him. It gives you the text in full, the scholarship beside it, and
+      the tools to argue with him yourself.
+    </p>
+
+    <p style="margin-top:2rem;">
+      <PhaseClock size={40} />
+    </p>
+    <p class="muted" style="font-size:0.85rem;">
+      Code is MIT-licensed; the editorial apparatus is CC BY-SA 4.0. Source texts are the
+      public-domain Charles Francis Atkinson translations.
+    </p>
+  </section>
+</Layout>

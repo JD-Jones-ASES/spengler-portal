@@ -1,0 +1,139 @@
+{
+  "unit_id": "decline-vol-i-ch-02-the-meaning-of-numbers",
+  "annotations": [
+    {
+      "id": "dvi2-teacher-number-thesis",
+      "kind": "teacher-note",
+      "selector": { "exact": "There is not, and cannot be, number as such." },
+      "anchor": "There is not, and cannot be, number as such.",
+      "note": "This is the chapter's scandalous thesis, and the reason mathematics comes so early in the book. Spengler denies that there is one universal mathematics that every people slowly discovers; instead each Culture grows its own number-world out of its own soul. Don't read the chapter for math you must follow — read it for the claim that even number, the thing we treat as most certainly universal, turns out to be culturally shaped. If that holds for number, Spengler thinks, it can hold for everything.",
+      "tags": ["view:interpretation", "concept:morphology"],
+      "evidence": [{ "claim_type": "interpretive", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi2-translation-becoming",
+      "kind": "translation-note",
+      "selector": { "exact": "Das Werden, das Gewordne" },
+      "anchor": "Das Werden, das Gewordne",
+      "note": "Spengler's German pair: das Werden, 'the becoming' (living process, direction, time) and das Gewordene, 'the become' (the finished, extended, spatial thing). He takes the distinction from Goethe and builds the whole book on it — Nature is the realm of the become, History the realm of becoming. Number, he will argue, belongs wholly to the become.",
+      "tags": ["domain:method", "translation", "concept:becoming-become"],
+      "see_also": ["becoming-become"],
+      "evidence": [{ "claim_type": "translation-philology", "citations": ["wikipedia-decline"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi2-lex-number-magnitude-function",
+      "kind": "lexicon-term",
+      "selector": { "exact": "the inner structure of the Euclidean geometry is something quite different from that of the Cartesian" },
+      "anchor": "the inner structure of the Euclidean geometry … quite different from … the Cartesian",
+      "note": "Spengler's core mathematical claim, made concrete. Classical (Apollinian) number is magnitude — the unit, the measurable amount, embodied in Euclid's geometry of figures and the Pythagorean ratios. Western (Faustian) number is function — a pure relation, a variable, the limit and the infinite, embodied in Descartes's coordinate geometry and the Newton–Leibniz calculus. To pass from Euclid to the calculus is, for him, to pass from one soul to another.",
+      "cultures": ["apollinian", "faustian"],
+      "tags": ["concept:number", "domain:mathematics"],
+      "see_also": ["number-magnitude-function", "apollinian", "faustian"],
+      "evidence": [{ "claim_type": "lexical-definition", "citations": ["sep-pythagoras", "sep-continuity-infinitesimals"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "lexicon", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi2-lex-comparative-morphology",
+      "kind": "lexicon-term",
+      "selector": { "exact": "The comparative morphology of knowledge forms is a domain which Western thought has still to attack." },
+      "anchor": "The comparative morphology of knowledge forms",
+      "note": "Here Spengler names his own method, and his ambition: a comparative morphology — a Goethean botany — not of plants but of the forms of knowing. Each Culture's logic and mathematics is one such form, to be compared with the others as one compares the leaf of one plant with another: by shape and stage of growth, not by which is 'true'.",
+      "tags": ["concept:morphology", "domain:method"],
+      "see_also": ["morphology", "physiognomic-systematic"],
+      "evidence": [{ "claim_type": "lexical-definition", "citations": ["britannica-spengler"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "lexicon", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi2-reception-frye-nature-history",
+      "kind": "scholarly-reception",
+      "selector": { "exact": "Nature is the numerable, while History, on the other hand, is the aggregate of that which has no relation to mathematics" },
+      "anchor": "Nature is the numerable, while History … has no relation to mathematics",
+      "note": "According to Northrop Frye, the framework here is a Romantic one 'derived ultimately from Fichte's adaptation of Kant': the world known to science and mathematics is the spatial, mechanical domain of Nature, set over against the time-world of life and history, which can be reached only by feeling, intuition and symbol. Read in that light, Spengler's banishing of number to the side of 'Nature' is less a thesis in the philosophy of mathematics than a move in this larger metaphysics — and, Frye adds, the analogical method it rests on can no longer be dismissed as merely 'mystical'.",
+      "cultures": ["faustian"],
+      "tags": ["view:interpretation", "concept:world-as-history"],
+      "attribution": { "scholar": "Northrop Frye", "work": "“The Decline of the West” by Oswald Spengler (Daedalus)", "year": 1974, "stance": "sympathetic", "citation": "frye-decline-1974" },
+      "evidence": [{ "claim_type": "scholarly-interpretation", "citations": ["frye-decline-1974"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi2-parallel-pythagoras-descartes",
+      "kind": "cross-culture-parallel",
+      "selector": { "exact": "In the first case, the agent was Pythagoras, in the second Descartes." },
+      "anchor": "the agent was Pythagoras … the second Descartes",
+      "note": "Spengler pairs two founding acts: Pythagoras gives the Classical soul its number (magnitude, the ratio); Descartes gives the Western soul its number (the coordinate, the function). He insists the two acts are 'at bottom the same' — each is a soul winning its own mathematic — even though their content is opposite. Pairing figures a thousand years apart by their place in the life-cycle, rather than by date, is exactly the 'contemporaneity' the Comparative Tables tabulate.",
+      "cultures": ["apollinian", "faustian"],
+      "tags": ["concept:contemporaneity", "domain:mathematics"],
+      "see_also": ["contemporaneity", "number-magnitude-function"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi2-hist-pythagoras",
+      "kind": "historical-reference",
+      "selector": { "exact": "Pythagoras was the first in the Classical Culture to conceive number scientifically" },
+      "anchor": "Pythagoras … to conceive number scientifically … as standard and as magnitude",
+      "note": "Pythagoras of Samos (6th century BC) gave his name to a school that saw number as the key to the world-order — the cosmos structured by numerical relationships, and famously the musical concords answering to simple whole-number ratios (the octave 2:1, the fifth 3:2, the fourth 4:3). This is number as magnitude and proportion, exactly the Classical conception Spengler is describing. He treats Pythagoras not as the discoverer of a universal truth but as the man through whom the Apollinian soul first found its own number.",
+      "cultures": ["apollinian"],
+      "tags": ["concept:number", "domain:mathematics"],
+      "see_also": ["number-magnitude-function", "apollinian"],
+      "evidence": [{ "claim_type": "historical-context", "citations": ["sep-pythagoras"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi2-hist-calculus",
+      "kind": "historical-reference",
+      "selector": { "exact": "the Infinitesimal Calculus in the earliest forms of Gothic architecture" },
+      "anchor": "the Infinitesimal Calculus",
+      "note": "The infinitesimal calculus — the mathematics of change, the variable and the limit — was created in the late 17th century, independently by Isaac Newton (his 'fluxions') and Gottfried Wilhelm Leibniz (the differential and integral calculus), and made rigorous in the 19th century by Cauchy and Weierstrass. For Spengler this is the Faustian 'number as function', the soul of infinite space made calculable — and he provocatively dates its spirit to the Gothic, centuries before Newton and Leibniz were born.",
+      "cultures": ["faustian"],
+      "tags": ["concept:number", "domain:mathematics"],
+      "see_also": ["number-magnitude-function", "faustian"],
+      "evidence": [{ "claim_type": "historical-context", "citations": ["sep-continuity-infinitesimals"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi2-form-no-mathematic",
+      "kind": "form-observation",
+      "selector": { "exact": "There is no mathematic but only mathematics." },
+      "anchor": "There is no mathematic but only mathematics.",
+      "note": "A signature Spenglerian aphorism: he dissolves a supposed universal ('the mathematic') into a plurality of self-contained, culture-bound mathematics. Notice the rhetorical shape — it is the same move he made in the Introduction when he demoted 'ancient–medieval–modern' to a parochial scheme. The epigram does a great deal of persuasive work on its own; weigh whether the contrast it asserts is argued or simply declared.",
+      "tags": ["view:interpretation", "domain:method"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi2-form-mathematics-in-stone",
+      "kind": "form-observation",
+      "selector": { "exact": "Gothic cathedrals and Doric temples are mathematics in stone." },
+      "anchor": "Gothic cathedrals and Doric temples are mathematics in stone.",
+      "note": "One of the book's most memorable images, and a good test of Spengler's method. He claims a Culture's mathematic is already present in its earliest art — the Doric column, the Gothic vault — before any mathematician states it: the Euclidean geometry 'actualized' in Classical ornament, the calculus in Gothic architecture. Whether this is a deep insight or a poet's analogy is precisely the question the chapter forces on you.",
+      "cultures": ["apollinian", "faustian"],
+      "tags": ["view:interpretation", "domain:art"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi2-difficult-kant-apriori",
+      "kind": "difficult-material",
+      "selector": { "exact": "the supposed constant structure of the intellect is an illusion" },
+      "anchor": "the supposed constant structure of the intellect is an illusion",
+      "note": "The chapter's hardest and most sweeping claim. Kant had argued that the basic forms of human cognition are a fixed, universal a priori — the same for every mind. Spengler denies it: there is 'more than one style of knowing', each bound to a Culture. The stakes are enormous (if true, no knowledge is fully universal) and the claim is also self-endangering, since it seems to relativise Spengler's own system as well. Hold the difficulty; readers have split sharply ever since over whether this is profound or self-refuting.",
+      "tags": ["view:interpretation", "difficult-material"],
+      "evidence": [{ "claim_type": "difficult-material", "citations": ["hughes-spengler-1952"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    }
+  ]
+}

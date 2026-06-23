@@ -1,0 +1,108 @@
+{
+  "unit_id": "man-technics-ch-03-the-origin-of-man-hand-and-tool",
+  "annotations": [
+    {
+      "id": "mt3-form-genesis-of-hand",
+      "kind": "form-observation",
+      "selector": { "exact": "The answer runs: through the arising of the hand." },
+      "anchor": "The answer runs: through the arising of the hand.",
+      "note": "Spengler's answer to 'how did man become man?' is: the hand. He calls it 'a weapon unparalleled' — at once the organ of touch and of action, theoretically grasping the world (with the eye) and practically commanding it. The chapter's whole case is that the human story is the story of this one member; everything else (upright gait, the head, the soul) follows from it.",
+      "tags": ["concept:hand-and-tool", "domain:method"],
+      "see_also": ["hand-and-tool"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "mt3-form-catastrophe-not-gradual",
+      "kind": "form-observation",
+      "selector": { "exact": "World-history strides forward from catastrophe to catastrophe" },
+      "anchor": "World-history strides forward from catastrophe to catastrophe",
+      "note": "A deliberate rejection of nineteenth-century gradualism. Against Lyell's slow geological 'evolution' ('truly appropriate to the English nature, but … not Nature'), Spengler wants sudden, total change, and recruits Hugo de Vries's mutation theory as his scientific ally: man, hand and all, appears 'as abruptly as a flash of lightning'. Note the method — he picks the biology that fits a morphology of leaps, not lines.",
+      "tags": ["view:interpretation", "domain:method"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "mt3-form-hand-and-tool-coeval",
+      "kind": "form-observation",
+      "selector": { "exact": "As the tool took form from the shape of the hand, so conversely the hand on the shape of the tool." },
+      "anchor": "As the tool took form from the shape of the hand, so conversely the hand on the shape of the tool.",
+      "note": "The title's claim: hand and tool are inseparable and equally old — 'It is meaningless to attempt to divide the two chronologically.' The unarmed hand is 'useless'; it needs a weapon to become a weapon. This co-origination is the template Spengler reuses in ch. IV, where speech and enterprise stand to each other 'as the older pair hand and implement'.",
+      "tags": ["concept:hand-and-tool", "domain:method"],
+      "see_also": ["hand-and-tool"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "mt3-form-thought-of-eye-and-hand",
+      "kind": "form-observation",
+      "selector": { "exact": "the truth-men — the priest, the scholar, the philosopher — and of the fact-men — the politician, the general, the merchant" },
+      "anchor": "the truth-men — the priest, the scholar, the philosopher — and of the fact-men — the politician, the general, the merchant",
+      "note": "From the 'thought of the eye' (contemplation, cause and effect, true/false) and the 'thought of the hand' (action, means and end, suitable/unsuitable) Spengler derives two permanent human types: truth-men (priest, scholar, philosopher) and fact-men (statesman, general, merchant). The pair runs through the rest of the book and through the Decline's politics; an 'aim is a fact, a connexion of cause and effect is a truth.'",
+      "tags": ["view:interpretation", "domain:method"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "mt3-form-fire-first-deed",
+      "kind": "form-observation",
+      "selector": { "exact": "Nothing is so telling for the difference as the kindling of fire." },
+      "anchor": "Nothing is so telling for the difference as the kindling of fire.",
+      "note": "Fire is Spengler's example of the first true 'deed' (as against mere animal activity): animals see fire start, but man alone thinks out how to make it — 'one of the most uncanny, violent, enigmatic phenomena of Nature … henceforth called into life by Man himself, against Nature.' The Promethean theme of ch. I is now literal, and the phrase 'against Nature' begins to toll.",
+      "tags": ["concept:tragedy", "view:interpretation"],
+      "see_also": ["technics"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "mt3-form-art-counter-to-nature",
+      "kind": "form-observation",
+      "selector": { "exact": "Every technical procedure of man is an art and has always been so called" },
+      "anchor": "Every technical procedure of man is an art and has always been so called",
+      "note": "Spengler stretches 'Art' to mean everything man-made and so unnatural — archery, war, government, sacrifice, painting, experiment alike. 'Free will itself is an act of rebellion.' This is why, for him, technics and the fine arts are one family: both are the privilege of creation 'wrested from Nature', and every creation pushes man further from her.",
+      "tags": ["concept:technics", "view:interpretation"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "mt3-teacher-mans-tragedy",
+      "kind": "teacher-note",
+      "selector": { "exact": "for Nature is the stronger. Man remains dependent upon her" },
+      "anchor": "The tragedy of man begins, for Nature is the stronger",
+      "note": "The tragic core of the book, stated as plainly as Spengler ever states anything. Man rebels against Nature — 'raises his hand against his mother' — but Nature is the stronger and still 'embraces him … within herself'. The rebellion is therefore doomed in advance and fought anyway. Everything from here, including the machine, is this single tragedy enlarging.",
+      "tags": ["view:interpretation", "concept:tragedy"],
+      "evidence": [{ "claim_type": "interpretive", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "mt3-form-cultures-are-defeats",
+      "kind": "form-observation",
+      "selector": { "exact": "All the great Cultures are so many defeats." },
+      "anchor": "All the great Cultures are so many defeats.",
+      "note": "A line worth pausing on. In the Decline a Culture's life-cycle ends in Civilization and decline; here Spengler radicalizes it — the creative act is itself already a defeat, because it deepens the doomed quarrel with Nature. 'Whole races remain, inwardly destroyed and broken … as corpses on the field.' The grandeur and the catastrophe are, again, the same event.",
+      "tags": ["concept:tragedy", "view:interpretation"],
+      "see_also": ["culture-civilization"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "mt3-teacher-fight-hopeless",
+      "kind": "teacher-note",
+      "selector": { "exact": "The struggle against Nature is hopeless, and nevertheless it will be fought out to the end." },
+      "anchor": "The struggle against Nature is hopeless, and nevertheless it will be fought out to the end.",
+      "note": "The chapter ends on the ethic the whole book will end on: the fight is hopeless 'and yet … will be fought out to the bitter end.' This is the heroic-pessimist stance — value lies in how one meets a doom one cannot avert, not in any prospect of winning. Hold it next to the Pompeii sentry of the final page; they are the same thought.",
+      "tags": ["view:interpretation", "concept:tragedy"],
+      "evidence": [{ "claim_type": "interpretive", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    }
+  ]
+}

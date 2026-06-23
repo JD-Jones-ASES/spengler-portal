@@ -1,0 +1,60 @@
+{
+  "id": "culture-phases",
+  "title": "The Phase-Clock — Cultures in Morphological Time",
+  "source": "Decline of the West, Vol. I — phase dates transcribed from the Comparative Tables II (Culture-Epochs) and III (Political-Epochs).",
+  "source_citation": "gutenberg-decline-i",
+  "contemporaneity_note": "Each Culture's life is normalized to its own span, so reading down any vertical line shows the stages Spengler calls 'contemporary' — at the same point in the life-cycle, whatever the calendar date. The phase dates are his own, from the Comparative Tables; the alignment by morphological age is his contemporaneity thesis, not a claim of equal calendar duration. The West's Civilization terminus (~2200) is Spengler's forward projection, not a dated fact.",
+  "now": { "year": 2026, "culture": "faustian", "label": "We are here" },
+  "cultures": [
+    {
+      "id": "egyptian", "label": "Egyptian", "cult": "egyptian",
+      "span_start": -3400, "span_end": -1205, "birth": -2900,
+      "phases": [
+        { "id": "pre-cultural", "label": "Pre-Cultural", "style": "Thinite Period", "from": -3400, "to": -2900 },
+        { "id": "early", "label": "Early (Spring–Summer)", "style": "Old Kingdom", "from": -2900, "to": -2150 },
+        { "id": "late", "label": "Late (Autumn)", "style": "Middle Kingdom", "from": -2150, "to": -1580 },
+        { "id": "civilization", "label": "Civilization (Winter)", "style": "New Kingdom", "from": -1580, "to": -1205 }
+      ]
+    },
+    {
+      "id": "chinese", "label": "Chinese", "cult": "chinese",
+      "span_start": -1700, "span_end": 220, "birth": -1300,
+      "phases": [
+        { "id": "pre-cultural", "label": "Pre-Cultural", "style": "Shang Period", "from": -1700, "to": -1300 },
+        { "id": "early", "label": "Early (Spring–Summer)", "style": "Early Chou", "from": -1300, "to": -800 },
+        { "id": "late", "label": "Late (Autumn)", "style": "Late Chou", "from": -800, "to": -500 },
+        { "id": "civilization", "label": "Civilization (Winter)", "style": "Contending States → Han", "from": -500, "to": 220 }
+      ]
+    },
+    {
+      "id": "apollinian", "label": "Classical", "cult": "apollinian",
+      "span_start": -1600, "span_end": 300, "birth": -1100,
+      "phases": [
+        { "id": "pre-cultural", "label": "Pre-Cultural", "style": "Mycenean Age", "from": -1600, "to": -1100 },
+        { "id": "early", "label": "Early (Spring–Summer)", "style": "Doric", "from": -1100, "to": -650 },
+        { "id": "late", "label": "Late (Autumn)", "style": "Ionic", "from": -650, "to": -300 },
+        { "id": "civilization", "label": "Civilization (Winter)", "style": "Hellenism → Rome", "from": -300, "to": 300 }
+      ]
+    },
+    {
+      "id": "magian", "label": "Arabian (Magian)", "cult": "magian",
+      "span_start": -500, "span_end": 1250, "birth": 0,
+      "phases": [
+        { "id": "pre-cultural", "label": "Pre-Cultural", "style": "Persian-Seleucid", "from": -500, "to": 0 },
+        { "id": "early", "label": "Early (Spring–Summer)", "style": "Early-Arabian", "from": 0, "to": 500 },
+        { "id": "late", "label": "Late (Autumn)", "style": "Late-Arabian", "from": 500, "to": 800 },
+        { "id": "civilization", "label": "Civilization (Winter)", "style": "Caliphates → Mongol", "from": 800, "to": 1250 }
+      ]
+    },
+    {
+      "id": "faustian", "label": "Western (Faustian)", "cult": "faustian",
+      "span_start": 500, "span_end": 2200, "birth": 900,
+      "phases": [
+        { "id": "pre-cultural", "label": "Pre-Cultural", "style": "Carolingian", "from": 500, "to": 900 },
+        { "id": "early", "label": "Early (Spring–Summer)", "style": "Gothic", "from": 900, "to": 1500 },
+        { "id": "late", "label": "Late (Autumn)", "style": "Baroque", "from": 1500, "to": 1800 },
+        { "id": "civilization", "label": "Civilization (Winter)", "style": "Modern · projected", "from": 1800, "to": 2200 }
+      ]
+    }
+  ]
+}

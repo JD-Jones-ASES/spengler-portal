@@ -1,0 +1,13 @@
+{
+  "source_file": "raw/Spengler_Decline_II_Gutenberg.txt",
+  "source_sha256": "1361ae1f77c2760b4c8b96a8b39ba5ee34c346fc353a3b514eee6b87f5974cba",
+  "layout": "line-paragraphs",
+  "rules_applied": {
+    "depaginate": 447,
+    "footnoteRef": 937,
+    "headingsDropped": 0,
+    "footnotesExtracted": 0
+  },
+  "ocr_corrections_applied": 0,
+  "flagged": []
+}

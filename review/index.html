@@ -1,0 +1,433 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Spengler Portal — OCR Review</title>
+<style>
+  :root {
+    --bg: #f4efe4; --panel: #fbf8f1; --ink: #2b2723; --ink-soft: #5d564c;
+    --ink-faint: #8a8175; --line: #ddd4c2; --accent: #7c5a2e; --accent-wash: #efe4cf;
+    --good: #3f7a4d; --warn: #a8741f; --bad: #9a3b2f; --skip: #6a6a6a;
+    --mono: "IBM Plex Mono", "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+    --sans: "Space Grotesk", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#16140f; --panel:#1e1b15; --ink:#e9e2d3; --ink-soft:#bcb3a2; --ink-faint:#8c8475;
+      --line:#332e24; --accent:#cfa66a; --accent-wash:#2a2419; --good:#7fb583; --warn:#d8a953; --bad:#d98a7c; --skip:#9a9385; }
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--sans); }
+  body { line-height: 1.5; padding: 0 0 6rem; }
+  a { color: var(--accent); }
+  .wrap { max-width: 880px; margin: 0 auto; padding: 0 1.1rem; }
+
+  header.top { border-bottom: 1px solid var(--line); background: var(--panel); position: sticky; top: 0; z-index: 5; }
+  header.top .wrap { display: flex; align-items: center; gap: 1rem; padding: 0.7rem 1.1rem; flex-wrap: wrap; }
+  .brand { font-weight: 600; letter-spacing: 0.01em; font-size: 1.02rem; }
+  .brand small { color: var(--ink-faint); font-weight: 400; }
+  .spacer { flex: 1 1 auto; }
+  select, button, input { font-family: inherit; font-size: 0.95rem; color: var(--ink); }
+  select { background: var(--bg); border: 1px solid var(--line); border-radius: 7px; padding: 0.35rem 0.5rem; }
+  .progress { font-size: 0.85rem; color: var(--ink-soft); white-space: nowrap; }
+  .progress b { color: var(--ink); }
+
+  /* mini-map of all flags */
+  .grid { display: flex; flex-wrap: wrap; gap: 4px; padding: 0.7rem 0 0.2rem; }
+  .grid button {
+    width: 26px; height: 26px; padding: 0; border-radius: 6px; border: 1px solid var(--line);
+    background: var(--panel); color: var(--ink-faint); font-size: 0.72rem; cursor: pointer;
+  }
+  .grid button.cur { outline: 2px solid var(--accent); outline-offset: 1px; }
+  .grid button.fix { background: var(--accent-wash); color: var(--accent); border-color: var(--accent); }
+  .grid button.illegible { background: transparent; color: var(--bad); border-color: var(--bad); border-style: dashed; }
+  .grid button.skip { color: var(--skip); border-style: dotted; }
+
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 1.2rem 1.3rem 1.4rem; margin-top: 0.8rem; }
+  .flagno { font-size: 0.8rem; color: var(--ink-faint); letter-spacing: 0.04em; text-transform: uppercase; }
+  .flagno .where { text-transform: none; letter-spacing: 0; color: var(--ink-soft); }
+  .token { font-family: var(--mono); font-size: 1.8rem; font-weight: 600; color: var(--bad); margin: 0.2rem 0 0.1rem; word-break: break-all; }
+  .reason { color: var(--ink-soft); font-size: 0.9rem; font-style: italic; margin: 0.1rem 0 0.9rem; }
+
+  .context { font-family: var(--serif); font-size: 1.18rem; line-height: 1.7; background: var(--bg); border: 1px solid var(--line);
+    border-radius: 9px; padding: 0.8rem 0.95rem; margin: 0 0 0.9rem; }
+  .context .hit { background: rgba(154,59,47,0.16); color: var(--bad); border-radius: 4px; padding: 0 2px; }
+  .context .win { background: var(--accent-wash); color: var(--accent); border-radius: 4px; padding: 0 2px; box-shadow: inset 0 -2px 0 var(--accent); }
+
+  .row { display: flex; align-items: center; gap: 0.55rem; flex-wrap: wrap; margin: 0.5rem 0; }
+  .label { font-size: 0.82rem; color: var(--ink-faint); }
+  .winctl button { border: 1px solid var(--line); background: var(--bg); border-radius: 7px; padding: 0.3rem 0.55rem; cursor: pointer; }
+  .winctl button:hover { border-color: var(--accent); }
+
+  .suggest { display: inline-flex; align-items: center; gap: 0.45rem; border: 1px dashed var(--accent); color: var(--accent);
+    background: transparent; border-radius: 999px; padding: 0.28rem 0.7rem; cursor: pointer; font-size: 0.9rem; }
+  .suggest:hover { background: var(--accent-wash); }
+  .suggest .s { font-family: var(--mono); font-weight: 600; }
+  .scanlink { display: inline-flex; align-items: center; gap: 0.35rem; text-decoration: none; border: 1px solid var(--line);
+    border-radius: 999px; padding: 0.28rem 0.75rem; color: var(--accent); font-size: 0.9rem; }
+  .scanlink:hover { border-color: var(--accent); background: var(--accent-wash); }
+
+  .editrow { margin: 0.9rem 0 0.3rem; }
+  .editrow .label { display: block; margin-bottom: 0.3rem; }
+  input.fix { width: 100%; font-family: var(--mono); font-size: 1.25rem; padding: 0.6rem 0.7rem; border: 2px solid var(--line);
+    border-radius: 9px; background: var(--bg); }
+  input.fix:focus { outline: none; border-color: var(--accent); }
+  .preview { font-family: var(--serif); font-size: 1.05rem; color: var(--ink-soft); margin: 0.55rem 0 0; min-height: 1.6em; }
+  .preview .ins { background: rgba(63,122,77,0.18); color: var(--good); border-radius: 4px; padding: 0 3px; font-family: var(--mono); }
+  .preview .del { text-decoration: line-through; color: var(--ink-faint); }
+
+  .actions { display: flex; gap: 0.55rem; flex-wrap: wrap; margin-top: 1.1rem; }
+  .actions button { border-radius: 9px; padding: 0.55rem 1rem; border: 1px solid var(--line); background: var(--panel); cursor: pointer; font-weight: 500; }
+  .actions .primary { background: var(--accent); color: #fff; border-color: var(--accent); }
+  @media (prefers-color-scheme: dark) { .actions .primary { color: #16140f; } }
+  .actions .primary:hover { filter: brightness(1.06); }
+  .actions .ghost:hover { border-color: var(--accent); }
+  .actions .danger { color: var(--bad); }
+  .actions .spacer { flex: 1 1 auto; border: none; background: none; cursor: default; }
+  .hint { font-size: 0.8rem; color: var(--ink-faint); margin-top: 0.6rem; }
+  kbd { font-family: var(--mono); font-size: 0.78rem; background: var(--bg); border: 1px solid var(--line); border-bottom-width: 2px;
+    border-radius: 5px; padding: 0 5px; }
+
+  /* export drawer */
+  .export { margin-top: 1.4rem; }
+  .export summary { cursor: pointer; font-weight: 600; padding: 0.5rem 0; }
+  .export .panel { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 1rem 1.1rem; }
+  .export .panel p { color: var(--ink-soft); font-size: 0.9rem; margin: 0.2rem 0 0.7rem; }
+  .export textarea { width: 100%; min-height: 160px; font-family: var(--mono); font-size: 0.8rem; border: 1px solid var(--line);
+    border-radius: 9px; background: var(--bg); color: var(--ink); padding: 0.7rem; }
+  .export .btns { display: flex; gap: 0.55rem; flex-wrap: wrap; margin-bottom: 0.7rem; }
+  .export .btns button { border-radius: 9px; padding: 0.5rem 0.9rem; border: 1px solid var(--line); background: var(--bg); cursor: pointer; }
+  .export .btns .primary { background: var(--accent); color: #fff; border-color: var(--accent); }
+  @media (prefers-color-scheme: dark) { .export .btns .primary { color: #16140f; } }
+  .toast { position: fixed; left: 50%; bottom: 1.4rem; transform: translateX(-50%); background: var(--ink); color: var(--bg);
+    padding: 0.55rem 1rem; border-radius: 9px; font-size: 0.9rem; opacity: 0; transition: opacity 0.2s; pointer-events: none; z-index: 20; }
+  .toast.show { opacity: 0.96; }
+  .done { text-align: center; padding: 2rem 1rem; color: var(--ink-soft); }
+  .meta-note { font-size: 0.82rem; color: var(--ink-faint); border-left: 2px solid var(--line); padding-left: 0.7rem; margin: 0.6rem 0 0; }
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <span class="brand">OCR Review <small>· Spengler Portal</small></span>
+    <span class="spacer"></span>
+    <label class="label" for="worksel">Text</label>
+    <select id="worksel" aria-label="Choose text"></select>
+    <span class="progress" id="progress"></span>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="grid" id="grid" aria-label="All flags"></div>
+  <div id="cardhost"></div>
+
+  <details class="export" id="exportwrap">
+    <summary>Export your resolutions ▾</summary>
+    <div class="panel">
+      <p id="exportsummary"></p>
+      <div class="btns">
+        <button class="primary" id="btn-download">⬇ Download <span id="dl-name"></span></button>
+        <button id="btn-copy">⧉ Copy to clipboard</button>
+        <button id="btn-clear" class="danger" style="margin-left:auto">Clear saved progress</button>
+      </div>
+      <textarea id="exportbox" readonly aria-label="Resolutions JSON"></textarea>
+      <p class="meta-note">Two ways to apply these, depending on what you have to hand:<br>
+        <b>① Download</b> the file into <code>corrections/</code>, then run <code>npm run review:apply</code>.<br>
+        <b>② Copy</b> the JSON and paste it back into the Claude session — it will apply them for you.
+      </p>
+    </div>
+  </details>
+</main>
+
+<div class="toast" id="toast"></div>
+
+<script>
+const REVIEW_DATA = /*__DATA__*/ {"generated_from":["man-technics.review-queue.json"],"works":[]};
+
+(function () {
+  "use strict";
+  const LS_PREFIX = "spengler-ocr-review:v1:";
+  const works = REVIEW_DATA.works || [];
+  const $ = (s, r) => (r || document).querySelector(s);
+  const el = (t, props, kids) => {
+    const n = document.createElement(t);
+    if (props) for (const k in props) {
+      if (k === "class") n.className = props[k];
+      else if (k === "html") n.innerHTML = props[k];
+      else if (k === "text") n.textContent = props[k];
+      else if (k.slice(0, 2) === "on") n.addEventListener(k.slice(2).toLowerCase(), props[k]);
+      else n.setAttribute(k, props[k]);
+    }
+    for (const c of kids || []) if (c != null) n.appendChild(typeof c === "string" ? document.createTextNode(c) : c);
+    return n;
+  };
+  const esc = (s) => s.replace(/[&<>]/g, (m) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;" }[m]));
+
+  let work = null;     // current work object
+  let store = {};      // decisions for current work, keyed by flag index
+  let cur = 0;         // current flag index
+  let win = null;      // {start, end} char range within context
+
+  function lsKey(w) { return LS_PREFIX + w.work; }
+  function load(w) {
+    try { return JSON.parse(localStorage.getItem(lsKey(w)) || "{}"); } catch (e) { return {}; }
+  }
+  function save() { try { localStorage.setItem(lsKey(work), JSON.stringify(store)); } catch (e) {} }
+
+  function tokenSpan(ctx, before) {
+    const i = ctx.indexOf(before);
+    if (i < 0) return { start: 0, end: Math.min(before.length, ctx.length) };
+    return { start: i, end: i + before.length };
+  }
+  // grow a range out to whitespace on both sides — the actual word-token the garble sits in
+  // (e.g. flagged "Kngli" → the run "Kngli.sh", so replacing it with "English" reads cleanly).
+  function nonSpaceRun(ctx, range) {
+    let { start, end } = range;
+    while (start > 0 && !/\s/.test(ctx[start - 1])) start--;
+    while (end < ctx.length && !/\s/.test(ctx[end])) end++;
+    return { start, end };
+  }
+  // expand a [start,end) range to include the adjacent word on a side
+  function expand(ctx, range, dir) {
+    let { start, end } = range;
+    if (dir < 0) {
+      let i = start;
+      while (i > 0 && /\s/.test(ctx[i - 1])) i--;        // skip spaces
+      while (i > 0 && !/\s/.test(ctx[i - 1])) i--;        // take word
+      start = i;
+    } else {
+      let i = end;
+      while (i < ctx.length && /\s/.test(ctx[i])) i++;
+      while (i < ctx.length && !/\s/.test(ctx[i])) i++;
+      end = i;
+    }
+    return { start, end };
+  }
+
+  function toast(msg) {
+    const t = $("#toast"); t.textContent = msg; t.classList.add("show");
+    clearTimeout(toast._t); toast._t = setTimeout(() => t.classList.remove("show"), 1600);
+  }
+
+  function renderGrid() {
+    const g = $("#grid"); g.innerHTML = "";
+    work.flags.forEach((f, i) => {
+      const d = store[i];
+      const cls = ["", d ? d.action : ""].join(" ").trim() + (i === cur ? " cur" : "");
+      g.appendChild(el("button", {
+        class: cls, text: String(i + 1), title: f.before + (d ? " · " + d.action : ""),
+        onclick: () => { go(i); },
+      }));
+    });
+  }
+
+  function counts() {
+    let fix = 0, ill = 0, skip = 0;
+    for (const k in store) { const a = store[k].action; if (a === "fix") fix++; else if (a === "illegible") ill++; else if (a === "skip") skip++; }
+    return { fix, ill, skip, total: work.flags.length, done: fix + ill };
+  }
+
+  function renderProgress() {
+    const c = counts();
+    $("#progress").innerHTML = `<b>${c.fix}</b> fixed · <b>${c.ill}</b> illegible · ${c.skip} skipped · of <b>${c.total}</b>`;
+  }
+
+  function contextHtml(ctx, hit, w) {
+    // render the replace-window (accent) with the originally-flagged garble (red) nested inside it
+    const hs = Math.max(w.start, hit.start), he = Math.min(w.end, hit.end);
+    const inner = hs < he
+      ? esc(ctx.slice(w.start, hs)) + '<span class="hit">' + esc(ctx.slice(hs, he)) + "</span>" + esc(ctx.slice(he, w.end))
+      : esc(ctx.slice(w.start, w.end));
+    return esc(ctx.slice(0, w.start)) + '<span class="win">' + inner + "</span>" + esc(ctx.slice(w.end));
+  }
+
+  function previewHtml(ctx, w, val) {
+    const before = ctx.slice(w.start, w.end);
+    return esc(ctx.slice(0, w.start)) +
+      (before ? '<span class="del">' + esc(before) + "</span> " : "") +
+      '<span class="ins">' + esc(val || "∅") + "</span>" +
+      esc(ctx.slice(w.end));
+  }
+
+  function go(i) {
+    if (i < 0) i = 0; if (i >= work.flags.length) i = work.flags.length - 1;
+    cur = i;
+    const f = work.flags[i];
+    const hit = tokenSpan(f.context, f.before);
+    const saved = store[i];
+    win = saved && saved.win ? { start: saved.win.start, end: saved.win.end } : nonSpaceRun(f.context, hit);
+    const initVal = saved && saved.action === "fix" ? saved.after_window : f.context.slice(win.start, win.end);
+    renderCard(f, hit, initVal);
+    renderGrid(); renderProgress();
+  }
+
+  function renderCard(f, hit, initVal) {
+    const host = $("#cardhost"); host.innerHTML = "";
+    const where = f.where ? " · " + f.where : "";
+    const card = el("div", { class: "card" });
+
+    card.appendChild(el("div", { class: "flagno", html: `Flag ${cur + 1} / ${work.flags.length}<span class="where">${esc(where)}</span>` }));
+    card.appendChild(el("div", { class: "token", text: f.before }));
+    if (f.reason) card.appendChild(el("div", { class: "reason", text: f.reason }));
+
+    const ctxEl = el("div", { class: "context" });
+    card.appendChild(ctxEl);
+
+    // suggestion + scan link row
+    const top = el("div", { class: "row" });
+    if (f.suggest) {
+      top.appendChild(el("button", { class: "suggest", title: "Fill the box with this — but verify it against the scan first",
+        html: `Suggested: <span class="s">${esc(f.suggest)}</span>`,
+        onclick: () => {
+          // keep any punctuation at the edges of the current window (e.g. a trailing comma)
+          const w = f.context.slice(win.start, win.end);
+          const lead = (w.match(/^[^A-Za-z0-9]+/) || [""])[0];
+          const trail = (w.match(/[^A-Za-z0-9]+$/) || [""])[0];
+          input.value = lead + f.suggest + trail;
+          sync(); input.focus();
+        } }));
+    }
+    if (f.scanUrl) {
+      top.appendChild(el("a", { class: "scanlink", href: f.scanUrl, target: "_blank", rel: "noopener",
+        html: "🔍 View on the scan ↗" }));
+    }
+    card.appendChild(top);
+
+    // window controls
+    const winRow = el("div", { class: "row winctl" }, [
+      el("span", { class: "label", text: "Span to replace:" }),
+      el("button", { text: "◀ widen left", title: "Include the previous word",
+        onclick: () => { win = expand(f.context, win, -1); resetVal(); } }),
+      el("button", { text: "widen right ▶", title: "Include the next word",
+        onclick: () => { win = expand(f.context, win, 1); resetVal(); } }),
+      el("button", { text: "↺ just the word", title: "Reset to the flagged token",
+        onclick: () => { win = { start: hit.start, end: hit.end }; resetVal(); } }),
+    ]);
+    card.appendChild(winRow);
+
+    // edit row
+    const editRow = el("div", { class: "editrow" });
+    editRow.appendChild(el("label", { class: "label", for: "fixin", text: "Correct reading (type or paste) — replaces the highlighted span:" }));
+    const input = el("input", { class: "fix", id: "fixin", type: "text", value: initVal, spellcheck: "false", autocomplete: "off" });
+    editRow.appendChild(input);
+    const prev = el("div", { class: "preview" });
+    editRow.appendChild(prev);
+    card.appendChild(editRow);
+
+    function sync() {
+      ctxEl.innerHTML = contextHtml(f.context, hit, win);
+      prev.innerHTML = previewHtml(f.context, win, input.value.trim());
+    }
+    function resetVal() { input.value = f.context.slice(win.start, win.end); sync(); input.focus(); }
+    input.addEventListener("input", sync);
+    input.addEventListener("keydown", (e) => {
+      if (e.key === "Enter") { e.preventDefault(); saveFix(); }
+    });
+
+    // actions
+    const actions = el("div", { class: "actions" }, [
+      el("button", { class: "ghost", text: "← Prev", onclick: () => go(cur - 1) }),
+      el("button", { class: "primary", text: "Save & next ⏎", onclick: saveFix }),
+      el("button", { class: "ghost", text: "Skip", onclick: () => { decide({ action: "skip" }); next(); } }),
+      el("span", { class: "spacer" }),
+      el("button", { class: "ghost danger", text: "Illegible on scan too",
+        title: "The scan itself is unreadable here — leave the OCR as-is, keep it disclosed",
+        onclick: () => { decide({ action: "illegible" }); next(); } }),
+    ]);
+    card.appendChild(actions);
+    card.appendChild(el("div", { class: "hint", html:
+      "<kbd>Enter</kbd> save &amp; next · widen the span for split words like <i>strug. gle</i> · " +
+      "use <b>Illegible</b> only when the scan itself can’t be read." }));
+
+    host.appendChild(card);
+
+    function saveFix() {
+      const v = input.value.trim();
+      if (!v) { toast("Type the correct reading, or use Skip / Illegible"); input.focus(); return; }
+      const beforeWin = f.context.slice(win.start, win.end);
+      if (v === beforeWin) { toast("That’s unchanged — edit it, or use Illegible to keep as-is"); input.focus(); return; }
+      decide({ action: "fix", before_window: beforeWin, after_window: v, win: { start: win.start, end: win.end } });
+      next();
+    }
+    sync();
+    setTimeout(() => input.focus(), 0);
+    renderCard._sync = sync;
+  }
+
+  function decide(d) { store[cur] = Object.assign({ before: work.flags[cur].before, context: work.flags[cur].context }, d); save(); }
+  function next() {
+    // advance to the next still-undecided flag, else just +1
+    let i = cur + 1;
+    while (i < work.flags.length && store[i]) i++;
+    if (i >= work.flags.length) {
+      // wrap to first undecided
+      let j = 0; while (j < work.flags.length && store[j]) j++;
+      i = j < work.flags.length ? j : Math.min(cur + 1, work.flags.length - 1);
+    }
+    go(i);
+    if (counts().done + counts().skip >= work.flags.length) toast("All flags reviewed — open Export below");
+  }
+
+  // ---- export ----
+  function buildResolutions() {
+    const res = [];
+    for (let i = 0; i < work.flags.length; i++) {
+      const d = store[i]; if (!d || d.action === "skip") continue;
+      const f = work.flags[i];
+      if (d.action === "fix") res.push({ before: f.before, context: f.context, action: "fix", before_window: d.before_window, after_window: d.after_window });
+      else if (d.action === "illegible") res.push({ before: f.before, context: f.context, action: "illegible" });
+    }
+    return { work: work.work, tool_version: 1, resolutions: res };
+  }
+  function refreshExport() {
+    const obj = buildResolutions();
+    $("#exportbox").value = JSON.stringify(obj, null, 2);
+    const c = counts();
+    $("#dl-name").textContent = work.work + ".resolutions.json";
+    $("#exportsummary").innerHTML = `<b>${obj.resolutions.length}</b> resolutions ready for <b>${esc(work.work)}</b> ` +
+      `(${c.fix} fixes, ${c.ill} illegible). ${c.skip} skipped and ${c.total - c.done - c.skip} untouched are left in the queue.`;
+  }
+
+  $("#exportwrap").addEventListener("toggle", (e) => { if (e.target.open) refreshExport(); });
+  $("#btn-download").addEventListener("click", () => {
+    refreshExport();
+    const blob = new Blob([$("#exportbox").value], { type: "application/json" });
+    const a = el("a", { href: URL.createObjectURL(blob), download: work.work + ".resolutions.json" });
+    document.body.appendChild(a); a.click(); a.remove();
+    toast("Downloaded " + work.work + ".resolutions.json");
+  });
+  $("#btn-copy").addEventListener("click", async () => {
+    refreshExport();
+    try { await navigator.clipboard.writeText($("#exportbox").value); toast("Copied — paste it into the Claude session"); }
+    catch (e) { $("#exportbox").select(); document.execCommand("copy"); toast("Copied"); }
+  });
+  $("#btn-clear").addEventListener("click", () => {
+    if (!confirm("Clear saved progress for " + work.work + "? Your typed corrections for this text will be lost.")) return;
+    store = {}; save(); go(0); refreshExport(); toast("Cleared");
+  });
+
+  // ---- work switching ----
+  function selectWork(idx) {
+    work = works[idx];
+    store = load(work);
+    document.title = "OCR Review · " + work.work;
+    cur = 0;
+    // jump to first undecided
+    let j = 0; while (j < work.flags.length && store[j]) j++;
+    go(j < work.flags.length ? j : 0);
+    refreshExport();
+  }
+
+  function init() {
+    const sel = $("#worksel");
+    if (!works.length) { $("#cardhost").innerHTML = '<div class="done">No review queues found. Generate one with the /ocr-correct workflow, then rebuild this tool (<code>npm run review</code>).</div>'; return; }
+    works.forEach((w, i) => sel.appendChild(el("option", { value: String(i), text: `${w.work} (${w.flags.length})` })));
+    sel.addEventListener("change", () => selectWork(parseInt(sel.value, 10)));
+    selectWork(0);
+  }
+  init();
+})();
+</script>
+</body>
+</html>

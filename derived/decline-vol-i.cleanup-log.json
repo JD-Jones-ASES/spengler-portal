@@ -1,0 +1,13 @@
+{
+  "source_file": "raw/Spengler_Decline_I.txt",
+  "source_sha256": "c5b704606e9318aabf9833ff3d4980eed1fb416be2c04425b08f4b2122bafb7f",
+  "layout": "line-paragraphs",
+  "rules_applied": {
+    "depaginate": 373,
+    "footnoteRef": 528,
+    "headingsDropped": 0,
+    "footnotesExtracted": 0
+  },
+  "ocr_corrections_applied": 0,
+  "flagged": []
+}

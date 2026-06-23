@@ -1,0 +1,51 @@
+{
+  "seeds": {
+    "decline-vol-i-ch-01-introduction": {
+      "one_line": "The whole thesis in miniature: history has a form, Cultures are organisms, and the West is in its winter.",
+      "student": "Spengler announces a science of history. Cultures, like plants, pass through spring, summer, autumn and winter and then harden into 'Civilization'. The familiar 'ancient–medieval–modern' scheme is a parochial Western conceit; in its place he offers a 'Copernican' view in which every Culture is one organism among several, each with its own life-cycle. Our own age, he argues, is the West's late autumn passing into winter.",
+      "why_it_matters": "Everything in the two volumes is an unfolding of the claims compressed into this chapter. Read it slowly and the rest of the book becomes a vast set of worked examples.",
+      "cultures": ["faustian", "apollinian", "magian"],
+      "domains": ["politics", "religion"]
+    },
+    "decline-vol-i-ch-02-the-meaning-of-numbers": {
+      "one_line": "Every Culture has its own mathematic; number is a symbol of the soul, not a universal truth.",
+      "cultures": ["apollinian", "faustian"], "domains": ["mathematics"]
+    },
+    "decline-vol-i-ch-03-the-problem-of-world-history-physiognomic-and-systematic": {
+      "one_line": "Two ways of knowing: the systematic (Nature, causality) and the physiognomic (History, destiny).",
+      "cultures": ["faustian"], "domains": ["politics", "science"]
+    },
+    "decline-vol-i-ch-04-the-problem-of-world-history-the-destiny-idea-and-the-causality-principle": {
+      "one_line": "Destiny is the logic of time; Causality the logic of space. History can only be felt, not calculated.",
+      "cultures": ["faustian"], "domains": ["politics", "religion"]
+    },
+    "decline-vol-i-ch-05-makrokosmos-the-symbolism-of-the-world-picture-and-the-problem-of-space": {
+      "one_line": "A Culture's whole world grows from one root-intuition of space — its prime-symbol.",
+      "cultures": ["apollinian", "magian", "faustian"], "domains": ["religion", "art"]
+    },
+    "decline-vol-i-ch-06-makrokosmos-apollinian-faustian-and-magian-soul": {
+      "one_line": "The three souls named: Apollinian (the body), Magian (the cavern), Faustian (infinite space).",
+      "cultures": ["apollinian", "magian", "faustian"], "domains": ["religion", "art"]
+    },
+    "decline-vol-i-ch-07-music-and-plastic-the-arts-of-form": {
+      "one_line": "Each Culture chooses its arts: the statue for the Classical, the fugue and oil-painting for the West.",
+      "cultures": ["apollinian", "faustian"], "domains": ["art"]
+    },
+    "decline-vol-i-ch-08-music-and-plastic-act-and-portrait": {
+      "one_line": "The nude and the portrait: Classical surface against Faustian depth and biography.",
+      "cultures": ["apollinian", "faustian"], "domains": ["art"]
+    },
+    "decline-vol-i-ch-09-soul-image-and-life-feeling-on-the-form-of-the-soul": {
+      "one_line": "Psychology is itself a Culture-form: each soul pictures itself in its own image.",
+      "cultures": ["apollinian", "magian", "faustian"], "domains": ["religion"]
+    },
+    "decline-vol-i-ch-10-soul-image-and-life-feeling-buddhism-stoicism-and-socialism": {
+      "one_line": "Buddhism, Stoicism and Socialism: the 'contemporary' final moralities of three Cultures.",
+      "cultures": ["indian", "apollinian", "faustian"], "domains": ["religion", "politics"]
+    },
+    "decline-vol-i-ch-11-faustian-and-apollinian-nature-knowledge": {
+      "one_line": "Even physics is a faith: each Culture's science is a myth of its own soul, and ours dissolves into pure function.",
+      "cultures": ["apollinian", "faustian"], "domains": ["science"]
+    }
+  }
+}

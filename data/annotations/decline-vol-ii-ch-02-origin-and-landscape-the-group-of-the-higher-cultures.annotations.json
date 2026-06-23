@@ -1,0 +1,112 @@
+{
+  "unit_id": "decline-vol-ii-ch-02-origin-and-landscape-the-group-of-the-higher-cultures",
+  "annotations": [
+    {
+      "id": "dv2-2-lex-history-nature-picture",
+      "kind": "lexicon-term",
+      "selector": { "exact": "The two pictures I have called world-as-history and world-as-nature." },
+      "anchor": "world-as-history and world-as-nature",
+      "note": "Two ways the same waking mind can take the world. The 'world-as-nature' is the picture science draws — timeless, causal, systematic, repeatable. The 'world-as-history' is the picture the living eye draws — directional, once-only, destiny-laden. For Spengler these are not two subjects but two modes of seeing, and his whole method is a wager that history needs the second, physiognomic, mode — not the borrowed causality of the first.",
+      "tags": ["concept:destiny-causality", "domain:method"],
+      "see_also": ["destiny-causality", "being-waking-being"],
+      "evidence": [{ "claim_type": "lexical-definition", "citations": ["wikipedia-decline"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "lexicon", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-2-form-no-history-in-itself",
+      "kind": "form-observation",
+      "selector": { "exact": "There is no history-in-itself." },
+      "anchor": "There is no history-in-itself.",
+      "note": "A striking statement of Spengler's historical perspectivism: 'every man, class, nation, or family sees the picture of history in relation to itself.' The German and the Englishman see the World War differently; Talleyrand could read his own contemporaries but would have been lost among Caesar's. Each Culture even has its own characteristic horizon. This is why Spengler thinks an 'objective' universal history is an illusion — and why he is candid that his own picture is the one 'his time demands.'",
+      "tags": ["view:interpretation", "domain:method"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-2-difficult-anti-darwinism",
+      "kind": "difficult-material",
+      "selector": { "exact": "There is no more conclusive refutation of Darwinism" },
+      "anchor": "There is no more conclusive refutation of Darwinism … than that furnished by palæontology",
+      "note": "Read critically. Spengler claims the fossil record 'refutes' Darwin: species appear suddenly, persist unchanged, then vanish, with no gradual 'transitional' chain — so (he argues) forms unfold by an inner 'destiny' and 'form-fulfilment' (Goethe's idea), not by utilitarian selection (Darwin's). He frames it as destiny vs. causality, 'German' vs. 'English' thought. The observation about stasis in the record is real and was later named (punctuated equilibrium), but mainstream biology treats it as a pattern within evolution, not a refutation of it. Take this as Spengler's polemical recruiting of science for his morphology, not as settled fact.",
+      "tags": ["difficult-material", "domain:method"],
+      "evidence": [{ "claim_type": "difficult-material", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-2-lex-eight-high-cultures",
+      "kind": "lexicon-term",
+      "selector": { "exact": "the fact that we have before us eight such Cultures, all of the same build, the same development, and the same duration" },
+      "anchor": "eight such Cultures, all of the same build, the same development, and the same duration",
+      "note": "The eight high Cultures are the units of Spengler's comparative morphology: Egyptian, Babylonian, Indian, Chinese, Classical (Apollinian), Arabian (Magian), Mexican, and Western (Faustian). Each is an organism with the 'same build' and life-span (~1,000 years of Culture, then Civilization). Because they are 'comparable,' he can read one against another and so 'extend our knowledge backwards over lost periods and forwards over the future' — the licence for the whole predictive apparatus.",
+      "tags": ["concept:culture-civilization", "domain:method"],
+      "see_also": ["culture-civilization", "morphology"],
+      "evidence": [{ "claim_type": "lexical-definition", "citations": ["britannica-spengler", "wikipedia-decline"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "lexicon", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-2-parallel-contemporaneity",
+      "kind": "cross-culture-parallel",
+      "selector": { "exact": "the Chinese imperialism of Shi-hwang-ti and the Roman of Augustus" },
+      "anchor": "the Chinese imperialism of Shi-hwang-ti and the Roman of Augustus, as Hellenism and Buddhism and Islam",
+      "note": "Spengler's comparative tables in motion. Each Culture, he holds, passes through the same epochs in the same order, so that figures and events in different Cultures are 'contemporary' — the Chinese 'First Emperor' (Qin Shi Huang, whom Spengler casts as the 'Chinese Augustus') stands where Augustus stands in the Classical, where the coming Caesarism stands in the West. This chapter pairs Chinese, Egyptian, Classical, Mexican and Western dates relentlessly; it is the engine behind the portal's Comparative Tables.",
+      "cultures": ["chinese", "apollinian", "faustian"],
+      "tags": ["concept:contemporaneity", "domain:method"],
+      "see_also": ["contemporaneity"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-2-form-mexico-murdered",
+      "kind": "cross-culture-parallel",
+      "selector": { "exact": "this is the one example of a Culture ended by violent death" },
+      "anchor": "the one example of a Culture ended by violent death",
+      "note": "The Mexican Culture is Spengler's proof-case that the relations between Cultures are 'accidental.' Aztec-Maya civilization was not exhausted from within but 'murdered in the full glory of its unfolding … washed out by a handful of bandits' (Cortés) — so completely that 'the relics of the population retained not even a memory of it all.' From this he draws his bleakest thesis: 'the history of humanity has no meaning whatever,' and 'deep significances reside only in the life-courses of the separate Cultures.'",
+      "cultures": ["mexican"],
+      "tags": ["view:interpretation", "concept:culture-civilization"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-2-reception-adorno-fatalism",
+      "kind": "scholarly-reception",
+      "selector": { "exact": "the history of humanity has no meaning whatever" },
+      "anchor": "the history of humanity has no meaning whatever",
+      "note": "This is the fatalism that Spengler's critics single out. According to Theodor Adorno, Spengler's verdicts on the doomed late Civilization carry real diagnostic force — he saw the coming megalopolis, the rule of money and technique, more clearly than his optimistic contemporaries. But the fatalism, the treatment of decline as a sealed, meaningless destiny that no will can touch, is exactly what Adorno argued must be resisted: much of what Spengler presents as 'nature' is in fact the made world of human domination, and therefore not fixed.",
+      "tags": ["view:interpretation", "concept:culture-civilization"],
+      "attribution": { "scholar": "Theodor W. Adorno", "work": "Spengler after the Decline (in Prisms)", "year": 1981, "stance": "critical", "citation": "adorno-prisms-spengler" },
+      "evidence": [{ "claim_type": "scholarly-interpretation", "citations": ["adorno-prisms-spengler"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-2-form-copernican-demotion",
+      "kind": "form-observation",
+      "selector": { "exact": "human history, for all its immense and still unknown span, a mere episode in world-history" },
+      "anchor": "human history … a mere episode in world-history",
+      "note": "The 'Copernican' move of Vol I, extended. The Faustian 'infinity-craving' first split human history from world-history, demoting man's whole career to 'a mere episode' and the Earth to 'a little star amongst millions of solar systems.' The same gesture dissolves the parochial Western scheme of 'ancient–mediæval–modern,' which Spengler says is 'visibly dissolving' — to be replaced by the eight-Culture comparative picture this volume draws.",
+      "cultures": ["faustian"],
+      "tags": ["concept:contemporaneity", "domain:method"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-2-difficult-historyless-mankind",
+      "kind": "difficult-material",
+      "selector": { "exact": "man is not only historyless before the birth of the Culture, but again becomes so" },
+      "anchor": "man is … historyless before the birth of the Culture, but again becomes so …",
+      "note": "Difficult material, and a key Spenglerian ranking. He calls peoples outside a living Culture's arc — both before its birth and after a Civilization has spent itself — 'historyless,' their wars 'merely a drama of living Nature,' a 'zoölogical up-and-down.' This is the seed of his later category of the 'fellaheen' (ch. VI). Note the value-laden hierarchy: it sorts whole peoples into history-bearing and history-less, which does analytic work for his system but also flattens the lives it dismisses. Read it as the system's bias, not a neutral finding.",
+      "tags": ["difficult-material", "concept:culture-civilization"],
+      "see_also": ["fellaheen"],
+      "evidence": [{ "claim_type": "difficult-material", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    }
+  ]
+}

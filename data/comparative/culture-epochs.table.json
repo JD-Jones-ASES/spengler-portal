@@ -1,0 +1,131 @@
+{
+  "id": "culture-epochs",
+  "title": "“Contemporary” Culture Epochs",
+  "caption": "Table II from The Decline of the West, Vol. I. The art-history table: read a row across to see the architecture, sculpture, painting and music Spengler holds to be 'contemporary' — at the same stage of their Culture's style-cycle. The macro-phases are Pre-Cultural, the Culture's Early and Late periods (its 'great style'), and the formless Civilization.",
+  "source": "Decline of the West, Vol. I — Table II, “Contemporary” Culture Epochs (foldout at end of volume).",
+  "source_citation": "gutenberg-decline-i",
+  "cultures": [
+    { "id": "egyptian", "label": "Egyptian", "cult": "egyptian", "from": "from 3400 B.C." },
+    { "id": "apollinian", "label": "Classical", "cult": "apollinian", "from": "from 1600 B.C." },
+    { "id": "magian", "label": "Arabian", "cult": "magian", "from": "from 500 B.C." },
+    { "id": "faustian", "label": "Western", "cult": "faustian", "from": "from 900" }
+  ],
+  "phases": [
+    { "id": "pre-cultural", "label": "Pre-Cultural Period" },
+    { "id": "early", "label": "Culture · Early Period (the “Great Style”)" },
+    { "id": "late", "label": "Culture · Late Period (the “Great Masters”)" },
+    { "id": "civilization", "label": "Civilization" }
+  ],
+  "rows": [
+    {
+      "epoch": "—", "phase": "pre-cultural",
+      "label": "Chaos of primitive expression-forms. Mystical symbolism and naïve imitation.",
+      "cells": {
+        "egyptian": { "text": "Thinite Period (3400–3000)." },
+        "apollinian": { "text": "Mycenean Age (1600–1700). Fore-cultures: Late-Egyptian (Minoan), Late-Babylonian (Asia Minor).", "note": "“(1600–1700)” as printed in the original edition (confirmed against Project Gutenberg #72344) — inconsistent with Table III, which dates the Mycenean Age 1600–1100 (the historical range); transcribed as printed." },
+        "magian": { "text": "Persian-Seleucid Period (500–0). Fore-cultures: Late-Classical (Hellenistic), Late-Indian (Indo-Iranian)." },
+        "faustian": { "text": "Merovingian-Carolingian Era (500–900)." }
+      }
+    },
+    {
+      "epoch": "I", "phase": "early",
+      "label": "Early Period — ornament and architecture as the elementary expression of the young world-feeling (the “Primitives”).",
+      "cells": {
+        "egyptian": { "text": "Old Kingdom (2900–2400)." },
+        "apollinian": { "text": "Doric (1100–500)." },
+        "magian": { "text": "Early-Arabian form-world (0–500): Sassanid, Byzantine, Armenian, Syrian, Sabæan, “Late-Classical” and “Early Christian”." },
+        "faustian": { "text": "Gothic (900–1500)." }
+      }
+    },
+    {
+      "epoch": "1", "phase": "early",
+      "label": "Birth and rise. Forms sprung from the land, unconsciously shaped.",
+      "cells": {
+        "egyptian": { "text": "Dynasties IV–V (2930–2625). Geometrical temple-style. Pyramid temples. Ranked plant-columns. Rows of flat-relief. Tomb statues.", "passage_targets": ["decline-vol-i-ch-07-music-and-plastic-the-arts-of-form#p0"] },
+        "apollinian": { "text": "11th to 9th Centuries. Timber building. Doric column. Architrave. Geometric (Dipylon) style. Burial urns.", "passage_targets": ["decline-vol-i-ch-07-music-and-plastic-the-arts-of-form#p0"] },
+        "magian": { "text": "1st to 3rd Centuries. Cult interiors. Basilica, cupola (Pantheon as mosque). Column-and-arch. Stem-tracery filling blanks. Sarcophagus.", "passage_targets": ["decline-vol-i-ch-07-music-and-plastic-the-arts-of-form#p0"] },
+        "faustian": { "text": "11th to 13th Centuries. Romanesque and Early-Gothic vaulted cathedrals. Flying buttress. Glass-painting; cathedral sculpture.", "passage_targets": ["decline-vol-i-ch-07-music-and-plastic-the-arts-of-form#p0"] }
+      }
+    },
+    {
+      "epoch": "2", "phase": "early",
+      "label": "Completion of the early form-language. Exhaustion of possibilities. Contradiction.",
+      "cells": {
+        "egyptian": { "text": "VI Dynasty (2625–2574). Extinction of the pyramid-style and the epic-idyllic relief style. Floraison of archaic portrait-plastic painting." },
+        "apollinian": { "text": "8th and 7th Centuries. End of the archaic Doric-Etruscan style. Proto-Corinthian–Early-Attic (mythological) vase." },
+        "magian": { "text": "4th–5th Centuries. End of Syrian, Persian and Coptic pictorial art. Rise of mosaic-picturing and of arabesque." },
+        "faustian": { "text": "14th–15th Centuries. Late Gothic and Renaissance. Floraison and waning of fresco and statue, from Giotto (Gothic) to Michelangelo (Baroque); Siena, Nürnberg; the Gothic picture from Van Eyck to Holbein. Counterpoint and oil-painting." }
+      }
+    },
+    {
+      "epoch": "II", "phase": "late",
+      "label": "Late Period — a group of urban, conscious arts in the hands of individuals (the “Great Masters”).",
+      "cells": {
+        "egyptian": { "text": "Middle Kingdom (2150–1800)." },
+        "apollinian": { "text": "Ionic (650–350)." },
+        "magian": { "text": "Late-Arabian form-world (500–800): Persian-Nestorian, Byzantine-Armenian, Islamic-Moorish." },
+        "faustian": { "text": "Baroque (1500–1800)." }
+      }
+    },
+    {
+      "epoch": "3", "phase": "late",
+      "label": "Formation of a mature artistry.",
+      "cells": {
+        "egyptian": { "text": "XIth Dynasty. Delicate and telling art (almost no traces left)." },
+        "apollinian": { "text": "Completion of the temple-body (peripteros, in stone). The Ionic column. Reign of fresco-painting till Polygnotus (460). Rise of free plastic “in the round” (“Apollo of Tenea” to Hageladas).", "passage_targets": ["decline-vol-i-ch-08-music-and-plastic-act-and-portrait#p0"] },
+        "magian": { "text": "Completion of the mosque-interior (central dome of Hagia Sophia). Zenith of mosaic painting. Completion of the carpet-like arabesque style (Machatta).", "passage_targets": ["decline-vol-i-ch-08-music-and-plastic-act-and-portrait#p0"] },
+        "faustian": { "text": "The pictorial style in architecture, from Michelangelo to Bernini (d. 1680). Reign of oil-painting from Titian to Rembrandt (d. 1664). Rise of music from Orlando Lasso to H. Schütz (d. 1671).", "passage_targets": ["decline-vol-i-ch-08-music-and-plastic-act-and-portrait#p0"] }
+      }
+    },
+    {
+      "epoch": "4", "phase": "late",
+      "label": "Perfection of an intellectualized form-language.",
+      "cells": {
+        "egyptian": { "text": "XIIth Dynasty (2000–1788). Pylon-temple, labyrinth. Character-statuary and historical reliefs." },
+        "apollinian": { "text": "Maturity of Athens (480–350). The Acropolis. Reign of Classical plastic from Myron to Phidias. End of strict fresco and ceramic painting (Zeuxis)." },
+        "magian": { "text": "Ommayads (7th–8th Century). Complete victory of the featureless arabesque over architecture also." },
+        "faustian": { "text": "Rococo. Musical architecture (“Rococo”). Reign of Classical music from Bach to Mozart. End of Classical oil-painting (Watteau to Goya).", "passage_targets": ["decline-vol-i-ch-08-music-and-plastic-act-and-portrait#p0"] }
+      }
+    },
+    {
+      "epoch": "5", "phase": "late",
+      "label": "Exhaustion of strict creativeness. Dissolution of the grand form. End of the Style: “Classicism” and “Romanticism”.",
+      "cells": {
+        "egyptian": { "text": "Confusion after about 1750 (no remains)." },
+        "apollinian": { "text": "The age of Alexander. The Corinthian column. Lysippus and Apelles." },
+        "magian": { "text": "“Haroun-al-Raschid” (about 800). “Moorish art”." },
+        "faustian": { "text": "Empire and Biedermeyer. Classicist taste in architecture. Beethoven, Delacroix." }
+      }
+    },
+    {
+      "epoch": "1", "phase": "civilization",
+      "label": "“Modern art.” “Art-problems.” Attempts to portray or excite the megalopolitan consciousness; music, architecture and painting turn into mere craft-arts.",
+      "cells": {
+        "egyptian": { "text": "Hyksos Period (preserved only in Crete; Minoan art)." },
+        "apollinian": { "text": "Hellenism. Pergamene art (theatricality). Hellenistic painting modes (veristic, bizarre, subjective). Architectural display in the cities of the Diadochi." },
+        "magian": { "text": "Sultan dynasties of the 9th–10th Century. Prime of Spanish-Sicilian art. Samarra." },
+        "faustian": { "text": "19th and 20th Centuries. Liszt, Berlioz, Wagner. Impressionism from Constable to Leibl and Manet. American architecture." }
+      }
+    },
+    {
+      "epoch": "2", "phase": "civilization",
+      "label": "End of form-development. Meaningless, empty, pretentious architecture and ornament. Imitation of archaic and exotic motives.",
+      "cells": {
+        "egyptian": { "text": "XVIII Dynasty (1580–1350). Rock-temple of Dehr-el-Bahri. Memnon-colossi. Art of Cnossos and Amarna." },
+        "apollinian": { "text": "Roman Period (100–0–100). Indiscriminate piling of all three orders. Fora, theatres (Colosseum). Triumphal arches." },
+        "magian": { "text": "Seljuks (from 1050). “Oriental art” of the Crusade period." },
+        "faustian": { "text": "From 2000.", "note": "Spengler leaves the Western cell as a forward projection — this Civilization-phase lies in the West's future." }
+      }
+    },
+    {
+      "epoch": "3", "phase": "civilization",
+      "label": "Finale. A fixed stock of forms. Imperial display by means of material and mass. Provincial craft-art.",
+      "cells": {
+        "egyptian": { "text": "XIX Dynasty (1350–1205). Gigantic buildings of Luxor, Karnak and Abydos. Small-art (beast-plastic, textiles, arms)." },
+        "apollinian": { "text": "Trajan to Aurelian. Gigantic fora, thermæ, colonnades, triumphal arches. Roman provincial art (ceramic, statuary, arms)." },
+        "magian": { "text": "Mongol Period (from 1250). Gigantic buildings (e.g. in India). Oriental craft-art (rugs, arms, implements)." },
+        "faustian": { "text": "From 2000.", "note": "As above, Spengler leaves the Western cell as a forward projection." }
+      }
+    }
+  ]
+}

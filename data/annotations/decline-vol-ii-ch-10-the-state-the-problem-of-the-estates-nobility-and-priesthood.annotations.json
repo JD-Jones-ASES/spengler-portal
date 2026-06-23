@@ -1,0 +1,62 @@
+{
+  "unit_id": "decline-vol-ii-ch-10-the-state-the-problem-of-the-estates-nobility-and-priesthood",
+  "annotations": [
+    {
+      "id": "dv2-10-form-nobility-time-priesthood-space",
+      "kind": "form-observation",
+      "selector": { "exact": "Every nobility is a living symbol of Time, every priesthood of Space." },
+      "anchor": "Every nobility is a living symbol of Time, every priesthood of Space.",
+      "note": "The metaphysics of Volume Two, now turned into a theory of social class. The two 'prime Estates' embody the two sides of life: the nobility is a symbol of Time, Destiny, race, Being — 'the noble lives in a world of facts,' a doer; the priesthood is a symbol of Space, Causality, intellect, waking-being — 'the priest in one of truths,' a thinker. Aristocracy is 'pulse-sense,' priesthood proceeds 'by tensions.' All Spengler's earlier oppositions (destiny/causality, fact-man/truth-man, blood/intellect) reappear as nobility versus clergy.",
+      "tags": ["concept:being-waking-being", "domain:politics"],
+      "see_also": ["being-waking-being"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-10-form-estates-exclude",
+      "kind": "form-observation",
+      "selector": { "exact": "The two Estates in principle exclude one another." },
+      "anchor": "The two Estates in principle exclude one another.",
+      "note": "Nobility and priesthood are mutually exclusive yet interdependent — 'each is possible and necessary only through the other.' Their opposition is 'the prime opposition of cosmic and microcosmic.' Spengler reads the great medieval struggle of Empire and Papacy, of State and Church, as this estate-opposition raised, in Faustian man, to an intensity no other Culture reached. Hold the pattern: the same dual structure organizes his account of all politics.",
+      "tags": ["concept:being-waking-being", "domain:politics"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-10-form-estates-symbolic-dignity",
+      "kind": "form-observation",
+      "selector": { "exact": "These lives do not exist in order to be merely lived, but to have meaning." },
+      "anchor": "the prime Estates … sustained … by a symbolic dignity … lives that exist to have meaning",
+      "note": "What sets nobility and priesthood apart from peasant and burgher is not power but symbolic dignity — 'a rank derived from a divine investiture and therefore beyond all criticism,' carrying 'the sternest self-discipline … and death itself if need be.' Their lives 'do not exist in order to be merely lived, but to have meaning.' This is the aristocratic-religious world-feeling Spengler measures the modern, leveling 'Third Estate' against — and finds wanting.",
+      "tags": ["view:interpretation", "domain:politics"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-10-form-universal-estates",
+      "kind": "form-observation",
+      "selector": { "exact": "Every new Culture has potentially its nobility and its priesthood." },
+      "anchor": "Every new Culture has potentially its nobility and its priesthood.",
+      "note": "The two prime estates are universal: Spengler finds them in China, in early Orphism, in the Gothic. Their opposition drives all social history — 'impulsive peasant wars in the Springtime, intellectually-based civil wars in the later period.' The claim is part of his comparative morphology: not just art and mathematics but the very structure of society repeats, Culture to Culture, the same form in different costumes.",
+      "cultures": ["chinese", "apollinian", "faustian"],
+      "tags": ["concept:culture-civilization", "domain:politics"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-10-form-third-estate",
+      "kind": "form-observation",
+      "selector": { "exact": "The Third Estate, without proper inward unity, was the non-estate" },
+      "anchor": "The Third Estate … the non-estate — the protest … against the existence of estates",
+      "note": "The bourgeoisie is the 'Third Estate' — but really, Spengler says, a 'non-estate': a protest 'against the symbolic view of life in general,' recognizing only 'differences justified by reason or practically useful.' It is the city and the intellect set against the blood-and-meaning of nobility and priesthood. This is the social face of the same money-and-mind 'party' that the philosophy-of-politics chapter (XII) will pit against the old estates.",
+      "tags": ["concept:culture-civilization", "domain:politics"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    }
+  ]
+}

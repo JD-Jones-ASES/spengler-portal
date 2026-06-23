@@ -1,0 +1,131 @@
+{
+  "id": "political-epochs",
+  "title": "“Contemporary” Political Epochs",
+  "caption": "Table III from The Decline of the West, Vol. I. The political-history table — note that the third column is now China, not Arabia. Read a row across to see the states, dynasties and statesmen Spengler holds to be 'contemporary': feudalism, the aristocratic state, absolutism, revolution, and finally money-democracy giving way to Cæsarism. The Western Civilization rows reach into the future; a few cells carry editorial notes where the printed table is anomalous (verified against Project Gutenberg #72344).",
+  "source": "Decline of the West, Vol. I — Table III, “Contemporary” Political Epochs (foldout at end of volume).",
+  "source_citation": "gutenberg-decline-i",
+  "cultures": [
+    { "id": "egyptian", "label": "Egyptian", "cult": "egyptian", "from": "from 3400 B.C." },
+    { "id": "apollinian", "label": "Classical", "cult": "apollinian", "from": "from 1600 B.C." },
+    { "id": "chinese", "label": "Chinese", "cult": "chinese", "from": "from 1700 B.C." },
+    { "id": "faustian", "label": "Western", "cult": "faustian", "from": "from 500" }
+  ],
+  "phases": [
+    { "id": "pre-cultural", "label": "Pre-Cultural Period" },
+    { "id": "early", "label": "Culture · Early Period" },
+    { "id": "late", "label": "Culture · Late Period" },
+    { "id": "civilization", "label": "Civilization" }
+  ],
+  "rows": [
+    {
+      "epoch": "—", "phase": "pre-cultural",
+      "label": "Primitive folk. Tribes and their chiefs. As yet no “politics” and no “state”.",
+      "cells": {
+        "egyptian": { "text": "Thinite Period (Menes), 3400–3000." },
+        "apollinian": { "text": "Mycenean Age (“Agamemnon”), 1600–1100." },
+        "chinese": { "text": "Shang Period (1700–1300)." },
+        "faustian": { "text": "Frankish Period (Charlemagne), 500–900." }
+      }
+    },
+    {
+      "epoch": "I", "phase": "early",
+      "label": "Early Period — organic articulation of political existence; the two prime classes (noble and priest); feudal economics, purely agrarian values.",
+      "cells": {
+        "egyptian": { "text": "Old Kingdom (2900–2400)." },
+        "apollinian": { "text": "Doric Period (1100–650)." },
+        "chinese": { "text": "Early Chou Period (1300–800)." },
+        "faustian": { "text": "Gothic Period (900–1500)." }
+      }
+    },
+    {
+      "epoch": "1", "phase": "early",
+      "label": "Feudalism. Spirit of countryside and countryman; the “City” only a market or stronghold; chivalric-religious ideals; struggles of vassals among themselves and against the overlord.",
+      "cells": {
+        "egyptian": { "text": "Feudal conditions of the IV Dynasty. Increasing power of the feudatories and priesthoods. The Pharaoh as incarnation of Ra." },
+        "apollinian": { "text": "The Homeric kingship. Rise of the nobility (Ithaca, Etruria, Sparta).", "passage_targets": ["decline-vol-ii-ch-10-the-state-the-problem-of-the-estates-nobility-and-priesthood#p0"] },
+        "chinese": { "text": "The central ruler (Wang) pressed hard by the feudal nobility." },
+        "faustian": { "text": "Roman-German Imperial period. Crusading nobility. Empire and Papacy.", "passage_targets": ["decline-vol-ii-ch-10-the-state-the-problem-of-the-estates-nobility-and-priesthood#p0"] }
+      }
+    },
+    {
+      "epoch": "2", "phase": "early",
+      "label": "Crisis and dissolution of patriarchal forms. From feudalism to the aristocratic State.",
+      "cells": {
+        "egyptian": { "text": "VI Dynasty: break-up of the Kingdom into heritable principalities. VII and VIII Dynasties: interregnum." },
+        "apollinian": { "text": "Aristocratic synoecism. Dissolution of kinship into annual offices. Oligarchy." },
+        "chinese": { "text": "934–904: I-Wang and the vassals. 842: interregnum." },
+        "faustian": { "text": "Territorial princes. Renaissance towns. Lancaster and York. 1254: interregnum." }
+      }
+    },
+    {
+      "epoch": "II", "phase": "late",
+      "label": "Late Period — the matured State-idea actualized; town versus countryside; rise of the Third Estate (bourgeoisie); victory of money over landed property.",
+      "cells": {
+        "egyptian": { "text": "Middle Kingdom (2150–1800)." },
+        "apollinian": { "text": "Ionic Period (650–300)." },
+        "chinese": { "text": "Late Chou Period (800–500)." },
+        "faustian": { "text": "Baroque Period (1500–1800)." }
+      }
+    },
+    {
+      "epoch": "3", "phase": "late",
+      "label": "Fashioning of a world of States of strict form. Frondes.",
+      "cells": {
+        "egyptian": { "text": "XIth Dynasty: overthrow of the baronage by the rulers of Thebes. Centralized bureaucracy-state." },
+        "apollinian": { "text": "6th Century: First Tyrannis (Cleisthenes, Periander, Polycrates, the Tarquins). The City-State." },
+        "chinese": { "text": "Period of the “Protectors” (Ming-Chu, 685–591) and the rulers of Thebes; congresses of princes (to 460).", "note": "“and the rulers of Thebes” appears in this cell in the original edition (confirmed against Project Gutenberg #72344); it also appears in the Egyptian column, and is most likely an error in the printed table, but it is transcribed here as printed." },
+        "faustian": { "text": "Dynastic family-power; the Fronde (Richelieu, Wallenstein, Cromwell), about 1630." }
+      }
+    },
+    {
+      "epoch": "4", "phase": "late",
+      "label": "Climax of the State-form (“Absolutism”). Unity of town and “Society”; the “three estates”.",
+      "cells": {
+        "egyptian": { "text": "XIIth Dynasty (2000–1788). Strictest centralization of power. Court and finance nobility." },
+        "apollinian": { "text": "The pure Polis (absolutism of the Demos). Agora politics. Rise of the tribunate. Themistocles, Pericles.", "passage_targets": ["decline-vol-ii-ch-11-the-state-state-and-history#p0"] },
+        "chinese": { "text": "Chun-Chiu period (“Spring and Autumn”), 590–480. Seven powers. Perfection of social forms (Li)." },
+        "faustian": { "text": "Ancien Régime. Rococo. Court nobility of Versailles. Cabinet politics. Habsburg and Bourbon. Louis XIV. Frederick the Great.", "passage_targets": ["decline-vol-ii-ch-11-the-state-state-and-history#p0"] }
+      }
+    },
+    {
+      "epoch": "5", "phase": "late",
+      "label": "Break-up of the State-form (Revolution and Napoleonism). Victory of the city over the countryside, of the “people” over the privileged, of money over policy.",
+      "cells": {
+        "egyptian": { "text": "1788–1680: revolution and military government. Decay of the realm; small potentates, in some cases sprung from the people." },
+        "apollinian": { "text": "4th Century: social revolution and Second Tyrannis (Dionysius I, Jason of Pherae, Appius Claudius the Censor). Alexander. Revolutions and annihilation-wars." },
+        "chinese": { "text": "480: beginning of the Chan-Kwo period. 441: fall of the Chou dynasty." },
+        "faustian": { "text": "End of the 18th Century: revolution in America and France (Washington, Fox, Mirabeau, Robespierre). Napoleon." }
+      }
+    },
+    {
+      "epoch": "1", "phase": "civilization",
+      "label": "Domination of money (“Democracy”). Economic powers permeating the political forms and authorities.",
+      "cells": {
+        "egyptian": { "text": "1680 (1788)–1580: Hyksos period; deepest decline; dictatures of alien generals (Chian). 288: the imperial title. After 1600: definitive victory of the rulers of Thebes." },
+        "apollinian": { "text": "300–100: political Hellenism. From Alexander to Hannibal and Scipio, royal all-power; from Cleomenes III and C. Flaminius (220) to C. Marius, radical demagogues.", "passage_targets": ["decline-vol-ii-ch-13-the-form-world-of-economic-life-money#p0"] },
+        "chinese": { "text": "480–230: the period of the “Contending States”. The imperialist statesmen of Tsin. From 289: incorporation of the last states in the Empire." },
+        "faustian": { "text": "1800–2000: the 19th Century, from Napoleon to the World-War — the “system of the Great Powers”, standing armies, constitutions; the 20th-Century transition from constitutional to informal sway of individuals; annihilation-wars; imperialism.", "passage_targets": ["decline-vol-ii-ch-13-the-form-world-of-economic-life-money#p0"] }
+      }
+    },
+    {
+      "epoch": "2", "phase": "civilization",
+      "label": "Formation of Cæsarism. Victory of force-politics over money; the nations sink into a formless population, ruled as an imperium of growing crudity.",
+      "cells": {
+        "egyptian": { "text": "1580–1350: XVIIIth Dynasty. Thuthmosis III." },
+        "apollinian": { "text": "100–0–100: Sulla to Domitian. Cæsar, Tiberius.", "passage_targets": ["decline-vol-ii-ch-12-the-state-philosophy-of-politics#p0"] },
+        "chinese": { "text": "250–0–26: the House of Wang-Cheng and the Western Han Dynasty. 221: the Augustus-title (Shi) of the Emperor Hwang-Ti. 140–80: Wu-ti.", "passage_targets": ["decline-vol-ii-ch-12-the-state-philosophy-of-politics#p0"] },
+        "faustian": { "text": "1000–1200.", "note": "“1000–1200” as printed in the original edition (confirmed against Project Gutenberg #72344). The value is anomalous — the West's Cæsarism is elsewhere a forward projection (cf. the preceding “1800–2000”) — but it is what the table prints." }
+      }
+    },
+    {
+      "epoch": "3", "phase": "civilization",
+      "label": "Maturing of the final form. Private and family policies of individual leaders; the world as spoil; Egypticism, Mandarinism, Byzantinism; ossification even of the imperial machinery.",
+      "cells": {
+        "egyptian": { "text": "1350–1205: XIXth Dynasty. Sethos I. Rameses II." },
+        "apollinian": { "text": "100–300: Trajan to Aurelian. Trajan, Septimius Severus." },
+        "chinese": { "text": "25–220 A.D.: Eastern Han Dynasty. 58–71: Ming-ti." },
+        "faustian": { "text": "after 1200.", "note": "“after 1200” as printed in the original edition (confirmed against Project Gutenberg #72344); anomalous for the same reason as the preceding row, but transcribed as printed." }
+      }
+    }
+  ]
+}

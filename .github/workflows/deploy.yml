@@ -1,0 +1,47 @@
+# Build the static Astro site and deploy it to GitHub Pages.
+# Pure `astro build` — generated data (derived/, data/indexes/, etc.) is committed, so CI does NOT
+# run `prepare:data`. Project base is /spengler-portal (see astro.config.mjs).
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# One concurrent deploy; let an in-progress run finish.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      # npm install (not `npm ci`): the committed lockfile is generated on Windows and omits some
+      # Linux-only optional native deps (@emnapi/*), which `npm ci` rejects. install reconciles them.
+      - run: npm install --no-audit --no-fund
+      - run: npm run build
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

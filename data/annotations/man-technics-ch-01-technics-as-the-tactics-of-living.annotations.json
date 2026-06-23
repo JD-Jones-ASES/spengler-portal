@@ -1,0 +1,120 @@
+{
+  "unit_id": "man-technics-ch-01-technics-as-the-tactics-of-living",
+  "annotations": [
+    {
+      "id": "mt1-teacher-decline-in-miniature",
+      "kind": "teacher-note",
+      "selector": { "exact": "first emerges only in the nineteenth century" },
+      "anchor": "The problem of technics … first emerges only in the nineteenth century",
+      "note": "Read Man and Technics (1931) as a late, popular distillation of The Decline of the West turned on a single fact: the machine. The same method — Cultures as living organisms with a destiny — is here applied to technics. Spengler's own footnotes keep pointing back to the Decline; treat this short book as that system's coda, not a fresh start.",
+      "tags": ["view:interpretation", "domain:method"],
+      "evidence": [{ "claim_type": "interpretive", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "mt1-hist-rousseau-lamb",
+      "kind": "historical-reference",
+      "selector": { "exact": "corrupted only afterward, by Culture" },
+      "anchor": "a kind of little lamb … corrupted only afterward, by Culture",
+      "note": "Spengler's target is the Enlightenment picture of natural man — above all Rousseau's, for whom humans were good in the state of nature and corrupted by civilization ('nothing is so gentle as man in his primitive state'). Spengler will invert it completely: man is a beast of prey from the start. He returns to 'the plebeian shadow of Rousseau' in the next chapter.",
+      "tags": ["concept:beast-of-prey", "domain:method"],
+      "evidence": [{ "claim_type": "historical-context", "citations": ["wikipedia-rousseau"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "mt1-hist-utilitarians",
+      "kind": "historical-reference",
+      "selector": { "exact": "the doctrine of Bentham, Mill and Spencer" },
+      "anchor": "the doctrine of Bentham, Mill and Spencer",
+      "note": "The 'greatest happiness of the greatest number' is the utilitarian principle of Jeremy Bentham and J. S. Mill (Herbert Spencer gave it an evolutionary turn). Spengler caricatures it as a creed of 'not-doing' — comfort and labour-saving raised to an ideal — and reads the dream of an 'Earthly Paradise' of gadgets as the spiritual poverty of a late Civilization.",
+      "tags": ["view:interpretation", "domain:method"],
+      "evidence": [{ "claim_type": "historical-context", "citations": ["sep-utilitarianism-history"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "mt1-form-technics-immemorial",
+      "kind": "form-observation",
+      "selector": { "exact": "technics is immemorially old" },
+      "anchor": "technics is immemorially old",
+      "note": "The book's founding redefinition. 'Technics' for Spengler is not machinery, nor even specifically human: it is the tactics of all free-moving life. So a lion stalking a gazelle, or diplomacy, or a brush-stroke, is 'technics'. Hold onto this wide sense — the whole argument depends on technics being something a creature does, not a thing it makes.",
+      "tags": ["concept:technics", "domain:method"],
+      "see_also": ["technics"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "mt1-form-not-the-implement",
+      "kind": "form-observation",
+      "selector": { "exact": "of horsemanship, of steering an airship" },
+      "anchor": "a technics of the brush-stroke, of horsemanship, of steering an airship",
+      "note": "Spengler's second corrective: technics is not the tool but the purposive activity. 'What matters is not the making of things but the procedure with them; not the weapon, but the battle.' Many techniques use no implement at all. This is why he can build a whole philosophy of technology without ever starting from the machine.",
+      "tags": ["concept:technics", "domain:method"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "mt1-form-panem-circenses",
+      "kind": "form-observation",
+      "selector": { "exact": "panem et circenses of the late world-cities" },
+      "anchor": "the panem et circenses of the late world-cities",
+      "note": "'Bread and circuses' — the satirist Juvenal's phrase for the dole-and-games that kept the Roman mob content. Spengler treats modern mass-comfort as the contemporary form of the same late-city phenomenon, the 'world-city' of a Civilization past its creative spring. The Roman parallel is doing real argumentative work, not just decorating the prose.",
+      "cultures": ["apollinian", "faustian"],
+      "tags": ["concept:contemporaneity", "view:interpretation"],
+      "see_also": ["world-city", "contemporaneity"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "mt1-hist-nietzsche-will-to-power",
+      "kind": "historical-reference",
+      "selector": { "exact": "in Nietzsche's sense, as a struggle out of the will-to-power" },
+      "anchor": "life … in Nietzsche's sense, as a struggle out of the will-to-power, cruel, inexorable",
+      "note": "Spengler names his frame openly: life as Nietzsche's 'will to power' (Wille zur Macht). Nietzsche is one of his two masters (with Goethe). The borrowing is selective — Spengler keeps Nietzsche's combative vitalism and 'amor fati' but drops the hope of an 'overcoming'; what is left is a tragic, no-exit struggle.",
+      "tags": ["concept:will-to-power", "domain:method"],
+      "evidence": [{ "claim_type": "historical-context", "citations": ["sep-nietzsche"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "mt1-form-prometheus",
+      "kind": "form-observation",
+      "selector": { "exact": "the hubris of Prometheus, who reaches into the heavens" },
+      "anchor": "the hubris of Prometheus, who reaches into the heavens to subject the divine powers to man",
+      "note": "The Promethean image — the overreaching hand that steals from the gods and is punished — is the master-metaphor of the whole book. It returns as the human hand (ch. III), the theft of fire, and finally the machine seized 'as when Prometheus stole fire' (ch. V). Spengler's man is Prometheus: his grandeur and his doom are the same act.",
+      "tags": ["concept:tragedy", "view:interpretation"],
+      "see_also": ["technics"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "mt1-parallel-achilles-choice",
+      "kind": "cross-culture-parallel",
+      "selector": { "exact": "a long life or a short one full of deeds and fame" },
+      "anchor": "the choice of whether he would wish a long life or a short one full of deeds and fame",
+      "note": "Achilles' choice, from the Iliad: a long obscure life, or a short one full of glory. Spengler plants it here and harvests it on the book's last page as 'the Choice of Achilles' — the only world-outlook he thinks 'worthy of us'. Notice how the opening and the close are wired together: the heroic-pessimist ethic frames everything in between.",
+      "cultures": ["apollinian"],
+      "tags": ["view:interpretation", "concept:tragedy"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "mt1-teacher-downhill-seeing",
+      "kind": "teacher-note",
+      "selector": { "exact": "going down with our eyes open" },
+      "anchor": "we men of the twentieth century are going down with our eyes open",
+      "note": "A key to Spengler's tone. He claims that clear historical sight comes only to a Culture in its decline ('only on the summit of high Cultures … does this gift of penetrating insight appear for a moment'). So the pessimism is not despair but a claimed privilege of vision: we can read the form of our age precisely because we are late in it. Whether that is insight or a self-flattering alibi is a fair question to keep open.",
+      "tags": ["view:interpretation", "domain:method"],
+      "evidence": [{ "claim_type": "interpretive", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    }
+  ]
+}

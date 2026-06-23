@@ -1,0 +1,35 @@
+---
+// The signature morphological motif: a ring quartered into the four organic seasons
+// (Spring/Summer/Autumn/Winter), wrapped by a dashed "Civilization" outer ring — the terminus.
+// Decorative; aria-hidden. Reused on the landing, as a section glyph, and as the chapter flourish.
+const { size = 56, stroke = 3 } = Astro.props;
+const c = size / 2;
+const r = size / 2 - stroke;
+const rCiv = size / 2 - stroke / 2;
+// Four quarter-arcs. Angles: spring 180→270, summer 270→360, autumn 0→90, winter 90→180 (clockwise).
+function arc(startDeg, endDeg, radius) {
+  const a0 = (startDeg * Math.PI) / 180;
+  const a1 = (endDeg * Math.PI) / 180;
+  const x0 = c + radius * Math.cos(a0);
+  const y0 = c + radius * Math.sin(a0);
+  const x1 = c + radius * Math.cos(a1);
+  const y1 = c + radius * Math.sin(a1);
+  return `M ${x0.toFixed(2)} ${y0.toFixed(2)} A ${radius} ${radius} 0 0 1 ${x1.toFixed(2)} ${y1.toFixed(2)}`;
+}
+---
+<svg
+  class="phase-clock"
+  width={size}
+  height={size}
+  viewBox={`0 0 ${size} ${size}`}
+  aria-hidden="true"
+  fill="none"
+>
+  <circle class="pc-civ" cx={c} cy={c} r={rCiv} />
+  <path class="pc-season pc-spring" stroke-linecap="round" d={arc(180, 269, r)} />
+  <path class="pc-season pc-summer" stroke-linecap="round" d={arc(271, 360, r)} />
+  <path class="pc-season pc-autumn" stroke-linecap="round" d={arc(1, 89, r)} />
+  <path class="pc-season pc-winter" stroke-linecap="round" d={arc(91, 179, r)} />
+  <line class="pc-spoke" x1={c} y1={stroke} x2={c} y2={size - stroke} />
+  <line class="pc-spoke" x1={stroke} y1={c} x2={size - stroke} y2={c} />
+</svg>

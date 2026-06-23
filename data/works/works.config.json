@@ -1,0 +1,275 @@
+{
+  "$comment": "Hand-authored structure declaration. The cleaner (build-cleaned-spine.mjs) uses this to slice raw/ into the derived/ reading spine. textStartPage seeds the running page-anchor counter for de-pagination. layout: 'line-paragraphs' = one paragraph per line (clean Gutenberg); 'wrapped' = paragraphs wrap across lines (needs reflow + de-hyphenation).",
+  "works": [
+    {
+      "id": "decline",
+      "title": "The Decline of the West",
+      "author": "Oswald Spengler",
+      "translator": "Charles Francis Atkinson",
+      "source_id": "gutenberg-decline-i",
+      "volumes": [
+        {
+          "id": "vol-i",
+          "title": "Form and Actuality",
+          "raw_path": "raw/Spengler_Decline_I.txt",
+          "layout": "line-paragraphs",
+          "text_status": "clean",
+          "endnotes": {
+            "style": "global-numbered",
+            "marker": "bracket"
+          },
+          "chapters": [
+            {
+              "n": 1,
+              "roman": "I",
+              "title": "Introduction",
+              "textStartPage": 3,
+              "function": "exposition"
+            },
+            {
+              "n": 2,
+              "roman": "II",
+              "title": "The Meaning of Numbers",
+              "textStartPage": 53,
+              "function": "mathematics"
+            },
+            {
+              "n": 3,
+              "roman": "III",
+              "title": "The Problem of World-history (1): Physiognomic and Systematic",
+              "textStartPage": 93,
+              "function": "comparative-morphology"
+            },
+            {
+              "n": 4,
+              "roman": "IV",
+              "title": "The Problem of World-history (2): The Destiny-idea and the Causality-principle",
+              "textStartPage": 117,
+              "function": "comparative-morphology"
+            },
+            {
+              "n": 5,
+              "roman": "V",
+              "title": "Makrokosmos (1): The Symbolism of the World-picture and the Problem of Space",
+              "textStartPage": 163,
+              "function": "prime-symbol"
+            },
+            {
+              "n": 6,
+              "roman": "VI",
+              "title": "Makrokosmos (2): Apollinian, Faustian, and Magian Soul",
+              "textStartPage": 183,
+              "function": "prime-symbol"
+            },
+            {
+              "n": 7,
+              "roman": "VII",
+              "title": "Music and Plastic (1): The Arts of Form",
+              "textStartPage": 219,
+              "function": "art-music"
+            },
+            {
+              "n": 8,
+              "roman": "VIII",
+              "title": "Music and Plastic (2): Act and Portrait",
+              "textStartPage": 259,
+              "function": "art-music"
+            },
+            {
+              "n": 9,
+              "roman": "IX",
+              "title": "Soul-image and Life-feeling (1): On the Form of the Soul",
+              "textStartPage": 299,
+              "function": "religion-metaphysics"
+            },
+            {
+              "n": 10,
+              "roman": "X",
+              "title": "Soul-image and Life-feeling (2): Buddhism, Stoicism, and Socialism",
+              "textStartPage": 341,
+              "function": "religion-metaphysics"
+            },
+            {
+              "n": 11,
+              "roman": "XI",
+              "title": "Faustian and Apollinian Nature-knowledge",
+              "textStartPage": 377,
+              "function": "science"
+            }
+          ]
+        },
+        {
+          "id": "vol-ii",
+          "title": "Perspectives of World-History",
+          "raw_path": "raw/Spengler_Decline_II_Gutenberg.txt",
+          "layout": "line-paragraphs",
+          "text_status": "clean",
+          "endnotes": {
+            "style": "global-numbered",
+            "marker": "bracket"
+          },
+          "$comment": "Re-sourced 2026-06-22 from the clean, human-proofread Project Gutenberg edition (eBook #78914, Atkinson/Knopf) — superseding the Internet-Archive OCR. raw/Spengler_Decline_II_Gutenberg.txt is generated from the (gitignored) Gutenberg HTML by scripts/ingest/extract-vol-ii-gutenberg.mjs into the same line-paragraphs shape as Vol I (CHAPTER headers, one paragraph per line, [N] refs, 941 global-numbered endnotes). This eliminated the OCR review queue entirely; the old IA overlay + review-queue were retired (see ADR-0012). The original OCR file raw/Spengler_Decline_II.txt is left untouched (raw/ is read-only).",
+          "chapters": [
+            {
+              "n": 1,
+              "roman": "I",
+              "title": "Origin and Landscape (A): The Cosmic and the Microcosm",
+              "function": "comparative-morphology",
+              "textStartPage": 1
+            },
+            {
+              "n": 2,
+              "roman": "II",
+              "title": "Origin and Landscape (B): The Group of the Higher Cultures",
+              "function": "comparative-morphology",
+              "textStartPage": 21
+            },
+            {
+              "n": 3,
+              "roman": "III",
+              "title": "Origin and Landscape (C): The Relations between the Cultures",
+              "function": "comparative-morphology",
+              "textStartPage": 53
+            },
+            {
+              "n": 4,
+              "roman": "IV",
+              "title": "Cities and Peoples (A): The Soul of the City",
+              "function": "politics",
+              "textStartPage": 85
+            },
+            {
+              "n": 5,
+              "roman": "V",
+              "title": "Cities and Peoples (B): Peoples, Races, Tongues",
+              "function": "politics",
+              "textStartPage": 111
+            },
+            {
+              "n": 6,
+              "roman": "VI",
+              "title": "Cities and Peoples (C): Primitives, Culture-Peoples, Fellaheen",
+              "function": "politics",
+              "textStartPage": 157
+            },
+            {
+              "n": 7,
+              "roman": "VII",
+              "title": "Problems of the Arabian Culture (A): Historic Pseudomorphoses",
+              "function": "religion-metaphysics",
+              "textStartPage": 187
+            },
+            {
+              "n": 8,
+              "roman": "VIII",
+              "title": "Problems of the Arabian Culture (B): The Magian Soul",
+              "function": "religion-metaphysics",
+              "textStartPage": 231
+            },
+            {
+              "n": 9,
+              "roman": "IX",
+              "title": "Problems of the Arabian Culture (C): Pythagoras, Mohammed, Cromwell",
+              "function": "religion-metaphysics",
+              "textStartPage": 263
+            },
+            {
+              "n": 10,
+              "roman": "X",
+              "title": "The State (A): The Problem of the Estates — Nobility and Priesthood",
+              "function": "politics",
+              "textStartPage": 325
+            },
+            {
+              "n": 11,
+              "roman": "XI",
+              "title": "The State (B): State and History",
+              "function": "politics",
+              "textStartPage": 359
+            },
+            {
+              "n": 12,
+              "roman": "XII",
+              "title": "The State (C): Philosophy of Politics",
+              "function": "politics",
+              "textStartPage": 437
+            },
+            {
+              "n": 13,
+              "roman": "XIII",
+              "title": "The Form-world of Economic Life (A): Money",
+              "function": "economics",
+              "textStartPage": 467
+            },
+            {
+              "n": 14,
+              "roman": "XIV",
+              "title": "The Form-world of Economic Life (B): The Machine",
+              "function": "economics",
+              "textStartPage": 497
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "man-technics",
+      "title": "Man and Technics",
+      "subtitle": "A Contribution to a Philosophy of Life",
+      "author": "Oswald Spengler",
+      "translator": "JD Jones with Claude (fresh translation from the 1931 German)",
+      "source_id": "spengler-mensch-technik-de-1931",
+      "volumes": [
+        {
+          "id": null,
+          "title": "Man and Technics",
+          "raw_path": "raw/Man_and_Technics.en.txt",
+          "layout": "line-paragraphs",
+          "text_status": "clean",
+          "$comment": "Fresh, independent English translation made for this portal from the public-domain 1931 German original (Der Mensch und die Technik, C. H. Beck, Munich; Vordenker 2009 digital edition). NOT the copyrighted Atkinson/Knopf 1932 translation. Spengler's own Decline cross-reference footnotes are preserved as [N] global endnotes. German source: raw/Mensch_und_Technik_DE.txt (generated by scripts/translate/extract-mt-german.py); term glossary: data/translation/mt-glossary.json. raw/ is never mutated.",
+          "endnotes": {
+            "style": "global-numbered",
+            "marker": "bracket"
+          },
+          "chapters": [
+            {
+              "n": 1,
+              "roman": "I",
+              "title": "Technics as the Tactics of Living",
+              "textStartPage": 3,
+              "function": "economics"
+            },
+            {
+              "n": 2,
+              "roman": "II",
+              "title": "Herbivores and Beasts of Prey",
+              "textStartPage": 19,
+              "function": "economics"
+            },
+            {
+              "n": 3,
+              "roman": "III",
+              "title": "The Origin of Man: Hand and Tool",
+              "textStartPage": 35,
+              "function": "economics"
+            },
+            {
+              "n": 4,
+              "roman": "IV",
+              "title": "The Second Stage: Speech and Enterprise",
+              "textStartPage": 49,
+              "function": "economics"
+            },
+            {
+              "n": 5,
+              "roman": "V",
+              "title": "The Last Act: Rise and End of the Machine Culture",
+              "textStartPage": 75,
+              "function": "economics"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

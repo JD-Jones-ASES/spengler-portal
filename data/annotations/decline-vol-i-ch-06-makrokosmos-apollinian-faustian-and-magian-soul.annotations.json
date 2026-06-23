@@ -1,0 +1,115 @@
+{
+  "unit_id": "decline-vol-i-ch-06-makrokosmos-apollinian-faustian-and-magian-soul",
+  "annotations": [
+    {
+      "id": "dvi6-teacher-the-two-lists",
+      "kind": "teacher-note",
+      "selector": { "exact": "Apollinian are: mechanical statics, the sensuous cult of the Olympian gods" },
+      "anchor": "Apollinian are: mechanical statics, the sensuous cult of the Olympian gods …",
+      "note": "This is the chapter's method laid bare: Spengler draws up two long opposed lists — Apollinian on one side, Faustian on the other — sorting statics against dynamics, the city-state against the dynastic state, Œdipus against Lear. Read the lists for the family-resemblance he is after, but keep a critical eye: a scheme that can file every phenomenon under one of two souls is powerful precisely because almost nothing can refute it.",
+      "tags": ["view:interpretation", "concept:the-soul"],
+      "evidence": [{ "claim_type": "interpretive", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi6-lex-apollinian",
+      "kind": "lexicon-term",
+      "selector": { "exact": "chose the sensuously-present individual body as the ideal type of the extended" },
+      "anchor": "the sensuously-present individual body as the ideal type of the extended",
+      "note": "The Apollinian (Classical) soul defined: it takes the sensuous, present, individual body as the measure of all things. Hence its mathematics is geometry of bounded magnitudes, its art the free-standing nude statue, its physics a cosmos of bodies, its self the soma — with, Spengler claims, no feeling for inner development, distance, or history.",
+      "cultures": ["apollinian"],
+      "tags": ["culture:apollinian", "concept:the-soul"],
+      "see_also": ["apollinian", "prime-symbol", "the-soul"],
+      "evidence": [{ "claim_type": "lexical-definition", "citations": ["britannica-spengler"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "lexicon", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi6-lex-faustian",
+      "kind": "lexicon-term",
+      "selector": { "exact": "the Faustian soul, whose prime-symbol is pure and limitless space" },
+      "anchor": "the Faustian soul, whose prime-symbol is pure and limitless space",
+      "note": "The Faustian (Western) soul defined: pure, limitless space, in a Culture that blossomed with the Romanesque style in the 10th century, between the Elbe and the Tagus. Its signatures are Galileian dynamics, the great dynasties, the Madonna-ideal and the destiny of Lear — and its art the space-creating ones, oil-painting and the fugue. Named for Goethe's Faust, the soul that will trade anything for the unbounded.",
+      "cultures": ["faustian"],
+      "tags": ["culture:faustian", "concept:the-soul"],
+      "see_also": ["faustian", "prime-symbol", "the-soul"],
+      "evidence": [{ "claim_type": "lexical-definition", "citations": ["britannica-spengler"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "lexicon", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi6-lex-magian",
+      "kind": "lexicon-term",
+      "selector": { "exact": "the Magian soul of the Arabian Culture with its algebra, astrology and alchemy" },
+      "anchor": "the Magian soul of the Arabian Culture with its algebra, astrology and alchemy",
+      "note": "The Magian (Arabian) soul defined: the Culture that wakes around the time of Augustus in the lands between Nile and Tigris, expressing itself in algebra, astrology and alchemy, in mosaic and arabesque, in caliphate and mosque, and in the scriptures of the Persian, Jewish, Christian and Manichæan religions alike. Its prime-symbol is the world-cavern — the enclosed, vaulted space of spirit and matter.",
+      "cultures": ["magian"],
+      "tags": ["culture:magian", "concept:the-soul"],
+      "see_also": ["magian", "prime-symbol", "pseudomorphosis"],
+      "evidence": [{ "claim_type": "lexical-definition", "citations": ["britannica-spengler"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "lexicon", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi6-hist-nietzsche-apollinian",
+      "kind": "historical-reference",
+      "selector": { "exact": "the name (familiarized by Nietzsche) of the Apollinian" },
+      "anchor": "the name (familiarized by Nietzsche) of the Apollinian",
+      "note": "Spengler takes the word 'Apollinian' from Nietzsche, who in The Birth of Tragedy opposed the Apollinian (form, measure, the dream-image) to the Dionysian (intoxication, music, the dissolving of the individual). Spengler keeps the Apollinian but quietly drops the Dionysian partner, repurposing the term to name the whole Classical soul rather than one pole within it — a telling adaptation of his acknowledged master.",
+      "tags": ["concept:the-soul", "domain:method"],
+      "evidence": [{ "claim_type": "historical-context", "citations": ["sep-nietzsche", "wikipedia-apollonian-dionysian"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi6-reception-frye-statue-fugue",
+      "kind": "scholarly-reception",
+      "selector": { "exact": "The nude statue is Apollinian, the art of the fugue Faustian." },
+      "anchor": "The nude statue is Apollinian, the art of the fugue Faustian.",
+      "note": "Northrop Frye reads this art-contrast as the clearest window onto the two souls: 'the central art of Faustian man is contrapuntal music; Classical culture expressed its sense of the pure present in its sculpture.' For Frye the Faustian is defined by 'a drive into infinite distance' — so its proper art is the one that unfolds, develops and fills time and space (the fugue), where the Classical fixes the bounded present in the standing body.",
+      "cultures": ["apollinian", "faustian"],
+      "tags": ["view:interpretation", "domain:art"],
+      "attribution": { "scholar": "Northrop Frye", "work": "“The Decline of the West” by Oswald Spengler (Daedalus)", "year": 1974, "stance": "contextual", "citation": "frye-decline-1974" },
+      "evidence": [{ "claim_type": "scholarly-interpretation", "citations": ["frye-decline-1974"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi6-parallel-doric-gothic",
+      "kind": "cross-culture-parallel",
+      "selector": { "exact": "The Doric column bores into the ground" },
+      "anchor": "The Doric column bores into the ground",
+      "note": "A vivid morphological reading of architecture. The Doric column 'bores into the ground' and the temple emphasizes its footing — the Apollinian soul wants the firm, bounded, standing body. Against it Spengler sets the Gothic nave soaring up and the Magian cupola closing over: three souls, three ways of meeting space — to stand on it, to soar into it, to be roofed within it.",
+      "cultures": ["apollinian", "faustian", "magian"],
+      "tags": ["concept:prime-symbol", "domain:art"],
+      "see_also": ["prime-symbol"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi6-form-faustian-solitude",
+      "kind": "form-observation",
+      "selector": { "exact": "Siegfried, Parzeval, Tristan, Hamlet, Faust are the loneliest heroes in all the Cultures." },
+      "anchor": "Siegfried, Parzeval, Tristan, Hamlet, Faust are the loneliest heroes in all the Cultures.",
+      "note": "One of the chapter's most beautiful passages, and a good example of Spengler arguing by resonance rather than proof. The infinite space of the Faustian soul is felt, he says, as infinite solitude — so its heroes (Siegfried, Parzeval, Tristan, Hamlet, Faust) are the loneliest in any Culture, while Olympus sits on homely Greek soil. Persuasive and moving; ask whether it demonstrates the thesis or simply illustrates a mood.",
+      "cultures": ["faustian"],
+      "tags": ["view:interpretation", "culture:faustian"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi6-difficult-untranslatable",
+      "kind": "difficult-material",
+      "selector": { "exact": "could not be represented in an Apollinian language, whether Greek or Latin" },
+      "anchor": "could not be represented in an Apollinian language, whether Greek or Latin",
+      "note": "The same hard relativism that runs through the book, now applied to the arts and languages: Faustian space, Spengler says, simply could not be uttered in Greek or Latin, and the Apollinian's bounded space is equally closed to us. The claim gives the soul-types their depth — but pressed strictly it would make translation, and Spengler's own reading of the Greeks, impossible. Hold the difficulty rather than resolve it.",
+      "tags": ["view:interpretation", "difficult-material"],
+      "evidence": [{ "claim_type": "difficult-material", "citations": ["hughes-spengler-1952"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    }
+  ]
+}

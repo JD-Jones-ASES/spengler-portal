@@ -1,0 +1,124 @@
+{
+  "unit_id": "decline-vol-i-ch-04-the-problem-of-world-history-the-destiny-idea-and-the-causality-principle",
+  "annotations": [
+    {
+      "id": "dvi4-teacher-destiny-causality-time-space",
+      "kind": "teacher-note",
+      "selector": { "exact": "Destiny and Causality are related as Time and Space." },
+      "anchor": "Destiny and Causality are related as Time and Space.",
+      "note": "The chapter compressed into one equation. Causality is the logic of space — of things laid out side by side, dissected into cause and effect; it is how we know Nature. Destiny is the logic of time — of one thing growing irreversibly out of another; it is how we live History. Keep the proportion in mind (Destiny : Causality :: Time : Space) and the rest of the chapter falls into place.",
+      "tags": ["view:interpretation", "concept:destiny-causality"],
+      "evidence": [{ "claim_type": "interpretive", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi4-lex-destiny-causality",
+      "kind": "lexicon-term",
+      "selector": { "exact": "But destiny is the word for an inner certainty that is not describable." },
+      "anchor": "destiny is the word for an inner certainty that is not describable",
+      "note": "Spengler's master-opposition stated plainly. Causality is 'the reasonable, the law-bound, the describable' — the world the sciences can capture in number and law. Destiny is an inner certainty that cannot be reasoned out at all, only lived and felt. The whole book turns on the claim that history belongs to the second order, not the first.",
+      "tags": ["concept:destiny-causality", "domain:method"],
+      "see_also": ["destiny-causality", "becoming-become"],
+      "evidence": [{ "claim_type": "lexical-definition", "citations": ["britannica-spengler"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "lexicon", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi4-lex-the-soul",
+      "kind": "lexicon-term",
+      "selector": { "exact": "the soul is the idea of an existence" },
+      "anchor": "the soul is the idea of an existence",
+      "note": "A compact statement of what Spengler means by the soul of a Culture: not a ghost inside people but the idea or possibility of an existence, working itself out as a destiny. To grasp a Culture's soul is to feel the single shape its whole life is bent on actualizing — which is why, for Spengler, soul and destiny are nearly the same thing.",
+      "tags": ["concept:the-soul", "domain:method"],
+      "see_also": ["the-soul", "destiny-causality"],
+      "evidence": [{ "claim_type": "lexical-definition", "citations": ["wikipedia-decline"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "lexicon", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi4-lex-world-as-history",
+      "kind": "lexicon-term",
+      "selector": { "exact": "the World-as-history as opposed to the World-as-nature" },
+      "anchor": "the World-as-history as opposed to the World-as-nature",
+      "note": "Spengler ties this chapter back to his founding distinction: words like luck, doom and vocation live in the World-as-history — the world felt as becoming and destiny — not in the World-as-nature that science measures. Destiny is simply what the world-as-history feels like from inside.",
+      "tags": ["concept:world-as-history", "domain:method"],
+      "see_also": ["world-as-history", "destiny-causality"],
+      "evidence": [{ "claim_type": "lexical-definition", "citations": ["wikipedia-decline"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "lexicon", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi4-reception-adorno-fatalism",
+      "kind": "scholarly-reception",
+      "selector": { "exact": "directed, irrevocable in every line, fate-laden" },
+      "anchor": "directed, irrevocable in every line, fate-laden",
+      "note": "According to Theodor Adorno, this fate-laden picture of life is exactly where Spengler must be resisted. By making a Culture's course as irrevocable as an organism's death, Spengler 'fatalizes' history and writes off human agency — turning decline into a sentence to be suffered rather than a situation to be acted in. Yet Adorno concedes the diagnostic power of Spengler's reading of the late, mechanized age, and argues against him that the very process of decay sets free forces his deterministic gaze cannot see.",
+      "cultures": ["faustian"],
+      "tags": ["view:interpretation", "concept:destiny-causality"],
+      "attribution": { "scholar": "Theodor W. Adorno", "work": "Spengler after the Decline (in Prisms)", "year": 1981, "stance": "critical", "citation": "adorno-prisms-spengler" },
+      "evidence": [{ "claim_type": "scholarly-interpretation", "citations": ["adorno-prisms-spengler"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi4-difficult-organic-logic",
+      "kind": "difficult-material",
+      "selector": { "exact": "There is an organic logic, an instinctive, dream-sure logic of all existence" },
+      "anchor": "an organic logic, an instinctive, dream-sure logic of all existence",
+      "note": "The chapter's most powerful — and most slippery — move. Spengler posits a second 'logic', an 'organic' or 'dream-sure' logic of life that the ordinary logic of 'understanding' (Aristotle, Kant) simply cannot reach. It is a real insight that lived time is not like measured space; but notice that it also conveniently places Spengler's deepest claims beyond the range of logical objection. Hold the difficulty: much of whether you find the book profound or evasive turns on whether you grant this 'other logic'.",
+      "tags": ["view:interpretation", "difficult-material"],
+      "evidence": [{ "claim_type": "difficult-material", "citations": ["hughes-spengler-1952"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi4-parallel-great-men",
+      "kind": "cross-culture-parallel",
+      "selector": { "exact": "No one foreknew the storm of Islam at the coming of Mohammed, nor foresaw Napoleon in the fall of Robespierre." },
+      "anchor": "No one foreknew … Mohammed … nor foresaw Napoleon in the fall of Robespierre",
+      "note": "Spengler pairs the unforeseeable across Cultures: the Magian eruption of Islam under Mohammed, the Faustian arrival of Napoleon out of the Revolution. The surface of history, he says, is ruled by 'the unforeseen' — individual events and great men are incalculable. Hold this against his famous claim to predict the stages of a Culture: he is distinguishing the calculable rhythm of the whole life-cycle from the incalculable detail of any given hour. Whether that distinction really saves the predictive boast is a fair question to press.",
+      "cultures": ["magian", "faustian"],
+      "tags": ["concept:contemporaneity", "view:interpretation"],
+      "see_also": ["contemporaneity"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi4-hist-augustine-time",
+      "kind": "historical-reference",
+      "selector": { "exact": "if no one questions me, I know: if I would explain to a questioner, I know not." },
+      "anchor": "if no one questions me, I know: if I would explain to a questioner, I know not",
+      "note": "Spengler borrows St Augustine's famous remark about Time and turns it onto Destiny: both are known with perfect inward certainty until the moment one tries to explain them, when the certainty dissolves. The move is characteristic — Destiny, like lived time, is something you can be sure of but cannot define, which is precisely why (he holds) it belongs to vision and art rather than to science.",
+      "tags": ["domain:method", "concept:destiny-causality"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi4-form-predestination",
+      "kind": "form-observation",
+      "selector": { "exact": "The Predestination doctrine of Calvin and Pascal" },
+      "anchor": "The Predestination doctrine of Calvin and Pascal",
+      "note": "A revealing reading: Spengler treats the West's theology of Grace and predestination (Augustine, Calvin, Pascal) as the Destiny-idea expressed in religious form — and judges that when Calvin and Pascal tried to reason it out, they 'lost the destiny-logic' and fell into mere causal machinery. Watch how he absorbs Christian doctrine, Protestant predestination and even Darwinian 'evolution' into the single Faustian feeling for an irreversible, directed existence.",
+      "cultures": ["faustian"],
+      "tags": ["view:interpretation", "domain:religion"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi4-form-napoleon-destiny",
+      "kind": "form-observation",
+      "selector": { "exact": "he who is to himself a Destiny (like Napoleon)" },
+      "anchor": "he who is to himself a Destiny (like Napoleon)",
+      "note": "Spengler's striking idea of the world-historical individual: a man like Napoleon does not need to 'read' history because he is himself a Destiny — between his own acts and the great facts around him there is a 'harmony of metaphysical rhythm' giving his decisions a dreamlike certainty. It is an exhilarating thought and a dangerous one; note that it makes the great actor answerable to fate rather than to reason or to law.",
+      "cultures": ["faustian"],
+      "tags": ["view:interpretation", "domain:politics"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    }
+  ]
+}

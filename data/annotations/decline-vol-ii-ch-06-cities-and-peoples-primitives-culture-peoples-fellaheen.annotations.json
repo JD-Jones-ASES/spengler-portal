@@ -1,0 +1,78 @@
+{
+  "unit_id": "decline-vol-ii-ch-06-cities-and-peoples-primitives-culture-peoples-fellaheen",
+  "annotations": [
+    {
+      "id": "dv2-6-form-people-unit-of-soul",
+      "kind": "form-observation",
+      "selector": { "exact": "The great events of history were not really achieved by peoples; they themselves created the peoples." },
+      "anchor": "the 'people' is a unit of the soul … the great events … created the peoples",
+      "note": "Spengler's definition, completing the demolition of chapter V: 'the people is a unit of the soul' — not a race, a language, or a political body, but a community held together by an inner form. And the order of cause runs backward from the usual story: 'the great events of history were not really achieved by peoples; they themselves created the peoples.' It was the migrations that made the Ostrogoths a people; the events came first, the people after. A people is a result, not a precondition.",
+      "tags": ["view:interpretation", "domain:politics"],
+      "see_also": ["being-waking-being"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-6-form-persian-convert",
+      "kind": "form-observation",
+      "selector": { "exact": "A Jew who went over to the Mazda faith became thereby a Persian" },
+      "anchor": "A Jew who went over to the Mazda faith became thereby a Persian",
+      "note": "A pointed example that 'people' is soul, not blood. In Parthian–Sassanid times 'not tribal attachment but orthodoxy' became 'the hall-mark of nationality': 'A Jew who went over to the Mazda faith became thereby a Persian; a Persian who became a Christian belonged to the Nestorian \"people.\"' The Persians, Spengler notes, were once 'Aryans, but no people,' then 'a people, but without race.' Nationality here is a matter of belief and inner form — the very opposite of the descent-based 'race' his contemporaries meant.",
+      "tags": ["view:interpretation", "culture:magian"],
+      "cultures": ["magian"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-6-form-nation-is-an-idea",
+      "kind": "form-observation",
+      "selector": { "exact": "Peoples in the style of their Culture we will call Nations" },
+      "anchor": "Peoples in the style of their Culture we will call Nations … underlying the nation there is an Idea",
+      "note": "Spengler's term for the highest people-form: a 'nation' is a people living 'in the style of' a high Culture, distinguished from the primitive peoples before it and the fellaheen after. What forges it is not merely a feeling of 'we' but 'an Idea' — 'a very deep relation to Destiny, to Time, and to History.' This is why, for him, the modern nation is not eternal but datable: it appears with its Culture and fades with it.",
+      "tags": ["concept:culture-civilization", "domain:politics"],
+      "see_also": ["culture-civilization"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-6-form-culture-makes-people",
+      "kind": "form-observation",
+      "selector": { "exact": "Out of the people-shapes of the Carolingian Empire" },
+      "anchor": "Out of the people-shapes of the Carolingian Empire … arise suddenly the German, the French, the Spaniards, the Italians",
+      "note": "The decisive reversal. Historians treat the Culture-peoples — German, French, Spanish, Italian — as 'primaries' and the Culture as their product. Spengler turns it around: 'in the tenth century the Faustian soul suddenly awoke,' and out of the older Carolingian tribal shapes (Saxons, Swabians, Franks, Lombards) it created the modern nations. The Culture is the cause; the nation is the form its awakening takes. Peoples are how a Culture appears in the world, not its raw material.",
+      "cultures": ["faustian"],
+      "tags": ["concept:culture-civilization", "domain:politics"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-6-form-fellaheen",
+      "kind": "form-observation",
+      "selector": { "exact": "the fellah-instincts of Hellenism" },
+      "anchor": "the fellah-instincts of Hellenism",
+      "note": "The chapter's three ages of a people are primitives (before the Culture), nations (the living Culture), and fellaheen (after it). The 'fellaheen' are post-historical peoples — the late Egyptians among the pyramids, the late Chinese, post-Actium Hellenism — whose Culture is spent and who live on without history, swayed by 'fellah-instincts.' The name is borrowed from the Egyptian fellaheen, the peasants who endured among the ruins of the pharaohs. For Spengler the West, too, is bound for this condition; it is the human end-state of his whole morphology.",
+      "tags": ["concept:culture-civilization", "view:interpretation"],
+      "cultures": ["apollinian", "egyptian"],
+      "see_also": ["fellaheen", "culture-civilization"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-6-parallel-three-nation-types",
+      "kind": "cross-culture-parallel",
+      "selector": { "exact": "nations of Faustian style emerge, more and more distinctly, from the time of Otto the Great" },
+      "anchor": "nations of Faustian style emerge … from the time of Otto the Great",
+      "note": "Each Culture, true to Spengler's method, makes nations in its own image, and the three are incommensurable. The Classical nation is a body of citizens bound to a Polis (Apollinian — the present, the body); the Magian/Arabian nation is a community of believers in which 'orthodoxy' defines nationality (the convert changes people); the Faustian nation is a dynamic, idea-bearing people, emerging from about Otto the Great (936–973) and feeling itself German, French, Spanish by A.D. 1000. Three different things wear the one word 'nation.'",
+      "cultures": ["apollinian", "magian", "faustian"],
+      "tags": ["concept:culture-civilization", "domain:politics"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    }
+  ]
+}

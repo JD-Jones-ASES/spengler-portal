@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "lexicon.schema.json",
+  "title": "Concept lexicon (terms + typed edges)",
+  "type": "object",
+  "required": ["terms", "edges"],
+  "additionalProperties": false,
+  "properties": {
+    "terms": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "term", "definition", "domain", "status"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+          "term": { "type": "string" },
+          "german": { "type": "string" },
+          "variants": { "type": "array", "items": { "type": "string" } },
+          "definition": { "type": "string", "minLength": 30 },
+          "culture": { "enum": ["indian", "apollinian", "magian", "faustian", "egyptian", "chinese", "mexican", null] },
+          "prime_symbol": { "type": "string" },
+          "domain": { "enum": ["prime-concept", "culture", "phase", "art", "mathematics", "politics", "religion", "economics", "science", "method"] },
+          "targets": { "type": "array", "items": { "type": "string" }, "description": "unit#pN anchors where the term is defined/used." },
+          "citations": { "type": "array", "items": { "type": "string" } },
+          "secondary": { "type": "array", "items": { "type": "string" }, "description": "scholarly-secondary source ids grounding the definition." },
+          "status": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["content_status", "citation_status"],
+            "properties": {
+              "content_status": { "enum": ["student-ready", "draft", "needs-review"] },
+              "citation_status": { "enum": ["verified", "provisional", "needs-review"] }
+            }
+          }
+        }
+      }
+    },
+    "edges": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["source", "target", "type"],
+        "properties": {
+          "source": { "type": "string" },
+          "target": { "type": "string" },
+          "type": { "enum": ["contrasts-with", "prime-symbol-of", "instance-of", "exemplified-by", "phase-of", "coined-from", "contested-by", "related-to"] },
+          "gloss": { "type": "string" }
+        }
+      }
+    }
+  }
+}

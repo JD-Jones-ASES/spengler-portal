@@ -1,0 +1,111 @@
+{
+  "unit_id": "decline-vol-ii-ch-04-cities-and-peoples-the-soul-of-the-city",
+  "annotations": [
+    {
+      "id": "dv2-4-form-peasant-rooted",
+      "kind": "form-observation",
+      "selector": { "exact": "He roots in the earth that he tends" },
+      "anchor": "with this, man himself becomes plant — namely, as peasant. He roots in the earth that he tends",
+      "note": "The chapter's first pole: the peasant. With agriculture, 'man himself becomes plant' — rooted, cosmic, blood-and-soil; 'earth becomes Mother Earth,' and the farmhouse is 'the great symbol of settledness,' property 'in the most sacred sense.' Everything Spengler will say against the city is measured against this rootedness. Note that 'blood and soil' here is metaphysics, not yet the slogan the Nazis would later make of it — though the proximity is part of why this volume needs careful reading.",
+      "tags": ["concept:being-waking-being", "domain:economics"],
+      "see_also": ["being-waking-being"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-4-form-world-history-is-civic",
+      "kind": "form-observation",
+      "selector": { "exact": "world-history is the history of civic man" },
+      "anchor": "world-history is the history of civic man",
+      "note": "The thesis of the whole chapter: 'all great Cultures are town-Cultures,' and 'world-history is the history of civic man.' Peoples, states, religion, the arts and sciences all 'rest upon one prime phenomenon of human being, the town.' This is why Spengler can write a history of cities and call it a history of the world — the city is where a Culture wakes up, builds a soul, and eventually dies.",
+      "tags": ["view:interpretation", "domain:politics"],
+      "see_also": ["world-city"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-4-form-town-soul",
+      "kind": "form-observation",
+      "selector": { "exact": "what distinguishes a town from a village is not size, but the presence of a soul" },
+      "anchor": "what distinguishes a town from a village is not size, but the presence of a soul",
+      "note": "A town, for Spengler, is not a big village. It is born when a 'mass-soul of a wholly new kind … suddenly buds off' and the surrounding land is felt, from inside the walls, as 'environs' — 'something different and subordinate.' From that moment 'the man of the land and the man of the city are different essences,' until 'they cease to understand each other at all.' (His example lands sharply: 'a Brandenburg peasant is closer to a Sicilian peasant than he is to a Berliner.')",
+      "tags": ["view:interpretation", "domain:politics"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-4-form-world-city",
+      "kind": "form-observation",
+      "selector": { "exact": "the monstrous symbol and vessel of the completely emancipated intellect, the world-city" },
+      "anchor": "the world-city … the centre in which the course of a world-history ends by winding itself up",
+      "note": "The 'world-city' (Weltstadt) is one of Spengler's master-images of decline — Babylon, Alexandria, Baghdad, imperial Rome, and now London, Paris, Berlin, New York. A handful of these giant places reduce 'the entire motherland of its own Culture' to mere 'provinces,' and dissolve every old contrast (noble/commoner, free/slave, believer/unbeliever) into one: 'cosmopolitans and provincials.' The 'stone Colossus, Cosmopolis,' standing at the end of every Culture's life, is the body of its dying intellect.",
+      "tags": ["concept:culture-civilization", "domain:politics"],
+      "see_also": ["world-city", "culture-civilization"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-4-form-intellectual-nomad",
+      "kind": "form-observation",
+      "selector": { "exact": "Primitive folk can loose themselves from the soil and wander, but the intellectual nomad never." },
+      "anchor": "the intellectual nomad",
+      "note": "Spengler's name for the late-Civilization city-dweller: the 'intellectual nomad,' as homeless in spirit as the primitive hunter was homeless in body, but unable ever to return to the land. 'Homesickness for the great city is keener than any other nostalgia.' The cosmic beat in him fades while the tension of waking-being rises — and that imbalance, he argues, is the inner cause of everything that follows in the chapter, including its bleakest theme.",
+      "tags": ["concept:being-waking-being", "view:interpretation"],
+      "see_also": ["world-city", "fellaheen"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-4-form-money-rootless",
+      "kind": "form-observation",
+      "selector": { "exact": "Money has become, for man as an economic animal, a form of the activity of waking-consciousness, having no longer any roots in Being." },
+      "anchor": "Money … a form of the activity of waking-consciousness, having no longer any roots in Being",
+      "note": "A seed of the volume's last chapters. The city breeds money-thinking, and money, like mathematics, is pure waking-being — abstract, rootless, 'no more limited … by actuality than are the quantities of the mathematical world.' Hence its 'monstrous power over every beginning Civilization,' which is always 'an unconditional dictatorship of money.' Watch the pairing — earth/blood/Being against money/intellect/waking-being — that culminates in the 'blood and money' duel of chapter XIV.",
+      "tags": ["concept:being-waking-being", "domain:economics"],
+      "see_also": ["blood-and-money", "world-city"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-4-difficult-sterility",
+      "kind": "difficult-material",
+      "selector": { "exact": "the sterility of civilized man" },
+      "anchor": "the sterility of civilized man",
+      "note": "Read with care. Spengler reads the falling urban birth-rate not as economics but as 'an essentially metaphysical turn towards death': 'When the ordinary thought of a highly cultivated people begins to regard \"having children\" as a question of pro's and con's, the great turning-point has come.' The demographic fact — fertility decline in late, urban societies — is real and observable (he cites Polybius on Greece, Augustus's marriage laws, Roosevelt's 'race suicide'). But the diagnosis is fused with a reactionary picture of women's emancipation: the 'Ibsen woman' who 'belongs to herself' is treated as a symptom of decline. Take the demographic observation seriously; treat the verdict on women's autonomy as the period's ideology, not a finding.",
+      "tags": ["difficult-material", "concept:culture-civilization"],
+      "evidence": [{ "claim_type": "difficult-material", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-4-reception-adorno-megacity",
+      "kind": "scholarly-reception",
+      "selector": { "exact": "I see, long after A.D. 2000, cities laid out for ten to twenty million inhabitants" },
+      "anchor": "long after A.D. 2000, cities laid out for ten to twenty million inhabitants",
+      "note": "Here (writing in 1922) Spengler foresees cities of 'ten to twenty million inhabitants … with notions of traffic and communication that we should regard as fantastic to the point of madness' — a prediction that, on scale, simply came true. This is the kind of hit Theodor Adorno had in mind when he wrote that 'The forgotten Spengler takes his revenge by threatening to be right.' Adorno's caution is the right frame — such strikes sit beside many misses, and the value is in the diagnostic eye for the megalopolis, not in the determinism that claims to have foreseen it by law.",
+      "tags": ["view:interpretation", "concept:culture-civilization"],
+      "attribution": { "scholar": "Theodor W. Adorno", "work": "Spengler after the Decline (in Prisms)", "year": 1981, "stance": "critical", "citation": "adorno-prisms-spengler" },
+      "evidence": [{ "claim_type": "scholarly-interpretation", "citations": ["adorno-prisms-spengler"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-4-form-fellah-type",
+      "kind": "form-observation",
+      "selector": { "exact": "This residue is the Fellah type." },
+      "anchor": "At the last, only the primitive blood remains … This residue is the Fellah type.",
+      "note": "The end of the city's history: after the long depopulation, 'the whole pyramid of cultural man vanishes,' crumbling from the world-cities downward, until 'only the primitive blood remains' — the 'Fellah type,' sheltering in the empty stone shells of dead cities 'as the men of the Stone Age sheltered in caves.' The name comes from the Egyptian fellaheen, the peasants who lived on among the ruins of the pharaohs. Spengler develops this post-historical figure fully in chapter VI.",
+      "tags": ["concept:culture-civilization", "view:interpretation"],
+      "see_also": ["fellaheen"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    }
+  ]
+}

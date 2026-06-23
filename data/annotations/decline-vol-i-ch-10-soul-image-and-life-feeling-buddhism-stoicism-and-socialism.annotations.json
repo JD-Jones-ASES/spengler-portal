@@ -1,0 +1,90 @@
+{
+  "unit_id": "decline-vol-i-ch-10-soul-image-and-life-feeling-buddhism-stoicism-and-socialism",
+  "annotations": [
+    {
+      "id": "dvi10-teacher-all-socialists",
+      "kind": "teacher-note",
+      "selector": { "exact": "All world-improvers are Socialists. And consequently there are no Classical world-improvers." },
+      "anchor": "All world-improvers are Socialists … no Classical world-improvers.",
+      "note": "The chapter's provocation, and its key to read by. Spengler uses 'Socialism' in an ethical, not economic, sense: the will to impose one's values on all mankind, the 'thou shalt' that wants to remake the world. By that measure the whole modern West — Luther, Nietzsche, the Jesuits, the Darwinians — is Socialist, while the Classical world, content with a 'pantheon of morales', produced no world-improvers at all. Hold this wide sense of the word or the chapter will mislead you.",
+      "tags": ["view:interpretation", "concept:culture-civilization"],
+      "evidence": [{ "claim_type": "interpretive", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi10-parallel-buddha-epicurus",
+      "kind": "cross-culture-parallel",
+      "selector": { "exact": "Buddha, for instance, gives a pattern to take or to leave, and Epicurus offers counsel." },
+      "anchor": "Buddha … gives a pattern to take or to leave, and Epicurus offers counsel.",
+      "note": "The contrast that sets up the whole chapter. Western morale commands — 'thou shalt' — and claims universal validity; Buddha merely offers a pattern to take or leave, Epicurus a counsel, neither containing the 'will-element'. The difference is not of content but of dynamic: the Faustian ethic is a will to affect the distant, the Indian and Classical ethics are not. Same human seriousness, opposite relation to other people.",
+      "cultures": ["indian", "apollinian", "faustian"],
+      "tags": ["concept:contemporaneity", "domain:religion"],
+      "see_also": ["contemporaneity"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi10-parallel-stoicism-socialism",
+      "kind": "cross-culture-parallel",
+      "selector": { "exact": "Socialism is the dynamic treatment of the same theme" },
+      "anchor": "Socialism is the dynamic treatment of the same theme",
+      "note": "Spengler's precise distinction between the two winter-ethics. Stoicism is static — 'individual self-management, statuesque and purely present being', defending the pose; Socialism is dynamic — defending not the pose but the working-out of a life, and 'with a powerful thrust into distance' it spreads over all future and all mankind. Same end-phase theme (resignation in a spent Culture), one in the Apollinian key of the present, one in the Faustian key of distance.",
+      "cultures": ["apollinian", "faustian"],
+      "tags": ["concept:contemporaneity", "concept:culture-civilization"],
+      "see_also": ["contemporaneity", "becoming-become"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi10-parallel-nirvana-ataraxia",
+      "kind": "cross-culture-parallel",
+      "selector": { "exact": "the Buddhist ideal of Nirvana, which as a formula" },
+      "anchor": "the Buddhist ideal of Nirvana … the Katharsis … Ataraxia",
+      "note": "The deepest of the parallels. Spengler aligns the Attic tragedy's Katharsis, the Stoic and Epicurean Ataraxia, and the Buddhist Nirvana as kindred end-state ideals — the purging of the will, a 'statuesque steadiness and will-less ethos'. Classical man and Indian man stand close here, and both far from the Faustian, whose tragedy is one of dynamic striving (Shakespeare), not of will-less repose. 'There is nothing preposterous in the idea of Socrates, Epicurus and Diogenes sitting by the Ganges.'",
+      "cultures": ["indian", "apollinian"],
+      "tags": ["concept:contemporaneity", "domain:religion"],
+      "see_also": ["contemporaneity"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi10-reception-frye-morphological",
+      "kind": "scholarly-reception",
+      "selector": { "exact": "are morphologically equivalent as end-phenomena" },
+      "anchor": "Buddhism, Stoicism and Socialism are morphologically equivalent as end-phenomena",
+      "note": "This equation — Buddhism, Stoicism and Socialism as the 'contemporary' winter-ethics of three Cultures — is Spengler's comparative method at full stretch. Northrop Frye judged exactly this morphological view of history 'an immense improvement on the ordinary linear one', holding that on this point 'Spengler seems to me to be on very solid ground', since the linear assumption that the present age is the goal of all history is 'a vulgar and complacent' one whose demise Spengler helped to bring about.",
+      "tags": ["view:interpretation", "concept:contemporaneity"],
+      "attribution": { "scholar": "Northrop Frye", "work": "“The Decline of the West” by Oswald Spengler (Daedalus)", "year": 1974, "stance": "sympathetic", "citation": "frye-decline-1974" },
+      "evidence": [{ "claim_type": "scholarly-interpretation", "citations": ["frye-decline-1974"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi10-form-nietzsche-socialist",
+      "kind": "form-observation",
+      "selector": { "exact": "Even Nietzsche, that most passionate opponent of" },
+      "anchor": "Even Nietzsche, that most passionate opponent of “herd morale” …",
+      "note": "A sharp and characteristic stroke against his own master. Nietzsche, the great enemy of 'herd morale', is on Spengler's analysis the arch-Socialist: he could not limit his zeal to himself in the Classical way but 'thought only of mankind' and attacked all who differed — the very 'will to transform mankind' that defines ethical Socialism. The point is acute; note too how neatly it lets Spengler fold even his anti-systematic hero into the system.",
+      "cultures": ["faustian"],
+      "tags": ["view:interpretation", "concept:culture-civilization"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dvi10-difficult-something-ended",
+      "kind": "difficult-material",
+      "selector": { "exact": "Faustian man has nothing more to hope for in anything pertaining to the grand style of Life" },
+      "anchor": "Faustian man has nothing more to hope for in anything pertaining to the grand style of Life",
+      "note": "The chapter's bleakest claim, and the heart of the 'decline'. From Rousseau onward, Spengler says, 'something has come to an end': the Western soul, which 'was Will and nothing but Will', has exhausted its great possibilities and now produces only the will to create without the content — Nietzsche's Superman 'a castle in the air', the 'lie of life' (Ibsen) running through all modern art and politics. Sit with how much this verdict is diagnosis and how much is a mood raised to a law.",
+      "tags": ["view:interpretation", "difficult-material"],
+      "evidence": [{ "claim_type": "difficult-material", "citations": ["hughes-spengler-1952"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    }
+  ]
+}

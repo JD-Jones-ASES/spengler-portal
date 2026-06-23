@@ -1,0 +1,141 @@
+{
+  "id": "spiritual-epochs",
+  "title": "“Contemporary” Spiritual Epochs",
+  "caption": "Table I from The Decline of the West, Vol. I. Each row is one stage of the soul's life; read across to see the figures Spengler holds to be 'contemporary' — at the same point in their Culture's cycle, whatever the calendar date.",
+  "source": "Decline of the West, Vol. I — Table I, “Contemporary” Spiritual Epochs (at end of volume).",
+  "source_citation": "gutenberg-decline-i",
+  "cultures": [
+    { "id": "indian", "label": "Indian", "cult": "indian", "from": "from 1500 B.C." },
+    { "id": "apollinian", "label": "Classical", "cult": "apollinian", "from": "from 1100 B.C." },
+    { "id": "magian", "label": "Arabian", "cult": "magian", "from": "from 0" },
+    { "id": "faustian", "label": "Western", "cult": "faustian", "from": "from 900" }
+  ],
+  "phases": [
+    { "id": "spring", "label": "Spring" },
+    { "id": "summer", "label": "Summer" },
+    { "id": "autumn", "label": "Autumn" },
+    { "id": "winter", "label": "Winter" }
+  ],
+  "rows": [
+    {
+      "epoch": "I", "phase": "spring",
+      "label": "Birth of a myth of the grand style, expressing a new God-feeling. World-fear and world-longing.",
+      "cells": {
+        "indian": { "text": "Vedic religion. Aryan hero-tales." },
+        "apollinian": { "text": "Hellenic-Italian “Demeter” religion of the people. Homer. Heracles and Theseus legends." },
+        "magian": { "text": "Primitive Christianity (Mandaeans, Marcion, Gnosis, Syncretism: Mithras, Baal). Gospels, Apocalypses. Christian, Mazdaist and pagan legends." },
+        "faustian": { "text": "German Catholicism. Edda (Baldr). Bernard of Clairvaux, Joachim of Floris, Francis of Assisi. Popular Epos (Siegfried). Western legends of the Saints." }
+      }
+    },
+    {
+      "epoch": "II", "phase": "spring",
+      "label": "Earliest mystical-metaphysical shaping of the new world-outlook. Zenith of Scholasticism.",
+      "cells": {
+        "indian": { "text": "Preserved in the oldest parts of the Vedas." },
+        "apollinian": { "text": "Oldest (oral) Orphic, Etruscan discipline. After-effect: Hesiod, Cosmogonies." },
+        "magian": { "text": "Origen (d. 254), Plotinus (d. 269), Mani (d. 276), Iamblichus (d. 330). Avesta, Talmud, Patristic literature." },
+        "faustian": { "text": "Thomas Aquinas (d. 1274), Duns Scotus (d. 1308), Dante (d. 1321), Eckhardt (d. 1329). Mysticism. Scholasticism." }
+      }
+    },
+    {
+      "epoch": "III", "phase": "summer",
+      "label": "Reformation: internal popular opposition to the great springtime forms.",
+      "cells": {
+        "indian": { "text": "Brahmanas. Oldest parts of the Upanishads (10th and 9th Centuries)." },
+        "apollinian": { "text": "Orphic movement. Dionysiac religion. “Numa” religion (7th Century)." },
+        "magian": { "text": "Augustine (d. 430). Nestorians (c. 430). Monophysites (c. 450). Mazdak (c. 500)." },
+        "faustian": { "text": "Nicolaus Cusanus (d. 1464). John Hus (d. 1415). Savonarola, Karlstadt, Luther, Calvin (d. 1564).", "note": "The source OCR misprints Hus's death as 1308; he was burned at Constance in 1415." }
+      }
+    },
+    {
+      "epoch": "IV", "phase": "summer",
+      "label": "Beginning of a purely philosophical form of the world-feeling. Opposition of idealistic and realistic systems.",
+      "cells": {
+        "indian": { "text": "Preserved in the Upanishads." },
+        "apollinian": { "text": "The great Pre-Socratics (6th and 5th Centuries)." },
+        "magian": { "text": "Byzantine, Jewish, Syrian, Coptic and Persian literature of the 6th and 7th Centuries." },
+        "faustian": { "text": "Galileo, Bacon, Descartes, Bruno, Boehme, Leibniz (16th and 17th Centuries)." }
+      }
+    },
+    {
+      "epoch": "V", "phase": "summer",
+      "label": "Formation of a new mathematic. Conception of number as copy and content of world-form.",
+      "cells": {
+        "indian": { "text": "(lost)" },
+        "apollinian": { "text": "Number as magnitude (proportion). Geometry, Arithmetic. Pythagoreans (from 540).", "passage_targets": ["decline-vol-i-ch-02-the-meaning-of-numbers#p0"] },
+        "magian": { "text": "The indefinite number (Algebra). (Development not yet investigated.)", "passage_targets": ["decline-vol-i-ch-02-the-meaning-of-numbers#p0"] },
+        "faustian": { "text": "Number as Function (analysis). Descartes, Pascal, Fermat (c. 1630). Newton and Leibniz (c. 1670).", "passage_targets": ["decline-vol-i-ch-02-the-meaning-of-numbers#p0"] }
+      }
+    },
+    {
+      "epoch": "VI", "phase": "summer",
+      "label": "Puritanism: rationalistic-mystic impoverishment of religion.",
+      "cells": {
+        "indian": { "text": "(lost)" },
+        "apollinian": { "text": "Pythagorean society (from 540)." },
+        "magian": { "text": "Mohammed (622). Paulicians and Iconoclasts (from 650)." },
+        "faustian": { "text": "English Puritans (from 1620). French Jansenists (from 1640), Port Royal." }
+      }
+    },
+    {
+      "epoch": "VII", "phase": "autumn",
+      "label": "“Enlightenment.” Belief in the almightiness of reason. Cult of “Nature.” “Rational” religion.",
+      "cells": {
+        "indian": { "text": "Sutras; Sankhya; Buddha; later Upanishads." },
+        "apollinian": { "text": "Sophists of the 5th Century. Socrates (d. 399). Democritus (d. c. 360)." },
+        "magian": { "text": "Mutazilites. Sufism. Nazzam, Alkindi (c. 830)." },
+        "faustian": { "text": "English Rationalists (Locke). French Encyclopaedists (Voltaire). Rousseau." }
+      }
+    },
+    {
+      "epoch": "VIII", "phase": "autumn",
+      "label": "Zenith of mathematical thought. Elucidation of the form-world of numbers.",
+      "cells": {
+        "indian": { "text": "(lost)" },
+        "apollinian": { "text": "Archytas (d. 365). Plato (d. 346). (Conic Sections.)", "passage_targets": ["decline-vol-i-ch-02-the-meaning-of-numbers#p0"] },
+        "magian": { "text": "(Not investigated.) (Theory of number. Spherical Trigonometry.)" },
+        "faustian": { "text": "Euler (d. 1763), Lagrange (d. 1813), Laplace (d. 1827). (The Infinitesimal problem.)", "passage_targets": ["decline-vol-i-ch-02-the-meaning-of-numbers#p0"] }
+      }
+    },
+    {
+      "epoch": "IX", "phase": "autumn",
+      "label": "The great conclusive systems.",
+      "cells": {
+        "indian": { "text": "Idealism (Yoga, Vedanta). Epistemology (Vaisheshika). Logic (Nyaya)." },
+        "apollinian": { "text": "Plato (d. 346). Aristotle (d. 322)." },
+        "magian": { "text": "Alfarabi (d. 950). Avicenna (d. c. 1000)." },
+        "faustian": { "text": "Goethe. Kant. Schelling, Hegel, Fichte." }
+      }
+    },
+    {
+      "epoch": "X", "phase": "winter",
+      "label": "Materialistic world-outlook: cult of science, utility and prosperity.",
+      "cells": {
+        "indian": { "text": "Sankhya. Tscharvaka (Lokoyata)." },
+        "apollinian": { "text": "Cynics, Cyrenaics. Last Sophists (Pyrrhon).", "passage_targets": ["decline-vol-i-ch-10-soul-image-and-life-feeling-buddhism-stoicism-and-socialism#p0"] },
+        "magian": { "text": "Communistic, atheistic, Epicurean sects of Abbassid times. “Brethren of Sincerity.”" },
+        "faustian": { "text": "Bentham, Comte, Darwin. Spencer, Stirner, Marx, Feuerbach.", "passage_targets": ["decline-vol-i-ch-10-soul-image-and-life-feeling-buddhism-stoicism-and-socialism#p0"] }
+      }
+    },
+    {
+      "epoch": "XI", "phase": "winter",
+      "label": "Ethical-social ideals of life. Epoch of “unmathematical philosophy.” Skepsis.",
+      "cells": {
+        "indian": { "text": "Tendencies in Buddha's time.", "passage_targets": ["decline-vol-i-ch-10-soul-image-and-life-feeling-buddhism-stoicism-and-socialism#p0"] },
+        "apollinian": { "text": "Hellenism. Epicurus (d. 270), Zeno (d. 265).", "passage_targets": ["decline-vol-i-ch-10-soul-image-and-life-feeling-buddhism-stoicism-and-socialism#p0"] },
+        "magian": { "text": "Movements in Islam." },
+        "faustian": { "text": "Schopenhauer, Nietzsche. Socialism, Anarchism. Hebbel, Wagner, Ibsen.", "passage_targets": ["decline-vol-i-ch-10-soul-image-and-life-feeling-buddhism-stoicism-and-socialism#p0"] }
+      }
+    },
+    {
+      "epoch": "XII", "phase": "winter",
+      "label": "Inner completion of the mathematical form-world. The concluding thought.",
+      "cells": {
+        "indian": { "text": "(lost)" },
+        "apollinian": { "text": "Euclid, Apollonius (c. 300).", "passage_targets": ["decline-vol-i-ch-02-the-meaning-of-numbers#p0"] },
+        "magian": { "text": "Alchwarizmi (800). Ibn Kurra (850).", "passage_targets": ["decline-vol-i-ch-02-the-meaning-of-numbers#p0"] },
+        "faustian": { "text": "Gauss (d. 1855), Cauchy (d. 1857).", "passage_targets": ["decline-vol-i-ch-02-the-meaning-of-numbers#p0"] }
+      }
+    }
+  ]
+}

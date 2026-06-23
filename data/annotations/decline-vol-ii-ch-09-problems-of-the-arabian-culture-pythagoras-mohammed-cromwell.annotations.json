@@ -1,0 +1,68 @@
+{
+  "unit_id": "decline-vol-ii-ch-09-problems-of-the-arabian-culture-pythagoras-mohammed-cromwell",
+  "annotations": [
+    {
+      "id": "dv2-9-form-religion-as-escape",
+      "kind": "form-observation",
+      "selector": { "exact": "These are modes of slipping out of awareness by the aid of being" },
+      "anchor": "sleep, wine, dancing … modes of slipping out of awareness by the aid of being",
+      "note": "Spengler grounds religion in the metaphysics of Volume Two's opening. Waking-being is tension and fear; religion is the longing to escape it back into Being, 'the cosmic, the it' — 'the escape out of space into time.' Sleep, wine ('holy' intoxication), the Dionysian dance are lower modes of this release; faith and worship are the highest. Religiousness, for Spengler, is fundamentally the fear of the invisible and the craving for deliverance from the light-world — not a set of doctrines but a direction of the soul.",
+      "tags": ["concept:being-waking-being", "domain:religion"],
+      "see_also": ["being-waking-being"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-9-parallel-pythagoras-mohammed-cromwell",
+      "kind": "cross-culture-parallel",
+      "selector": { "exact": "Pythagoras, Mohammed, and Cromwell embody one and the same movement in three Cultures." },
+      "anchor": "Pythagoras, Mohammed, and Cromwell embody one and the same movement in three Cultures.",
+      "note": "The chapter's title-thesis and a bold piece of 'contemporaneity.' Spengler claims Pythagoras (Classical), Mohammed (Magian), and Cromwell (Faustian) occupy the same position in their Cultures' religious life-courses — each a stern, world-shaping reform that fuses faith with a new ethic and a new order. English Puritanism, on this reading, is the Faustian counterpart of the Pythagorean brotherhood and of early Islam. Whether the parallel illuminates or over-reaches is a fair question — but it shows the comparative method at full stretch.",
+      "cultures": ["apollinian", "magian", "faustian"],
+      "tags": ["concept:contemporaneity", "domain:religion"],
+      "see_also": ["contemporaneity"],
+      "evidence": [{ "claim_type": "cross-cultural-context", "citations": ["sep-pythagoras"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-9-lex-second-religiousness",
+      "kind": "lexicon-term",
+      "selector": { "exact": "This next phase I call the Second Religiousness." },
+      "anchor": "This next phase I call the Second Religiousness.",
+      "note": "One of Spengler's most-cited concepts. After a Civilization's rationalism has exhausted itself, religiousness returns — not the living faith of the Culture's springtime but a late, syncretic, consoling piety. The 'Second Religiousness is the necessary counterpart of Cæsarism,' the two together marking the end-stage: the Augustan age in the Classical, the corresponding moment in China, and (Spengler thinks the West is 'still many generations short' of it) our own future. Its modern harbingers are the occultism and Eastern enthusiasms Spengler catalogues later in this very chapter — theosophy, Christian Science, the 'drawing-room Buddhism' of the West — the same revival he points to again in Man and Technics.",
+      "cultures": ["faustian"],
+      "tags": ["concept:second-religiousness", "concept:culture-civilization"],
+      "see_also": ["second-religiousness", "caesarism"],
+      "evidence": [{ "claim_type": "lexical-definition", "citations": ["wikipedia-decline"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "lexicon", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-9-form-enlightenment-scepticism",
+      "kind": "form-observation",
+      "selector": { "exact": "proceeds from an unlimited optimism of the reason" },
+      "anchor": "every 'Age of Enlightenment' proceeds from an unlimited optimism of the reason … to … scepticism",
+      "note": "Spengler's morphology of late religion: every 'Age of Enlightenment' — Socratic Athens, Abbassid Baghdad, eighteenth-century London and Paris — swings from 'an unlimited optimism of the reason' to 'an equally unqualified scepticism,' as the megalopolitan intellect criticizes its imaginary world until it reaches 'the form of the form — itself: namely, nothing.' Reason consumes the faith it grew from and leaves a void — which the Second Religiousness then fills. The same arc, he insists, recurs in every Civilization.",
+      "cultures": ["faustian", "apollinian", "magian"],
+      "tags": ["concept:culture-civilization", "domain:religion"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-9-form-fellah-religion",
+      "kind": "form-observation",
+      "selector": { "exact": "In the end Second Religiousness issues in the fellah-religions." },
+      "anchor": "In the end Second Religiousness issues in the fellah-religions.",
+      "note": "The final stage. As a Civilization passes wholly into the 'historyless' state of the fellaheen (chapter VI), its religion does too: 'the opposition between cosmopolitan and provincial piety has vanished,' centuries 'pass unimportantly,' and what remains is 'the unalterable finality of the inner state.' The late Egyptian, Chinese, and Islamic worlds are his examples of this changeless fellah-religiousness — and, on his scheme, the destiny toward which the Faustian world is bound.",
+      "cultures": ["egyptian", "chinese", "magian"],
+      "tags": ["concept:second-religiousness", "concept:culture-civilization"],
+      "see_also": ["fellaheen", "second-religiousness"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+---
+import "../styles/portal.css";
+import { withBase } from "../lib/site.js";
+import SearchOverlay from "./SearchOverlay.astro";
+
+const {
+  title,
+  description = "A source-cited reading room for Oswald Spengler — The Decline of the West and Man and Technics, annotated for new readers.",
+  current = "",
+  reader = false,
+} = Astro.props;
+const fullTitle = title ? `${title} — The Spengler Portal` : "The Spengler Portal";
+
+const nav = [
+  { id: "read", label: "Read", href: withBase("read/") },
+  { id: "tables", label: "Tables", href: withBase("tables/") },
+  { id: "timeline", label: "Timeline", href: withBase("timeline/") },
+  { id: "lexicon", label: "Lexicon", href: withBase("lexicon/") },
+  { id: "sources", label: "Sources", href: withBase("sources/") },
+  { id: "about", label: "About", href: withBase("about/") },
+];
+---
+
+<!DOCTYPE html>
+<html lang="en" data-theme="paper" data-base={import.meta.env.BASE_URL}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="icon" href={withBase("favicon.svg")} />
+    <script is:inline>
+      // No-flash: apply stored reading preferences before first paint.
+      try {
+        const t = localStorage.getItem("sp-theme");
+        if (t) document.documentElement.dataset.theme = t;
+      } catch (e) {}
+      try {
+        const root = document.documentElement;
+        if (localStorage.getItem("sp-focus") === "on") root.dataset.focus = "on";
+        const typo = JSON.parse(localStorage.getItem("sp-typo") || "null");
+        if (typo && typeof typo === "object") {
+          if (typo.size) root.style.setProperty("--reader-size", typo.size);
+          if (typo.leading) root.style.setProperty("--reader-leading", typo.leading);
+          if (typo.measure) root.style.setProperty("--reader-measure", typo.measure);
+          if (typo.family) root.style.setProperty("--reader-font", typo.family);
+        }
+      } catch (e) {}
+    </script>
+  </head>
+  <body class={reader ? "reader-page" : undefined}>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="wrap nav">
+        <a class="brand" href={withBase("")} aria-label="The Spengler Portal — home">
+          <svg class="mark" width="22" height="22" viewBox="0 0 22 22" aria-hidden="true" fill="none" stroke="currentColor">
+            <circle cx="11" cy="11" r="9" stroke-width="1.5" />
+            <line x1="11" y1="2" x2="11" y2="20" stroke-width="1" />
+            <line x1="2" y1="11" x2="20" y2="11" stroke-width="1" />
+            <path d="M11 11 L11 2 A9 9 0 0 1 20 11 Z" fill="currentColor" opacity="0.18" stroke="none" />
+          </svg>
+          <span class="full">The Spengler Portal</span>
+        </a>
+        <nav class="nav-links" aria-label="Primary">
+          {nav.map((item) => (
+            <a href={item.href} aria-current={current === item.id ? "page" : undefined}>{item.label}</a>
+          ))}
+          <button class="search-btn" id="search-open" type="button" aria-label="Search" title="Search (Ctrl-K)">
+            <svg viewBox="0 0 20 20" width="16" height="16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="9" cy="9" r="6"></circle>
+              <line x1="13.5" y1="13.5" x2="18" y2="18" stroke-linecap="round"></line>
+            </svg>
+            <span class="search-btn-txt">Search</span>
+            <kbd>Ctrl K</kbd>
+          </button>
+          <button class="theme-btn" id="theme-toggle" type="button" aria-pressed="false" aria-label="Toggle dark theme" title="Toggle theme">◐</button>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" tabindex="-1">
+      <slot />
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <p>
+          <strong>The Spengler Portal.</strong>
+          Text from the public-domain Charles Francis Atkinson translations. Editorial apparatus is
+          source-cited; the build fails when a claim is unsupported.
+        </p>
+        <p class="muted">
+          Built with Astro. Code MIT · content CC BY-SA 4.0. <a href={withBase("about/")}>How this was made</a>.
+        </p>
+      </div>
+    </footer>
+
+    <slot name="overlays" />
+    <SearchOverlay />
+
+    <script>
+      import { initSearch } from "../lib/search-ui.js";
+      initSearch();
+    </script>
+
+    <script is:inline>
+      (function () {
+        const btn = document.getElementById("theme-toggle");
+        if (!btn) return;
+        const root = document.documentElement;
+        btn.setAttribute("aria-pressed", String(root.dataset.theme === "night"));
+        btn.addEventListener("click", function () {
+          const next = root.dataset.theme === "night" ? "paper" : "night";
+          root.dataset.theme = next;
+          btn.setAttribute("aria-pressed", String(next === "night"));
+          try { localStorage.setItem("sp-theme", next); } catch (e) {}
+        });
+      })();
+    </script>
+  </body>
+</html>

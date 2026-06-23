@@ -1,0 +1,74 @@
+{
+  "unit_id": "decline-vol-ii-ch-12-the-state-philosophy-of-politics",
+  "annotations": [
+    {
+      "id": "dv2-12-form-prime-party-money-mind",
+      "kind": "form-observation",
+      "selector": { "exact": "The prime Party is that of money and mind, the liberal, the megalopolitan." },
+      "anchor": "The prime Estates are nobility and priesthood. The prime Party is that of money and mind, the liberal",
+      "note": "Spengler maps the whole of politics onto two oppositions. The 'prime Estates' are nobility and priesthood (blood and faith, race and intellect-as-vocation); the 'prime Party' is 'money and mind, the liberal, the megalopolitan.' Aristocracy 'despises the mind of the cities,' Democracy 'despises the boor and hates the countryside.' Estate versus party, growth versus construction, race versus intellect — the late, urban, money-driven 'party' politics is what replaces the old estate-order as a Culture passes into Civilization.",
+      "tags": ["concept:culture-civilization", "domain:politics"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-12-form-war-primary-politics",
+      "kind": "form-observation",
+      "selector": { "exact": "War is the primary politics of everything that lives" },
+      "anchor": "War is the primary politics of everything that lives",
+      "note": "The same inversion of Clausewitz as in Man and Technics: politics is sublimated war, not war a tool of politics. The 'race-relation' between peoples is 'for that very reason a relation of war'; even when statesmen learn 'to dispense with war,' the will-to-battle only transfers — 'instead of the conflict of states we have that of parties.' Diplomacy and the war-art share one character; high policy 'tries to be a substitution of more intellectual weapons for the sword,' but never escapes the battle beneath.",
+      "tags": ["view:interpretation", "domain:politics"],
+      "see_also": ["beast-of-prey"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-12-form-democracy-and-money",
+      "kind": "form-observation",
+      "selector": { "exact": "on the soil of a democracy constitutional rights signify nothing without money and everything with it" },
+      "anchor": "on the soil of a democracy constitutional rights signify nothing without money and everything with it",
+      "note": "The core of Spengler's notorious thesis — often summarized as 'democracy is the political weapon of money' (a paraphrase; the bare slogan is not his exact wording). Under a universal franchise, he argues, formal rights are empty without the means to move the mass — and money supplies the means. His evidence is Rome: 'election-capital rose to American dimensions,' Caesar outspent Pompey and Crassus, and 'Caesar grasped the fact that on the soil of a democracy constitutional rights signify nothing without money and everything with it.' Whatever one makes of the verdict, the mechanism he describes — money converting into political power through elections — is uncomfortably recognizable.",
+      "tags": ["view:interpretation", "domain:economics"],
+      "see_also": ["blood-and-money", "caesarism"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-12-form-press-as-army",
+      "kind": "form-observation",
+      "selector": { "exact": "The Press to-day is an army with carefully organized arms and branches, with journalists as officers, and readers as soldiers." },
+      "anchor": "The Press … an army … journalists as officers, and readers as soldiers",
+      "note": "One of the most prescient passages in the book. The press is money's weapon for manufacturing 'public opinion': 'here also money triumphs and forces the free spirits into its service.' The reader is a soldier who 'obeys blindly,' his 'will to think … only a willingness to think to order, and this is what he feels as his liberty.' Written in the age of Northcliffe, it reads as a diagnosis of mass media a century on — a place where Spengler's dark eye for the megalopolis genuinely sees far.",
+      "tags": ["view:interpretation", "domain:politics"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-12-form-censorship-of-silence",
+      "kind": "form-observation",
+      "selector": { "exact": "a terrible censorship of silence" },
+      "anchor": "the Press can condemn any 'truth' to death by not communicating it — a censorship of silence",
+      "note": "The sharpest turn of the press argument: its deepest power is not what it prints but what it withholds. The press 'can condemn any truth to death simply by not undertaking its communication to the world — a terrible censorship of silence, … all the more potent in that the masses … are absolutely unaware that it exists.' Spengler contrasts the old, visible censorship of 'stake and faggots' with this new, invisible 'great silence' — an insight that outlives most of his predictions.",
+      "tags": ["view:interpretation", "domain:politics"],
+      "evidence": [{ "claim_type": "source-text-observation", "citations": [] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    },
+    {
+      "id": "dv2-12-reception-farrenkopf-politics",
+      "kind": "scholarly-reception",
+      "selector": { "exact": "driving every democracy further and further on the road to suicide" },
+      "anchor": "an irresistible tendency driving every democracy … on the road to suicide",
+      "note": "Spengler's central political prophecy — mass democracy hollowed out by money and the press, sliding toward Caesarism — is the part of him that a serious reassessment has to weigh rather than wave away. John Farrenkopf's Prophet of Decline reappraises Spengler's whole philosophy of world-history and politics — his geopolitics, his place in the realist tradition, and the deepening pessimism of his later work — and treats his diagnoses of the late, Civilization-phase West, this one included, as claims to engage and argue with rather than dismiss, even where his determinism and his sympathies repel. Read the 'road to suicide' verdict in that spirit: a provocation to test, not a forecast to trust.",
+      "tags": ["view:interpretation", "concept:caesarism"],
+      "attribution": { "scholar": "John Farrenkopf", "work": "Prophet of Decline: Spengler on World History and Politics", "year": 2001, "stance": "contextual", "citation": "farrenkopf-prophet-2001" },
+      "evidence": [{ "claim_type": "scholarly-interpretation", "citations": ["farrenkopf-prophet-2001"] }],
+      "status": { "content_status": "student-ready", "citation_status": "verified", "surfaces": ["reader", "search"] },
+      "provenance": { "author": "Claude (AI)", "created": "2026-06-22", "method": "hand-authored" }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+---
+import Layout from "../../components/Layout.astro";
+import PhaseClock from "../../components/PhaseClock.astro";
+import PhaseTimeline from "../../islands/PhaseTimeline.svelte";
+import { sourceInfo } from "../../lib/guide-data.js";
+import timeline from "../../../data/timeline/culture-phases.json";
+
+const src = sourceInfo(timeline.source_citation);
+---
+
+<Layout title="The Phase-Clock" current="timeline">
+  <section class="wrap page-head">
+    <div style="display:flex;align-items:center;gap:1rem;">
+      <PhaseClock size={56} />
+      <div>
+        <p class="eyebrow">The morphology of time</p>
+        <h1>The Phase-Clock</h1>
+      </div>
+    </div>
+    <p class="lede">
+      Spengler's deepest claim is that every high Culture lives one life — a spring, summer, autumn and
+      winter — and that the calendar lies about history. Here each Culture's life is stretched to the same
+      length, so its births line up at the left and its Civilization-winters at the right. Read straight
+      <em>down</em> any vertical line and you see the stages he calls <em>“contemporary”</em> — Pericles
+      beside the Baroque, the Sophists beside the Enlightenment — whatever the dates on the wall. The West
+      stands in its winter; the marker shows where.
+    </p>
+  </section>
+
+  <section class="wrap" style="padding-bottom:3rem;">
+    <PhaseTimeline data={timeline} client:visible />
+    <p class="muted" style="margin-top:1.75rem;font-size:0.88rem;">
+      {timeline.contemporaneity_note}
+      The phase dates are transcribed from {timeline.source} —
+      {src.url ? <a href={src.url} target="_blank" rel="noopener">{src.title}</a> : src.title}.
+    </p>
+  </section>
+</Layout>
