@@ -22,6 +22,17 @@ const payload = readerPayload(annotations, footnotes, sourceById, lexById, withB
 
 const cult = unit.cultures?.[0] || "faustian";
 const kicker = `${unit.work_title}${unit.volume_title ? " · " + unit.volume_title : ""} · Chapter ${unit.n}`;
+
+const translator = unit.work === "man-technics"
+  ? "translated for The Spengler Portal from the 1931 German"
+  : "translated by Charles Francis Atkinson";
+const citeData = {
+  author: "Oswald Spengler",
+  chapter: unit.title,
+  work: unit.work_title,
+  volume: unit.volume_title && unit.volume_title !== unit.work_title ? unit.volume_title : "",
+  translator,
+};
 ---
 
 <Layout title={unit.title} current="read" reader={true}>
@@ -35,6 +46,13 @@ const kicker = `${unit.work_title}${unit.volume_title ? " · " + unit.volume_tit
         <div class="reader-meta">
           {unit.cultures?.map((c) => <span class="cult-tag" data-cult={c}><span class="dot"></span>{cultureLabel(c)}</span>)}
         </div>
+
+        {unit.work === "man-technics" && (
+          <p class="reader-colophon">
+            Translated for this portal from the public-domain 1931 German original —{" "}
+            <a href={withBase("about/")}>about the translation</a>.
+          </p>
+        )}
 
         {unit.summary?.one_line && (
           <div class="summary-card" data-cult={cult}>
@@ -51,6 +69,17 @@ const kicker = `${unit.work_title}${unit.volume_title ? " · " + unit.volume_tit
             scan actually read. Every correction is logged; unreconstructable passages are flagged for review,
             never guessed. See <a href={withBase("about/")}>Method</a>.
           </p>
+        )}
+
+        {topics.length > 0 && (
+          <details class="mobile-toc">
+            <summary>Jump to a section</summary>
+            <ul>
+              {topics.filter((t) => t.anchor_status === "page-anchor-resolved").map((t) => (
+                <li><a href={`#p${t.anchor_paragraph}`}>{t.topic}</a></li>
+              ))}
+            </ul>
+          </details>
         )}
 
         <div class="reader-tools">
@@ -116,10 +145,22 @@ const kicker = `${unit.work_title}${unit.volume_title ? " · " + unit.volume_tit
         </div>
       </div>
     </details>
+    <details class="dock-panel">
+      <summary class="dock-btn" aria-label="Cite or share this chapter" title="Cite / share"><span class="dock-ico">⧉</span><span class="dock-txt">Cite</span></summary>
+      <div class="cite-panel">
+        <button class="cite-act" id="copy-link" type="button">Copy link to this chapter</button>
+        <p class="cite-label">Cite this chapter</p>
+        <textarea class="cite-text" id="cite-text" readonly rows="5" aria-label="Citation"></textarea>
+        <button class="cite-act" id="copy-cite" type="button">Copy citation</button>
+      </div>
+    </details>
     <button class="dock-btn" id="focus-toggle" aria-pressed="false"><span class="dock-ico">◎</span><span class="dock-txt">Focus</span></button>
   </div>
 
+  <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top" title="Back to top" hidden>↑</button>
+
   <script type="application/json" id="reader-data" set:html={JSON.stringify(payload)} is:inline></script>
+  <script type="application/json" id="cite-data" set:html={JSON.stringify(citeData)} is:inline></script>
   <script>
     import { initReader } from "../../lib/reader-ui.js";
     initReader();

@@ -113,6 +113,44 @@ export function initReader() {
     });
   });
 
+  // ---- cite / share ----
+  const copyHelper = async (text, btn, okLabel) => {
+    const prev = btn.textContent;
+    try {
+      await navigator.clipboard.writeText(text);
+    } catch {
+      const ta = document.createElement("textarea");
+      ta.value = text; ta.style.position = "fixed"; ta.style.opacity = "0";
+      document.body.appendChild(ta); ta.select();
+      try { document.execCommand("copy"); } catch {}
+      ta.remove();
+    }
+    btn.textContent = okLabel; btn.classList.add("copied");
+    setTimeout(() => { btn.textContent = prev; btn.classList.remove("copied"); }, 1600);
+  };
+
+  const cite = readJson("cite-data");
+  const citeText = document.getElementById("cite-text");
+  if (cite && citeText) {
+    const url = location.href.split("#")[0];
+    const date = new Date().toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" });
+    let s = `${cite.author}, “${cite.chapter},” in ${cite.work}`;
+    if (cite.volume) s += `, ${cite.volume}`;
+    s += `, ${cite.translator}. The Spengler Portal, ${url} (accessed ${date}).`;
+    citeText.value = s;
+    document.getElementById("copy-cite")?.addEventListener("click", (e) => copyHelper(s, e.currentTarget, "Copied!"));
+  }
+  document.getElementById("copy-link")?.addEventListener("click", (e) => copyHelper(location.href.split("#")[0], e.currentTarget, "Link copied!"));
+
+  // ---- back to top ----
+  const toTop = document.getElementById("back-to-top");
+  if (toTop) {
+    const onScrollTop = () => { toTop.hidden = window.scrollY < 600; };
+    document.addEventListener("scroll", onScrollTop, { passive: true });
+    onScrollTop();
+    toTop.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
+  }
+
   // ---- topic-spine scroll-spy ----
   const spine = document.querySelectorAll(".topic-list a[data-para]");
   if (spine.length) {

@@ -3,9 +3,11 @@ import Layout from "../../components/Layout.astro";
 import PhaseClock from "../../components/PhaseClock.astro";
 import PhaseTimeline from "../../islands/PhaseTimeline.svelte";
 import { sourceInfo } from "../../lib/guide-data.js";
+import { withBase } from "../../lib/site.js";
 import timeline from "../../../data/timeline/culture-phases.json";
 
 const src = sourceInfo(timeline.source_citation);
+const base = import.meta.env.BASE_URL.endsWith("/") ? import.meta.env.BASE_URL : import.meta.env.BASE_URL + "/";
 ---
 
 <Layout title="The Phase-Clock" current="timeline">
@@ -28,8 +30,13 @@ const src = sourceInfo(timeline.source_citation);
   </section>
 
   <section class="wrap" style="padding-bottom:3rem;">
-    <PhaseTimeline data={timeline} client:visible />
+    <PhaseTimeline data={timeline} base={base} client:visible />
     <p class="muted" style="margin-top:1.75rem;font-size:0.88rem;">
+      Click a Culture's name to see it set beside the others in the
+      <a href={withBase("tables/")}>Comparative Tables</a>, or trace its ideas in the
+      <a href={withBase("lexicon/")}>Lexicon</a>.
+    </p>
+    <p class="muted" style="margin-top:0.75rem;font-size:0.88rem;">
       {timeline.contemporaneity_note}
       The phase dates are transcribed from {timeline.source} —
       {src.url ? <a href={src.url} target="_blank" rel="noopener">{src.title}</a> : src.title}.

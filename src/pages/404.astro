@@ -1,0 +1,21 @@
+---
+import Layout from "../components/Layout.astro";
+import PhaseClock from "../components/PhaseClock.astro";
+import { withBase } from "../lib/site.js";
+---
+
+<Layout title="Page not found">
+  <section class="wrap page-head narrow" style="text-align:center;padding-top:4rem;" data-cult="faustian">
+    <p style="margin:0 auto 1.25rem;"><PhaseClock size={56} /></p>
+    <p class="eyebrow">404 — off the map</p>
+    <h1>This page is in its winter.</h1>
+    <p class="lede" style="margin-left:auto;margin-right:auto;">
+      The page you were looking for isn't here. It may have moved, or never existed. Try the corpus, or
+      press <kbd>Ctrl&nbsp;K</kbd> to search every word Spengler wrote.
+    </p>
+    <div class="hero-actions" style="justify-content:center;">
+      <a class="btn btn-primary" href={withBase("read/decline-vol-i-ch-01-introduction/")}>Begin reading →</a>
+      <a class="btn btn-ghost" href={withBase("")}>Home</a>
+    </div>
+  </section>
+</Layout>

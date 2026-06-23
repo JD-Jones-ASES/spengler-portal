@@ -26,21 +26,33 @@ const sources = getSources().length;
 
     <h2 class="section-h">What this is</h2>
     <p>
-      This is a source-cited reading room for Oswald Spengler. It begins with <em>The Decline of the
-      West</em>, Volume I — the full public-domain Atkinson translation — and is built to grow to his
-      other works. The point is not to abridge Spengler but to give a new reader the apparatus he
-      needs: a navigable text, a search that reaches every word, a lexicon of Spengler's private
-      vocabulary, and an interactive recreation of his Comparative Tables.
+      This is a source-cited reading room for Oswald Spengler. It carries <em>The Decline of the
+      West</em>, Volumes I and II — the full public-domain Charles Francis Atkinson translation — and{" "}
+      <em>Man and Technics</em> in a fresh English translation made for this portal (see below). The
+      point is not to abridge Spengler but to give a new reader the apparatus he needs: a navigable
+      text, a search that reaches every word, a lexicon of Spengler's private vocabulary, and an
+      interactive recreation of his Comparative Tables.
     </p>
 
     <h2 class="section-h">The text is never altered</h2>
     <p>
-      The raw scans live read-only; nothing is ever edited in place. A deterministic, logged program
-      turns them into the clean reading text you see — stripping page numbers, rejoining hyphenated
-      lines, lifting footnotes — and records every change it makes. Where the scan is corrupted in a
-      way that would change Spengler's meaning, the program <strong>flags it rather than guessing</strong>.
-      That is why Volume II and <em>Man and Technics</em> are registered here but not yet published:
-      their scans carry damage no machine should silently "correct."
+      The source text lives read-only; nothing is ever edited in place. A deterministic, logged program
+      turns it into the clean reading text you see — stripping page numbers, rejoining hyphenated lines,
+      lifting footnotes — and records every change it makes. <em>The Decline of the West</em>, both
+      volumes, is set from the clean, human-proofread public-domain Project Gutenberg edition of the
+      Atkinson translation; where an older scan would once have needed correcting, the program{" "}
+      <strong>flags damage rather than guessing</strong> at Spengler's meaning.
+    </p>
+
+    <h2 class="section-h">On the translation of <em>Man and Technics</em></h2>
+    <p>
+      The 1932 Atkinson/Knopf English translation of <em>Man and Technics</em> is still under US
+      copyright (until 1 January 2028), so this portal does not publish it. Instead, <em>Man and
+      Technics</em> appears here in a <strong>new, independent English translation made for this portal
+      from the public-domain German original</strong> — <em>Der Mensch und die Technik</em> (C. H. Beck,
+      Munich, 1931). It is translated faithful-in-register, checked chapter by chapter against the German
+      for fidelity and against the older translation for independence, and Spengler's own cross-references
+      to <em>The Decline of the West</em> are preserved as numbered footnotes.
     </p>
 
     <h2 class="section-h">Two rules for the notes</h2>
@@ -73,8 +85,9 @@ const sources = getSources().length;
       <PhaseClock size={40} />
     </p>
     <p class="muted" style="font-size:0.85rem;">
-      Code is MIT-licensed; the editorial apparatus is CC BY-SA 4.0. Source texts are the
-      public-domain Charles Francis Atkinson translations.
+      Code is MIT-licensed; the editorial apparatus is CC BY-SA 4.0. <em>The Decline of the West</em> is
+      the public-domain Charles Francis Atkinson translation; <em>Man and Technics</em> is this portal's
+      own translation from the public-domain German, released under the same CC BY-SA 4.0 terms.
     </p>
   </section>
 </Layout>

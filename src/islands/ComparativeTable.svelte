@@ -15,6 +15,13 @@
   let hidden = $state(new Set());
   let season = $state("all"); // "all" | spring | summer | autumn | winter
   let openCulture = $state(data.cultures[0]?.id); // mobile accordion
+  let focusCult = $state(null); // a Culture arriving via ?cult= (e.g. from the Phase-Clock)
+
+  // Deep-link from another hero: tables/?cult=<id> highlights that Culture's column (if this table has it).
+  $effect(() => {
+    const p = new URLSearchParams(location.search).get("cult");
+    if (p && data.cultures.some((c) => c.id === p)) { focusCult = p; openCulture = p; }
+  });
 
   const visibleCultures = $derived(data.cultures.filter((c) => !hidden.has(c.id)));
 
@@ -60,7 +67,7 @@
         <tr>
           <th scope="col" class="ct-row-head">Epoch</th>
           {#each visibleCultures as c}
-            <th scope="col" data-cult={c.cult}>{c.label}<span class="ct-from">{c.from}</span></th>
+            <th scope="col" data-cult={c.cult} class:ct-focus={focusCult === c.id}>{c.label}<span class="ct-from">{c.from}</span></th>
           {/each}
         </tr>
       </thead>
@@ -74,7 +81,7 @@
               <th scope="row" class="ct-row-head"><span class="ct-epoch">{row.epoch}</span> {row.label}</th>
               {#each visibleCultures as c}
                 {@const cell = row.cells[c.id]}
-                <td class="ct-cell" data-cult={c.cult} class:is-empty={!cell || !cell.text}>
+                <td class="ct-cell" data-cult={c.cult} class:ct-focus={focusCult === c.id} class:is-empty={!cell || !cell.text}>
                   {#if cell && cell.text}
                     {cell.text}
                     {#if cell.note}<span class="ct-cite" title={cell.note}>⚑ editorial note</span>{/if}
@@ -100,7 +107,7 @@
 <!-- Mobile: one Culture at a time, read its life-cycle down the seasons -->
 <div class="ct-accordion">
   {#each data.cultures as c}
-    <details class="ct-acc-item" data-cult={c.cult} open={openCulture === c.id}>
+    <details class="ct-acc-item" data-cult={c.cult} class:ct-focus={focusCult === c.id} open={openCulture === c.id}>
       <summary>{c.label} <span class="ct-from" style="font-weight:400">{c.from}</span></summary>
       <div class="ct-acc-body">
         {#each data.phases as phase}

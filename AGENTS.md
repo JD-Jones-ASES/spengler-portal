@@ -14,6 +14,44 @@ M&T text — was dropped by squashing; full history kept locally under tag `pre-
 dev branch `mt-fresh-translation`). CI runs a pure `astro build` (Node 22, `npm install`); it does NOT
 run `prepare:data` — generated data is committed.
 
+## Where things stand (2026-06-23, latest) — v1.0.0, QOL & show-piece polish
+
+- **v1.0.0 — feature-complete.** A UI/UX polish pass on top of the public launch (`package.json` → 1.0.0).
+  All of the below is on `mt-fresh-translation`; `prepare:data` + `build` green (38 pages), browser-verified
+  both themes, no console errors.
+- **M&T typography normalized to house style.** Our translation used straight quotes; both *Decline*
+  volumes use curly. A **length-preserving** `educate-quotes` pass (opt-in via `"typography"` on the M&T
+  volume in `works.config.json`, applied in `build-cleaned-spine.mjs::educateQuotes`) converts straight
+  quotes/apostrophes → curly while **keeping spaced em-dashes**. Length-preserving ⇒ **no offset re-basing**;
+  the one affected annotation `selector.exact` (`Nietzsche's`) + a few display `anchor`s were educated to
+  match. *Decline* volumes untouched. Lesson: educate-quotes is the safe way to retypeset our own text.
+- **Text guardrail.** New `scripts/validate/scan-text.mjs` (wired into `prepare:data` as `validate:text`)
+  fails the build on OCR/PDF/encoding artifacts (ligatures, soft hyphens, mojibake, zero-width, double
+  spaces) **and** on any `clean` work that carries OCR highlights — so a superseded-source "fix" can never
+  resurface. The corpus is currently artifact-free.
+- **Honesty/credit fixes.** Footer (`Layout.astro`), About (incl. a new "On the translation of M&T"
+  section), Read hub, home, Sources, and a new M&T **reader colophon** now state correctly: *Decline* = PD
+  Atkinson; *M&T* = our fresh in-house translation. Removed the stale "being prepared / scans carry damage"
+  claims. **Gotcha:** Astro strips whitespace at `text⏎<em>`/`</strong>⏎text` boundaries — insert `{" "}`.
+- **Show-piece islands.** Timeline "We are here · 2026" marker now renders in a flag pill **below** the
+  Western row (was floating above it) — `PhaseTimeline.svelte`, pill sized from text length, night-safe.
+  Lexicon groups **default collapsed** (auto-open on filter/select) and nodes are **drag-to-rearrange**
+  (pointer events; click/keyboard select preserved; "Reset layout" button) — `ConceptGraph.svelte`
+  (`positions` is now reactive `$state`).
+- **Cross-hero links.** Timeline culture labels → `tables/?cult=<id>`; `ComparativeTable.svelte` reads the
+  param in a `$effect` and highlights that column (`.ct-focus`). Reciprocal timeline↔tables↔lexicon prose
+  links.
+- **Reader QOL + SEO.** Dock "copy link" / "cite this chapter" (client-built citation w/ accessed-date) +
+  back-to-top + mobile "jump to section" (the topic spine is hidden < 900px) + print stylesheet — in
+  `[unit].astro`, `reader-ui.js`, `portal.css`. OG/Twitter/canonical meta in `Layout.astro` (+ `image`
+  prop), `public/og.svg`, dependency-free `src/pages/sitemap.xml.js`, `public/robots.txt`,
+  `src/pages/404.astro`. (OG image is SVG; rasterize to `og.png` if a platform ignores SVG.)
+- **Read-page consistency.** Authored the 19 missing summary seeds (Vol II + M&T) in
+  `data/chapters/summary-seeds.json` so every chapter row shows a one-line summary + culture tags (Vol I
+  had them; the others rendered bare). Manifest now: 30/30 summaries.
+- **Possible next (all optional — v1.0.0 is done):** rasterize `og.png`; lexicon → 50 terms; extend
+  table→passage deep-link coverage; add Indian/Mexican to the timeline; persist lexicon node positions.
+
 ## Where things stand (2026-06-22, latest)
 
 - **Man and Technics re-published in a fresh in-house English translation from the public-domain German**

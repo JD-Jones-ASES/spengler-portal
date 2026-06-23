@@ -40,6 +40,9 @@ const nav = [
         <a class="facet-btn" href={`#${t.id}`}>Table {t.n} · {t.label}</a>
       ))}
     </nav>
+    <p class="muted" style="margin-top:1rem;font-size:0.9rem;">
+      See the same life-cycle unfold in time on the <a href={`${base}timeline/`}>Phase-Clock</a>.
+    </p>
   </section>
 
   {tables.map((data) => {

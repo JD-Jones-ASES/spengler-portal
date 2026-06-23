@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jd-jones-ases.github.io/spengler-portal/sitemap.xml

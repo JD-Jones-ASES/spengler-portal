@@ -73,8 +73,8 @@
     {
       "id": "mt1-hist-nietzsche-will-to-power",
       "kind": "historical-reference",
-      "selector": { "exact": "in Nietzsche's sense, as a struggle out of the will-to-power" },
-      "anchor": "life … in Nietzsche's sense, as a struggle out of the will-to-power, cruel, inexorable",
+      "selector": { "exact": "in Nietzsche’s sense, as a struggle out of the will-to-power" },
+      "anchor": "life … in Nietzsche’s sense, as a struggle out of the will-to-power, cruel, inexorable",
       "note": "Spengler names his frame openly: life as Nietzsche's 'will to power' (Wille zur Macht). Nietzsche is one of his two masters (with Goethe). The borrowing is selective — Spengler keeps Nietzsche's combative vitalism and 'amor fati' but drops the hope of an 'overcoming'; what is left is a tragic, no-exit struggle.",
       "tags": ["concept:will-to-power", "domain:method"],
       "evidence": [{ "claim_type": "historical-context", "citations": ["sep-nietzsche"] }],

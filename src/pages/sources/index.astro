@@ -1,6 +1,7 @@
 ---
 import Layout from "../../components/Layout.astro";
 import { getSources } from "../../lib/guide-data.js";
+import { withBase } from "../../lib/site.js";
 
 const sources = getSources();
 const kindLabel = {
@@ -21,6 +22,18 @@ for (const s of sources) (grouped[s.kind] ||= []).push(s);
       names the scholar it comes from. Each record below was checked by hand — the note says what was
       actually visible on the page, and the date it was seen.
     </p>
+  </section>
+
+  <section class="wrap" style="padding-bottom:1rem;">
+    <div class="src" style="border-left:3px solid var(--cult-faustian);">
+      <h3 style="margin-top:0;">On the translations</h3>
+      <p><em>The Decline of the West</em> (both volumes) is the public-domain Charles Francis Atkinson
+        translation, set from the human-proofread Project Gutenberg edition. <em>Man and Technics</em> is
+        published here in a <strong>fresh, independent English translation made for this portal</strong>{" "}
+        from the public-domain German original (<em>Der Mensch und die Technik</em>, C. H. Beck, 1931) —
+        the copyrighted 1932 Atkinson/Knopf English version is not used. See the source records below and
+        the <a href={withBase("about/")}>Method</a> page.</p>
+    </div>
   </section>
 
   <section class="wrap" style="padding-bottom:3rem;">

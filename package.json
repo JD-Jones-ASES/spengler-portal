@@ -1,6 +1,6 @@
 {
   "name": "spengler-portal",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -18,7 +18,8 @@
     "ingest:table": "node scripts/ingest/build-comparative-table.mjs",
     "ingest:lexicon": "node scripts/ingest/build-lexicon-graph.mjs",
     "validate:basic": "node scripts/validate/validate-basic.mjs",
-    "prepare:data": "npm run ingest:spine && npm run ingest:footnotes && npm run ingest:manifest && npm run ingest:concordance && npm run ingest:paths && npm run ingest:selectors && npm run ingest:indexes && npm run ingest:table && npm run ingest:lexicon && npm run validate:basic",
+    "validate:text": "node scripts/validate/scan-text.mjs",
+    "prepare:data": "npm run ingest:spine && npm run ingest:footnotes && npm run ingest:manifest && npm run ingest:concordance && npm run ingest:paths && npm run ingest:selectors && npm run ingest:indexes && npm run ingest:table && npm run ingest:lexicon && npm run validate:basic && npm run validate:text",
     "review": "node scripts/review/build-review-tool.mjs",
     "review:apply": "node scripts/ingest/apply-review-resolutions.mjs"
   },

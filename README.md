@@ -22,14 +22,19 @@ tables, and pointers to the scholarship.
   tables, with cells deep-linking to the passage where he draws the parallel), a **Concept Lexicon +
   force-graph** of his coined vocabulary, and a **Phase-Clock timeline** that places the high Cultures
   in morphological time so you can read his "contemporaries" down any vertical line.
+- **Built to read and to cite.** Light/parchment + night themes, a ⌘K full-text search palette, a
+  typography panel, focus mode, per-chapter "copy link / cite", a draggable concept-graph, and
+  cross-links that tie the timeline, tables and reader together — with Open Graph metadata, a sitemap,
+  and keyboard/accessibility support throughout.
 - **Verification is the product.** Every teaching claim cites a source other than Spengler; every
   contested interpretation is **attributed to a named scholar, never asserted as fact**. The build
   fails loud when a claim is unsupported. `raw/` is never mutated.
 
 ## Status
 
-**Published and live** at https://jd-jones-ases.github.io/spengler-portal/ (static Astro site on GitHub
-Pages). The full data pipeline, design system, reader, search, and all three hero islands are live.
+**v1.0.0 — published, live, and feature-complete** at
+https://jd-jones-ases.github.io/spengler-portal/ (static Astro site on GitHub Pages). The full data
+pipeline, design system, reader, search, and all three hero islands are live.
 **30 reading units are published, and all are fully annotated to the showcase standard:** *Decline* Vol
 I (11 chapters, clean Project Gutenberg text, 97 notes), *Decline* Vol II (14 chapters, clean Project
 Gutenberg text, 95 notes), and *Man and Technics* (5 chapters, in a **fresh in-house translation from
@@ -46,7 +51,8 @@ live. See `AGENTS.md` and `DECISIONS.md` for the working map and the decision lo
 npm install            # Node >= 22 (Astro 7)
 npm run prepare:data   # clean raw -> derived spine, build manifests/indexes, validate (the build gate)
 npm run build          # build the static portal into dist/
-npm run dev            # local dev server
+npm run dev            # local dev server (production base path: /spengler-portal)
+npm run dev:preview    # local dev server served from / (handy for previewing)
 ```
 
 After any content change, run `prepare:data` (regenerates the committed derived data and runs the

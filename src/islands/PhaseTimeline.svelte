@@ -3,13 +3,14 @@
   // span [birth → Civilization-end], so births align at the left and reading DOWN any vertical line shows
   // the stages Spengler calls "contemporary". A frozen, deterministic SVG (no animation); the readout line
   // and the focusable bands are the accessible equivalent of the hover guide.
-  let { data } = $props();
+  let { data, base = "/" } = $props();
 
   const cultures = data.cultures;
   const W = 720, PADL = 138, PADR = 20, PADT = 40, ROW_H = 44, GAP = 16, PRE_W = 26, AXIS_H = 26;
+  const NOW_H = 24; // extra bottom room so the "We are here" marker sits below the last (Western) row
   const plotX = PADL + PRE_W;
   const plotW = W - plotX - PADR;
-  const H = PADT + cultures.length * (ROW_H + GAP) + AXIS_H;
+  const H = PADT + cultures.length * (ROW_H + GAP) + AXIS_H + NOW_H;
   const lastBoundaries = [0, 0.25, 0.5, 0.75, 1]; // faint reference grid for the eye
 
   const fmtYear = (y) => (y < 0 ? `${-y} BC` : `${y} AD`);
@@ -74,8 +75,10 @@
 
     {#each cultures as c, i}
       {@const y = rowY(i)}
-      <!-- culture label -->
-      <text class="pt-cult-label" x={PADL - 12} y={y + ROW_H / 2} text-anchor="end" data-cult={c.cult}>{c.label}</text>
+      <!-- culture label → its column in the Comparative Tables -->
+      <a class="pt-cult-link" href={`${base}tables/?cult=${c.id}`} aria-label={`See ${c.label} in the Comparative Tables`}>
+        <text class="pt-cult-label" x={PADL - 12} y={y + ROW_H / 2} text-anchor="end" data-cult={c.cult}>{c.label}</text>
+      </a>
       <circle cx={PADL - 4} cy={y + ROW_H / 2} r="3.5" style={`fill:var(--cult-${c.cult})`} />
 
       <!-- pre-cultural lead-in stub (before birth) -->
@@ -112,11 +115,17 @@
       <!-- birth tick -->
       <line class="pt-birth" x1={plotX} y1={y + 3} x2={plotX} y2={y + ROW_H - 3} />
 
-      <!-- "now" marker on the Culture that carries it -->
+      <!-- "now" marker on the Culture that carries it — bar through the row, label below it -->
       {#if c.id === data.now?.culture && nowF != null}
         {@const nx = plotX + nowF * plotW}
-        <line class="pt-now" x1={nx} y1={y - GAP / 2} x2={nx} y2={y + ROW_H + 2} />
-        <text class="pt-now-label" x={nx} y={y - GAP / 2 - 3} text-anchor="middle">{data.now.label} · {data.now.year}</text>
+        {@const nowText = `${data.now.label} · ${data.now.year}`}
+        {@const nowW = nowText.length * 6.5 + 24}
+        {@const nlx = Math.min(plotX + plotW - nowW / 2, Math.max(plotX + nowW / 2, nx))}
+        {@const labelY = y + ROW_H + 17}
+        <circle class="pt-now-dot" cx={nx} cy={y + 4} r="3" />
+        <line class="pt-now" x1={nx} y1={y + 4} x2={nx} y2={y + ROW_H + 9} />
+        <rect class="pt-now-flag" x={nlx - nowW / 2} y={labelY - 13} width={nowW} height="19" rx="9.5" />
+        <text class="pt-now-label" x={nlx} y={labelY} text-anchor="middle">{nowText}</text>
       {/if}
     {/each}
 

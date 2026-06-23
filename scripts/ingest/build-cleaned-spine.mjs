@@ -130,6 +130,18 @@ function rebase(offset, edits) {
   return offset + d;
 }
 
+// Length-preserving typographic normalization for works that opt in via `typography: "educate-quotes"`.
+// Straight quotes/apostrophes → curly, to match the house style of the Gutenberg-sourced volumes.
+// Each replacement is 1 char → 1 char, so NO offset re-basing is needed (paragraph/page/footnote
+// offsets stay valid). Em-dashes are deliberately left untouched. Idempotent (only straight marks match).
+export function educateQuotes(s) {
+  return s
+    .replace(/(^|[\s([{<–—‘“])"/g, "$1“") // opening double
+    .replace(/"/g, "”")                                       // remaining double → closing
+    .replace(/(^|[\s([{<–—])'/g, "$1‘")            // opening single
+    .replace(/'/g, "’");                                       // remaining single → apostrophe/closing
+}
+
 // ----- per-layout cleaning -------------------------------------------------
 
 // Decline volumes: one paragraph per line. Slice each chapter, drop the doubled running header +
@@ -395,6 +407,8 @@ for (const work of config.works) {
         footnoteRefs = r.footnoteRefs.map((f) => ({ ...f, offset: rebase(f.offset, ap.edits) }));
         paraOffsets = r.paraOffsets.map((o) => rebase(o, ap.edits));
       }
+      // opt-in typographic normalization (length-preserving → offsets unaffected)
+      if (vol.typography === "educate-quotes") text = educateQuotes(text);
       const uid = unitId(work.id, vol.id, r.ch);
       const fname = `ch-${String(r.ch.n).padStart(2, "0")}.txt`;
       writeFileSync(resolve(outDir, fname), text, "utf8");

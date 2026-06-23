@@ -8,8 +8,11 @@ const {
   description = "A source-cited reading room for Oswald Spengler — The Decline of the West and Man and Technics, annotated for new readers.",
   current = "",
   reader = false,
+  image = "og.svg",
 } = Astro.props;
 const fullTitle = title ? `${title} — The Spengler Portal` : "The Spengler Portal";
+const canonical = Astro.site ? new URL(Astro.url.pathname, Astro.site).href : Astro.url.pathname;
+const ogImage = Astro.site ? new URL(withBase(image), Astro.site).href : withBase(image);
 
 const nav = [
   { id: "read", label: "Read", href: withBase("read/") },
@@ -28,7 +31,20 @@ const nav = [
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
     <link rel="icon" href={withBase("favicon.svg")} />
+
+    <!-- Open Graph / Twitter -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="The Spengler Portal" />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImage} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={fullTitle} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImage} />
     <script is:inline>
       // No-flash: apply stored reading preferences before first paint.
       try {
@@ -85,9 +101,10 @@ const nav = [
     <footer class="site-footer">
       <div class="wrap">
         <p>
-          <strong>The Spengler Portal.</strong>
-          Text from the public-domain Charles Francis Atkinson translations. Editorial apparatus is
-          source-cited; the build fails when a claim is unsupported.
+          <strong>The Spengler Portal.</strong>{" "}
+          <em>The Decline of the West</em> from the public-domain Charles Francis Atkinson translation;{" "}
+          <em>Man and Technics</em> in a fresh in-house English translation from the public-domain 1931 German.
+          Editorial apparatus is source-cited; the build fails when a claim is unsupported.
         </p>
         <p class="muted">
           Built with Astro. Code MIT · content CC BY-SA 4.0. <a href={withBase("about/")}>How this was made</a>.

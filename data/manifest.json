@@ -5755,12 +5755,15 @@
       ],
       "ocr_corrections": [],
       "summary": {
-        "one_line": null,
+        "one_line": "Life in two keys: the cosmic 'being' that pulses in the blood, and the waking-being of the free-moving microcosm.",
         "student": null,
         "why_it_matters": null
       },
       "cultures": [],
-      "domains": []
+      "domains": [
+        "science",
+        "religion"
+      ]
     },
     {
       "unit_id": "decline-vol-ii-ch-02-origin-and-landscape-the-group-of-the-higher-cultures",
@@ -6153,12 +6156,14 @@
       ],
       "ocr_corrections": [],
       "summary": {
-        "one_line": null,
+        "one_line": "Why the high Cultures are so few, how they stand together as a group, and what 'world-history' really surveys.",
         "student": null,
         "why_it_matters": null
       },
       "cultures": [],
-      "domains": []
+      "domains": [
+        "politics"
+      ]
     },
     {
       "unit_id": "decline-vol-ii-ch-03-origin-and-landscape-the-relations-between-the-cultures",
@@ -6689,12 +6694,18 @@
       ],
       "ocr_corrections": [],
       "summary": {
-        "one_line": null,
+        "one_line": "How Cultures meet, borrow and deform one another — the germ of the 'pseudomorphosis' worked out later.",
         "student": null,
         "why_it_matters": null
       },
-      "cultures": [],
-      "domains": []
+      "cultures": [
+        "magian",
+        "apollinian"
+      ],
+      "domains": [
+        "politics",
+        "religion"
+      ]
     },
     {
       "unit_id": "decline-vol-ii-ch-04-cities-and-peoples-the-soul-of-the-city",
@@ -7006,12 +7017,17 @@
       ],
       "ocr_corrections": [],
       "summary": {
-        "one_line": null,
+        "one_line": "World-history is the history of the city: the city turns peasant into citizen, and at last into the nomad of the metropolis.",
         "student": null,
         "why_it_matters": null
       },
-      "cultures": [],
-      "domains": []
+      "cultures": [
+        "faustian",
+        "apollinian"
+      ],
+      "domains": [
+        "politics"
+      ]
     },
     {
       "unit_id": "decline-vol-ii-ch-05-cities-and-peoples-peoples-races-tongues",
@@ -7540,12 +7556,14 @@
       ],
       "ocr_corrections": [],
       "summary": {
-        "one_line": null,
+        "one_line": "Race, people and tongue are not biology but destiny — what a landscape and a history stamp on a stream of being.",
         "student": null,
         "why_it_matters": null
       },
       "cultures": [],
-      "domains": []
+      "domains": [
+        "politics"
+      ]
     },
     {
       "unit_id": "decline-vol-ii-ch-06-cities-and-peoples-primitives-culture-peoples-fellaheen",
@@ -7995,12 +8013,17 @@
       ],
       "ocr_corrections": [],
       "summary": {
-        "one_line": null,
+        "one_line": "Before and after a Culture: the primitive peoples that come before it, and the 'fellaheen' who outlive it.",
         "student": null,
         "why_it_matters": null
       },
-      "cultures": [],
-      "domains": []
+      "cultures": [
+        "egyptian",
+        "chinese"
+      ],
+      "domains": [
+        "politics"
+      ]
     },
     {
       "unit_id": "decline-vol-ii-ch-07-problems-of-the-arabian-culture-historic-pseudomorphoses",
@@ -8770,12 +8793,18 @@
       ],
       "ocr_corrections": [],
       "summary": {
-        "one_line": null,
+        "one_line": "When a young soul is forced into the alien mould of an older Culture — the Magian cramped beneath Classical forms.",
         "student": null,
         "why_it_matters": null
       },
-      "cultures": [],
-      "domains": []
+      "cultures": [
+        "magian",
+        "apollinian"
+      ],
+      "domains": [
+        "religion",
+        "politics"
+      ]
     },
     {
       "unit_id": "decline-vol-ii-ch-08-problems-of-the-arabian-culture-the-magian-soul",
@@ -9258,12 +9287,16 @@
       ],
       "ocr_corrections": [],
       "summary": {
-        "one_line": null,
+        "one_line": "The Magian world: the cavern-feeling, the divine substance, the consensus of the faithful — the soul behind the great religions.",
         "student": null,
         "why_it_matters": null
       },
-      "cultures": [],
-      "domains": []
+      "cultures": [
+        "magian"
+      ],
+      "domains": [
+        "religion"
+      ]
     },
     {
       "unit_id": "decline-vol-ii-ch-09-problems-of-the-arabian-culture-pythagoras-mohammed-cromwell",
@@ -10073,12 +10106,18 @@
       ],
       "ocr_corrections": [],
       "summary": {
-        "one_line": null,
+        "one_line": "Religion in the springtime of three Cultures — Classical cult, Magian revelation, Faustian Puritanism.",
         "student": null,
         "why_it_matters": null
       },
-      "cultures": [],
-      "domains": []
+      "cultures": [
+        "apollinian",
+        "magian",
+        "faustian"
+      ],
+      "domains": [
+        "religion"
+      ]
     },
     {
       "unit_id": "decline-vol-ii-ch-10-the-state-the-problem-of-the-estates-nobility-and-priesthood",
@@ -10532,12 +10571,16 @@
       ],
       "ocr_corrections": [],
       "summary": {
-        "one_line": null,
+        "one_line": "The great estates — nobility and priesthood, time against space, the manor against the cathedral — as a Culture's living form.",
         "student": null,
         "why_it_matters": null
       },
-      "cultures": [],
-      "domains": []
+      "cultures": [
+        "faustian"
+      ],
+      "domains": [
+        "politics"
+      ]
     },
     {
       "unit_id": "decline-vol-ii-ch-11-the-state-state-and-history",
@@ -11675,12 +11718,17 @@
       ],
       "ocr_corrections": [],
       "summary": {
-        "one_line": null,
+        "one_line": "The state as a people held 'in form': the history-making minority, the political stream, and the meaning of the great event.",
         "student": null,
         "why_it_matters": null
       },
-      "cultures": [],
-      "domains": []
+      "cultures": [
+        "faustian",
+        "apollinian"
+      ],
+      "domains": [
+        "politics"
+      ]
     },
     {
       "unit_id": "decline-vol-ii-ch-12-the-state-philosophy-of-politics",
@@ -12088,12 +12136,16 @@
       ],
       "ocr_corrections": [],
       "summary": {
-        "one_line": null,
+        "one_line": "What it means to be 'in form' politically — the statesman against the masses, and the state's slow sinking into mere economics.",
         "student": null,
         "why_it_matters": null
       },
-      "cultures": [],
-      "domains": []
+      "cultures": [
+        "faustian"
+      ],
+      "domains": [
+        "politics"
+      ]
     },
     {
       "unit_id": "decline-vol-ii-ch-13-the-form-world-of-economic-life-money",
@@ -12607,12 +12659,17 @@
       ],
       "ocr_corrections": [],
       "summary": {
-        "one_line": null,
+        "one_line": "Money as a Faustian way of thinking — abstract, dynamic — that turns the world into book-keeping and dissolves the old estates.",
         "student": null,
         "why_it_matters": null
       },
-      "cultures": [],
-      "domains": []
+      "cultures": [
+        "faustian",
+        "apollinian"
+      ],
+      "domains": [
+        "economics"
+      ]
     },
     {
       "unit_id": "decline-vol-ii-ch-14-the-form-world-of-economic-life-the-machine",
@@ -12789,12 +12846,17 @@
       ],
       "ocr_corrections": [],
       "summary": {
-        "one_line": null,
+        "one_line": "The machine as the Faustian will-to-power made iron: the engineer, the entrepreneur, and the gathering revolt against the machine.",
         "student": null,
         "why_it_matters": null
       },
-      "cultures": [],
-      "domains": []
+      "cultures": [
+        "faustian"
+      ],
+      "domains": [
+        "economics",
+        "science"
+      ]
     },
     {
       "unit_id": "man-technics-ch-01-technics-as-the-tactics-of-living",
@@ -12848,12 +12910,15 @@
       ],
       "ocr_corrections": [],
       "summary": {
-        "one_line": null,
+        "one_line": "Technics is not the tool but the tactics of living — the whole way a being wages its war with the world.",
         "student": null,
         "why_it_matters": null
       },
       "cultures": [],
-      "domains": []
+      "domains": [
+        "science",
+        "method"
+      ]
     },
     {
       "unit_id": "man-technics-ch-02-herbivores-and-beasts-of-prey",
@@ -12898,12 +12963,14 @@
       ],
       "ocr_corrections": [],
       "summary": {
-        "one_line": null,
+        "one_line": "Two forms of life: the herbivore that flees and the beast of prey that hunts — and man, by his soul, is a beast of prey.",
         "student": null,
         "why_it_matters": null
       },
       "cultures": [],
-      "domains": []
+      "domains": [
+        "science"
+      ]
     },
     {
       "unit_id": "man-technics-ch-03-the-origin-of-man-hand-and-tool",
@@ -12947,12 +13014,14 @@
       ],
       "ocr_corrections": [],
       "summary": {
-        "one_line": null,
+        "one_line": "The hand and the tool make man: the free hand that seizes a weapon turns the beast of prey into the maker.",
         "student": null,
         "why_it_matters": null
       },
       "cultures": [],
-      "domains": []
+      "domains": [
+        "science"
+      ]
     },
     {
       "unit_id": "man-technics-ch-04-the-second-stage-speech-and-enterprise",
@@ -13030,12 +13099,15 @@
       ],
       "ocr_corrections": [],
       "summary": {
-        "one_line": null,
+        "one_line": "Speech and the deed-in-common: work is organized, the 'enterprise' is born, and the leaders divide from the led.",
         "student": null,
         "why_it_matters": null
       },
       "cultures": [],
-      "domains": []
+      "domains": [
+        "politics",
+        "economics"
+      ]
     },
     {
       "unit_id": "man-technics-ch-05-the-last-act-rise-and-end-of-the-machine-culture",
@@ -13116,12 +13188,17 @@
       ],
       "ocr_corrections": [],
       "summary": {
-        "one_line": null,
+        "one_line": "The Faustian machine-culture masters the world — and races toward its own exhaustion and end.",
         "student": null,
         "why_it_matters": null
       },
-      "cultures": [],
-      "domains": []
+      "cultures": [
+        "faustian"
+      ],
+      "domains": [
+        "economics",
+        "science"
+      ]
     }
   ]
 }

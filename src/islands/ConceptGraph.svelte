@@ -47,10 +47,43 @@
     return pos;
   }
 
-  const pos = computeLayout(data.nodes, data.edges);
+  const layoutMap = computeLayout(data.nodes, data.edges);
+  const toObj = (m) => { const o = {}; for (const [k, v] of m) o[k] = { x: v.x, y: v.y }; return o; };
+  let positions = $state(toObj(layoutMap)); // reactive node coords; seeded deterministically (no hydration mismatch)
+  function resetLayout() { positions = toObj(layoutMap); }
   const nodeById = new Map(data.nodes.map((n) => [n.id, n]));
 
   let selected = $state(null);
+
+  // ---- drag-to-rearrange (pointer); a tap that doesn't move is treated as a select ----
+  let svgEl;
+  let drag = $state(null);
+  function svgCoords(e) {
+    const r = svgEl.getBoundingClientRect();
+    return { x: ((e.clientX - r.left) / r.width) * W, y: ((e.clientY - r.top) / r.height) * H };
+  }
+  function onNodeDown(n, e) {
+    e.preventDefault();
+    const p = svgCoords(e);
+    drag = { id: n.id, moved: false, sx: p.x, sy: p.y, dx: positions[n.id].x - p.x, dy: positions[n.id].y - p.y };
+    try { svgEl.setPointerCapture(e.pointerId); } catch {}
+  }
+  function onSvgMove(e) {
+    if (!drag) return;
+    const p = svgCoords(e);
+    if (!drag.moved && Math.hypot(p.x - drag.sx, p.y - drag.sy) > 4) drag.moved = true;
+    positions[drag.id] = {
+      x: Math.max(28, Math.min(W - 28, p.x + drag.dx)),
+      y: Math.max(26, Math.min(H - 26, p.y + drag.dy)),
+    };
+  }
+  function endDrag(e) {
+    if (!drag) return;
+    const { id, moved } = drag;
+    if (e && e.pointerId != null) { try { svgEl.releasePointerCapture(e.pointerId); } catch {} }
+    drag = null;
+    if (!moved) pick(id); // a tap, not a drag → select/toggle
+  }
 
   const neighbors = $derived.by(() => {
     if (!selected) return null;
@@ -96,7 +129,7 @@
       <p class="lex-hint">No terms match “{query}”.</p>
     {/if}
     {#each clusters as group (group.key)}
-      <details class="lex-group" data-cult={group.cult || ""} open>
+      <details class="lex-group" data-cult={group.cult || ""} open={!!query || (selected != null && group.nodes.some((n) => n.id === selected))}>
         <summary>{group.label}<span class="lex-group-n">{group.nodes.length}</span></summary>
         {#each group.nodes as n (n.id)}
           <div
@@ -121,12 +154,19 @@
   </div>
 
   <div class="lex-graph-wrap">
-    <svg class="lex-graph" viewBox={`0 0 ${W} ${H}`} role="group" aria-label="Concept graph of Spengler's vocabulary. Use the list at left for an accessible view.">
+    <button class="lex-reset" type="button" onclick={resetLayout} title="Restore the original graph layout">Reset layout</button>
+    <svg
+      class="lex-graph" class:dragging={drag != null}
+      viewBox={`0 0 ${W} ${H}`} role="group"
+      aria-label="Concept graph of Spengler's vocabulary. Drag a node to rearrange; tap to trace its links. Use the list at left for an accessible view."
+      bind:this={svgEl}
+      onpointermove={onSvgMove} onpointerup={endDrag} onpointerleave={endDrag} onpointercancel={endDrag}
+    >
       {#each data.edges as e}
         <line
           class={`edge ${e.type} ${isEdgeActive(e) ? "" : "dim"}`}
-          x1={pos.get(e.source).x} y1={pos.get(e.source).y}
-          x2={pos.get(e.target).x} y2={pos.get(e.target).y}
+          x1={positions[e.source].x} y1={positions[e.source].y}
+          x2={positions[e.target].x} y2={positions[e.target].y}
         />
       {/each}
       {#each data.nodes as n}
@@ -135,11 +175,11 @@
           class:selected={selected === n.id}
           class:dim={(neighbors && !neighbors.has(n.id)) || (matchSet && !matchSet.has(n.id))}
           data-cult={n.culture || ""}
-          transform={`translate(${pos.get(n.id).x},${pos.get(n.id).y})`}
+          transform={`translate(${positions[n.id].x},${positions[n.id].y})`}
           role="button"
           tabindex="0"
           aria-label={`${n.term}. ${n.definition.slice(0, 80)}`}
-          onclick={() => pick(n.id)}
+          onpointerdown={(e) => onNodeDown(n, e)}
           onkeydown={(e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); pick(n.id); } }}
         >
           <circle r={nodeR(n)} style={`fill:${n.culture ? `var(--cult-${n.culture})` : "var(--ink-faint)"}`}></circle>
@@ -153,7 +193,7 @@
         <p style="margin:0.3rem 0 0;font-size:0.9rem;color:var(--ink-soft);line-height:1.5">{selNode.definition}</p>
       </div>
     {:else}
-      <p class="lex-hint" style="padding:0.6rem 1rem 0.9rem;">Tap a node — or a card — to trace how a term connects. Nodes are coloured by Culture; dashed lines mark oppositions.</p>
+      <p class="lex-hint" style="padding:0.6rem 1rem 0.9rem;">Tap a node — or a card — to trace how a term connects; drag a node to rearrange. Nodes are coloured by Culture; dashed lines mark oppositions.</p>
     {/if}
   </div>
 </div>

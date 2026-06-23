@@ -287,6 +287,11 @@ a.chip:hover { text-decoration: none; border-color: var(--cult); color: var(--cu
 }
 .reader-title { font-family: var(--font-display); font-weight: 700; font-size: clamp(1.6rem, 3.5vw, 2.3rem); margin: 0.25rem 0 0.5rem; line-height: 1.08; letter-spacing: -0.01em; }
 .reader-meta { display: flex; gap: 0.6rem; flex-wrap: wrap; align-items: center; margin-bottom: 1.25rem; color: var(--ink-faint); font-size: 0.85rem; }
+.reader-colophon {
+  font-size: 0.82rem; color: var(--ink-soft); margin: -0.5rem 0 1.25rem;
+  padding-left: 0.7rem; border-left: 2px solid var(--cult); font-style: italic;
+}
+.reader-colophon a { font-style: normal; }
 
 .prose {
   font-family: var(--reader-font, var(--font-serif));
@@ -347,6 +352,12 @@ a.chip:hover { text-decoration: none; border-color: var(--cult); color: var(--cu
 
 /* ---- Right rail: topic spine + notes ---- */
 .reader-side { min-width: 0; }
+/* mobile-only "jump to section" — the sticky spine stacks uselessly below the prose at narrow widths */
+.mobile-toc { display: none; border: 1px solid var(--line); border-radius: var(--radius); margin: 0 0 1.5rem; overflow: hidden; }
+.mobile-toc > summary { padding: 0.6rem 0.85rem; cursor: pointer; font-family: var(--font-display); font-weight: 700; font-size: 0.9rem; color: var(--cult-ink); background: var(--cult-wash); list-style: none; }
+.mobile-toc > summary::-webkit-details-marker { display: none; }
+.mobile-toc ul { list-style: none; margin: 0; padding: 0.5rem 0.85rem 0.7rem; display: grid; gap: 0.35rem; }
+.mobile-toc a { color: var(--ink-soft); font-size: 0.9rem; }
 .topic-spine { position: sticky; top: 76px; margin-bottom: 2rem; }
 .topic-spine h2, .notes h2 {
   font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--ink-faint);
@@ -466,6 +477,30 @@ a.chip:hover { text-decoration: none; border-color: var(--cult); color: var(--cu
 .typo-reset { width: 100%; text-align: center; }
 .dock-btn:focus-visible, .typo-panel button:focus-visible, .dock-panel > summary:focus-visible { outline: 2px solid var(--cult); outline-offset: 2px; }
 
+/* cite / share panel (shares the dock-panel anchor) */
+.cite-panel {
+  position: absolute; right: 0; bottom: calc(100% + 0.5rem); width: 300px; max-width: calc(100vw - 1.5rem);
+  background: var(--paper-raised); border: 1px solid var(--line-strong); border-radius: 12px;
+  box-shadow: var(--shadow); padding: 0.85rem; display: flex; flex-direction: column; gap: 0.55rem;
+}
+.cite-label { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--ink-faint); font-weight: 700; font-family: var(--font-display); margin: 0.2rem 0 0; }
+.cite-act { border: 1px solid var(--line-strong); background: var(--paper); color: var(--ink-soft); border-radius: 8px; padding: 0.45rem 0.6rem; font: inherit; font-size: 0.84rem; cursor: pointer; text-align: center; }
+.cite-act:hover { color: var(--ink); border-color: var(--cult); }
+.cite-act.copied { color: var(--cult-ink); border-color: var(--cult); background: color-mix(in srgb, var(--cult) 12%, var(--paper-raised)); }
+.cite-text { width: 100%; resize: vertical; font-family: var(--font-data); font-size: 0.76rem; line-height: 1.45; color: var(--ink-soft); background: var(--paper); border: 1px solid var(--line); border-radius: 8px; padding: 0.5rem 0.6rem; }
+.cite-text:focus-visible, .cite-act:focus-visible { outline: 2px solid var(--cult); outline-offset: 2px; }
+
+/* back-to-top — floats just above the reader dock on long pages */
+.back-to-top {
+  position: fixed; right: 1rem; bottom: calc(1rem + 3.1rem); z-index: 54;
+  width: 2.4rem; height: 2.4rem; border-radius: 999px; cursor: pointer;
+  border: 1px solid var(--line-strong); background: var(--paper-raised); color: var(--ink-soft);
+  font-size: 1.1rem; line-height: 1; box-shadow: var(--shadow); transition: color var(--motion), border-color var(--motion);
+}
+.back-to-top:hover { color: var(--ink); border-color: var(--cult); }
+.back-to-top[hidden] { display: none; }
+.back-to-top:focus-visible { outline: 2px solid var(--cult); outline-offset: 2px; }
+
 html[data-focus="on"] .reader-page .reader-side,
 html[data-focus="on"] .reader-page .reader-tools { display: none; }
 html[data-focus="on"] .reader-page .reader { grid-template-columns: 1fr; }
@@ -503,6 +538,9 @@ html[data-focus="on"] .reader-page .site-header { background: transparent; backd
 .ct-cell-link:hover { color: var(--cult-ink); text-decoration: none; }
 .ct-cell .ct-cite { display: inline-block; font-family: var(--font-data); font-size: 0.68rem; color: var(--ink-faint); margin-top: 0.2rem; }
 .ct-cell.is-empty { color: var(--ink-faint); font-style: italic; }
+/* a Culture column arriving via ?cult= (deep-link from the Phase-Clock) */
+.ct-table thead th.ct-focus { background: color-mix(in srgb, var(--cult) 16%, var(--paper-raised)); }
+.ct-table td.ct-cell.ct-focus { background: color-mix(in srgb, var(--cult) 9%, transparent); box-shadow: inset 3px 0 0 var(--cult); }
 /* passage deep-links — a cell points into the chapter that treats its theme at length */
 .ct-jumps { display: flex; flex-wrap: wrap; gap: 0.3rem 0.5rem; margin-top: 0.4rem; }
 .ct-jump { font-size: 0.7rem; line-height: 1.25; color: var(--cult-ink, var(--ink-soft)); text-decoration: none; border-bottom: 1px dotted color-mix(in srgb, var(--cult, var(--ink-faint)) 55%, transparent); }
@@ -520,6 +558,7 @@ html[data-focus="on"] .reader-page .site-header { background: transparent; backd
 /* Mobile: Culture accordion */
 .ct-accordion { display: none; }
 .ct-acc-item { border: 1px solid var(--line); border-radius: var(--radius); margin-bottom: 0.6rem; overflow: hidden; }
+.ct-acc-item.ct-focus { border-color: var(--cult); box-shadow: inset 4px 0 0 var(--cult); }
 .ct-acc-item > summary { padding: 0.7rem 0.9rem; cursor: pointer; font-family: var(--font-display); font-weight: 700; background: var(--cult-wash); color: var(--cult-ink); list-style: none; display: flex; align-items: center; gap: 0.5rem; }
 .ct-acc-item > summary::-webkit-details-marker { display: none; }
 .ct-acc-body { padding: 0.5rem 0.9rem 0.9rem; }
@@ -533,6 +572,9 @@ html[data-focus="on"] .reader-page .site-header { background: transparent; backd
 .pt-grid { stroke: var(--line); stroke-width: 1; stroke-dasharray: 2 5; opacity: 0.5; }
 .pt-guide { stroke: var(--ink-faint); stroke-width: 1; stroke-dasharray: 3 3; pointer-events: none; }
 .pt-cult-label { font-family: var(--font-display); font-size: 0.8rem; font-weight: 600; fill: var(--cult-ink); dominant-baseline: middle; }
+.pt-cult-link { cursor: pointer; }
+.pt-cult-link:hover .pt-cult-label { text-decoration: underline; }
+.pt-cult-link:focus-visible { outline: 2px solid var(--cult-faustian); outline-offset: 2px; }
 .pt-pre { stroke: color-mix(in srgb, var(--ink-faint) 40%, transparent); stroke-width: 1; stroke-dasharray: 2 2; }
 .pt-band { cursor: pointer; transition: opacity 0.12s ease; outline: none; }
 .pt-band rect { stroke: color-mix(in srgb, var(--ink-faint) 30%, transparent); stroke-width: 0.75; }
@@ -542,6 +584,8 @@ html[data-focus="on"] .reader-page .site-header { background: transparent; backd
 .pt-style { font-family: var(--font-data); font-size: 0.62rem; fill: var(--ink-soft); pointer-events: none; }
 .pt-birth { stroke: var(--ink-soft); stroke-width: 1.25; }
 .pt-now { stroke: var(--cult-faustian); stroke-width: 2; }
+.pt-now-dot { fill: var(--cult-faustian); }
+.pt-now-flag { fill: var(--paper-raised); stroke: var(--cult-faustian); stroke-width: 1; }
 .pt-now-label { font-family: var(--font-data); font-size: 0.64rem; font-weight: 700; fill: var(--cult-faustian); letter-spacing: 0.02em; }
 .pt-axis { font-family: var(--font-data); font-size: 0.66rem; fill: var(--ink-faint); }
 .pt-axis-mid { font-style: italic; }
@@ -586,11 +630,19 @@ html[data-focus="on"] .reader-page .site-header { background: transparent; backd
 .lex-see { margin-top: 0.5rem; display: flex; flex-wrap: wrap; gap: 0.3rem; }
 .lex-cite { font-family: var(--font-data); font-size: 0.7rem; color: var(--ink-faint); margin-top: 0.4rem; }
 .lex-graph-wrap { position: sticky; top: 76px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--paper-raised); overflow: hidden; }
+.lex-reset {
+  position: absolute; top: 0.5rem; right: 0.5rem; z-index: 2;
+  font-family: var(--font-data); font-size: 0.7rem; padding: 0.25rem 0.6rem; border-radius: 999px;
+  border: 1px solid var(--line-strong); background: var(--paper); color: var(--ink-soft); cursor: pointer;
+}
+.lex-reset:hover { border-color: var(--cult-faustian); color: var(--ink); }
 .lex-graph { display: block; width: 100%; height: auto; touch-action: pan-y; }
+.lex-graph.dragging { cursor: grabbing; }
 .lex-graph .edge { stroke: var(--line-strong); stroke-width: 1; opacity: 0.55; }
 .lex-graph .edge.contrasts-with { stroke: var(--cult-mexican); stroke-dasharray: 4 3; }
 .lex-graph .edge.dim { opacity: 0.12; }
-.lex-graph .node circle { stroke: var(--paper-raised); stroke-width: 1.5; cursor: pointer; }
+.lex-graph .node { cursor: grab; touch-action: none; }
+.lex-graph .node circle { stroke: var(--paper-raised); stroke-width: 1.5; cursor: inherit; }
 .lex-graph .node text { font-family: var(--font-display); font-size: 11px; fill: var(--ink); pointer-events: none; }
 .lex-graph .node.dim { opacity: 0.3; }
 .lex-graph .node:focus-visible circle { outline: 2px solid var(--cult); }
@@ -681,6 +733,8 @@ mark.find-hit { background: color-mix(in srgb, var(--cult-apollinian) 42%, trans
 @media (max-width: 1080px) { .search-btn-txt, .search-btn kbd { display: none; } }
 @media (max-width: 900px) {
   .reader { grid-template-columns: 1fr; }
+  .reader-side { display: none; }   /* the spine would stack below the whole chapter; use .mobile-toc instead */
+  .mobile-toc { display: block; }
   .lex { grid-template-columns: 1fr; }
   .lex-graph-wrap { position: static; order: -1; }
   .grid.cols-3, .grid.cols-2 { grid-template-columns: 1fr; }
@@ -700,7 +754,14 @@ mark.find-hit { background: color-mix(in srgb, var(--cult-apollinian) 42%, trans
 }
 
 @media print {
-  .reader-dock, .reading-progress, .site-header .nav-links, .search-overlay { display: none !important; }
+  .reader-dock, .reading-progress, .site-header, .site-footer, .search-overlay,
+  .back-to-top, .margin-note, .mobile-toc, .reader-side, .skip-link, .pager, .reader-tools { display: none !important; }
+  .reader { grid-template-columns: 1fr; }
+  .prose { max-width: none; color: #000; }
+  .prose p, .summary-card, blockquote { page-break-inside: avoid; }
+  .reader-title, .reader-kicker { page-break-after: avoid; }
+  .prose a, .reader-colophon a { color: #000; text-decoration: none; }
+  .anno-mark { text-decoration: none; background: none; color: inherit; }
 }
 
 @media (prefers-reduced-motion: reduce) {
