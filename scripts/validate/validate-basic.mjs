@@ -22,7 +22,7 @@ const vLex = schema("lexicon");
 const vTable = schema("comparative-table");
 const vTimeline = schema("timeline");
 
-const SPENGLER_TEXT = new Set(["gutenberg-decline-i", "internet-archive-decline-ii", "internet-archive-man-and-technics", "spengler-mensch-technik-de-1931"]);
+const SPENGLER_TEXT = new Set(["gutenberg-decline-i", "gutenberg-decline-ii", "internet-archive-decline-ii", "internet-archive-man-and-technics", "spengler-mensch-technik-de-1931"]);
 // Lexicon edge-type families (kept in sync with the schema's $comment legend).
 const INTERLOCUTOR_REL = new Set(["coined-from", "borrows-from", "breaks-with"]);
 const INTERPRETIVE_EDGE = new Set(["contrasts-with", "coined-from", "borrows-from", "breaks-with", "narrows", "analogous-to", "symptom-of"]);
@@ -37,6 +37,25 @@ const fail = (m) => errors.push(m);
 const sources = read("data/sources/decline.sources.json");
 if (!vSource(sources)) for (const e of vSource.errors) fail(`sources${e.instancePath} ${e.message}`);
 const sourceById = new Map(sources.records.map((r) => [r.id, r]));
+
+// ---- provenance drift-killer (the v1.2.0 rule) ----
+// A published (text_status:clean) volume must name a live source-text record: it must resolve, must
+// NOT be a RETIRED record, and must NOT still describe the body as deferred/withheld pending cleanup.
+// This makes the "Vol II re-sourced but its record wasn't updated" contradiction a hard build failure.
+const DEFERRAL = /\bdeferred\b|\bwithheld\b|raw-deferred|OCR cleanup|cleanup pass|pending [^.]*(?:OCR|cleanup)/i;
+for (const w of read("data/works/works.config.json").works) {
+  for (const v of w.volumes || []) {
+    const where = `works/${w.id}/${v.id ?? "(single)"}`;
+    const sid = v.source_text_id;
+    if (!sid) { fail(`${where}: volume has no source_text_id (link it to its source-text record)`); continue; }
+    const rec = sourceById.get(sid);
+    if (!rec) { fail(`${where}: source_text_id '${sid}' is not a known source record`); continue; }
+    if (v.text_status === "clean") {
+      if (/\bRETIRED\b/.test(rec.source_note)) fail(`${where}: clean volume points at RETIRED source '${sid}' — repoint source_text_id at the live record`);
+      if (DEFERRAL.test(rec.source_note)) fail(`${where}: clean volume's source '${sid}' still describes deferred/withheld text — fix the source_note or the status`);
+    }
+  }
+}
 
 // ---- annotations + dual gate ----
 const annDir = resolve(ROOT, "data/annotations");

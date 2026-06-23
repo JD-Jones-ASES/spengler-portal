@@ -1,4 +1,8 @@
 {
+  "layout": {
+    "W": 640,
+    "H": 500
+  },
   "nodes": [
     {
       "id": "culture-civilization",
@@ -24,7 +28,9 @@
       ],
       "secondary": [
         "hughes-spengler-1952"
-      ]
+      ],
+      "x": 268.86,
+      "y": 290.97
     },
     {
       "id": "morphology",
@@ -49,7 +55,9 @@
       ],
       "secondary": [
         "hughes-spengler-1952"
-      ]
+      ],
+      "x": 426.73,
+      "y": 300.86
     },
     {
       "id": "prime-symbol",
@@ -74,7 +82,9 @@
       ],
       "secondary": [
         "hughes-spengler-1952"
-      ]
+      ],
+      "x": 304.35,
+      "y": 200.99
     },
     {
       "id": "faustian",
@@ -99,7 +109,9 @@
       ],
       "secondary": [
         "hughes-spengler-1952"
-      ]
+      ],
+      "x": 318.12,
+      "y": 242.19
     },
     {
       "id": "apollinian",
@@ -124,7 +136,9 @@
       ],
       "secondary": [
         "hughes-spengler-1952"
-      ]
+      ],
+      "x": 236.94,
+      "y": 236
     },
     {
       "id": "magian",
@@ -150,7 +164,9 @@
       ],
       "secondary": [
         "hughes-spengler-1952"
-      ]
+      ],
+      "x": 326.97,
+      "y": 337.36
     },
     {
       "id": "contemporaneity",
@@ -175,7 +191,9 @@
       ],
       "secondary": [
         "hughes-spengler-1952"
-      ]
+      ],
+      "x": 503.8,
+      "y": 317.16
     },
     {
       "id": "destiny-causality",
@@ -200,7 +218,9 @@
       ],
       "secondary": [
         "hughes-spengler-1952"
-      ]
+      ],
+      "x": 394.92,
+      "y": 189.04
     },
     {
       "id": "becoming-become",
@@ -225,7 +245,9 @@
       ],
       "secondary": [
         "hughes-spengler-1952"
-      ]
+      ],
+      "x": 458.51,
+      "y": 259.3
     },
     {
       "id": "world-city",
@@ -250,7 +272,9 @@
       ],
       "secondary": [
         "hughes-spengler-1952"
-      ]
+      ],
+      "x": 219.93,
+      "y": 407.34
     },
     {
       "id": "caesarism",
@@ -274,7 +298,9 @@
       ],
       "secondary": [
         "hughes-spengler-1952"
-      ]
+      ],
+      "x": 215.13,
+      "y": 336.1
     },
     {
       "id": "fellaheen",
@@ -299,7 +325,9 @@
       ],
       "secondary": [
         "hughes-spengler-1952"
-      ]
+      ],
+      "x": 291.3,
+      "y": 363.84
     },
     {
       "id": "pseudomorphosis",
@@ -323,7 +351,9 @@
       ],
       "secondary": [
         "hughes-spengler-1952"
-      ]
+      ],
+      "x": 309.58,
+      "y": 429.45
     },
     {
       "id": "the-soul",
@@ -349,7 +379,9 @@
       ],
       "secondary": [
         "hughes-spengler-1952"
-      ]
+      ],
+      "x": 368.71,
+      "y": 333.13
     },
     {
       "id": "world-as-history",
@@ -375,7 +407,9 @@
       ],
       "secondary": [
         "hughes-spengler-1952"
-      ]
+      ],
+      "x": 455.41,
+      "y": 338.7
     },
     {
       "id": "physiognomic-systematic",
@@ -398,7 +432,9 @@
       "citations": [],
       "secondary": [
         "hughes-spengler-1952"
-      ]
+      ],
+      "x": 508.04,
+      "y": 260.76
     },
     {
       "id": "second-religiousness",
@@ -422,7 +458,9 @@
       ],
       "secondary": [
         "farrenkopf-prophet-2001"
-      ]
+      ],
+      "x": 174.29,
+      "y": 384.47
     },
     {
       "id": "money",
@@ -447,7 +485,9 @@
       ],
       "secondary": [
         "adorno-prisms-spengler"
-      ]
+      ],
+      "x": 156.51,
+      "y": 336.99
     },
     {
       "id": "race-blood",
@@ -472,7 +512,9 @@
       ],
       "secondary": [
         "farrenkopf-prophet-2001"
-      ]
+      ],
+      "x": 261.86,
+      "y": 396.25
     },
     {
       "id": "indian",
@@ -497,7 +539,9 @@
       ],
       "secondary": [
         "hughes-spengler-1952"
-      ]
+      ],
+      "x": 157.07,
+      "y": 201.92
     },
     {
       "id": "egyptian",
@@ -522,7 +566,9 @@
       ],
       "secondary": [
         "hughes-spengler-1952"
-      ]
+      ],
+      "x": 213.8,
+      "y": 140.89
     },
     {
       "id": "chinese",
@@ -547,7 +593,9 @@
       ],
       "secondary": [
         "hughes-spengler-1952"
-      ]
+      ],
+      "x": 252.81,
+      "y": 87.57
     },
     {
       "id": "number-magnitude-function",
@@ -573,7 +621,9 @@
       ],
       "secondary": [
         "hughes-spengler-1952"
-      ]
+      ],
+      "x": 351.94,
+      "y": 286.25
     },
     {
       "id": "cosmic-microcosm",
@@ -599,7 +649,9 @@
       ],
       "secondary": [
         "hughes-spengler-1952"
-      ]
+      ],
+      "x": 464.36,
+      "y": 166.48
     },
     {
       "id": "being-waking-being",
@@ -626,7 +678,9 @@
       ],
       "secondary": [
         "hughes-spengler-1952"
-      ]
+      ],
+      "x": 385.49,
+      "y": 273.02
     },
     {
       "id": "blood-and-money",
@@ -652,7 +706,9 @@
       ],
       "secondary": [
         "farrenkopf-prophet-2001"
-      ]
+      ],
+      "x": 222.16,
+      "y": 273.06
     },
     {
       "id": "technics",
@@ -677,7 +733,9 @@
       ],
       "secondary": [
         "farrenkopf-prophet-2001"
-      ]
+      ],
+      "x": 292.93,
+      "y": 115.23
     },
     {
       "id": "beast-of-prey",
@@ -705,7 +763,9 @@
       ],
       "secondary": [
         "farrenkopf-prophet-2001"
-      ]
+      ],
+      "x": 378.42,
+      "y": 129.44
     },
     {
       "id": "hand-and-tool",
@@ -728,7 +788,9 @@
       "citations": [
         "wikipedia-man-and-technics"
       ],
-      "secondary": []
+      "secondary": [],
+      "x": 244.06,
+      "y": 183.01
     },
     {
       "id": "enterprise",
@@ -752,7 +814,9 @@
       "citations": [
         "wikipedia-man-and-technics"
       ],
-      "secondary": []
+      "secondary": [],
+      "x": 151.87,
+      "y": 252.26
     },
     {
       "id": "tragedy",
@@ -779,7 +843,9 @@
       ],
       "secondary": [
         "frye-decline-1974"
-      ]
+      ],
+      "x": 272.56,
+      "y": 156.79
     },
     {
       "id": "world-cavern",
@@ -806,7 +872,9 @@
       ],
       "secondary": [
         "hughes-spengler-1952"
-      ]
+      ],
+      "x": 259.97,
+      "y": 330.14
     },
     {
       "id": "mexican",
@@ -832,7 +900,9 @@
       ],
       "secondary": [
         "hughes-spengler-1952"
-      ]
+      ],
+      "x": 276.73,
+      "y": 234.78
     },
     {
       "id": "the-machine",
@@ -858,7 +928,9 @@
       ],
       "secondary": [
         "adorno-prisms-spengler"
-      ]
+      ],
+      "x": 204.52,
+      "y": 199.24
     },
     {
       "id": "nation",
@@ -884,7 +956,9 @@
       ],
       "secondary": [
         "hughes-spengler-1952"
-      ]
+      ],
+      "x": 362.1,
+      "y": 411.84
     },
     {
       "id": "culture-seasons",
@@ -910,7 +984,9 @@
       ],
       "secondary": [
         "hughes-spengler-1952"
-      ]
+      ],
+      "x": 413.62,
+      "y": 243.24
     },
     {
       "id": "will-to-power",
@@ -935,7 +1011,9 @@
       ],
       "secondary": [
         "farrenkopf-prophet-2001"
-      ]
+      ],
+      "x": 439.89,
+      "y": 202.47
     },
     {
       "id": "nature-knowledge",
@@ -961,7 +1039,9 @@
       ],
       "secondary": [
         "hughes-spengler-1952"
-      ]
+      ],
+      "x": 395.49,
+      "y": 370.03
     },
     {
       "id": "the-city",
@@ -987,7 +1067,9 @@
       ],
       "secondary": [
         "hughes-spengler-1952"
-      ]
+      ],
+      "x": 182.95,
+      "y": 300.99
     },
     {
       "id": "the-estates",
@@ -1013,7 +1095,9 @@
       ],
       "secondary": [
         "hughes-spengler-1952"
-      ]
+      ],
+      "x": 314.1,
+      "y": 297.07
     },
     {
       "id": "goethe",
@@ -1037,7 +1121,9 @@
       ],
       "secondary": [
         "hughes-spengler-1952"
-      ]
+      ],
+      "x": 372.92,
+      "y": 227.25
     },
     {
       "id": "nietzsche",
@@ -1060,7 +1146,9 @@
       ],
       "secondary": [
         "farrenkopf-prophet-2001"
-      ]
+      ],
+      "x": 324.02,
+      "y": 154.27
     },
     {
       "id": "schopenhauer",
@@ -1082,7 +1170,9 @@
       ],
       "secondary": [
         "hughes-spengler-1952"
-      ]
+      ],
+      "x": 450.98,
+      "y": 110.19
     },
     {
       "id": "darwin",
@@ -1105,7 +1195,9 @@
       ],
       "secondary": [
         "hughes-spengler-1952"
-      ]
+      ],
+      "x": 352.8,
+      "y": 190.59
     },
     {
       "id": "rousseau",
@@ -1127,7 +1219,9 @@
       ],
       "secondary": [
         "farrenkopf-prophet-2001"
-      ]
+      ],
+      "x": 404.32,
+      "y": 62.3
     },
     {
       "id": "joachim-of-floris",
@@ -1149,7 +1243,9 @@
       ],
       "secondary": [
         "hughes-spengler-1952"
-      ]
+      ],
+      "x": 507.13,
+      "y": 210.24
     },
     {
       "id": "amor-fati",
@@ -1177,7 +1273,9 @@
       "secondary": [
         "farrenkopf-prophet-2001",
         "hughes-spengler-1952"
-      ]
+      ],
+      "x": 351.84,
+      "y": 82.72
     }
   ],
   "edges": [

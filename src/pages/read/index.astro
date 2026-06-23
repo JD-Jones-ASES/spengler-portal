@@ -50,7 +50,7 @@ const byKey = (workId, volId) => manifestUnits.filter((u) => u.work === workId &
                 </div>
               ))
             ) : (
-              <p class="muted" style="padding:0.5rem 0 1rem;">{vol.unit_ids.length} chapters registered. {vol.text_status === "raw-deferred" ? "The source text carries OCR damage that cannot be auto-corrected without guessing at meaning; the body is withheld until a verified cleanup pass — see the About page." : ""}</p>
+              <p class="muted" style="padding:0.5rem 0 1rem;">{vol.unit_ids.length} chapters registered.</p>
             )}
           </div>
         );

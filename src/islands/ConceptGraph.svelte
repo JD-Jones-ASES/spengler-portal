@@ -1,10 +1,13 @@
 <script>
-  // Hero 2 — Spengler's vocabulary as a force-directed graph synced with a readable lexicon.
-  // The layout is computed deterministically (same on server and client → no hydration mismatch,
-  // no animation loop draining battery). The list is the graph's accessible equivalent.
-  // v1.1: edges are typed (relation families styled distinctly); interlocutors (the source-thinkers
-  // Spengler builds on / breaks with) render as neutral "meta" diamonds outside the Culture palette;
-  // selecting a node lists its sourced relations — for an interlocutor that is its borrow/break lineage.
+  // Hero 2 — Spengler's vocabulary as a force-directed concept graph synced with a readable lexicon.
+  // Node coordinates are precomputed at build time (build-lexicon-graph.mjs) and frozen into the graph
+  // JSON — the island reads them, so there is no client layout pass and no hydration mismatch. The list
+  // is the graph's accessible equivalent. Typed edges (relation families styled distinctly); interlocutors
+  // (the source-thinkers Spengler builds on / breaks with) are neutral "meta" diamonds outside the Culture
+  // palette. v1.2: selecting a node updates the URL hash (deep-linkable, with Copy link), lists its
+  // sourced relations (citations link to the source record), shows an arrowhead on its directional
+  // relations, and on a phone reframes the canvas around the selection.
+  import { onMount } from "svelte";
   let { data, base = "/", cites = {} } = $props();
   const W = 640, H = 500;
 
@@ -33,50 +36,12 @@
     return `${e.type.replace(/-/g, " ")}${e.gloss ? " — " + e.gloss : ""}${src && src.length ? "  [" + src.join(", ") + "]" : ""}`;
   }
 
-  // deterministic frozen force layout
-  function computeLayout(nodes, edges) {
-    const cx = W / 2, cy = H / 2;
-    const clusters = [...new Set(nodes.map((n) => n.cluster))];
-    const pos = new Map();
-    nodes.forEach((n, i) => {
-      const ci = clusters.indexOf(n.cluster);
-      const a = (ci / clusters.length) * 2 * Math.PI;
-      const ja = (i * 2.39996) % (2 * Math.PI);
-      pos.set(n.id, { x: cx + 130 * Math.cos(a) + 28 * Math.cos(ja), y: cy + 130 * Math.sin(a) + 28 * Math.sin(ja) });
-    });
-    const links = edges.map((e) => [e.source, e.target]);
-    for (let it = 0; it < 420; it++) {
-      const f = new Map(nodes.map((n) => [n.id, { x: 0, y: 0 }]));
-      for (let i = 0; i < nodes.length; i++)
-        for (let j = i + 1; j < nodes.length; j++) {
-          const a = pos.get(nodes[i].id), b = pos.get(nodes[j].id);
-          let dx = a.x - b.x, dy = a.y - b.y, d2 = dx * dx + dy * dy || 0.01, d = Math.sqrt(d2);
-          const rep = 2800 / d2;
-          f.get(nodes[i].id).x += (dx / d) * rep; f.get(nodes[i].id).y += (dy / d) * rep;
-          f.get(nodes[j].id).x -= (dx / d) * rep; f.get(nodes[j].id).y -= (dy / d) * rep;
-        }
-      for (const [s, t] of links) {
-        const a = pos.get(s), b = pos.get(t); if (!a || !b) continue;
-        let dx = b.x - a.x, dy = b.y - a.y, d = Math.sqrt(dx * dx + dy * dy) || 0.01;
-        const k = (d - 95) * 0.02;
-        f.get(s).x += (dx / d) * k; f.get(s).y += (dy / d) * k;
-        f.get(t).x -= (dx / d) * k; f.get(t).y -= (dy / d) * k;
-      }
-      const cool = Math.max(0.1, 1 - it / 520);
-      for (const n of nodes) {
-        const p = pos.get(n.id), ff = f.get(n.id);
-        p.x += (cx - p.x) * 0.006; p.y += (cy - p.y) * 0.006;
-        p.x += Math.max(-9, Math.min(9, ff.x)) * cool; p.y += Math.max(-9, Math.min(9, ff.y)) * cool;
-        p.x = Math.max(28, Math.min(W - 28, p.x)); p.y = Math.max(26, Math.min(H - 26, p.y));
-      }
-    }
-    return pos;
-  }
-
-  const layoutMap = computeLayout(data.nodes, data.edges);
-  const toObj = (m) => { const o = {}; for (const [k, v] of m) o[k] = { x: v.x, y: v.y }; return o; };
-  let positions = $state(toObj(layoutMap)); // reactive node coords; seeded deterministically (no hydration mismatch)
-  function resetLayout() { positions = toObj(layoutMap); }
+  // Node coordinates are precomputed at build time (build-lexicon-graph.mjs) and frozen into the graph
+  // JSON — no client-side layout pass, no hydration mismatch. Drag mutates a reactive copy of them;
+  // Reset restores the frozen coords.
+  const baseLayout = () => Object.fromEntries(data.nodes.map((n) => [n.id, { x: n.x, y: n.y }]));
+  let positions = $state(baseLayout());
+  function resetLayout() { positions = baseLayout(); }
   const nodeById = new Map(data.nodes.map((n) => [n.id, n]));
 
   let selected = $state(null);
@@ -86,7 +51,7 @@
   let drag = $state(null);
   function svgCoords(e) {
     const r = svgEl.getBoundingClientRect();
-    return { x: ((e.clientX - r.left) / r.width) * W, y: ((e.clientY - r.top) / r.height) * H };
+    return { x: vb.x + ((e.clientX - r.left) / r.width) * vb.w, y: vb.y + ((e.clientY - r.top) / r.height) * vb.h };
   }
   function onNodeDown(n, e) {
     e.preventDefault();
@@ -119,8 +84,60 @@
   });
   function isEdgeActive(e) { return !selected || e.source === selected || e.target === selected; }
   function nodeR(n) { return 9 + Math.min(8, n.degree * 1.6); }
-  function pick(id) { selected = selected === id ? null : id; }
+  function pick(id) { selected = selected === id ? null : id; syncHash(); }
   const selNode = $derived(selected ? nodeById.get(selected) : null);
+
+  // ---- direction: arrowheads on the selected node's directional relations only (overview stays clean) ----
+  const SYMMETRIC = new Set(["contrasts-with", "analogous-to", "related-to"]);
+  const showArrow = (e) => !!selected && isEdgeActive(e) && activeFam.has(famOf(e.type)) && !SYMMETRIC.has(e.type);
+  function edgeLine(e) {
+    const a = positions[e.source], b = positions[e.target];
+    if (!showArrow(e)) return { x1: a.x, y1: a.y, x2: b.x, y2: b.y };
+    const back = nodeR(nodeById.get(e.target)) + 6; // pull the tip clear of the target node + arrowhead
+    const dx = b.x - a.x, dy = b.y - a.y, d = Math.hypot(dx, dy) || 1;
+    return { x1: a.x, y1: a.y, x2: b.x - (dx / d) * back, y2: b.y - (dy / d) * back };
+  }
+
+  // ---- citable selection: URL hash <-> selected node, Copy link, deep-link on load ----
+  function syncHash() {
+    if (typeof location === "undefined") return;
+    const h = selected ? "#" + selected : "";
+    if (location.hash !== h) history.replaceState(null, "", location.pathname + location.search + h);
+  }
+  let copied = $state(false);
+  async function copyLink() {
+    if (!selected || typeof location === "undefined") return;
+    const url = location.origin + location.pathname + location.search + "#" + selected;
+    try { await navigator.clipboard.writeText(url); copied = true; setTimeout(() => (copied = false), 1500); } catch {}
+  }
+
+  // ---- mobile: frame the selection (selected node + its one-hop neighbours) on a narrow viewport ----
+  let isMobile = $state(false);
+  const vb = $derived.by(() => {
+    if (!selected || !isMobile) return { x: 0, y: 0, w: W, h: H };
+    const pts = [...(neighbors || new Set([selected]))].map((id) => positions[id]).filter(Boolean);
+    if (!pts.length) return { x: 0, y: 0, w: W, h: H };
+    let minX = Math.min(...pts.map((p) => p.x)) - 70, maxX = Math.max(...pts.map((p) => p.x)) + 70;
+    let minY = Math.min(...pts.map((p) => p.y)) - 56, maxY = Math.max(...pts.map((p) => p.y)) + 56;
+    minX = Math.max(0, minX); minY = Math.max(0, minY); maxX = Math.min(W, maxX); maxY = Math.min(H, maxY);
+    return { x: minX, y: minY, w: Math.max(maxX - minX, 180), h: Math.max(maxY - minY, 150) };
+  });
+
+  onMount(() => {
+    const mq = window.matchMedia("(max-width: 720px)");
+    isMobile = mq.matches;
+    const onMq = () => (isMobile = mq.matches);
+    mq.addEventListener("change", onMq);
+    const fromHash = () => {
+      const id = decodeURIComponent((location.hash || "").replace(/^#/, ""));
+      return id && nodeById.has(id) ? id : null;
+    };
+    const initial = fromHash();
+    if (initial) selected = initial;
+    const onHash = () => { selected = fromHash(); };
+    window.addEventListener("hashchange", onHash);
+    return () => { mq.removeEventListener("change", onMq); window.removeEventListener("hashchange", onHash); };
+  });
 
   // ---- relations of the selected node (verification visible at the edge; lineage for interlocutors) ----
   const selEdges = $derived.by(() => {
@@ -150,10 +167,26 @@
     art: "Art", mathematics: "Mathematics", phase: "Phases", interlocutor: "Interlocutors (his sources)",
   };
   function clusterLabel(k) { return CLUSTER_LABEL[k] || (k.charAt(0).toUpperCase() + k.slice(1)); }
+  // Searchable blob per node: term, definition, variants, German form, domain/cluster, Culture, plus the
+  // terms of connected concepts and the glosses on their relations — so "Schicksal", a Culture name, or a
+  // neighbouring concept all route in, not just the English headword.
+  const neighbourText = (() => {
+    const acc = new Map(data.nodes.map((n) => [n.id, []]));
+    for (const e of data.edges) {
+      const st = nodeById.get(e.source)?.term || "", tt = nodeById.get(e.target)?.term || "";
+      acc.get(e.source)?.push(tt, e.gloss || "");
+      acc.get(e.target)?.push(st, e.gloss || "");
+    }
+    return acc;
+  })();
+  const searchBlob = new Map(data.nodes.map((n) => [n.id, [
+    n.term, n.definition, (n.variants || []).join(" "), n.german || "", n.domain || "", n.cluster || "",
+    n.culture || "", ...(neighbourText.get(n.id) || []),
+  ].join(" ").toLowerCase()]));
   const matchSet = $derived.by(() => {
     const q = query.trim().toLowerCase();
     if (!q) return null;
-    return new Set(data.nodes.filter((n) => (n.term + " " + n.definition + " " + (n.variants || []).join(" ")).toLowerCase().includes(q)).map((n) => n.id));
+    return new Set(data.nodes.filter((n) => searchBlob.get(n.id).includes(q)).map((n) => n.id));
   });
   const clusters = $derived.by(() => {
     const nodes = matchSet ? data.nodes.filter((n) => matchSet.has(n.id)) : data.nodes;
@@ -209,19 +242,25 @@
       <button class="lex-reset" type="button" onclick={resetLayout} title="Restore the original graph layout">Reset</button>
     </div>
     <svg
-      class="lex-graph" class:dragging={drag != null}
-      viewBox={`0 0 ${W} ${H}`} role="group"
+      class="lex-graph" class:dragging={drag != null} class:framed={isMobile && selected != null}
+      viewBox={`${vb.x} ${vb.y} ${vb.w} ${vb.h}`} role="group"
       aria-label="Concept graph of Spengler's vocabulary. Drag a node to rearrange; tap to trace its links and read its sourced relations. Use the list at left for an accessible view."
       bind:this={svgEl}
       onpointermove={onSvgMove} onpointerup={endDrag} onpointerleave={endDrag} onpointercancel={endDrag}
     >
+      <defs>
+        <marker id="lex-arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse">
+          <path d="M0.5,0.5 L9.5,5 L0.5,9.5 z" fill="context-stroke"></path>
+        </marker>
+      </defs>
       {#each data.edges as e}
+        {@const g = edgeLine(e)}
         <line
           class={`edge ${e.type}`}
           class:dim={!isEdgeActive(e)}
           class:off={!activeFam.has(famOf(e.type))}
-          x1={positions[e.source].x} y1={positions[e.source].y}
-          x2={positions[e.target].x} y2={positions[e.target].y}
+          x1={g.x1} y1={g.y1} x2={g.x2} y2={g.y2}
+          marker-end={showArrow(e) ? "url(#lex-arrow)" : null}
         ><title>{edgeTitle(e)}</title></line>
       {/each}
       {#each data.nodes as n}
@@ -250,7 +289,10 @@
     </svg>
     {#if selNode}
       <div class="lex-sel" data-cult={selNode.culture || ""}>
-        <strong class="lex-sel-term">{selNode.term}{#if selNode.kind === "interlocutor"}<span class="lex-ila-pill">interlocutor</span>{/if}</strong>
+        <div class="lex-sel-head">
+          <strong class="lex-sel-term">{selNode.term}{#if selNode.kind === "interlocutor"}<span class="lex-ila-pill">interlocutor</span>{/if}</strong>
+          <button class="lex-copy" type="button" onclick={copyLink} title="Copy a link to this concept">{copied ? "Copied ✓" : "Copy link"}</button>
+        </div>
         <p class="lex-sel-def">{selNode.definition}</p>
         {#if selEdges.length}
           <p class="lex-rel-head">{selNode.kind === "interlocutor" ? "What Spengler takes & breaks with" : "Relations"} <span class="lex-group-n">{selEdges.length}</span></p>
@@ -259,7 +301,7 @@
               <li class="lex-rel-item">
                 <span class={`lex-rel-type fam-${r.family}`}>{r.type.replace(/-/g, " ")}</span>
                 {r.out ? "→" : "←"} <strong>{r.otherTerm}</strong>{#if r.gloss}: {r.gloss}{/if}
-                {#if r.cites.length}<span class="lex-rel-cite"> [{r.cites.map(citeLabel).join(", ")}]</span>{/if}
+                {#if r.cites.length}<span class="lex-rel-cite"> [{#each r.cites as cid, i}{#if i}, {/if}<a href={`${base}sources/#src-${cid}`}>{citeLabel(cid)}</a>{/each}]</span>{/if}
               </li>
             {/each}
           </ul>

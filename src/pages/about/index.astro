@@ -5,7 +5,7 @@ import { publishedUnits, getConcordance, getLexicon, getSources } from "../../li
 
 const units = publishedUnits();
 const topics = getConcordance().entries.length;
-const terms = getLexicon().terms.length;
+const concepts = getLexicon().terms.filter((t) => (t.kind || "concept") !== "interlocutor").length;
 const sources = getSources().length;
 ---
 
@@ -20,7 +20,7 @@ const sources = getSources().length;
     <div class="stats">
       <div class="stat"><div class="n tnum">{units.length}</div><div class="l">chapters published</div></div>
       <div class="stat"><div class="n tnum">{topics}</div><div class="l">topic-index entries</div></div>
-      <div class="stat"><div class="n tnum">{terms}</div><div class="l">lexicon terms</div></div>
+      <div class="stat"><div class="n tnum">{concepts}</div><div class="l">lexicon concepts</div></div>
       <div class="stat"><div class="n tnum">{sources}</div><div class="l">verified sources</div></div>
     </div>
 

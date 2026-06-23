@@ -2,6 +2,52 @@
 
 Short records of non-trivial choices. Newest first.
 
+## ADR-0021 — Lexicon v1.2: provenance drift-killer, precomputed layout, directional + citable graph
+Second post-launch pass, prompted by an external GPT-5.5 review of the docs + Lexicon hero. As with
+ADR-0020 the review was triaged, not taken wholesale: several specifics were from a **stale snapshot**
+(it reported "40 lexicon terms" and a Sources page claiming Vol II was "deferred pending OCR" — neither
+current; the public counts are already **derived live** from the data in `about/index.astro`, and the
+Sources *page* was clean). But its lead point exposed a real, on-brand contradiction. **(1) The
+provenance drift-killer — the headline.** *Root cause:* Vol II was re-sourced mid-build from the IA OCR
+scan to the clean Project Gutenberg edition (#78914, ADR-0012), but its **source *record* never
+followed** — so a `text_status:clean`, 14-chapter-published Vol II had, as its only source-text record,
+`internet-archive-decline-ii` still reading *"body deferred pending a human-in-the-loop OCR cleanup
+pass."* Vol II was effectively published with **no accurate provenance record**. Fix: added a live
+`gutenberg-decline-ii` record **verified against gutenberg.org #78914** (title/author/translator/release
+"Jun 22 2026"/credit, mirroring the Vol I record's evidence note); **retired** the IA record in place
+using the *exact pattern already set by* `internet-archive-man-and-technics` ("RETIRED as a source… kept
+only as a historical provenance note") rather than deleting it, preserving an honest trail; and made the
+link **machine-checkable** by adding a per-volume `source_text_id` to `works.config.json` (the work-level
+`source_id` only named Vol I). New gate rule in `validate-basic`: a `clean` volume's `source_text_id`
+must resolve, must **not** be a RETIRED record, and must carry **no** deferral/withheld language
+(`/deferred|withheld|raw-deferred|OCR cleanup|cleanup pass|pending …(OCR|cleanup)/i`). Planted-violation
+test (point Vol II at the retired record) fails the build loud, as designed. Also removed the now-dead
+`raw-deferred` "body is withheld" branch in `read/index.astro` (the last such string in the UI) and made
+the About "lexicon terms" stat honest — it counted all 47 nodes; it now reads **41 concepts** (the 6
+interlocutors are Spengler's *sources*, not his coinages), still fully derived. **(2) Layout precomputed
+at build time.** The deterministic 420-iteration force layout moved out of the island into
+`build-lexicon-graph.mjs`; node `x/y` are frozen into `data/indexes/lexicon-graph.json` (with a
+`layout:{W,H}`). The island now just reads them — no client layout pass, no hydration-mismatch surface —
+and curated/persisted positions become a trivial future merge (closes the AGENTS.md "persist dragged
+positions" idea's precondition). Same algorithm/seeds ⇒ visually identical graph. **(3) Direction made
+visible, selection-scoped.** Directional relations (everything except the symmetric `contrasts-with` /
+`analogous-to` / `related-to`) now draw an arrowhead — but **only on the selected node's neighbourhood**,
+so the overview stays a clean hairball-free atlas; the line's target endpoint is pulled back to the node
+radius so the head clears the circle (`marker` with `fill:context-stroke` to match each edge's family
+colour). **(4) The Lexicon made citable.** Selecting a node now writes `#<id>` to the URL
+(`history.replaceState`, deep-linkable on load + responsive to `hashchange`) with a **Copy link** action;
+relation citation labels became **links to the matching `/sources#src-<id>` record** (anchors +
+`:target` highlight added on the Sources page); and the filter was widened from term/definition/variants
+to also index the **German form, domain, Culture, connected-concept terms, and relation glosses** — so
+"Schicksal" now routes into *Destiny vs Causality* (and *Amor fati*), which it previously could not.
+**(5) Mobile: frame the selection.** On a narrow viewport, selecting a node animates the SVG `viewBox` to
+frame it + its one-hop neighbours (drag-coords now map through the live viewBox); deselect restores the
+full canvas. Chosen over a full secondary "Focus mode" (the accessible term-list already serves phones).
+`prepare:data` + `build` green (**38 pages, 47 lexicon nodes = 41 concepts + 6 interlocutors, 97 edges,
+26 sources**); browser-verified on the running site: deep-link select, hashchange, Copy link, cite→source
+links, arrowheads on the selected neighbourhood, German search, and mobile reframe — zero console errors.
+`raw/`/`derived/` untouched.
+
 ## ADR-0020 — Lexicon v1.1: interlocutor layer, *amor fati* fixed, edge-level verification, typed graph
 First post-launch feature pass, prompted by an external Claude-chatbot review of the Lexicon hero
 (`raw/lexicon-improvement-prompt.md`). The review's diagnosis was accurate and was confirmed against the

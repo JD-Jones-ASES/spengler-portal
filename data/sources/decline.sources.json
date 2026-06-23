@@ -14,6 +14,19 @@
       "citation_status": "verified"
     },
     {
+      "id": "gutenberg-decline-ii",
+      "kind": "source-text",
+      "title": "The Decline of the West, Volume 2: Perspectives of World-History",
+      "author": "Oswald Spengler",
+      "publisher": "Project Gutenberg (after George Allen & Unwin, 1928)",
+      "year": 1928,
+      "url": "https://www.gutenberg.org/ebooks/78914",
+      "accessed": "2026-06-23",
+      "source_note": "Project Gutenberg ebook 78914 verified 2026-06-23: title 'The decline of the West, Volume 2 : Perspectives of world-history', author Spengler, Oswald 1880-1936, translator Atkinson, Charles Francis 1880-1960, English, released June 22, 2026 (credit: Sean @parchmentglow). Re-sourced from the Internet-Archive OCR (see internet-archive-decline-ii) to this clean, human-proofread edition; this is the read-only source for the Vol II reading spine.",
+      "license_note": "Public domain in the United States (translation published 1928; Project Gutenberg release).",
+      "citation_status": "verified"
+    },
+    {
       "id": "internet-archive-decline-ii",
       "kind": "source-text",
       "title": "The Decline of the West, Volume 2: Perspectives of World-History",
@@ -22,7 +35,7 @@
       "year": 1928,
       "url": "https://archive.org/details/declineofwest02spenuoft",
       "accessed": "2026-06-22",
-      "source_note": "Internet Archive item declineofwest02spenuoft (Atkinson translation, Volume Two, 'Perspectives of World-History'). Registered as the source for Vol II; body deferred pending a human-in-the-loop OCR cleanup pass.",
+      "source_note": "Internet Archive item declineofwest02spenuoft (Atkinson translation, Volume Two, 'Perspectives of World-History'). RETIRED as a source: Vol II was re-sourced 2026-06-22 to the clean, human-proofread Project Gutenberg edition (see gutenberg-decline-ii), which eliminated the OCR review queue entirely (ADR-0012). Kept only as a historical provenance note.",
       "license_note": "Public domain in the United States.",
       "citation_status": "verified"
     },

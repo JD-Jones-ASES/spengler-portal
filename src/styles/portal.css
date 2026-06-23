@@ -675,6 +675,12 @@ html[data-focus="on"] .reader-page .site-header { background: transparent; backd
 .lex-hint { font-size: 0.82rem; color: var(--ink-faint); margin: 0.5rem 0 0; }
 /* selected-node readout + its sourced relations (verification at the edge; lineage for interlocutors) */
 .lex-sel { padding: 0.8rem 1rem; border-top: 1px solid var(--line); }
+.lex-sel-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 0.6rem; }
+.lex-copy {
+  flex: none; font-family: var(--font-data); font-size: 0.64rem; padding: 0.2rem 0.6rem; border-radius: 999px;
+  border: 1px solid var(--line-strong); background: var(--paper); color: var(--ink-soft); cursor: pointer; white-space: nowrap;
+}
+.lex-copy:hover { border-color: var(--cult-faustian); color: var(--ink); }
 .lex-sel-term { font-family: var(--font-display); display: inline-flex; align-items: center; gap: 0.4rem; }
 .lex-sel-def { margin: 0.3rem 0 0; font-size: 0.9rem; color: var(--ink-soft); line-height: 1.5; }
 .lex-rel-head { display: flex; align-items: center; gap: 0.5rem; margin: 0.75rem 0 0.3rem; font-family: var(--font-display); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-faint); }
@@ -685,6 +691,8 @@ html[data-focus="on"] .reader-page .site-header { background: transparent; backd
 .lex-rel-type.fam-analogy { border-color: var(--cult-magian); }
 .lex-rel-type.fam-lineage { border-color: var(--gold); }
 .lex-rel-cite { font-family: var(--font-data); font-size: 0.62rem; color: var(--ink-faint); }
+.lex-rel-cite a { color: inherit; text-decoration: underline; text-decoration-color: var(--line-strong); text-underline-offset: 2px; }
+.lex-rel-cite a:hover { color: var(--cult-faustian); text-decoration-color: currentColor; }
 .lex-ila-pill { display: inline-block; font-family: var(--font-data); font-size: 0.58rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--ink-faint); border: 1px solid var(--line-strong); border-radius: 999px; padding: 0 0.4rem; margin-left: 0.4rem; vertical-align: middle; }
 .lex-card.interlocutor { border-left-color: var(--ink-faint); border-left-style: dashed; }
 
@@ -714,7 +722,8 @@ a.concord-chip:hover { border-color: var(--cult); color: var(--cult-ink); text-d
 .count-pill { font-size: 0.74rem; color: var(--cult); white-space: nowrap; font-family: var(--font-data); }
 
 /* Source list */
-.src { border: 1px solid var(--line); border-left: 3px solid var(--cult); border-radius: var(--radius); padding: 1rem 1.1rem; margin-bottom: 0.8rem; background: var(--paper-raised); }
+.src { border: 1px solid var(--line); border-left: 3px solid var(--cult); border-radius: var(--radius); padding: 1rem 1.1rem; margin-bottom: 0.8rem; background: var(--paper-raised); scroll-margin-top: 84px; }
+.src:target { border-left-color: var(--cult-faustian); box-shadow: 0 0 0 1px var(--cult-faustian); }
 .src h3 { font-family: var(--font-serif); margin: 0 0 0.2rem; font-size: 1.1rem; }
 .src .who { color: var(--ink-faint); font-size: 0.85rem; }
 .src p { margin: 0.45rem 0 0; color: var(--ink-soft); font-size: 0.9rem; }

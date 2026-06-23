@@ -41,7 +41,7 @@ for (const s of sources) (grouped[s.kind] ||= []).push(s);
       <div>
         <h2 class="section-h">{kindLabel[k] || k}</h2>
         {grouped[k].map((s) => (
-          <div class="src">
+          <div class="src" id={`src-${s.id}`}>
             <span class="src-kind">{s.citation_status}</span>
             <h3>{s.url ? <a href={s.url} target="_blank" rel="noopener">{s.title}</a> : s.title}</h3>
             <p class="who">{[s.author, s.publisher, s.year].filter(Boolean).join(" · ")}</p>
