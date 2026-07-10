@@ -5,14 +5,16 @@
 import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, resolve } from "node:path";
+import { GRAPH_W, GRAPH_H } from "../../src/lib/graph-canvas.mjs";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..", "..");
 const lex = JSON.parse(readFileSync(resolve(ROOT, "data/lexicon/spengler.lexicon.json"), "utf8"));
 
 // Deterministic frozen force layout — computed once here at build time (was recomputed on every
-// server render + client hydration). The island now just reads node.x/node.y. W/H must match the
-// island's viewBox constants. Curated/persisted positions can later be merged in after this step.
-const W = 640, H = 500;
+// server render + client hydration). The island now just reads node.x/node.y. W/H are shared with
+// the island via src/lib/graph-canvas.mjs (one source of truth). Curated/persisted positions can
+// later be merged in after this step.
+const W = GRAPH_W, H = GRAPH_H;
 function computeLayout(nodes, edges) {
   const cx = W / 2, cy = H / 2;
   const clusters = [...new Set(nodes.map((n) => n.cluster))];

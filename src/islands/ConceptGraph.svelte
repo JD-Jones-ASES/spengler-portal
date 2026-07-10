@@ -8,8 +8,8 @@
   // sourced relations (citations link to the source record), shows an arrowhead on its directional
   // relations, and on a phone reframes the canvas around the selection.
   import { onMount } from "svelte";
+  import { GRAPH_W as W, GRAPH_H as H } from "../lib/graph-canvas.mjs";
   let { data, base = "/", cites = {} } = $props();
-  const W = 640, H = 500;
 
   // ---- edge relation → visual family (kept in step with the schema $comment legend) ----
   const EDGE_FAMILY = {
